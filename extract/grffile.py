@@ -15,12 +15,12 @@ class GRFFile(grf.LoadedResourceFile):
         self.pseudo_offset = pseudo_offset
         self.trains: dict[int, Vehicle] = {}
         self.cargo_table: list[str] = []
+        self.context = grf.decompile.ParsingContext()
         self.load()
 
     def load(self):
         if self.real_sprites != {}:
             return
-        print(f'Decompiling {self.path}...')
         self.context = grf.decompile.ParsingContext()
         self.f = open(self.path, 'rb')
         self.g, self.container, self.real_sprites, self.pseudo_sprites = grf.decompile.read(  # type: ignore
@@ -38,6 +38,7 @@ class GRFFile(grf.LoadedResourceFile):
             # getting the names for those defs
             if isinstance(s, grf.DefineStrings) and s.feature == grf.TRAIN:
                 self.trains[s.offset].name = s.strings[0].decode("utf-8")
+
         # unwrap single-element list
         for id, vehicle in self.trains.items():
             newprops = {k: v[0]
@@ -53,8 +54,22 @@ class GRFFile(grf.LoadedResourceFile):
                 self.trains[id].props[field] = self.trains[id].toReadableCargo(
                     self.trains[id].props[field], self.cargo_table)
 
+        sprites = [(nfoRowIndex, *self.context.sprites[nfoRowIndex])
+                   for nfoRowIndex in self.context.sprites]
+        sprites = [((nfoRowIndex := sprite[0]), *sprite[2:])
+                   for sprite in sprites if sprite[-1] is not None]
+
+        # TODO: add realsprites to their corresponding vehicle
+        # for (nfoRowIndex, groupName) in sprites:
+        #     realSprite = self.real_sprites[nfoRowIndex][0]
+        #     assert isinstance(realSprite, grf.decompile.RealGraphicsSprite)
+        #     id = int(str.split(groupName, "_")[-1])
+        #     if id in self.trains:
+        #         self.trains[id].groupName = groupName
+        #         self.trains[id].realSprites.append(realSprite)
+
     def unload(self):
-        self.context = None
+        self.context = grf.decompile.ParsingContext()
         self.gen = None
         self.container = None
         self.real_sprites = {}

@@ -1,5 +1,5 @@
 from typing import Any
-from nml.global_constants import constant_numbers as CN
+import grf
 
 
 CARGO_CLASSES = ["CC_PASSENGERS", "CC_MAIL", "CC_EXPRESS", "CC_ARMOURED", "CC_BULK", "CC_PIECE_GOODS", "CC_LIQUID",
@@ -7,15 +7,18 @@ CARGO_CLASSES = ["CC_PASSENGERS", "CC_MAIL", "CC_EXPRESS", "CC_ARMOURED", "CC_BU
 
 
 class Vehicle:
-    def __init__(self, id: int, name: str, props: dict[str, Any]) -> None:
+    def __init__(self, id: int, name: str, props: dict[str, Any], groupName: str = "", realSprites: list[grf.decompile.RealGraphicsSprite] = []) -> None:
         self.id = id
         self.name = name
         self.props = props
+        self.groupName = groupName
+        self.realSprites = realSprites
 
     def flatten(self) -> dict[str, Any]:
         copy = self.props.copy()
         copy["id"] = self.id
         copy["name"] = self.name
+        # copy["groupName"] = self.groupName
         return copy
 
     def toReadableCargoClasses(self, bitmask: int) -> list[str]:
