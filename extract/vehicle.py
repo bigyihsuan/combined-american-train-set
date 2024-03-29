@@ -25,9 +25,8 @@ class Vehicle:
                 classes.append(cargoClass)
         return classes
 
-    def toReadableCargo(self, cargoBytes: bytes, cargoTable: list[str]) -> list[str]:
-        cargoes = [cargoTable[c] for c in list(cargoBytes)]
-        return cargoes
+    def toReadableCargo(self, cargoes, cargoTable: list[str]) -> list[str]:
+        return [cargoTable[c] for c in cargoes]
 
 
 def chunk(l, n: int):

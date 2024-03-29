@@ -23,7 +23,7 @@ class GRFFile(grf.LoadedResourceFile):
         print(f'Decompiling {self.path}...')
         self.context = grf.decompile.ParsingContext()
         self.f = open(self.path, 'rb')
-        self.g, self.container, self.real_sprites = grf.decompile.read(  # type: ignore
+        self.g, self.container, self.real_sprites, self.pseudo_sprites = grf.decompile.read(  # type: ignore
             self.f, self.context)
 
         for s in self.g.generators:

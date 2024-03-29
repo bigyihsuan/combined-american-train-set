@@ -1,5 +1,5 @@
-import csv
 import json
+import grf
 
 import grffile
 
@@ -11,14 +11,11 @@ CARGO_FIELDS = ['cargo_allow_refit', 'cargo_disallow_refit']
 
 
 def main():
-    with open("./vehicle-stats.csv", "w") as vehicleStatsCsv, open("./vehicle-stats.json", "w") as vehicleStatsJson:
+    with open("./vehicle-stats.json", "w") as vehicleStatsJson:
         nars = grffile.GRFFile("../decompiled/newnars.grf")
-        statsWriter = csv.DictWriter(vehicleStatsCsv, FIELDNAMES)
-        statsWriter.writeheader()
 
         rows = [train.flatten() for train in nars.trains.values()]
         rows.sort(key=lambda row: row["id"])
-        statsWriter.writerows(rows)
         json.dump(rows, vehicleStatsJson,
                   sort_keys=True, default=str, indent=4)
 
