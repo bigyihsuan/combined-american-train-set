@@ -1,28 +1,24 @@
-import csv
-import json
-from collections import defaultdict
-import pprint
-from typing import Any
-
-from PIL import Image, ImageDraw, ImageFont
-import numpy as np
-
 import grf
 from grf.sprites import THIS_FILE
+
+from PIL import Image
+import numpy as np
+from vehicle import Vehicle
 
 
 class GRFFile(grf.LoadedResourceFile):
     def __init__(self, path, *, real_offset=1, pseudo_offset=0):
         self.path = path
-        self.real_sprites = None
-        self.pseudo_sprites = None
+        self.real_sprites = {}
+        self.pseudo_sprites = {}
         self.real_offset = real_offset
         self.pseudo_offset = pseudo_offset
-        self.trains = {}
+        self.trains: dict[int, Vehicle] = {}
+        self.cargo_table: list[str] = []
         self.load()
 
     def load(self):
-        if self.real_sprites is not None:
+        if self.real_sprites != {}:
             return
         print(f'Decompiling {self.path}...')
         self.context = grf.decompile.ParsingContext()
@@ -31,21 +27,37 @@ class GRFFile(grf.LoadedResourceFile):
             self.f, self.context)
 
         for s in self.g.generators:
+            # vehicle defs
             if isinstance(s, grf.Define):
-                self.trains[s.id] = s.props
-        for s in self.g.generators:
-            if isinstance(s, grf.DefineStrings) and s.feature == grf.TRAIN:
-                self.trains[s.offset]["name"] = s.strings
+                self.trains[s.id] = Vehicle(s.id, "", s.props)
+            elif isinstance(s, grf.DefineMultiple) and "cargo_table" in s.props:
+                self.cargo_table = [e.decode("utf-8")
+                                    for e in s.props["cargo_table"]]
 
-        for id, props in self.trains.items():
-            newprops = {k: v[0] for k, v in props.items()}
-            self.trains[id] = newprops
+        for s in self.g.generators:
+            # getting the names for those defs
+            if isinstance(s, grf.DefineStrings) and s.feature == grf.TRAIN:
+                self.trains[s.offset].name = s.strings[0].decode("utf-8")
+        # unwrap single-element list
+        for id, vehicle in self.trains.items():
+            newprops = {k: v[0]
+                        for k, v in vehicle.props.items() if len(v) == 1}
+            self.trains[id].props = newprops
+        # cleanup
+        for id, vehicle in self.trains.items():
+            for field in ["refittable_cargo_classes", "non_refittable_cargo_classes"]:
+                self.trains[id].props[field] = self.trains[id].toReadableCargoClasses(
+                    self.trains[id].props[field])
+
+            for field in ["cargo_allow_refit", "cargo_disallow_refit"]:
+                self.trains[id].props[field] = self.trains[id].toReadableCargo(
+                    self.trains[id].props[field], self.cargo_table)
 
     def unload(self):
         self.context = None
         self.gen = None
         self.container = None
-        self.real_sprites = None
+        self.real_sprites = {}
         self.f.close()
 
     def get_sprite_data(self, sprite_id, num):
@@ -133,24 +145,3 @@ class GRFSprite(grf.Sprite):
     def get_image(self):
         self.load()
         return self._image
-
-
-nars = GRFFile("./decompiled/newnars.grf")
-with open("./vehicle-stats2.csv", "w") as vehicleStatsCsv, open("./vehicle-stats2.json", "w") as vehicleStatsJson:
-    FIELDNAMES = ['id', 'name', 'introduction_days_since_1920', 'introduction_date', 'reliability_decay', 'vehicle_life', 'model_life', 'track_type', 'climates_available', 'loading_speed', 'max_speed', 'power', 'weight_low', 'weight_high', 'tractive_effort_coefficient', 'cost_factor', 'running_cost_factor', 'shorten_by', 'visual_effect_and_powered', 'engine_class', 'running_cost_base', 'sprite_id', 'dual_headed',
-                  'cargo_capacity', 'default_cargo_type', 'ai_special_flag', 'ai_engine_rank', 'sort_purchase_list', 'extra_power_per_wagon', 'refit_cost', 'refittable_cargo_types''cb_flags', 'air_drag_coefficient', 'extra_weight_per_wagon', 'bitmask_vehicle_info''retire_early', 'misc_flags', 'refittable_cargo_classes', 'non_refittable_cargo_classes', 'cargo_age_period', 'cargo_allow_refit', 'cargo_disallow_refit',
-                  'retire_early', 'bitmask_vehicle_info', 'cb_flags', 'refittable_cargo_types']
-    statsWriter = csv.DictWriter(vehicleStatsCsv, FIELDNAMES)
-    statsWriter.writeheader()
-    rows = []
-    for id, train in nars.trains.items():
-        row = train.copy()
-        row["id"] = id
-        for k, v in row.items():
-            if isinstance(v, bytes):
-                row[k] = v.decode("utf-8")
-        rows.append(row)
-
-    rows.sort(key=lambda row: row["id"])
-    statsWriter.writerows(rows)
-    json.dump(rows, vehicleStatsJson, sort_keys=True, default=str, indent=4)
