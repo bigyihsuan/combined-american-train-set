@@ -1,8 +1,6 @@
 # Combined American Train Set
 
-KITTY CAT
-
-![logo](./logo.png)
+![KITTY CAT](./logo.png)
 
 A North American-themed train set, written in NML.
 You can think of it as a NARS successor, but the only real link is the roster and associated vehicle properties.
