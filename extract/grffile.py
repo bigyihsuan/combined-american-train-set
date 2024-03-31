@@ -27,8 +27,8 @@ class GRFFile(grf.LoadedResourceFile):
             self.f, self.context)  # type: ignore
 
         nameToId = {}
-        purchaseGroupToId = {}
-        purchaseIds = []
+        # purchaseGroupToId = {}
+        # purchaseIds = []
         generators = iter(self.g.generators)
         for s in generators:
             # vehicle defs
@@ -51,34 +51,34 @@ class GRFFile(grf.LoadedResourceFile):
                 s = next(generators)
                 if isinstance(s, grf.PyComment):
                     s = next(generators)
-                if isinstance(s, grf.Action1) and s.feature == grf.TRAIN and name != "":
-                    # then an Action1 with sprite counts
-                    # print(f"{type(s)} for {name} set_count={s.set_count} * sprite_count={s.sprite_count}")
-                    # get sprites for this group
-                    trainId = nameToId[name]
-                    set_count = s.set_count
-                    sprite_count = s.sprite_count
-                    sprites = []
-                    # groupName = ""
-                    for i in range(set_count):  # sets
-                        for j in range(sprite_count):  # sprites per set
-                            # get sprite placeholders
-                            s = next(generators)
-                            if isinstance(s, grf.PyComment):
-                                s = next(generators)
-                            # print(type(s))
-                            assert isinstance(s, grf.decompile.SpritePlaceholder)
-                            realSprite = self.real_sprites[s.sprite_id][-1]
-                            assert isinstance(realSprite, grf.decompile.RealGraphicsSprite)
-                            groupName = self.context.sprites[s.sprite_id][-1]
-                            sprites.append({
-                                "width": realSprite.width,
-                                "height": realSprite.height,
-                                "xofs": realSprite.xofs,
-                                "yofs": realSprite.yofs,
-                                "zoom": realSprite.zoom,
-                                "bpp": realSprite.bpp,
-                            })
+                # if isinstance(s, grf.Action1) and s.feature == grf.TRAIN and name != "":
+                #     # then an Action1 with sprite counts
+                #     # print(f"{type(s)} for {name} set_count={s.set_count} * sprite_count={s.sprite_count}")
+                #     # get sprites for this group
+                #     trainId = nameToId[name]
+                #     set_count = s.set_count
+                #     sprite_count = s.sprite_count
+                #     sprites = []
+                #     # groupName = ""
+                #     for i in range(set_count):  # sets
+                #         for j in range(sprite_count):  # sprites per set
+                #             # get sprite placeholders
+                #             s = next(generators)
+                #             if isinstance(s, grf.PyComment):
+                #                 s = next(generators)
+                #             # print(type(s))
+                #             assert isinstance(s, grf.decompile.SpritePlaceholder)
+                #             realSprite = self.real_sprites[s.sprite_id][-1]
+                #             assert isinstance(realSprite, grf.decompile.RealGraphicsSprite)
+                #             groupName = self.context.sprites[s.sprite_id][-1]
+                #             sprites.append({
+                #                 "width": realSprite.width,
+                #                 "height": realSprite.height,
+                #                 "xofs": realSprite.xofs,
+                #                 "yofs": realSprite.yofs,
+                #                 "zoom": realSprite.zoom,
+                #                 "bpp": realSprite.bpp,
+                #             })
                     # split = groupName.split("_")
                     # purchaseId = int(split[-1])+1
                     # purchaseGroupName = split[0]+"_"+str(purchaseId)
@@ -89,29 +89,29 @@ class GRFFile(grf.LoadedResourceFile):
                     # purchaseGroupToId[purchaseGroupName] = trainId
                     # purchaseIds.append(purchaseId)
 
-        generators = iter(self.g.generators)
-        for s in generators:
-            if isinstance(s, grf.SpriteSet) and s.sprite_count == 1:
-                # purchase sprite
-                s = next(generators)
-                if isinstance(s, grf.PyComment):
-                    s = next(generators)
-                assert isinstance(s, grf.decompile.SpritePlaceholder)
-                purchaseSprite = self.real_sprites[s.sprite_id][-1]
-                assert isinstance(purchaseSprite, grf.decompile.RealGraphicsSprite)
-                purchaseGroupName: str = self.context.sprites[s.sprite_id][-1]
-                id = int(purchaseGroupName.split("_")[-1])
-                if id not in purchaseIds:
-                    continue
-                trainId = purchaseGroupToId[purchaseGroupName]
-                self.trains[trainId].purchaseSprite = {
-                    "width": purchaseSprite.width,
-                    "height": purchaseSprite.height,
-                    "xofs": purchaseSprite.xofs,
-                    "yofs": purchaseSprite.yofs,
-                    "zoom": purchaseSprite.zoom,
-                    "bpp": purchaseSprite.bpp,
-                }
+        # generators = iter(self.g.generators)
+        # for s in generators:
+        #     if isinstance(s, grf.SpriteSet) and s.sprite_count == 1:
+        #         # purchase sprite
+        #         s = next(generators)
+        #         if isinstance(s, grf.PyComment):
+        #             s = next(generators)
+        #         assert isinstance(s, grf.decompile.SpritePlaceholder)
+        #         purchaseSprite = self.real_sprites[s.sprite_id][-1]
+        #         assert isinstance(purchaseSprite, grf.decompile.RealGraphicsSprite)
+        #         purchaseGroupName: str = self.context.sprites[s.sprite_id][-1]
+        #         id = int(purchaseGroupName.split("_")[-1])
+        #         if id not in purchaseIds:
+        #             continue
+        #         trainId = purchaseGroupToId[purchaseGroupName]
+        #         self.trains[trainId].purchaseSprite = {
+        #             "width": purchaseSprite.width,
+        #             "height": purchaseSprite.height,
+        #             "xofs": purchaseSprite.xofs,
+        #             "yofs": purchaseSprite.yofs,
+        #             "zoom": purchaseSprite.zoom,
+        #             "bpp": purchaseSprite.bpp,
+        #         }
 
         # unwrap single-element list
         for id, vehicle in self.trains.items():
