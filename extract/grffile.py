@@ -1,3 +1,4 @@
+import json
 import grf
 from grf.sprites import THIS_FILE
 
@@ -26,92 +27,27 @@ class GRFFile(grf.LoadedResourceFile):
         self.g, self.container, self.real_sprites, self.pseudo_sprites = grf.decompile.read(
             self.f, self.context)  # type: ignore
 
-        nameToId = {}
-        # purchaseGroupToId = {}
-        # purchaseIds = []
         generators = iter(self.g.generators)
         for s in generators:
             # vehicle defs
             if isinstance(s, grf.Define) and s.feature == grf.TRAIN:
                 # print(type(s))
                 self.trains[s.id] = Vehicle(s.id, "", s.props)
-            elif isinstance(s, grf.DefineMultiple) and "cargo_table" in s.props:
+            if isinstance(s, grf.DefineMultiple) and "cargo_table" in s.props:
                 self.cargo_table = [e.decode("utf-8") for e in s.props["cargo_table"]]
 
         generators = iter(self.g.generators)
         for s in generators:
             if isinstance(s, grf.DefineStrings) and s.feature == grf.TRAIN:
-                # then a DefineStrings with the name
-                # print(type(s))
-                if s.offset not in self.trains:
-                    self.trains[s.offset] = Vehicle()
-                name = s.strings[0].decode("utf-8")
-                self.trains[s.offset].name = name
-                nameToId[name] = s.offset
-                # s = next(generators)
-                # if isinstance(s, grf.PyComment):
-                #     s = next(generators)
-                # if isinstance(s, grf.Action1) and s.feature == grf.TRAIN and name != "":
-                #     # then an Action1 with sprite counts
-                #     # print(f"{type(s)} for {name} set_count={s.set_count} * sprite_count={s.sprite_count}")
-                #     # get sprites for this group
-                #     trainId = nameToId[name]
-                #     set_count = s.set_count
-                #     sprite_count = s.sprite_count
-                #     sprites = []
-                #     # groupName = ""
-                #     for i in range(set_count):  # sets
-                #         for j in range(sprite_count):  # sprites per set
-                #             # get sprite placeholders
-                #             s = next(generators)
-                #             if isinstance(s, grf.PyComment):
-                #                 s = next(generators)
-                #             # print(type(s))
-                #             assert isinstance(s, grf.decompile.SpritePlaceholder)
-                #             realSprite = self.real_sprites[s.sprite_id][-1]
-                #             assert isinstance(realSprite, grf.decompile.RealGraphicsSprite)
-                #             groupName = self.context.sprites[s.sprite_id][-1]
-                #             sprites.append({
-                #                 "width": realSprite.width,
-                #                 "height": realSprite.height,
-                #                 "xofs": realSprite.xofs,
-                #                 "yofs": realSprite.yofs,
-                #                 "zoom": realSprite.zoom,
-                #                 "bpp": realSprite.bpp,
-                #             })
-                # split = groupName.split("_")
-                # purchaseId = int(split[-1])+1
-                # purchaseGroupName = split[0]+"_"+str(purchaseId)
+                if s.offset in self.trains:
+                    name: bytes = s.strings[-1]
+                    self.trains[s.offset].name = name.decode()
 
-                # self.trains[trainId].sprites = sprites
-                # self.trains[trainId].purchaseGroupName = purchaseGroupName
-                # self.trains[trainId].groupName = groupName
-                # purchaseGroupToId[purchaseGroupName] = trainId
-                # purchaseIds.append(purchaseId)
-
-        # generators = iter(self.g.generators)
-        # for s in generators:
-        #     if isinstance(s, grf.SpriteSet) and s.sprite_count == 1:
-        #         # purchase sprite
-        #         s = next(generators)
-        #         if isinstance(s, grf.PyComment):
-        #             s = next(generators)
-        #         assert isinstance(s, grf.decompile.SpritePlaceholder)
-        #         purchaseSprite = self.real_sprites[s.sprite_id][-1]
-        #         assert isinstance(purchaseSprite, grf.decompile.RealGraphicsSprite)
-        #         purchaseGroupName: str = self.context.sprites[s.sprite_id][-1]
-        #         id = int(purchaseGroupName.split("_")[-1])
-        #         if id not in purchaseIds:
-        #             continue
-        #         trainId = purchaseGroupToId[purchaseGroupName]
-        #         self.trains[trainId].purchaseSprite = {
-        #             "width": purchaseSprite.width,
-        #             "height": purchaseSprite.height,
-        #             "xofs": purchaseSprite.xofs,
-        #             "yofs": purchaseSprite.yofs,
-        #             "zoom": purchaseSprite.zoom,
-        #             "bpp": purchaseSprite.bpp,
-        #         }
+        generators = iter(self.g.generators)
+        for s in generators:
+            if isinstance(s, grf.ReferenceableAction):
+                pass
+                # print(s.__dict__)
 
         # unwrap single-element list
         for id, vehicle in self.trains.items():
@@ -121,11 +57,11 @@ class GRFFile(grf.LoadedResourceFile):
         # cleanup
         for id, vehicle in self.trains.items():
             for field in ["refittable_cargo_classes", "non_refittable_cargo_classes"]:
-                self.trains[id].props[field] = self.trains[id].toReadableCargoClasses(
-                    self.trains[id].props[field])
+                self.trains[id].props[field] = Vehicle.toReadableCargoClasses(self.trains[id].props[field])
             for field in ["cargo_allow_refit", "cargo_disallow_refit"]:
-                self.trains[id].props[field] = self.trains[id].toReadableCargo(
-                    self.trains[id].props[field], self.cargo_table)
+                self.trains[id].props[field] = Vehicle.toReadableCargo(self.trains[id].props[field], self.cargo_table)
+            self.trains[id].props["cb_flags"] = Vehicle.toReadableCallback(self.trains[id].props["cb_flags"])
+            self.trains[id].props["misc_flags"] = Vehicle.toReadableFlag(self.trains[id].props["misc_flags"])
 
     def unload(self):
         self.context = grf.decompile.ParsingContext()
