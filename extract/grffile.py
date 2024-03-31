@@ -1,3 +1,4 @@
+from collections import defaultdict
 import json
 import grf
 from grf.sprites import THIS_FILE
@@ -17,6 +18,7 @@ class GRFFile(grf.LoadedResourceFile):
         self.trains: dict[int, Vehicle] = {}
         self.cargo_table: list[str] = []
         self.context = grf.decompile.ParsingContext()
+        self.sprites = {}
         self.load()
 
     def load(self):
@@ -43,12 +45,6 @@ class GRFFile(grf.LoadedResourceFile):
                     name: bytes = s.strings[-1]
                     self.trains[s.offset].name = name.decode()
 
-        generators = iter(self.g.generators)
-        for s in generators:
-            if isinstance(s, grf.ReferenceableAction):
-                pass
-                # print(s.__dict__)
-
         # unwrap single-element list
         for id, vehicle in self.trains.items():
             newprops = {k: v[0]
@@ -63,29 +59,44 @@ class GRFFile(grf.LoadedResourceFile):
             self.trains[id].props["cb_flags"] = Vehicle.toReadableCallback(self.trains[id].props["cb_flags"])
             self.trains[id].props["misc_flags"] = Vehicle.toReadableFlag(self.trains[id].props["misc_flags"])
 
-    def unload(self):
-        self.context = grf.decompile.ParsingContext()
-        self.gen = None
-        self.container = None
-        self.real_sprites = {}
-        self.f.close()
+        groups = [(group, sprite_id) for sprite_id in self.context.sprites if (
+            group := self.context.sprites[sprite_id][-1]) is not None]
+        groupToSpriteIds = defaultdict(list)
+        for (group, sprite_id) in groups:
+            groupToSpriteIds[group].append(sprite_id)
 
-    def get_sprite_data(self, sprite_id, num):
-        s = self.real_sprites[sprite_id + self.real_offset][num]
-        self.f.seek(s.offset)
-        data, _ = grf.decompile.decode_sprite(self.f, s, self.container)
-        return data
+        real_sprites = defaultdict(list)
+        for (group, ids) in groupToSpriteIds.items():
+            rgss = [self.real_sprites[id][-1] for id in ids]
+            sprites = [
+                {"width": sprite.width, "height": sprite.height, "xofs": sprite.xofs, "yofs": sprite.yofs,
+                 "zoom": sprite.zoom, "bpp": sprite.bpp} for sprite in rgss]
+            real_sprites[group].extend(sprites)
 
-    def get_sprites(self, sprite_id):
-        return [
-            GRFSprite(self, s.type, s.bpp, sprite_id, i, w=s.width, h=s.height, xofs=s.xofs, yofs=s.yofs, zoom=s.zoom, crop=False)
-            for i, s in enumerate(self.real_sprites[sprite_id + self.real_offset])
-        ]
+        self.sprites = real_sprites
 
-    def get_recolour_sprite(self, sprite_id):
-        s = self.pseudo_sprites[sprite_id + self.pseudo_offset]
-        assert isinstance(s, grf.decompile.RealRemapSprite)
-        return np.frombuffer(s.data[1:], dtype=np.uint8)
+        # traverse the DAG of action3,2,1,0s
+        # action3s = [sprite for nfoLine in self.pseudo_sprites if isinstance(
+        #     (sprite := self.pseudo_sprites[nfoLine]), grf.actions.Action3)]
+        # action2s = [
+        #     sprite for nfoLine in self.pseudo_sprites
+        #     if
+        #     isinstance(
+        #         (sprite := self.pseudo_sprites[nfoLine]),
+        #         (grf.actions.Switch, grf.actions.RandomSwitch, grf.actions.GenericSpriteLayout))]
+
+        # for action in action3s:
+        #     assert isinstance(action, grf.actions.Action3)
+        #     # print(action.ids, action.maps)
+        #     if 0xFF in action.maps:
+        #         ref = action.maps[255]
+        #         assert isinstance(ref, grf.Ref)
+        #         referencedActions = [action for action in action2s if action.ref_id == ref.ref_id]
+        #         for a in referencedActions:
+        #             print(type(a), a.__dict__)
+
+        # for action in action2s:
+        #     print(type(action), action.__dict__)
 
 
 class GRFSprite(grf.Sprite):
