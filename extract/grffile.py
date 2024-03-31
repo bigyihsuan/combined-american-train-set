@@ -48,9 +48,9 @@ class GRFFile(grf.LoadedResourceFile):
                 name = s.strings[0].decode("utf-8")
                 self.trains[s.offset].name = name
                 nameToId[name] = s.offset
-                s = next(generators)
-                if isinstance(s, grf.PyComment):
-                    s = next(generators)
+                # s = next(generators)
+                # if isinstance(s, grf.PyComment):
+                #     s = next(generators)
                 # if isinstance(s, grf.Action1) and s.feature == grf.TRAIN and name != "":
                 #     # then an Action1 with sprite counts
                 #     # print(f"{type(s)} for {name} set_count={s.set_count} * sprite_count={s.sprite_count}")
@@ -79,15 +79,15 @@ class GRFFile(grf.LoadedResourceFile):
                 #                 "zoom": realSprite.zoom,
                 #                 "bpp": realSprite.bpp,
                 #             })
-                    # split = groupName.split("_")
-                    # purchaseId = int(split[-1])+1
-                    # purchaseGroupName = split[0]+"_"+str(purchaseId)
+                # split = groupName.split("_")
+                # purchaseId = int(split[-1])+1
+                # purchaseGroupName = split[0]+"_"+str(purchaseId)
 
-                    # self.trains[trainId].sprites = sprites
-                    # self.trains[trainId].purchaseGroupName = purchaseGroupName
-                    # self.trains[trainId].groupName = groupName
-                    # purchaseGroupToId[purchaseGroupName] = trainId
-                    # purchaseIds.append(purchaseId)
+                # self.trains[trainId].sprites = sprites
+                # self.trains[trainId].purchaseGroupName = purchaseGroupName
+                # self.trains[trainId].groupName = groupName
+                # purchaseGroupToId[purchaseGroupName] = trainId
+                # purchaseIds.append(purchaseId)
 
         # generators = iter(self.g.generators)
         # for s in generators:

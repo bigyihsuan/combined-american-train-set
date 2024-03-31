@@ -21,9 +21,10 @@ class Vehicle:
         self.purchaseSprite = purchaseSprite
 
     def flatten(self) -> dict[str, Any]:
-        copy = self.props.copy()
+        copy = {}
         copy["id"] = self.id
         copy["name"] = self.name
+        copy["props"] = self.props
         # copy["groupName"] = self.groupName
         # copy["purchaseGroupName"] = self.purchaseGroupName
         # copy["sprites"] = self.sprites
