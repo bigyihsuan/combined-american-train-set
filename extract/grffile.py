@@ -79,15 +79,15 @@ class GRFFile(grf.LoadedResourceFile):
                                 "zoom": realSprite.zoom,
                                 "bpp": realSprite.bpp,
                             })
-                    split = groupName.split("_")
-                    purchaseId = int(split[-1])+1
-                    purchaseGroupName = split[0]+"_"+str(purchaseId)
+                    # split = groupName.split("_")
+                    # purchaseId = int(split[-1])+1
+                    # purchaseGroupName = split[0]+"_"+str(purchaseId)
 
                     self.trains[trainId].sprites = sprites
-                    self.trains[trainId].purchaseGroupName = purchaseGroupName
-                    self.trains[trainId].groupName = groupName
-                    purchaseGroupToId[purchaseGroupName] = trainId
-                    purchaseIds.append(purchaseId)
+                    # self.trains[trainId].purchaseGroupName = purchaseGroupName
+                    # self.trains[trainId].groupName = groupName
+                    # purchaseGroupToId[purchaseGroupName] = trainId
+                    # purchaseIds.append(purchaseId)
 
         generators = iter(self.g.generators)
         for s in generators:

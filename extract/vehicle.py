@@ -24,8 +24,8 @@ class Vehicle:
         copy = self.props.copy()
         copy["id"] = self.id
         copy["name"] = self.name
-        copy["groupName"] = self.groupName
-        copy["purchaseGroupName"] = self.purchaseGroupName
+        # copy["groupName"] = self.groupName
+        # copy["purchaseGroupName"] = self.purchaseGroupName
         copy["sprites"] = self.sprites
         copy["purchaseSprite"] = self.purchaseSprite
         return copy
