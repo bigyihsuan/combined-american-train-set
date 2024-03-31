@@ -26,8 +26,8 @@ class Vehicle:
         copy["name"] = self.name
         # copy["groupName"] = self.groupName
         # copy["purchaseGroupName"] = self.purchaseGroupName
-        copy["sprites"] = self.sprites
-        copy["purchaseSprite"] = self.purchaseSprite
+        # copy["sprites"] = self.sprites
+        # copy["purchaseSprite"] = self.purchaseSprite
         return copy
 
     def toReadableCargoClasses(self, bitmask: int) -> list[str]:

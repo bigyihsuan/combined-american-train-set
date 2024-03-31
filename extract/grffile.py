@@ -59,7 +59,7 @@ class GRFFile(grf.LoadedResourceFile):
                     set_count = s.set_count
                     sprite_count = s.sprite_count
                     sprites = []
-                    groupName = ""
+                    # groupName = ""
                     for i in range(set_count):  # sets
                         for j in range(sprite_count):  # sprites per set
                             # get sprite placeholders
@@ -83,7 +83,7 @@ class GRFFile(grf.LoadedResourceFile):
                     # purchaseId = int(split[-1])+1
                     # purchaseGroupName = split[0]+"_"+str(purchaseId)
 
-                    self.trains[trainId].sprites = sprites
+                    # self.trains[trainId].sprites = sprites
                     # self.trains[trainId].purchaseGroupName = purchaseGroupName
                     # self.trains[trainId].groupName = groupName
                     # purchaseGroupToId[purchaseGroupName] = trainId
