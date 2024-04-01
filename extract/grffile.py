@@ -65,13 +65,13 @@ class GRFFile(grf.LoadedResourceFile):
         for (group, sprite_id) in groups:
             groupToSpriteIds[group].append(sprite_id)
 
-        real_sprites = defaultdict(list)
+        real_sprites = []
         for (group, ids) in groupToSpriteIds.items():
             rgss = [self.real_sprites[id][-1] for id in ids]
             sprites = [
                 {"width": sprite.width, "height": sprite.height, "xofs": sprite.xofs, "yofs": sprite.yofs,
                  "zoom": sprite.zoom, "bpp": sprite.bpp} for sprite in rgss]
-            real_sprites[group].extend(sprites)
+            real_sprites.append({"group": group, "sprites": sprites})
 
         self.sprites = real_sprites
 
