@@ -2,6 +2,7 @@ import json
 import grf
 
 import grffile
+from group import GROUP_TO_ID
 
 
 def main():
@@ -13,6 +14,10 @@ def main():
 
     with open("./sprites.json", "w") as spritesJson:
         json.dump(nars.sprites, spritesJson, indent=4)
+
+    with open("./vehicle-stats.json", "r") as vehicleStatsJson, open("./sprites.json", "r") as spritesJson:
+
+        pass
 
 
 if __name__ == "__main__":
