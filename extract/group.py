@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from enum import Enum, auto
 
 false = False
@@ -12,6 +12,23 @@ class K(Enum):
     Tender = auto()
     End = auto()
 
+    def __repr__(self) -> str:
+        if self == K.Full:
+            return "Full"
+        elif self == K.Front:
+            return "Front"
+        elif self == K.Back:
+            return "Back"
+        elif self == K.Tender:
+            return "Tender"
+        elif self == K.End:
+            return "End"
+        else:
+            return "K.INVALID"
+
+    def __str__(self) -> str:
+        return self.__repr__()
+
 
 @dataclass
 class E:
@@ -19,8 +36,8 @@ class E:
     isPurchaseSprite: bool = False
     reversed: bool = False
     loc: K = K.Full
-    liv: list[int] = []  # livery of a vehicle. contains a list of group numbers that form the same livery.
-    alt: list[int] = []  # list of alternate ids this vehicle has.
+    liv: list[int] = field(default_factory=list)
+    alt: list[int] = field(default_factory=list)
     mu: bool = False  # whether this group is a car for an MU.
 
     def ok(self) -> bool:
@@ -29,7 +46,7 @@ class E:
 
 front = K.Front
 back = K.Back
-tender = K.Back
+tender = K.Tender
 end = K.End
 reversed = true
 
