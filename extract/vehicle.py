@@ -5,11 +5,11 @@ CARGO_CLASSES = [
     "CC_PASSENGERS", "CC_MAIL", "CC_EXPRESS", "CC_ARMOURED", "CC_BULK", "CC_PIECE_GOODS", "CC_LIQUID",
     "CC_REFRIGERATED", "CC_HAZARDOUS", "CC_COVERED", "CC_OVERSIZED", "CC_POWDERIZED", "CC_NON_POURABLE", "CC_NEO_BULK",
     "CC_SPECIAL",]
-CALLBACKS = ["Powered wagons and visual effect", "Wagon length", "Load amount", "Set refitted capacity",
-             "Build articulated engines", "Show a suffix after the cargo type name",
-             "Select color mapping for vehicle", "Sound effect callbacks", "Engine name",]
-FLAGS = ["Tilts in curves", "2CC", "DMU/EMU", "Flippable", "Auto-refit",
-         "Cargo multiplier", "Disable breakdown smoke", "Compose from multiple sprites"]
+CALLBACKS = ["VEH_CBF_VISUAL_EFFECT_AND_POWERED", "VEH_CBF_WAGON_LENGTH", "VEH_CBF_LOAD_AMOUNT",
+             "VEH_CBF_REFITTED_CAPACITY", "VEH_CBF_ARTICULATED_PARTS", "VEH_CBF_CARGO_SUFFIX",
+             "VEH_CBF_COLOUR_MAPPING", "Sound effect callbacks (unused)"]
+FLAGS = ["TRAIN_FLAG_TILT", "TRAIN_FLAG_2CC", "TRAIN_FLAG_MU", "TRAIN_FLAG_FLIP", "TRAIN_FLAG_AUTOREFIT",
+         "Cargo multiplier (unused)", "TRAIN_FLAG_NO_BREAKDOWN_SMOKE", "TRAIN_FLAG_SPRITE_STACK"]
 
 
 class Vehicle:

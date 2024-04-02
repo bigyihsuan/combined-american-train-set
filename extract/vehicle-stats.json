@@ -31,27 +31,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -88,27 +75,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -145,27 +119,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -202,27 +163,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -259,27 +207,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -316,27 +251,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -373,27 +295,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -430,27 +339,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -487,27 +383,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -544,27 +427,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -601,27 +471,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -658,27 +515,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -715,27 +559,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -772,27 +603,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -829,27 +647,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -886,27 +691,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -943,27 +735,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1000,27 +779,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1057,27 +823,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1114,27 +867,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1171,26 +911,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1227,26 +955,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1283,26 +999,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1339,26 +1043,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1395,26 +1087,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1451,26 +1131,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1507,26 +1175,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1563,26 +1219,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1619,27 +1263,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 24,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1676,26 +1307,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1732,26 +1351,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1788,26 +1395,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1844,26 +1439,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1900,26 +1483,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -1956,26 +1527,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2012,26 +1571,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2068,26 +1615,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2124,26 +1659,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2180,26 +1703,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2236,26 +1747,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2292,26 +1791,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2348,26 +1835,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2404,26 +1879,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2460,26 +1923,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2516,26 +1967,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2572,26 +2011,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2628,26 +2055,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2684,26 +2099,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2740,26 +2143,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2796,26 +2187,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2852,26 +2231,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2908,26 +2275,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -2964,27 +2319,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3021,26 +2363,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3077,26 +2407,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3133,26 +2451,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3189,26 +2495,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3245,26 +2539,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3301,26 +2583,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3357,26 +2627,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 129,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3413,29 +2671,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Set refitted capacity",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 137,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 30,
+        "refittable_cargo_classes": 1,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3472,29 +2715,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Set refitted capacity",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 137,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 30,
+        "refittable_cargo_classes": 1,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3531,30 +2759,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Set refitted capacity",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 153,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 30,
+        "refittable_cargo_classes": 1,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3591,29 +2803,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Set refitted capacity",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 137,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 31,
+        "refittable_cargo_classes": 1,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3650,29 +2847,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Set refitted capacity",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 137,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 31,
+        "refittable_cargo_classes": 1,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3709,29 +2891,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Set refitted capacity",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 137,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 30,
+        "refittable_cargo_classes": 1,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3768,29 +2935,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Set refitted capacity",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 137,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 30,
+        "refittable_cargo_classes": 1,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3827,29 +2979,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Set refitted capacity",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 137,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 30,
+        "refittable_cargo_classes": 1,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3886,27 +3023,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Set refitted capacity",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 137,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 31,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -3943,29 +3067,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Set refitted capacity",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 137,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 30,
+        "refittable_cargo_classes": 1,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -4002,27 +3111,14 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Powered wagons and visual effect",
-            "Build articulated engines",
-            "Sound effect callbacks"
-        ],
+        "cb_flags": 145,
         "air_drag_coefficient": 0,
         "extra_weight_per_wagon": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 20,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "misc_flags": 26,
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_age_period": 185,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": []
@@ -4040,10 +3136,8 @@
         "cargo_capacity": 25,
         "loading_speed": 5,
         "default_cargo_type": 0,
-        "refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 1,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 2,
@@ -4062,9 +3156,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity"
-        ],
+        "cb_flags": 8,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -4072,16 +3164,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -4097,10 +3180,8 @@
         "cargo_capacity": 40,
         "loading_speed": 8,
         "default_cargo_type": 0,
-        "refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 1,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 0,
@@ -4119,9 +3200,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity"
-        ],
+        "cb_flags": 8,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -4129,16 +3208,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -4154,10 +3224,8 @@
         "cargo_capacity": 40,
         "loading_speed": 8,
         "default_cargo_type": 0,
-        "refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 1,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 0,
@@ -4176,9 +3244,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity"
-        ],
+        "cb_flags": 8,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -4186,16 +3252,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -4211,10 +3268,8 @@
         "cargo_capacity": 60,
         "loading_speed": 14,
         "default_cargo_type": 0,
-        "refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 1,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 0,
@@ -4233,9 +3288,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity"
-        ],
+        "cb_flags": 8,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -4243,16 +3296,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -4268,10 +3312,8 @@
         "cargo_capacity": 50,
         "loading_speed": 10,
         "default_cargo_type": 0,
-        "refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 1,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 0,
@@ -4290,9 +3332,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity"
-        ],
+        "cb_flags": 8,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -4300,16 +3340,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -4325,10 +3356,8 @@
         "cargo_capacity": 35,
         "loading_speed": 7,
         "default_cargo_type": 0,
-        "refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 1,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 1,
@@ -4347,9 +3376,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity"
-        ],
+        "cb_flags": 8,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -4357,16 +3384,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 19,
         "cargo_age_period": 185
     },
     {
@@ -4382,14 +3400,8 @@
         "cargo_capacity": 20,
         "loading_speed": 5,
         "default_cargo_type": 2,
-        "refittable_cargo_classes": [
-            "CC_MAIL",
-            "CC_EXPRESS",
-            "CC_ARMOURED"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
+        "refittable_cargo_classes": 14,
+        "non_refittable_cargo_classes": 1,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 2,
@@ -4408,9 +3420,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity"
-        ],
+        "cb_flags": 8,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -4418,16 +3428,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -4443,14 +3444,8 @@
         "cargo_capacity": 30,
         "loading_speed": 8,
         "default_cargo_type": 2,
-        "refittable_cargo_classes": [
-            "CC_MAIL",
-            "CC_EXPRESS",
-            "CC_ARMOURED"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
+        "refittable_cargo_classes": 14,
+        "non_refittable_cargo_classes": 1,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 0,
@@ -4469,9 +3464,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity"
-        ],
+        "cb_flags": 8,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -4479,16 +3472,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -4504,14 +3488,8 @@
         "cargo_capacity": 30,
         "loading_speed": 8,
         "default_cargo_type": 2,
-        "refittable_cargo_classes": [
-            "CC_MAIL",
-            "CC_EXPRESS",
-            "CC_ARMOURED"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
+        "refittable_cargo_classes": 14,
+        "non_refittable_cargo_classes": 1,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 0,
@@ -4530,9 +3508,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity"
-        ],
+        "cb_flags": 8,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -4540,16 +3516,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -4565,14 +3532,8 @@
         "cargo_capacity": 25,
         "loading_speed": 7,
         "default_cargo_type": 2,
-        "refittable_cargo_classes": [
-            "CC_MAIL",
-            "CC_EXPRESS",
-            "CC_ARMOURED"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
+        "refittable_cargo_classes": 14,
+        "non_refittable_cargo_classes": 1,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 1,
@@ -4591,9 +3552,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity"
-        ],
+        "cb_flags": 8,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -4601,16 +3560,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 19,
         "cargo_age_period": 185
     },
     {
@@ -4626,14 +3576,8 @@
         "cargo_capacity": 25,
         "loading_speed": 7,
         "default_cargo_type": 2,
-        "refittable_cargo_classes": [
-            "CC_MAIL",
-            "CC_EXPRESS",
-            "CC_ARMOURED"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
+        "refittable_cargo_classes": 14,
+        "non_refittable_cargo_classes": 1,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 1,
@@ -4652,9 +3596,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity"
-        ],
+        "cb_flags": 8,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -4662,16 +3604,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 26,
         "cargo_age_period": 185
     },
     {
@@ -4687,14 +3620,8 @@
         "cargo_capacity": 20,
         "loading_speed": 5,
         "default_cargo_type": 2,
-        "refittable_cargo_classes": [
-            "CC_MAIL",
-            "CC_EXPRESS",
-            "CC_ARMOURED"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
+        "refittable_cargo_classes": 14,
+        "non_refittable_cargo_classes": 1,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 2,
@@ -4713,9 +3640,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity"
-        ],
+        "cb_flags": 8,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -4723,16 +3648,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -4748,24 +3664,18 @@
         "cargo_capacity": 20,
         "loading_speed": 7,
         "default_cargo_type": 5,
-        "refittable_cargo_classes": [
-            "CC_EXPRESS",
-            "CC_BULK",
-            "CC_PIECE_GOODS"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
+        "refittable_cargo_classes": 52,
+        "non_refittable_cargo_classes": 1,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [
-            "COAL",
-            "IORE",
-            "CORE",
-            "AORE",
-            "SAND",
-            "GRVL",
-            "WDPR",
-            "LVST"
+            1,
+            8,
+            14,
+            34,
+            44,
+            41,
+            25,
+            4
         ],
         "shorten_by": 3,
         "sprite_id": 253,
@@ -4783,10 +3693,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -4794,16 +3701,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -4819,24 +3717,18 @@
         "cargo_capacity": 25,
         "loading_speed": 9,
         "default_cargo_type": 5,
-        "refittable_cargo_classes": [
-            "CC_EXPRESS",
-            "CC_BULK",
-            "CC_PIECE_GOODS"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
+        "refittable_cargo_classes": 52,
+        "non_refittable_cargo_classes": 1,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [
-            "COAL",
-            "IORE",
-            "CORE",
-            "AORE",
-            "SAND",
-            "GRVL",
-            "WDPR",
-            "LVST"
+            1,
+            8,
+            14,
+            34,
+            44,
+            41,
+            25,
+            4
         ],
         "shorten_by": 2,
         "sprite_id": 253,
@@ -4854,10 +3746,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -4865,16 +3754,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -4890,24 +3770,18 @@
         "cargo_capacity": 30,
         "loading_speed": 10,
         "default_cargo_type": 5,
-        "refittable_cargo_classes": [
-            "CC_EXPRESS",
-            "CC_BULK",
-            "CC_PIECE_GOODS"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
+        "refittable_cargo_classes": 52,
+        "non_refittable_cargo_classes": 1,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [
-            "COAL",
-            "IORE",
-            "CORE",
-            "AORE",
-            "SAND",
-            "GRVL",
-            "WDPR",
-            "LVST"
+            1,
+            8,
+            14,
+            34,
+            44,
+            41,
+            25,
+            4
         ],
         "shorten_by": 1,
         "sprite_id": 253,
@@ -4925,10 +3799,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -4936,16 +3807,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -4961,24 +3823,18 @@
         "cargo_capacity": 35,
         "loading_speed": 12,
         "default_cargo_type": 5,
-        "refittable_cargo_classes": [
-            "CC_EXPRESS",
-            "CC_BULK",
-            "CC_PIECE_GOODS"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
+        "refittable_cargo_classes": 52,
+        "non_refittable_cargo_classes": 1,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [
-            "COAL",
-            "IORE",
-            "CORE",
-            "AORE",
-            "SAND",
-            "GRVL",
-            "WDPR",
-            "LVST"
+            1,
+            8,
+            14,
+            34,
+            44,
+            41,
+            25,
+            4
         ],
         "shorten_by": 0,
         "sprite_id": 253,
@@ -4996,10 +3852,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -5007,16 +3860,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -5032,28 +3876,23 @@
         "cargo_capacity": 20,
         "loading_speed": 5,
         "default_cargo_type": 12,
-        "refittable_cargo_classes": [
-            "CC_EXPRESS",
-            "CC_PIECE_GOODS"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
+        "refittable_cargo_classes": 36,
+        "non_refittable_cargo_classes": 1,
         "cargo_allow_refit": [
-            "GOOD",
-            "FOOD",
-            "FRUT",
-            "BDMT"
+            5,
+            12,
+            13,
+            35
         ],
         "cargo_disallow_refit": [
-            "COAL",
-            "IORE",
-            "CORE",
-            "AORE",
-            "SAND",
-            "GRVL",
-            "WDPR",
-            "LVST"
+            1,
+            8,
+            14,
+            34,
+            44,
+            41,
+            25,
+            4
         ],
         "shorten_by": 3,
         "sprite_id": 253,
@@ -5071,10 +3910,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -5082,16 +3918,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -5107,28 +3934,23 @@
         "cargo_capacity": 25,
         "loading_speed": 7,
         "default_cargo_type": 12,
-        "refittable_cargo_classes": [
-            "CC_EXPRESS",
-            "CC_PIECE_GOODS"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
+        "refittable_cargo_classes": 36,
+        "non_refittable_cargo_classes": 1,
         "cargo_allow_refit": [
-            "GOOD",
-            "FOOD",
-            "FRUT",
-            "BDMT"
+            5,
+            12,
+            13,
+            35
         ],
         "cargo_disallow_refit": [
-            "COAL",
-            "IORE",
-            "CORE",
-            "AORE",
-            "SAND",
-            "GRVL",
-            "WDPR",
-            "LVST"
+            1,
+            8,
+            14,
+            34,
+            44,
+            41,
+            25,
+            4
         ],
         "shorten_by": 2,
         "sprite_id": 253,
@@ -5146,10 +3968,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -5157,16 +3976,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -5182,28 +3992,23 @@
         "cargo_capacity": 30,
         "loading_speed": 8,
         "default_cargo_type": 12,
-        "refittable_cargo_classes": [
-            "CC_EXPRESS",
-            "CC_PIECE_GOODS"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
+        "refittable_cargo_classes": 36,
+        "non_refittable_cargo_classes": 1,
         "cargo_allow_refit": [
-            "GOOD",
-            "FOOD",
-            "FRUT",
-            "BDMT"
+            5,
+            12,
+            13,
+            35
         ],
         "cargo_disallow_refit": [
-            "COAL",
-            "IORE",
-            "CORE",
-            "AORE",
-            "SAND",
-            "GRVL",
-            "WDPR",
-            "LVST"
+            1,
+            8,
+            14,
+            34,
+            44,
+            41,
+            25,
+            4
         ],
         "shorten_by": 1,
         "sprite_id": 253,
@@ -5221,10 +4026,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -5232,16 +4034,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -5257,12 +4050,8 @@
         "cargo_capacity": 20,
         "loading_speed": 7,
         "default_cargo_type": 4,
-        "refittable_cargo_classes": [
-            "CC_PIECE_GOODS"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
+        "refittable_cargo_classes": 32,
+        "non_refittable_cargo_classes": 1,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 3,
@@ -5281,10 +4070,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -5292,16 +4078,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -5317,12 +4094,8 @@
         "cargo_capacity": 25,
         "loading_speed": 9,
         "default_cargo_type": 4,
-        "refittable_cargo_classes": [
-            "CC_PIECE_GOODS"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_PASSENGERS"
-        ],
+        "refittable_cargo_classes": 32,
+        "non_refittable_cargo_classes": 1,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 1,
@@ -5341,10 +4114,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -5352,16 +4122,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -5377,16 +4138,14 @@
         "cargo_capacity": 20,
         "loading_speed": 10,
         "default_cargo_type": 1,
-        "refittable_cargo_classes": [
-            "CC_BULK"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 16,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [
-            "GRAI",
-            "WHEA",
-            "MAIZ",
-            "FRUT"
+            6,
+            18,
+            19,
+            13
         ],
         "shorten_by": 4,
         "sprite_id": 253,
@@ -5404,10 +4163,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -5415,16 +4171,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -5440,16 +4187,14 @@
         "cargo_capacity": 30,
         "loading_speed": 15,
         "default_cargo_type": 1,
-        "refittable_cargo_classes": [
-            "CC_BULK"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 16,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [
-            "GRAI",
-            "WHEA",
-            "MAIZ",
-            "FRUT"
+            6,
+            18,
+            19,
+            13
         ],
         "shorten_by": 2,
         "sprite_id": 253,
@@ -5467,10 +4212,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -5478,16 +4220,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -5503,16 +4236,14 @@
         "cargo_capacity": 40,
         "loading_speed": 20,
         "default_cargo_type": 1,
-        "refittable_cargo_classes": [
-            "CC_BULK"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 16,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [
-            "GRAI",
-            "WHEA",
-            "MAIZ",
-            "FRUT"
+            6,
+            18,
+            19,
+            13
         ],
         "shorten_by": 0,
         "sprite_id": 253,
@@ -5530,10 +4261,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -5541,16 +4269,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -5566,12 +4285,12 @@
         "cargo_capacity": 40,
         "loading_speed": 20,
         "default_cargo_type": 7,
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [
-            "WOOD",
-            "TWOD",
-            "WDPR"
+            7,
+            17,
+            25
         ],
         "cargo_disallow_refit": [],
         "shorten_by": 0,
@@ -5590,10 +4309,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -5601,16 +4317,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -5626,26 +4333,22 @@
         "cargo_capacity": 30,
         "loading_speed": 10,
         "default_cargo_type": 6,
-        "refittable_cargo_classes": [
-            "CC_BULK"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_NON_POURABLE"
-        ],
+        "refittable_cargo_classes": 16,
+        "non_refittable_cargo_classes": 4096,
         "cargo_allow_refit": [
-            "GOOD",
-            "FOOD",
-            "FRUT",
-            "BDMT"
+            5,
+            12,
+            13,
+            35
         ],
         "cargo_disallow_refit": [
-            "COAL",
-            "IORE",
-            "CORE",
-            "AORE",
-            "SAND",
-            "GRVL",
-            "WDPR"
+            1,
+            8,
+            14,
+            34,
+            44,
+            41,
+            25
         ],
         "shorten_by": 1,
         "sprite_id": 253,
@@ -5663,10 +4366,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -5674,16 +4374,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -5699,21 +4390,18 @@
         "cargo_capacity": 20,
         "loading_speed": 7,
         "default_cargo_type": 5,
-        "refittable_cargo_classes": [
-            "CC_BULK",
-            "CC_PIECE_GOODS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 48,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [
-            "GOOD",
-            "BDMT"
+            5,
+            35
         ],
         "cargo_disallow_refit": [
-            "GRAI",
-            "WHEA",
-            "MAIZ",
-            "FRUT",
-            "LVST"
+            6,
+            18,
+            19,
+            13,
+            4
         ],
         "shorten_by": 3,
         "sprite_id": 253,
@@ -5731,10 +4419,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -5742,16 +4427,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -5767,21 +4443,18 @@
         "cargo_capacity": 25,
         "loading_speed": 9,
         "default_cargo_type": 5,
-        "refittable_cargo_classes": [
-            "CC_BULK",
-            "CC_PIECE_GOODS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 48,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [
-            "GOOD",
-            "BDMT"
+            5,
+            35
         ],
         "cargo_disallow_refit": [
-            "GRAI",
-            "WHEA",
-            "MAIZ",
-            "FRUT",
-            "LVST"
+            6,
+            18,
+            19,
+            13,
+            4
         ],
         "shorten_by": 2,
         "sprite_id": 253,
@@ -5799,10 +4472,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -5810,16 +4480,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -5835,21 +4496,18 @@
         "cargo_capacity": 30,
         "loading_speed": 10,
         "default_cargo_type": 5,
-        "refittable_cargo_classes": [
-            "CC_BULK",
-            "CC_PIECE_GOODS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 48,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [
-            "GOOD",
-            "BDMT"
+            5,
+            35
         ],
         "cargo_disallow_refit": [
-            "GRAI",
-            "WHEA",
-            "MAIZ",
-            "FRUT",
-            "LVST"
+            6,
+            18,
+            19,
+            13,
+            4
         ],
         "shorten_by": 1,
         "sprite_id": 253,
@@ -5867,10 +4525,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -5878,16 +4533,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -5903,13 +4549,13 @@
         "cargo_capacity": 30,
         "loading_speed": 12,
         "default_cargo_type": 9,
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [
-            "STEL",
-            "COPR",
-            "MNSP",
-            "BDMT"
+            9,
+            24,
+            32,
+            35
         ],
         "cargo_disallow_refit": [],
         "shorten_by": 0,
@@ -5928,10 +4574,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -5939,16 +4582,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -5964,18 +4598,13 @@
         "cargo_capacity": 20,
         "loading_speed": 10,
         "default_cargo_type": 7,
-        "refittable_cargo_classes": [
-            "CC_PIECE_GOODS"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_REFRIGERATED",
-            "CC_COVERED"
-        ],
+        "refittable_cargo_classes": 32,
+        "non_refittable_cargo_classes": 640,
         "cargo_allow_refit": [
-            "GOOD"
+            5
         ],
         "cargo_disallow_refit": [
-            "LVST"
+            4
         ],
         "shorten_by": 3,
         "sprite_id": 253,
@@ -5993,10 +4622,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -6004,16 +4630,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -6029,18 +4646,13 @@
         "cargo_capacity": 30,
         "loading_speed": 15,
         "default_cargo_type": 7,
-        "refittable_cargo_classes": [
-            "CC_PIECE_GOODS"
-        ],
-        "non_refittable_cargo_classes": [
-            "CC_REFRIGERATED",
-            "CC_COVERED"
-        ],
+        "refittable_cargo_classes": 32,
+        "non_refittable_cargo_classes": 640,
         "cargo_allow_refit": [
-            "GOOD"
+            5
         ],
         "cargo_disallow_refit": [
-            "LVST"
+            4
         ],
         "shorten_by": 1,
         "sprite_id": 253,
@@ -6058,10 +4670,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -6069,16 +4678,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -6094,10 +4694,8 @@
         "cargo_capacity": 35,
         "loading_speed": 18,
         "default_cargo_type": 5,
-        "refittable_cargo_classes": [
-            "CC_EXPRESS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 4,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 0,
@@ -6116,10 +4714,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -6127,16 +4722,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -6152,10 +4738,8 @@
         "cargo_capacity": 50,
         "loading_speed": 25,
         "default_cargo_type": 5,
-        "refittable_cargo_classes": [
-            "CC_EXPRESS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 4,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 0,
@@ -6174,12 +4758,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Wagon length",
-            "Set refitted capacity",
-            "Build articulated engines",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 90,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -6187,16 +4766,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -6212,17 +4782,15 @@
         "cargo_capacity": 35,
         "loading_speed": 18,
         "default_cargo_type": 5,
-        "refittable_cargo_classes": [
-            "CC_EXPRESS"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 4,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [
-            "PAPR",
-            "PLAS",
-            "MNSP"
+            11,
+            26,
+            32
         ],
         "cargo_disallow_refit": [
-            "FOOD"
+            12
         ],
         "shorten_by": 0,
         "sprite_id": 253,
@@ -6240,10 +4808,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -6251,16 +4816,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -6276,12 +4832,12 @@
         "cargo_capacity": 35,
         "loading_speed": 18,
         "default_cargo_type": 23,
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [
-            "GOOD",
-            "VEHI",
-            "ENSP"
+            5,
+            23,
+            30
         ],
         "cargo_disallow_refit": [],
         "shorten_by": 0,
@@ -6300,10 +4856,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -6311,16 +4864,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -6336,12 +4880,10 @@
         "cargo_capacity": 20,
         "loading_speed": 7,
         "default_cargo_type": 3,
-        "refittable_cargo_classes": [
-            "CC_LIQUID"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 64,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [
-            "GOOD"
+            5
         ],
         "cargo_disallow_refit": [],
         "shorten_by": 3,
@@ -6360,10 +4902,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -6371,16 +4910,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -6396,12 +4926,10 @@
         "cargo_capacity": 25,
         "loading_speed": 9,
         "default_cargo_type": 3,
-        "refittable_cargo_classes": [
-            "CC_LIQUID"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 64,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [
-            "GOOD"
+            5
         ],
         "cargo_disallow_refit": [],
         "shorten_by": 2,
@@ -6420,10 +4948,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -6431,16 +4956,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -6456,12 +4972,10 @@
         "cargo_capacity": 35,
         "loading_speed": 12,
         "default_cargo_type": 3,
-        "refittable_cargo_classes": [
-            "CC_LIQUID"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 64,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [
-            "GOOD"
+            5
         ],
         "cargo_disallow_refit": [],
         "shorten_by": 0,
@@ -6480,10 +4994,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -6491,16 +5002,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -6516,12 +5018,10 @@
         "cargo_capacity": 35,
         "loading_speed": 12,
         "default_cargo_type": 3,
-        "refittable_cargo_classes": [
-            "CC_LIQUID"
-        ],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 64,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [
-            "GOOD"
+            5
         ],
         "cargo_disallow_refit": [],
         "shorten_by": 0,
@@ -6540,10 +5040,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -6551,16 +5048,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -6576,8 +5064,8 @@
         "cargo_capacity": 0,
         "loading_speed": 0,
         "default_cargo_type": 0,
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 4,
@@ -6596,10 +5084,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -6607,16 +5092,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 18,
         "cargo_age_period": 185
     },
     {
@@ -6632,8 +5108,8 @@
         "cargo_capacity": 0,
         "loading_speed": 0,
         "default_cargo_type": 0,
-        "refittable_cargo_classes": [],
-        "non_refittable_cargo_classes": [],
+        "refittable_cargo_classes": 0,
+        "non_refittable_cargo_classes": 0,
         "cargo_allow_refit": [],
         "cargo_disallow_refit": [],
         "shorten_by": 2,
@@ -6652,10 +5128,7 @@
         "extra_power_per_wagon": 0,
         "refit_cost": 0,
         "refittable_cargo_types": 0,
-        "cb_flags": [
-            "Set refitted capacity",
-            "Select color mapping for vehicle"
-        ],
+        "cb_flags": 72,
         "tractive_effort_coefficient": 0,
         "air_drag_coefficient": 0,
         "visual_effect_and_powered": 64,
@@ -6663,16 +5136,7 @@
         "weight_high": 0,
         "bitmask_vehicle_info": 0,
         "retire_early": 10,
-        "misc_flags": [
-            "Tilts in curves",
-            "2CC",
-            "DMU/EMU",
-            "Flippable",
-            "Auto-refit",
-            "Cargo multiplier",
-            "Disable breakdown smoke",
-            "Compose from multiple sprites"
-        ],
+        "misc_flags": 26,
         "cargo_age_period": 185
     }
 ]

@@ -51,13 +51,13 @@ class GRFFile(grf.LoadedResourceFile):
                         for k, v in vehicle.props.items() if len(v) == 1}
             self.trains[id].props = newprops
         # cleanup
-        for id, vehicle in self.trains.items():
-            for field in ["refittable_cargo_classes", "non_refittable_cargo_classes"]:
-                self.trains[id].props[field] = Vehicle.toReadableCargoClasses(self.trains[id].props[field])
-            for field in ["cargo_allow_refit", "cargo_disallow_refit"]:
-                self.trains[id].props[field] = Vehicle.toReadableCargo(self.trains[id].props[field], self.cargo_table)
-            self.trains[id].props["cb_flags"] = Vehicle.toReadableCallback(self.trains[id].props["cb_flags"])
-            self.trains[id].props["misc_flags"] = Vehicle.toReadableFlag(self.trains[id].props["misc_flags"])
+        # for id, vehicle in self.trains.items():
+        #     for field in ["refittable_cargo_classes", "non_refittable_cargo_classes"]:
+        #         self.trains[id].props[field] = Vehicle.toReadableCargoClasses(self.trains[id].props[field])
+        #     for field in ["cargo_allow_refit", "cargo_disallow_refit"]:
+        #         self.trains[id].props[field] = Vehicle.toReadableCargo(self.trains[id].props[field], self.cargo_table)
+        #     self.trains[id].props["cb_flags"] = Vehicle.toReadableCallback(self.trains[id].props["cb_flags"])
+        #     self.trains[id].props["misc_flags"] = Vehicle.toReadableFlag(self.trains[id].props["misc_flags"])
 
         # get sprite gorup names
         groups = [(group, sprite_id) for sprite_id in self.context.sprites if (

@@ -285,3 +285,28 @@ GROUP_TO_ID: dict[str, E] = {
     "train_230": E(121),
     "train_231": E(121, true),
 }
+
+SIMPLE_VEHICLES = {}
+
+
+def simpleVehicles() -> dict[str, E]:
+    global SIMPLE_VEHICLES
+    if SIMPLE_VEHICLES != {}:
+        return SIMPLE_VEHICLES
+
+    '''
+    a simple vehicle is:
+    - its id only appears once as a value
+    - does not have a dedicated purchase sprite
+    - has no liveries
+    '''
+    # invert the mapping
+    invGroups = {}
+    for name, e in GROUP_TO_ID.items():
+        if not e.isPurchaseSprite and e.liv == []:
+            invGroups[e.id] = invGroups.get(e.id, []) + [name]
+
+    simpleNames = [names[0] for id, names in invGroups.items() if len(names) == 1]
+    SIMPLE_VEHICLES = {name: GROUP_TO_ID[name] for name in simpleNames}
+
+    return SIMPLE_VEHICLES
