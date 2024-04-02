@@ -59,20 +59,50 @@ class GRFFile(grf.LoadedResourceFile):
             self.trains[id].props["cb_flags"] = Vehicle.toReadableCallback(self.trains[id].props["cb_flags"])
             self.trains[id].props["misc_flags"] = Vehicle.toReadableFlag(self.trains[id].props["misc_flags"])
 
+        # get sprite gorup names
         groups = [(group, sprite_id) for sprite_id in self.context.sprites if (
             group := self.context.sprites[sprite_id][-1]) is not None]
+        # map group names to sprite ids
         groupToSpriteIds = defaultdict(list)
         for (group, sprite_id) in groups:
             groupToSpriteIds[group].append(sprite_id)
 
+        # get the real sprites for each group
         real_sprites = []
         for (group, ids) in groupToSpriteIds.items():
             rgss = [self.real_sprites[id][-1] for id in ids]
-            sprites = [
-                {"width": sprite.width, "height": sprite.height, "xofs": sprite.xofs, "yofs": sprite.yofs,
-                 "zoom": sprite.zoom, "bpp": sprite.bpp} for sprite in rgss]
-            real_sprites.append({"group": group, "sprites": sprites})
+            sprites = []
+            # adapted from:
+            # https://github.com/citymania-org/grf-py/blob/965f222d7dbd5641db86ac51b4e1e9343f4f1c75/grf/decompile.py#L1369-L1418
+            # i do not have the brainpower to understand this right now
+            PADDING = 5
+            N = 8
+            w = 0
+            h = 0
+            line_ofs = []
+            # get line offsets for yofs
+            for i in range(0, len(rgss), N):
+                lw = sum(s.width for s in rgss[i: i + N]) + PADDING * 2 * N
+                lh = PADDING * 2 + max(s.height for s in rgss[i: i + N])
+                w = max(w, lw)
+                line_ofs.append(h)
+                h += lh
 
+            xofs = 0
+            for (i, sprite) in enumerate(rgss):
+                yofs = PADDING + line_ofs[i // N]
+                if i % N == 0:
+                    xofs = PADDING
+                x = xofs
+                y = yofs
+                sprites.append({
+                    "x": x, "y": y,
+                    "width": sprite.width, "height": sprite.height,
+                    "xofs": sprite.xofs, "yofs": sprite.yofs,
+                    "zoom": sprite.zoom, "bpp": sprite.bpp
+                })
+                xofs += sprite.width + 2 * PADDING
+            real_sprites.append({"group": group, "sprites": sprites})
         self.sprites = real_sprites
 
         # traverse the DAG of action3,2,1,0s
