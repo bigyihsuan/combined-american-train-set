@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "index": {
+        "train": {
+            "EMD SD40-2": 300,
+            "EMD SD9": 301,
+            "EMD SD45": 302,
+            "EMD Centennial": 303,
+            "EMD SD70MAC": 304,
+            "Alco Century": 305,
+            "GE U30C": 306,
+            "GE C36-7": 307,
+            "GE C40-8": 308,
+            "GE C44-9W": 309,
+            "GE P42DC Genesis": 310,
+            "GE Evolution": 311,
+            "FM Train Master": 312,
+            "Pennsylvania GG1": 313,
+            "Virginian EL-C": 314,
+            "GMD GF6C": 315,
+            "Siemens ACS-64": 316,
+            "EMC Doodlebug": 317,
+            "Electric Interurban": 318,
+            "Tank Car": 319,
+            "Caboose": 320
+        }
+    }
+}

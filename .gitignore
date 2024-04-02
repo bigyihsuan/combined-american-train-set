@@ -1,2 +1,5 @@
 decompiled
 __pycache__
+.cache
+dist
+*.tar
