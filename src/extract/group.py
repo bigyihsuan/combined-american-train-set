@@ -5,29 +5,13 @@ false = False
 true = True
 
 
-class K(Enum):
-    Full = auto()
-    Front = auto()
-    Back = auto()
-    Tender = auto()
-    End = auto()
-
-    def __repr__(self) -> str:
-        if self == K.Full:
-            return "Full"
-        elif self == K.Front:
-            return "Front"
-        elif self == K.Back:
-            return "Back"
-        elif self == K.Tender:
-            return "Tender"
-        elif self == K.End:
-            return "End"
-        else:
-            return "K.INVALID"
-
-    def __str__(self) -> str:
-        return self.__repr__()
+class Loc(str, Enum):
+    Unset = "Unset"
+    Full = "Full"
+    Front = "Front"
+    Back = "Back"
+    Tender = "Tender"
+    End = "End"
 
 
 @dataclass
@@ -35,19 +19,20 @@ class E:
     id: int = -1
     isPurchaseSprite: bool = False
     reversed: bool = False
-    loc: K = K.Full
+    loc: Loc = Loc.Full
     liv: list[int] = field(default_factory=list)
     alt: list[int] = field(default_factory=list)
     mu: bool = False  # whether this group is a car for an MU.
+    length: int = 8  # number of 1/8tl units the sprite is
 
     def ok(self) -> bool:
         return id == -1
 
 
-front = K.Front
-back = K.Back
-tender = K.Tender
-end = K.End
+front = Loc.Front
+back = Loc.Back
+tender = Loc.Tender
+end = Loc.End
 reversed = true
 
 GROUP_TO_ID: dict[str, E] = {
@@ -119,8 +104,8 @@ GROUP_TO_ID: dict[str, E] = {
     "train_64": E(26),
     "train_65": E(26, true),
     "train_66": E(27),
-    "train_67": E(28),
-    "train_68": E(28, true),
+    "train_67": E(28, length=10),  # emd centennial, 40px = 10/8tl
+    "train_68": E(28, true, length=10),  # emd centennial, 40px = 10/8tl
     "train_69": E(29),
     "train_70": E(30),
     "train_71": E(30, true),

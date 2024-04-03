@@ -5,7 +5,7 @@ from grf.sprites import THIS_FILE
 
 from PIL import Image
 import numpy as np
-from vehicle import Vehicle
+from vehicle import Sprite, SpriteGroup, Vehicle, VehicleProps
 
 
 class GRFFile(grf.LoadedResourceFile):
@@ -18,7 +18,7 @@ class GRFFile(grf.LoadedResourceFile):
         self.trains: dict[int, Vehicle] = {}
         self.cargo_table: list[str] = []
         self.context = grf.decompile.ParsingContext()
-        self.sprites = {}
+        self.sprites: list[SpriteGroup] = []
         self.load()
 
     def load(self):
@@ -34,7 +34,12 @@ class GRFFile(grf.LoadedResourceFile):
             # vehicle defs
             if isinstance(s, grf.Define) and s.feature == grf.TRAIN:
                 # print(type(s))
-                self.trains[s.id] = Vehicle(s.id, "", s.props)
+                # convert props to VehicleProps
+                propsDict = {k: v[0] for k, v in s.props.items()}
+                introDate = propsDict["introduction_date"]
+                propsDict["introduction_date"] = (introDate.year, introDate.month, introDate.day)
+                props = VehicleProps(**propsDict)
+                self.trains[s.id] = Vehicle(s.id, "", props)
             if isinstance(s, grf.DefineMultiple) and "cargo_table" in s.props:
                 self.cargo_table = [e.decode("utf-8") for e in s.props["cargo_table"]]
 
@@ -45,20 +50,6 @@ class GRFFile(grf.LoadedResourceFile):
                     name: bytes = s.strings[-1]
                     self.trains[s.offset].name = name.decode()
 
-        # unwrap single-element list
-        for id, vehicle in self.trains.items():
-            newprops = {k: v[0]
-                        for k, v in vehicle.props.items() if len(v) == 1}
-            self.trains[id].props = newprops
-        # cleanup
-        # for id, vehicle in self.trains.items():
-        #     for field in ["refittable_cargo_classes", "non_refittable_cargo_classes"]:
-        #         self.trains[id].props[field] = Vehicle.toReadableCargoClasses(self.trains[id].props[field])
-        #     for field in ["cargo_allow_refit", "cargo_disallow_refit"]:
-        #         self.trains[id].props[field] = Vehicle.toReadableCargo(self.trains[id].props[field], self.cargo_table)
-        #     self.trains[id].props["cb_flags"] = Vehicle.toReadableCallback(self.trains[id].props["cb_flags"])
-        #     self.trains[id].props["misc_flags"] = Vehicle.toReadableFlag(self.trains[id].props["misc_flags"])
-
         # get sprite gorup names
         groups = [(group, sprite_id) for sprite_id in self.context.sprites if (
             group := self.context.sprites[sprite_id][-1]) is not None]
@@ -68,10 +59,11 @@ class GRFFile(grf.LoadedResourceFile):
             groupToSpriteIds[group].append(sprite_id)
 
         # get the real sprites for each group
-        real_sprites = []
+        real_sprites: list[SpriteGroup] = []
         for (group, ids) in groupToSpriteIds.items():
             rgss = [self.real_sprites[id][-1] for id in ids]
-            sprites = []
+            sprites: list[Sprite] = []
+
             # adapted from:
             # https://github.com/citymania-org/grf-py/blob/965f222d7dbd5641db86ac51b4e1e9343f4f1c75/grf/decompile.py#L1369-L1418
             # i do not have the brainpower to understand this right now
@@ -95,35 +87,8 @@ class GRFFile(grf.LoadedResourceFile):
                     xofs = PADDING
                 x = xofs
                 y = yofs
-                sprites.append({
-                    "x": x, "y": y,
-                    "width": sprite.width, "height": sprite.height,
-                    "xofs": sprite.xofs, "yofs": sprite.yofs,
-                    "zoom": sprite.zoom, "bpp": sprite.bpp
-                })
+                sprites.append(Sprite(x, y, sprite.width, sprite.height,
+                               sprite.xofs, sprite.yofs, sprite.zoom, sprite.bpp))
                 xofs += sprite.width + 2 * PADDING
-            real_sprites.append({"group": group, "sprites": sprites})
+            real_sprites.append(SpriteGroup(group=group, realSprites=sprites))
         self.sprites = real_sprites
-
-        # traverse the DAG of action3,2,1,0s
-        # action3s = [sprite for nfoLine in self.pseudo_sprites if isinstance(
-        #     (sprite := self.pseudo_sprites[nfoLine]), grf.actions.Action3)]
-        # action2s = [
-        #     sprite for nfoLine in self.pseudo_sprites
-        #     if
-        #     isinstance(
-        #         (sprite := self.pseudo_sprites[nfoLine]),
-        #         (grf.actions.Switch, grf.actions.RandomSwitch, grf.actions.GenericSpriteLayout))]
-
-        # for action in action3s:
-        #     assert isinstance(action, grf.actions.Action3)
-        #     # print(action.ids, action.maps)
-        #     if 0xFF in action.maps:
-        #         ref = action.maps[255]
-        #         assert isinstance(ref, grf.Ref)
-        #         referencedActions = [action for action in action2s if action.ref_id == ref.ref_id]
-        #         for a in referencedActions:
-        #             print(type(a), a.__dict__)
-
-        # for action in action2s:
-        #     print(type(action), action.__dict__)

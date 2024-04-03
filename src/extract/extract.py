@@ -1,62 +1,66 @@
+import dataclasses
 import json
 from typing import Any
-import grf
 
+from vehicle import SpriteGroup, Vehicle, VehicleGraphics
 import grffile
-from group import GROUP_TO_ID, simpleVehicles
-
-import numpy as np
+from group import GROUP_TO_ID, simpleVehicles, Loc
 
 
 def extractProps():
     nars = grffile.GRFFile("./decompiled/newnars.grf")
+    trains = [train for train in nars.trains.values()]
+    trains.sort(key=lambda row: row.id)
+
     with open("./props/cargo-table.json", "w") as cargoTableJson:
         json.dump(nars.cargo_table, cargoTableJson)
 
     with open("./props/vehicle-stats.json", "w") as vehicleStatsJson:
-        rows = [train.flatten() for train in nars.trains.values()]
-        rows.sort(key=lambda row: row["id"])
-        json.dump(rows, vehicleStatsJson, sort_keys=False, default=str, indent=4)
+        rowsDict = [dataclasses.asdict(train) for train in trains]
+        json.dump(rowsDict, vehicleStatsJson, indent=4, default=str)
 
     with open("./props/sprites.json", "w") as spritesJson:
-        json.dump(nars.sprites, spritesJson, indent=4)
+        s = [dataclasses.asdict(e) for e in nars.sprites]
+        json.dump(s, spritesJson, indent=4, default=str)
 
-    with open("./props/vehicle-stats.json", "r") as vehicleStatsJson, open("./props/sprites.json", "r") as spritesJson, open("./props/vehicle-stats-sprites.json", "w") as vehicleStatsSpritesJson, open("./props/simple-vehicle-stats.json", "w") as simpleVehicleStatsJson:
-        stats: list[dict[str, Any]] = json.load(vehicleStatsJson)
-        sprites: list[dict[str, Any]] = json.load(spritesJson)
-        statsSprites = {stat["id"]: stat for stat in stats}
-        simpleStatSprites = []
+    with open("./props/vehicle-stats-sprites.json", "w") as vehicleStatsSpritesJson, \
+            open("./props/simple-vehicle-stats.json", "w") as simpleVehicleStatsJson:
+        statsDict: dict[int, Vehicle] = {train.id: train for train in trains}
+        spriteGroups: list[SpriteGroup] = nars.sprites
+        simpleStatSprites: list[Vehicle] = []
 
-        group: dict[str, Any]
-        for group in sprites:
-            groupName = group["group"]
+        outputStats: list[Vehicle] = []
+
+        for spriteGroup in spriteGroups:
+            groupName = spriteGroup.group
             if groupName in GROUP_TO_ID:
                 e = GROUP_TO_ID[groupName]
                 if e.id == -1:
                     continue  # skip groups that are not vehicles
-                stat = statsSprites[e.id]
-                if "graphics" not in stat:
-                    stat["graphics"] = {
-                        "purchaseSprite": {},
-                        "sprites": []
-                    }
+                if spriteGroup.loc == Loc.Unset:
+                    spriteGroup.loc = e.loc
 
+                stat: Vehicle = statsDict[e.id]
                 if e.isPurchaseSprite:
-                    stat["graphics"]["purchaseSprite"] = {groupName: group["sprites"]}
-                else:
-                    stat["graphics"]["sprites"].append({
-                        "group": groupName,
-                        "loc": e.loc,
-                        "realSprites": group["sprites"]
-                    })
-                statsSprites[e.id] = stat
+                    stat.graphics.purchaseSprite = spriteGroup
+                elif e.id == stat.id:
 
-                if groupName in simpleVehicles() and len(group["sprites"]) == 8:
+                    stat.graphics.sprites.append(spriteGroup)
+
+                # also set length
+                if e.length != 8:
+                    stat.props.length = e.length
+                    if stat.props.shorten_by == 0:
+                        stat.props.shorten_by = None
+
+                if groupName in simpleVehicles() and len(spriteGroup.realSprites) == 8:
                     simpleStatSprites.append(stat)
+                outputStats.append(stat)
 
-        statsSprites = [stat for stat in statsSprites.values()]
-        json.dump(statsSprites, vehicleStatsSpritesJson, sort_keys=False, default=str, indent=4)
-        json.dump(simpleStatSprites, simpleVehicleStatsJson, sort_keys=False, default=str, indent=4)
+        stasSpritesDict = [dataclasses.asdict(stat) for stat in statsDict.values()]
+        simpleStatSpritesDict = [dataclasses.asdict(stat) for stat in simpleStatSprites]
+        json.dump(stasSpritesDict, vehicleStatsSpritesJson, default=str, indent=4)
+        json.dump(simpleStatSpritesDict, simpleVehicleStatsJson, default=str, indent=4)
 
 
 if __name__ == "__main__":

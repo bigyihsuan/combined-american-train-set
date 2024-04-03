@@ -1,7 +1,8 @@
 [
     {
         "group": "train_0",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -16,7 +17,8 @@
     },
     {
         "group": "train_1",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -181,7 +183,8 @@
     },
     {
         "group": "train_2",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -196,7 +199,8 @@
     },
     {
         "group": "train_3",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -601,7 +605,8 @@
     },
     {
         "group": "train_4",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -616,7 +621,8 @@
     },
     {
         "group": "train_5",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -1021,7 +1027,8 @@
     },
     {
         "group": "train_6",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -1036,7 +1043,8 @@
     },
     {
         "group": "train_7",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -1441,7 +1449,8 @@
     },
     {
         "group": "train_8",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -1456,7 +1465,8 @@
     },
     {
         "group": "train_9",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -1861,7 +1871,8 @@
     },
     {
         "group": "train_10",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -1876,7 +1887,8 @@
     },
     {
         "group": "train_11",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -2281,7 +2293,8 @@
     },
     {
         "group": "train_12",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -2296,7 +2309,8 @@
     },
     {
         "group": "train_13",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -2701,7 +2715,8 @@
     },
     {
         "group": "train_14",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -2716,7 +2731,8 @@
     },
     {
         "group": "train_15",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -3121,7 +3137,8 @@
     },
     {
         "group": "train_16",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -3136,7 +3153,8 @@
     },
     {
         "group": "train_17",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -3541,7 +3559,8 @@
     },
     {
         "group": "train_18",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -3946,7 +3965,8 @@
     },
     {
         "group": "train_19",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -3961,7 +3981,8 @@
     },
     {
         "group": "train_20",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -4366,7 +4387,8 @@
     },
     {
         "group": "train_21",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -4381,7 +4403,8 @@
     },
     {
         "group": "train_22",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -4786,7 +4809,8 @@
     },
     {
         "group": "train_23",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -4801,7 +4825,8 @@
     },
     {
         "group": "train_24",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -5206,7 +5231,8 @@
     },
     {
         "group": "train_25",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -5221,7 +5247,8 @@
     },
     {
         "group": "train_26",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -5626,7 +5653,8 @@
     },
     {
         "group": "train_27",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -5641,7 +5669,8 @@
     },
     {
         "group": "train_28",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -6046,7 +6075,8 @@
     },
     {
         "group": "train_29",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -6061,7 +6091,8 @@
     },
     {
         "group": "train_30",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -6386,7 +6417,8 @@
     },
     {
         "group": "train_31",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -6711,7 +6743,8 @@
     },
     {
         "group": "train_32",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -7036,7 +7069,8 @@
     },
     {
         "group": "train_33",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -7361,7 +7395,8 @@
     },
     {
         "group": "train_34",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -7446,7 +7481,8 @@
     },
     {
         "group": "train_35",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -7461,7 +7497,8 @@
     },
     {
         "group": "train_36",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -7866,7 +7903,8 @@
     },
     {
         "group": "train_37",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -7881,7 +7919,8 @@
     },
     {
         "group": "train_38",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -8206,7 +8245,8 @@
     },
     {
         "group": "train_39",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -8291,7 +8331,8 @@
     },
     {
         "group": "train_40",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -8306,7 +8347,8 @@
     },
     {
         "group": "train_41",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -8631,7 +8673,8 @@
     },
     {
         "group": "train_42",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -8956,7 +8999,8 @@
     },
     {
         "group": "train_43",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -9281,7 +9325,8 @@
     },
     {
         "group": "train_44",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -9606,7 +9651,8 @@
     },
     {
         "group": "train_45",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -9691,7 +9737,8 @@
     },
     {
         "group": "train_46",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -9706,7 +9753,8 @@
     },
     {
         "group": "train_47",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -10031,7 +10079,8 @@
     },
     {
         "group": "train_48",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -10116,7 +10165,8 @@
     },
     {
         "group": "train_49",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -10131,7 +10181,8 @@
     },
     {
         "group": "train_50",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -10536,7 +10587,8 @@
     },
     {
         "group": "train_51",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -10551,7 +10603,8 @@
     },
     {
         "group": "train_52",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -10956,7 +11009,8 @@
     },
     {
         "group": "train_53",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -10971,7 +11025,8 @@
     },
     {
         "group": "train_54",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -11136,7 +11191,8 @@
     },
     {
         "group": "train_55",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -11461,7 +11517,8 @@
     },
     {
         "group": "train_56",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -11476,7 +11533,8 @@
     },
     {
         "group": "train_57",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -11721,7 +11779,8 @@
     },
     {
         "group": "train_58",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -11736,7 +11795,8 @@
     },
     {
         "group": "train_59",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -12061,7 +12121,8 @@
     },
     {
         "group": "train_60",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -12076,7 +12137,8 @@
     },
     {
         "group": "train_61",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -12241,7 +12303,8 @@
     },
     {
         "group": "train_62",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -12256,7 +12319,8 @@
     },
     {
         "group": "train_63",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -12341,7 +12405,8 @@
     },
     {
         "group": "train_64",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -12586,7 +12651,8 @@
     },
     {
         "group": "train_65",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -12601,7 +12667,8 @@
     },
     {
         "group": "train_66",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -12686,7 +12753,8 @@
     },
     {
         "group": "train_67",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -12771,7 +12839,8 @@
     },
     {
         "group": "train_68",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -12796,7 +12865,8 @@
     },
     {
         "group": "train_69",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -12881,7 +12951,8 @@
     },
     {
         "group": "train_70",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -13046,7 +13117,8 @@
     },
     {
         "group": "train_71",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -13061,7 +13133,8 @@
     },
     {
         "group": "train_72",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -13226,7 +13299,8 @@
     },
     {
         "group": "train_73",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -13241,7 +13315,8 @@
     },
     {
         "group": "train_74",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -13566,7 +13641,8 @@
     },
     {
         "group": "train_75",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -13581,7 +13657,8 @@
     },
     {
         "group": "train_76",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -13666,7 +13743,8 @@
     },
     {
         "group": "train_77",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -13831,7 +13909,8 @@
     },
     {
         "group": "train_78",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -13996,7 +14075,8 @@
     },
     {
         "group": "train_79",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -14011,7 +14091,8 @@
     },
     {
         "group": "train_80",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -14256,7 +14337,8 @@
     },
     {
         "group": "train_81",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -14271,7 +14353,8 @@
     },
     {
         "group": "train_82",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -14436,7 +14519,8 @@
     },
     {
         "group": "train_83",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -14761,7 +14845,8 @@
     },
     {
         "group": "train_84",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -14776,7 +14861,8 @@
     },
     {
         "group": "train_85",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -14941,7 +15027,8 @@
     },
     {
         "group": "train_86",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -14956,7 +15043,8 @@
     },
     {
         "group": "train_87",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -15041,7 +15129,8 @@
     },
     {
         "group": "train_88",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -15206,7 +15295,8 @@
     },
     {
         "group": "train_89",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -15221,7 +15311,8 @@
     },
     {
         "group": "train_90",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -15306,7 +15397,8 @@
     },
     {
         "group": "train_91",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -15391,7 +15483,8 @@
     },
     {
         "group": "train_92",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -15476,7 +15569,8 @@
     },
     {
         "group": "train_93",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -15561,7 +15655,8 @@
     },
     {
         "group": "train_94",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -15646,7 +15741,8 @@
     },
     {
         "group": "train_95",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -15731,7 +15827,8 @@
     },
     {
         "group": "train_96",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -16056,7 +16153,8 @@
     },
     {
         "group": "train_97",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -16071,7 +16169,8 @@
     },
     {
         "group": "train_98",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -16156,7 +16255,8 @@
     },
     {
         "group": "train_99",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -16401,7 +16501,8 @@
     },
     {
         "group": "train_100",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -16416,7 +16517,8 @@
     },
     {
         "group": "train_101",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -16581,7 +16683,8 @@
     },
     {
         "group": "train_102",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -16596,7 +16699,8 @@
     },
     {
         "group": "train_103",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -16761,7 +16865,8 @@
     },
     {
         "group": "train_104",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -16776,7 +16881,8 @@
     },
     {
         "group": "train_105",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -16941,7 +17047,8 @@
     },
     {
         "group": "train_106",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -16956,7 +17063,8 @@
     },
     {
         "group": "train_107",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -17041,7 +17149,8 @@
     },
     {
         "group": "train_108",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -17126,7 +17235,8 @@
     },
     {
         "group": "train_109",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -17371,7 +17481,8 @@
     },
     {
         "group": "train_110",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -17386,7 +17497,8 @@
     },
     {
         "group": "train_111",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -17551,7 +17663,8 @@
     },
     {
         "group": "train_112",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -17566,7 +17679,8 @@
     },
     {
         "group": "train_113",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -17731,7 +17845,8 @@
     },
     {
         "group": "train_114",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -17746,7 +17861,8 @@
     },
     {
         "group": "train_115",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -17831,7 +17947,8 @@
     },
     {
         "group": "train_116",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -17916,7 +18033,8 @@
     },
     {
         "group": "train_117",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -18001,7 +18119,8 @@
     },
     {
         "group": "train_118",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -18046,7 +18165,8 @@
     },
     {
         "group": "train_119",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -18451,7 +18571,8 @@
     },
     {
         "group": "train_120",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -18466,7 +18587,8 @@
     },
     {
         "group": "train_121",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -18631,7 +18753,8 @@
     },
     {
         "group": "train_122",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -18716,7 +18839,8 @@
     },
     {
         "group": "train_123",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -18881,7 +19005,8 @@
     },
     {
         "group": "train_124",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -19046,7 +19171,8 @@
     },
     {
         "group": "train_125",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -19131,7 +19257,8 @@
     },
     {
         "group": "train_126",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -19296,7 +19423,8 @@
     },
     {
         "group": "train_127",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -19381,7 +19509,8 @@
     },
     {
         "group": "train_128",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -19466,7 +19595,8 @@
     },
     {
         "group": "train_129",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -19551,7 +19681,8 @@
     },
     {
         "group": "train_130",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -19716,7 +19847,8 @@
     },
     {
         "group": "train_131",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -19881,7 +20013,8 @@
     },
     {
         "group": "train_132",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -19966,7 +20099,8 @@
     },
     {
         "group": "train_133",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -20051,7 +20185,8 @@
     },
     {
         "group": "train_134",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -20216,7 +20351,8 @@
     },
     {
         "group": "train_135",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -20301,7 +20437,8 @@
     },
     {
         "group": "train_136",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -20466,7 +20603,8 @@
     },
     {
         "group": "train_137",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -20551,7 +20689,8 @@
     },
     {
         "group": "train_138",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -20636,7 +20775,8 @@
     },
     {
         "group": "train_139",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -20721,7 +20861,8 @@
     },
     {
         "group": "train_140",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -20886,7 +21027,8 @@
     },
     {
         "group": "train_141",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -20901,7 +21043,8 @@
     },
     {
         "group": "train_142",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -21226,7 +21369,8 @@
     },
     {
         "group": "train_143",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -21711,7 +21855,8 @@
     },
     {
         "group": "train_144",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -22036,7 +22181,8 @@
     },
     {
         "group": "train_145",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -22201,7 +22347,8 @@
     },
     {
         "group": "train_146",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -22366,7 +22513,8 @@
     },
     {
         "group": "train_147",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -22691,7 +22839,8 @@
     },
     {
         "group": "train_148",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -22936,7 +23085,8 @@
     },
     {
         "group": "train_149",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -22951,7 +23101,8 @@
     },
     {
         "group": "train_150",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -23276,7 +23427,8 @@
     },
     {
         "group": "train_151",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -23291,7 +23443,8 @@
     },
     {
         "group": "train_152",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -23376,7 +23529,8 @@
     },
     {
         "group": "train_153",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -23541,7 +23695,8 @@
     },
     {
         "group": "train_154",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -23626,7 +23781,8 @@
     },
     {
         "group": "train_155",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -23791,7 +23947,8 @@
     },
     {
         "group": "train_156",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -23876,7 +24033,8 @@
     },
     {
         "group": "train_157",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -24041,7 +24199,8 @@
     },
     {
         "group": "train_158",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -24526,7 +24685,8 @@
     },
     {
         "group": "train_159",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -24541,7 +24701,8 @@
     },
     {
         "group": "train_160",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -24706,7 +24867,8 @@
     },
     {
         "group": "train_161",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -24721,7 +24883,8 @@
     },
     {
         "group": "train_162",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -24886,7 +25049,8 @@
     },
     {
         "group": "train_163",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -24901,7 +25065,8 @@
     },
     {
         "group": "train_164",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -25386,7 +25551,8 @@
     },
     {
         "group": "train_165",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -25401,7 +25567,8 @@
     },
     {
         "group": "train_166",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -26206,7 +26373,8 @@
     },
     {
         "group": "train_167",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -26221,7 +26389,8 @@
     },
     {
         "group": "train_168",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -26386,7 +26555,8 @@
     },
     {
         "group": "train_169",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -26871,7 +27041,8 @@
     },
     {
         "group": "train_170",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -26886,7 +27057,8 @@
     },
     {
         "group": "train_171",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -27051,7 +27223,8 @@
     },
     {
         "group": "train_172",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -27376,7 +27549,8 @@
     },
     {
         "group": "train_173",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -27391,7 +27565,8 @@
     },
     {
         "group": "train_174",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -27556,7 +27731,8 @@
     },
     {
         "group": "train_175",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -27571,7 +27747,8 @@
     },
     {
         "group": "train_176",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -27896,7 +28073,8 @@
     },
     {
         "group": "train_177",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -27911,7 +28089,8 @@
     },
     {
         "group": "train_178",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -28236,7 +28415,8 @@
     },
     {
         "group": "train_179",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -28251,7 +28431,8 @@
     },
     {
         "group": "train_180",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -28416,7 +28597,8 @@
     },
     {
         "group": "train_181",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -28431,7 +28613,8 @@
     },
     {
         "group": "train_182",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -28756,7 +28939,8 @@
     },
     {
         "group": "train_183",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -28771,7 +28955,8 @@
     },
     {
         "group": "train_184",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -29176,7 +29361,8 @@
     },
     {
         "group": "train_185",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -29191,7 +29377,8 @@
     },
     {
         "group": "train_186",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -29596,7 +29783,8 @@
     },
     {
         "group": "train_187",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -30081,7 +30269,8 @@
     },
     {
         "group": "train_188",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -30096,7 +30285,8 @@
     },
     {
         "group": "train_189",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -30501,7 +30691,8 @@
     },
     {
         "group": "train_190",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -31306,7 +31497,8 @@
     },
     {
         "group": "train_191",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -31431,7 +31623,8 @@
     },
     {
         "group": "train_192",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -31676,7 +31869,8 @@
     },
     {
         "group": "train_193",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -31761,7 +31955,8 @@
     },
     {
         "group": "train_194",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -31846,7 +32041,8 @@
     },
     {
         "group": "train_195",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -31861,7 +32057,8 @@
     },
     {
         "group": "train_196",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -31876,7 +32073,8 @@
     },
     {
         "group": "train_197",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -32761,7 +32959,8 @@
     },
     {
         "group": "train_198",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -32776,7 +32975,8 @@
     },
     {
         "group": "train_199",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -33981,7 +34181,8 @@
     },
     {
         "group": "train_200",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -33996,7 +34197,8 @@
     },
     {
         "group": "train_201",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -35121,7 +35323,8 @@
     },
     {
         "group": "train_202",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -36406,7 +36609,8 @@
     },
     {
         "group": "train_203",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -36731,7 +36935,8 @@
     },
     {
         "group": "train_204",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -36896,7 +37101,8 @@
     },
     {
         "group": "train_205",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -36911,7 +37117,8 @@
     },
     {
         "group": "train_206",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -37796,7 +38003,8 @@
     },
     {
         "group": "train_207",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -37811,7 +38019,8 @@
     },
     {
         "group": "train_208",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -39176,7 +39385,8 @@
     },
     {
         "group": "train_209",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -39501,7 +39711,8 @@
     },
     {
         "group": "train_210",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -41346,7 +41557,8 @@
     },
     {
         "group": "train_211",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -43031,7 +43243,8 @@
     },
     {
         "group": "train_212",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -44716,7 +44929,8 @@
     },
     {
         "group": "train_213",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -44961,7 +45175,8 @@
     },
     {
         "group": "train_214",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -46646,7 +46861,8 @@
     },
     {
         "group": "train_215",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -46661,7 +46877,8 @@
     },
     {
         "group": "train_216",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -46986,7 +47203,8 @@
     },
     {
         "group": "train_217",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -47151,7 +47369,8 @@
     },
     {
         "group": "train_218",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -47476,7 +47695,8 @@
     },
     {
         "group": "train_219",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -47801,7 +48021,8 @@
     },
     {
         "group": "train_220",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -47886,7 +48107,8 @@
     },
     {
         "group": "train_221",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -47901,7 +48123,8 @@
     },
     {
         "group": "train_222",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -48226,7 +48449,8 @@
     },
     {
         "group": "train_223",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -48241,7 +48465,8 @@
     },
     {
         "group": "train_224",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -48326,7 +48551,8 @@
     },
     {
         "group": "train_225",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -48371,7 +48597,8 @@
     },
     {
         "group": "train_226",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -48536,7 +48763,8 @@
     },
     {
         "group": "train_227",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -48621,7 +48849,8 @@
     },
     {
         "group": "train_228",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -48706,7 +48935,8 @@
     },
     {
         "group": "train_229",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -48721,7 +48951,8 @@
     },
     {
         "group": "train_230",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
@@ -48886,7 +49117,8 @@
     },
     {
         "group": "train_231",
-        "sprites": [
+        "loc": "Unset",
+        "realSprites": [
             {
                 "x": 5,
                 "y": 5,
