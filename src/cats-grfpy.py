@@ -15,10 +15,12 @@ g = grf.NewGRF(
 
 Train = g.bind(grf.Train)
 
-with open("./extract/cargo-table.json", "r") as cargoTableFile:
+g.add(grf.DisableDefault(grf.TRAIN))
+
+with open("./props/cargo-table.json", "r") as cargoTableFile:
     g.set_cargo_table(json.load(cargoTableFile))
 
-with open("./extract/simple-vehicle-stats.json", "r") as vehicleFile:
+with open("./props/simple-vehicle-stats.json", "r") as vehicleFile:
     vehicleProps: list[dict[str, Any]] = json.load(vehicleFile)
 
     for vehicle in vehicleProps:
@@ -28,7 +30,7 @@ with open("./extract/simple-vehicle-stats.json", "r") as vehicleFile:
         sprites = []
         for glr in spriteInfos:
             groupName = glr["group"]
-            image = grf.ImageFile(f"./decompiled/newnars/resources/{groupName}.png")
+            image = grf.ImageFile(f"./res/{groupName}.png")
             sprites.extend([grf.FileSprite(
                 image,
                 rs["x"],
@@ -43,7 +45,7 @@ with open("./extract/simple-vehicle-stats.json", "r") as vehicleFile:
         introDate = datetime.datetime.strptime(vehicle["introduction_date"], "%Y-%m-%d").date()
         train = Train(
             id=vehicle["id"],
-            name=vehicle["name"],
+            name="CATS " + vehicle["name"],
             max_speed=Train.kmhish(vehicle["max_speed"]),
             weight=Train.ton(vehicle["weight_low"]),
             liveries=[{"name": "Default", "sprites": sprites}],

@@ -12,14 +12,12 @@ function default() {
 
 function extract() {
     echo "Extracting vehicle info..."
-    cd extract/
-    python3 extract-vehicle-props.py
-    cd ..
+    python3 src/extract/extract.py
 }
 
 function compile() {
     echo "Compiling GRF..."
-    python3 src/cats.py
+    python3 src/cats-grfpy.py
 }
 
 function bundle() {
