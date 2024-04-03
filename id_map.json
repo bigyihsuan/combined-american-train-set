@@ -22,7 +22,9 @@
             "EMC Doodlebug": 317,
             "Electric Interurban": 318,
             "Tank Car": 319,
-            "Caboose": 320
+            "Caboose": 320,
+            "__28_aa_mid": 321,
+            "__28_aa_tail": 322
         }
     }
 }

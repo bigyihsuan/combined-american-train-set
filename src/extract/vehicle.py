@@ -1,9 +1,36 @@
 from dataclasses import dataclass, field
-import datetime
-from typing import Any
-import group as G
 
-import grf
+from dataclasses import dataclass, field
+
+from enum import Enum
+
+
+class Loc(str, Enum):
+    Unset = "Unset"
+    Full = "Full"
+    Front = "Front"
+    Back = "Back"
+    Tender = "Tender"
+    End = "End"
+
+
+@dataclass
+class Sprite:
+    x: int = 0
+    y: int = 0
+    width: int = 0
+    height: int = 0
+    xofs: int = 0
+    yofs: int = 0
+    zoom: int = 0
+    bpp: int = 0
+
+
+@dataclass
+class SpriteGroup:
+    group: str = ""
+    loc: str = Loc.Unset
+    realSprites: list[Sprite] = field(default_factory=list)
 
 
 CARGO_CLASSES = [
@@ -60,25 +87,6 @@ class VehicleProps:
     cargo_allow_refit: list[int] = field(default_factory=list)
     cargo_disallow_refit: list[int] = field(default_factory=list)
     length: int = 8
-
-
-@dataclass
-class Sprite:
-    x: int = 0
-    y: int = 0
-    width: int = 0
-    height: int = 0
-    xofs: int = 0
-    yofs: int = 0
-    zoom: int = 0
-    bpp: int = 0
-
-
-@dataclass
-class SpriteGroup:
-    group: str = ""
-    loc: str = G.Loc.Unset
-    realSprites: list[Sprite] = field(default_factory=list)
 
 
 @dataclass

@@ -1,10 +1,6 @@
 from collections import defaultdict
-import json
 import grf
-from grf.sprites import THIS_FILE
 
-from PIL import Image
-import numpy as np
 from vehicle import Sprite, SpriteGroup, Vehicle, VehicleProps
 
 

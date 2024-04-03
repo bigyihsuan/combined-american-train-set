@@ -12,7 +12,7 @@ function default() {
 
 function extract() {
     echo "Extracting vehicle info..."
-    python3 src/extract/extract.py
+    python3 src/extract/extractProps.py
 }
 
 function compile() {

@@ -1,17 +1,9 @@
 from dataclasses import dataclass, field
-from enum import Enum, auto
+
+from vehicle import Loc
 
 false = False
 true = True
-
-
-class Loc(str, Enum):
-    Unset = "Unset"
-    Full = "Full"
-    Front = "Front"
-    Back = "Back"
-    Tender = "Tender"
-    End = "End"
 
 
 @dataclass

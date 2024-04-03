@@ -1,10 +1,9 @@
 import dataclasses
 import json
-from typing import Any
 
-from vehicle import SpriteGroup, Vehicle, VehicleGraphics
+from group import GROUP_TO_ID, simpleVehicles
+from vehicle import Vehicle, Loc, SpriteGroup
 import grffile
-from group import GROUP_TO_ID, simpleVehicles, Loc
 
 
 def extractProps():
