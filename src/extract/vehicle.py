@@ -2,16 +2,7 @@ from dataclasses import dataclass, field
 
 from dataclasses import dataclass, field
 
-from enum import Enum
-
-
-class Loc(str, Enum):
-    Unset = "Unset"
-    Full = "Full"
-    Front = "Front"
-    Back = "Back"
-    Tender = "Tender"
-    End = "End"
+from enums import Loc
 
 
 @dataclass

@@ -20,7 +20,8 @@ g.add(grf.DisableDefault(grf.TRAIN))
 with open("./props/cargo-table.json", "r") as cargoTableFile:
     g.set_cargo_table(json.load(cargoTableFile))
 
-with open("./props/simple-vehicle-stats.json", "r") as vehicleFile:
+# with open("./props/simple-vehicle-stats.json", "r") as vehicleFile:
+with open("./props/vehicle-stats-sprites.json", "r") as vehicleFile:
     vehicles: list[Vehicle] = [Vehicle(**e) for e in json.load(vehicleFile)]
     assert all(isinstance(vehicle, Vehicle) for vehicle in vehicles)
 

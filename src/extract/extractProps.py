@@ -22,8 +22,9 @@ def extractProps():
         s = [dataclasses.asdict(e) for e in nars.sprites]
         json.dump(s, spritesJson, indent=4, default=str)
 
-    with open("./props/vehicle-stats-sprites.json", "w") as vehicleStatsSpritesJson, \
-            open("./props/simple-vehicle-stats.json", "w") as simpleVehicleStatsJson:
+    with open("./props/vehicle-stats-sprites.json", "w") as vehicleStatsSpritesJson:  # \
+        # open("./props/simple-vehicle-stats.json", "w") as simpleVehicleStatsJson:
+
         statsDict: dict[int, Vehicle] = {train.id: train for train in trains}
         spriteGroups: list[SpriteGroup] = nars.sprites
         simpleStatSprites: list[Vehicle] = []
@@ -43,7 +44,6 @@ def extractProps():
                 if e.isPurchaseSprite:
                     stat.graphics.purchaseSprite = spriteGroup
                 elif e.id == stat.id:
-
                     stat.graphics.sprites.append(spriteGroup)
 
                 # also set length
@@ -52,14 +52,17 @@ def extractProps():
                     if stat.props.shorten_by == 0:
                         stat.props.shorten_by = None
 
-                if groupName in simpleVehicles() and len(spriteGroup.realSprites) == 8:
-                    simpleStatSprites.append(stat)
+                #! temp filter for "simple" vehicles
+                #! currently, anything that has exactly 8 sprites, and no purchase sprites
+                # if groupName in simpleVehicles() and len(spriteGroup.realSprites) == 8:
+                #     simpleStatSprites.append(stat)
                 outputStats.append(stat)
 
         stasSpritesDict = [dataclasses.asdict(stat) for stat in statsDict.values()]
-        simpleStatSpritesDict = [dataclasses.asdict(stat) for stat in simpleStatSprites]
         json.dump(stasSpritesDict, vehicleStatsSpritesJson, default=str, indent=4)
-        json.dump(simpleStatSpritesDict, simpleVehicleStatsJson, default=str, indent=4)
+
+        # simpleStatSpritesDict = [dataclasses.asdict(stat) for stat in simpleStatSprites]
+        # json.dump(simpleStatSpritesDict, simpleVehicleStatsJson, default=str, indent=4)
 
 
 if __name__ == "__main__":
