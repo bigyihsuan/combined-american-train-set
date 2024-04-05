@@ -1,12 +1,25 @@
 from dataclasses import dataclass, field
-
-from dataclasses import dataclass, field
+from typing import Any
 
 from enums import Loc
+from group import G
+
+import grf
+
+CARGO_CLASSES = [
+    "CC_PASSENGERS", "CC_MAIL", "CC_EXPRESS", "CC_ARMOURED", "CC_BULK", "CC_PIECE_GOODS", "CC_LIQUID",
+    "CC_REFRIGERATED", "CC_HAZARDOUS", "CC_COVERED", "CC_OVERSIZED", "CC_POWDERIZED", "CC_NON_POURABLE", "CC_NEO_BULK",
+    "CC_SPECIAL",]
+CALLBACKS = ["VEH_CBF_VISUAL_EFFECT_AND_POWERED", "VEH_CBF_WAGON_LENGTH", "VEH_CBF_LOAD_AMOUNT",
+             "VEH_CBF_REFITTED_CAPACITY", "VEH_CBF_ARTICULATED_PARTS", "VEH_CBF_CARGO_SUFFIX",
+             "VEH_CBF_COLOUR_MAPPING", "Sound effect callbacks (unused)"]
+FLAGS = ["TRAIN_FLAG_TILT", "TRAIN_FLAG_2CC", "TRAIN_FLAG_MU", "TRAIN_FLAG_FLIP", "TRAIN_FLAG_AUTOREFIT",
+         "Cargo multiplier (unused)", "TRAIN_FLAG_NO_BREAKDOWN_SMOKE", "TRAIN_FLAG_SPRITE_STACK"]
 
 
 @dataclass
 class Sprite:
+    file: str = ""
     x: int = 0
     y: int = 0
     width: int = 0
@@ -20,19 +33,21 @@ class Sprite:
 @dataclass
 class SpriteGroup:
     group: str = ""
-    loc: str = Loc.Unset
+    g: G = field(default_factory=G)
     realSprites: list[Sprite] = field(default_factory=list)
 
-
-CARGO_CLASSES = [
-    "CC_PASSENGERS", "CC_MAIL", "CC_EXPRESS", "CC_ARMOURED", "CC_BULK", "CC_PIECE_GOODS", "CC_LIQUID",
-    "CC_REFRIGERATED", "CC_HAZARDOUS", "CC_COVERED", "CC_OVERSIZED", "CC_POWDERIZED", "CC_NON_POURABLE", "CC_NEO_BULK",
-    "CC_SPECIAL",]
-CALLBACKS = ["VEH_CBF_VISUAL_EFFECT_AND_POWERED", "VEH_CBF_WAGON_LENGTH", "VEH_CBF_LOAD_AMOUNT",
-             "VEH_CBF_REFITTED_CAPACITY", "VEH_CBF_ARTICULATED_PARTS", "VEH_CBF_CARGO_SUFFIX",
-             "VEH_CBF_COLOUR_MAPPING", "Sound effect callbacks (unused)"]
-FLAGS = ["TRAIN_FLAG_TILT", "TRAIN_FLAG_2CC", "TRAIN_FLAG_MU", "TRAIN_FLAG_FLIP", "TRAIN_FLAG_AUTOREFIT",
-         "Cargo multiplier (unused)", "TRAIN_FLAG_NO_BREAKDOWN_SMOKE", "TRAIN_FLAG_SPRITE_STACK"]
+    def __post_init__(self):
+        if not isinstance(self.g, G):
+            g: Any = self.g
+            self.g = G(**g)
+        realSprites = []
+        for realSprite in self.realSprites:
+            if not isinstance(realSprite, Sprite):
+                rs: Any = realSprite
+                realSprites.append(Sprite(**rs))
+            else:
+                realSprites.append(realSprite)
+        self.realSprites = realSprites
 
 
 @dataclass
@@ -83,7 +98,21 @@ class VehicleProps:
 @dataclass
 class VehicleGraphics:
     purchaseSprite: SpriteGroup = field(default_factory=SpriteGroup)
-    sprites: list[SpriteGroup] = field(default_factory=list)
+    spriteGroups: list[SpriteGroup] = field(default_factory=list)
+
+    def __post_init__(self):
+        if not isinstance(self.purchaseSprite, SpriteGroup):
+            purchaseSprite: Any = self.purchaseSprite
+            self.purchaseSprite = SpriteGroup(**purchaseSprite)
+
+        spriteGroups: list[SpriteGroup] = []
+        for spriteGroup in self.spriteGroups:
+            if not isinstance(spriteGroup, SpriteGroup):
+                sg: Any = spriteGroup
+                spriteGroups.append(SpriteGroup(**sg))
+            else:
+                spriteGroups.append(spriteGroup)
+        self.spriteGroups = spriteGroups
 
 
 @dataclass
@@ -92,6 +121,14 @@ class Vehicle:
     name: str = ""
     props: VehicleProps = field(default_factory=VehicleProps)
     graphics: VehicleGraphics = field(default_factory=VehicleGraphics)
+
+    def __post_init__(self):
+        if not isinstance(self.props, VehicleProps):
+            props: Any = self.props
+            self.props = VehicleProps(**props)
+        if not isinstance(self.graphics, VehicleGraphics):
+            graphics: Any = self.graphics
+            self.graphics = VehicleGraphics(**graphics)
 
     @staticmethod
     def toReadableCargoClasses(bitmask: int) -> list[str]:

@@ -83,8 +83,8 @@ class GRFFile(grf.LoadedResourceFile):
                     xofs = PADDING
                 x = xofs
                 y = yofs
-                sprites.append(Sprite(x, y, sprite.width, sprite.height,
-                               sprite.xofs, sprite.yofs, sprite.zoom, sprite.bpp))
+                sprites.append(Sprite(f"res/{group}.png", x, y, sprite.width, sprite.height,
+                                      xofs=sprite.xofs, yofs=sprite.yofs, zoom=sprite.zoom, bpp=sprite.bpp))
                 xofs += sprite.width + 2 * PADDING
             real_sprites.append(SpriteGroup(group=group, realSprites=sprites))
         self.sprites = real_sprites

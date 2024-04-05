@@ -52,10 +52,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -111,10 +126,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -170,10 +200,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -229,10 +274,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -288,10 +348,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -347,10 +422,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -406,10 +496,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -465,10 +570,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -524,10 +644,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -583,10 +718,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -642,10 +792,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -701,10 +866,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -760,10 +940,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -819,10 +1014,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -878,10 +1088,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -937,10 +1162,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -996,10 +1236,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1055,10 +1310,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1114,10 +1384,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1173,10 +1458,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1232,10 +1532,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1291,10 +1606,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1350,10 +1680,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1409,10 +1754,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1468,10 +1828,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1527,10 +1902,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1586,10 +1976,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1645,10 +2050,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1704,10 +2124,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1763,10 +2198,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1822,10 +2272,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1881,10 +2346,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1940,10 +2420,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -1999,10 +2494,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2058,10 +2568,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2117,10 +2642,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2176,10 +2716,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2235,10 +2790,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2294,10 +2864,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2353,10 +2938,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2412,10 +3012,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2471,10 +3086,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2530,10 +3160,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2589,10 +3234,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2648,10 +3308,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2707,10 +3382,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2766,10 +3456,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2825,10 +3530,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2884,10 +3604,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -2943,10 +3678,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3002,10 +3752,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3061,10 +3826,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3120,10 +3900,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3179,10 +3974,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3238,10 +4048,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3297,10 +4122,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3356,10 +4196,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3415,10 +4270,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3474,10 +4344,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3533,10 +4418,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3592,10 +4492,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3651,10 +4566,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3710,10 +4640,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3769,10 +4714,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3828,10 +4788,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3887,10 +4862,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -3946,10 +4936,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4005,10 +5010,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4064,10 +5084,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4123,10 +5158,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4182,10 +5232,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4241,10 +5306,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4300,10 +5380,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4359,10 +5454,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4418,10 +5528,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4477,10 +5602,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4536,10 +5676,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4595,10 +5750,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4654,10 +5824,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4713,10 +5898,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4772,10 +5972,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4831,10 +6046,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4890,10 +6120,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -4958,10 +6203,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -5026,10 +6286,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -5094,10 +6369,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -5162,10 +6452,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -5235,10 +6540,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -5308,10 +6628,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -5381,10 +6716,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -5440,10 +6790,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -5499,10 +6864,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -5563,10 +6943,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -5627,10 +7022,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -5691,10 +7101,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -5754,10 +7179,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -5826,10 +7266,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -5894,10 +7349,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -5962,10 +7432,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -6030,10 +7515,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -6094,10 +7594,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -6157,10 +7672,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -6220,10 +7750,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -6279,10 +7824,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -6338,10 +7898,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -6403,10 +7978,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -6466,10 +8056,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -6527,10 +8132,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -6588,10 +8208,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -6649,10 +8284,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -6710,10 +8360,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -6769,10 +8434,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     },
     {
@@ -6828,10 +8508,25 @@
         "graphics": {
             "purchaseSprite": {
                 "group": "",
-                "loc": "Unset",
+                "g": {
+                    "group": "",
+                    "reversable": false,
+                    "loc": "Full",
+                    "liv": [],
+                    "alt": [],
+                    "mu": false,
+                    "length": 8,
+                    "frames": 1,
+                    "tender": "No",
+                    "tenderLength": 8,
+                    "bUnitSprites": -1,
+                    "parts": [],
+                    "cars": [],
+                    "locoForCars": ""
+                },
                 "realSprites": []
             },
-            "sprites": []
+            "spriteGroups": []
         }
     }
 ]
