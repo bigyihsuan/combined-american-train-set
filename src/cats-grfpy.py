@@ -21,6 +21,8 @@ Switch: type[grf.Switch] = g.bind(grf.Switch)
 
 # this is here up top to remove vanilla trains
 g.add(grf.DisableDefault(grf.TRAIN))
+# fix sprites being cut off in the depot
+g.add(grf.SetGlobalTrainMiscFlag(grf.GlobalTrainMiscFlag.DEPOT_FULL_TRAIN_WIDTH))
 
 with open("./props/cargo-table.json", "r") as cargoTableFile:
     g.set_cargo_table(json.load(cargoTableFile))
@@ -47,11 +49,11 @@ with open("./props/vehicle-stats-sprites.json", "r") as vehicleFile:
             tenderIndex = spriteTable.add_row(next(chunked))
     layout = spriteTable.get_layout(0)
     tenderLayout = spriteTable.get_layout(tenderIndex)
-    purchaseLayout = spriteTable.get_layout(spriteTable.add_purchase_graphics(
-        [grf.FileSprite(
-            grf.ImageFile(rs.file),
-            rs.x, rs.y, rs.width, rs.height, xofs=rs.xofs, yofs=rs.yofs, zoom=rs.zoom)
-         for rs in vehicle.graphics.purchaseSprite.realSprites][0]))
+    purchaseLayout = spriteTable.get_layout(spriteTable.add_purchase_graphics([grf.FileSprite(
+        grf.ImageFile(rs.file),
+        rs.x, rs.y, rs.width, rs.height,
+        xofs=rs.xofs, yofs=rs.yofs, zoom=rs.zoom)
+        for rs in vehicle.graphics.purchaseSprite.realSprites][0]))
 
     norris = Train(
         id=vehicle.id,
