@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from enums import Loc
-from group import G
+from group import G, Car, Loco, Tender
 
 import grf
 
@@ -29,17 +29,25 @@ class Sprite:
     zoom: int = 0
     bpp: int = 0
 
+    def asGrfFileSprite(self) -> grf.FileSprite:
+        return grf.FileSprite(
+            file=grf.ImageFile(self.file),
+            x=self.x,
+            y=self.y,
+            w=self.width,
+            h=self.height,
+            xofs=self.xofs,
+            yofs=self.yofs,
+            zoom=self.zoom,
+        )
+
 
 @dataclass
 class SpriteGroup:
     group: str = ""
-    g: G = field(default_factory=G)
     realSprites: list[Sprite] = field(default_factory=list)
 
     def __post_init__(self):
-        if not isinstance(self.g, G):
-            g: Any = self.g
-            self.g = G(**g)
         realSprites = []
         for realSprite in self.realSprites:
             if not isinstance(realSprite, Sprite):
@@ -97,21 +105,36 @@ class VehicleProps:
 
 @dataclass
 class VehicleGraphics:
+    gs: list[Loco | Tender | Car] = field(default_factory=list)
     purchaseSprite: SpriteGroup = field(default_factory=SpriteGroup)
-    spriteGroups: list[SpriteGroup] = field(default_factory=list)
+    spriteGroups: dict[str, SpriteGroup] = field(default_factory=dict)
 
     def __post_init__(self):
         if not isinstance(self.purchaseSprite, SpriteGroup):
             purchaseSprite: Any = self.purchaseSprite
             self.purchaseSprite = SpriteGroup(**purchaseSprite)
 
-        spriteGroups: list[SpriteGroup] = []
-        for spriteGroup in self.spriteGroups:
+        gs = []
+        for g in self.gs:
+            if not isinstance(g, (Loco, Tender, Car)):
+                a: Any = g
+                if a["kind"] == "Loco":
+                    gs.append(Loco(**a))
+                if a["kind"] == "Tender":
+                    gs.append(Tender(**a))
+                if a["kind"] == "Car":
+                    gs.append(Car(**a))
+            else:
+                gs.append(g)
+        self.gs = gs
+
+        spriteGroups: dict[str, SpriteGroup] = {}
+        for k, spriteGroup in self.spriteGroups.items():
             if not isinstance(spriteGroup, SpriteGroup):
                 sg: Any = spriteGroup
-                spriteGroups.append(SpriteGroup(**sg))
+                spriteGroups[k] = SpriteGroup(**sg)
             else:
-                spriteGroups.append(spriteGroup)
+                spriteGroups[k] = spriteGroup
         self.spriteGroups = spriteGroups
 
 

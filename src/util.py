@@ -1,6 +1,7 @@
-from typing import Any, Generator
+from typing import Iterator, TypeVar
+
+T = TypeVar("T")
 
 
-def chunk(l: list[Any], n: int) -> Generator[list[Any], Any, Any]:
-    for i in range(0, len(l), n):
-        yield l[i:i + n]
+def chunk(l: list[T], n: int) -> list[list[T]]:
+    return [l[i:i + n] for i in range(0, len(l), n)]

@@ -28,16 +28,16 @@ def extractProps():
 
         statsDict: dict[int, Vehicle] = {train.id: train for train in trains}
         spriteGroups: dict[str, SpriteGroup] = {sprite.group: sprite for sprite in nars.sprites}
-        simpleStatSprites: list[Vehicle] = []
+        # simpleStatSprites: list[Vehicle] = []
 
         for id, stat in statsDict.items():
             if id in ID_TO_GROUPS:
                 groups = ID_TO_GROUPS[id]
+                stat.graphics.gs = [g for g in groups if isinstance(g, (Loco, Tender, Car))]
                 for group in groups:
-                    spriteGroup = spriteGroups[group.group]
-                    spriteGroup.g = group
+                    spriteGroup: SpriteGroup = spriteGroups[group.group]
                     if isinstance(group, (Loco, Tender, Car)):
-                        stat.graphics.spriteGroups.append(spriteGroup)
+                        stat.graphics.spriteGroups[group.group] = spriteGroup
                     elif isinstance(group, Purchase):
                         stat.graphics.purchaseSprite = spriteGroup
 

@@ -1,22 +1,6 @@
 [
     {
         "group": "train_0",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_0.png",
@@ -33,22 +17,6 @@
     },
     {
         "group": "train_1",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_1.png",
@@ -230,22 +198,6 @@
     },
     {
         "group": "train_2",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_2.png",
@@ -262,22 +214,6 @@
     },
     {
         "group": "train_3",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_3.png",
@@ -723,22 +659,6 @@
     },
     {
         "group": "train_4",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_4.png",
@@ -755,22 +675,6 @@
     },
     {
         "group": "train_5",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_5.png",
@@ -1216,22 +1120,6 @@
     },
     {
         "group": "train_6",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_6.png",
@@ -1248,22 +1136,6 @@
     },
     {
         "group": "train_7",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_7.png",
@@ -1709,22 +1581,6 @@
     },
     {
         "group": "train_8",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_8.png",
@@ -1741,22 +1597,6 @@
     },
     {
         "group": "train_9",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_9.png",
@@ -2202,22 +2042,6 @@
     },
     {
         "group": "train_10",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_10.png",
@@ -2234,22 +2058,6 @@
     },
     {
         "group": "train_11",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_11.png",
@@ -2695,22 +2503,6 @@
     },
     {
         "group": "train_12",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_12.png",
@@ -2727,22 +2519,6 @@
     },
     {
         "group": "train_13",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_13.png",
@@ -3188,22 +2964,6 @@
     },
     {
         "group": "train_14",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_14.png",
@@ -3220,22 +2980,6 @@
     },
     {
         "group": "train_15",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_15.png",
@@ -3681,22 +3425,6 @@
     },
     {
         "group": "train_16",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_16.png",
@@ -3713,22 +3441,6 @@
     },
     {
         "group": "train_17",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_17.png",
@@ -4174,22 +3886,6 @@
     },
     {
         "group": "train_18",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_18.png",
@@ -4635,22 +4331,6 @@
     },
     {
         "group": "train_19",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_19.png",
@@ -4667,22 +4347,6 @@
     },
     {
         "group": "train_20",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_20.png",
@@ -5128,22 +4792,6 @@
     },
     {
         "group": "train_21",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_21.png",
@@ -5160,22 +4808,6 @@
     },
     {
         "group": "train_22",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_22.png",
@@ -5621,22 +5253,6 @@
     },
     {
         "group": "train_23",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_23.png",
@@ -5653,22 +5269,6 @@
     },
     {
         "group": "train_24",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_24.png",
@@ -6114,22 +5714,6 @@
     },
     {
         "group": "train_25",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_25.png",
@@ -6146,22 +5730,6 @@
     },
     {
         "group": "train_26",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_26.png",
@@ -6607,22 +6175,6 @@
     },
     {
         "group": "train_27",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_27.png",
@@ -6639,22 +6191,6 @@
     },
     {
         "group": "train_28",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_28.png",
@@ -7100,22 +6636,6 @@
     },
     {
         "group": "train_29",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_29.png",
@@ -7132,22 +6652,6 @@
     },
     {
         "group": "train_30",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_30.png",
@@ -7505,22 +7009,6 @@
     },
     {
         "group": "train_31",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_31.png",
@@ -7878,22 +7366,6 @@
     },
     {
         "group": "train_32",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_32.png",
@@ -8251,22 +7723,6 @@
     },
     {
         "group": "train_33",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_33.png",
@@ -8624,22 +8080,6 @@
     },
     {
         "group": "train_34",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_34.png",
@@ -8733,22 +8173,6 @@
     },
     {
         "group": "train_35",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_35.png",
@@ -8765,22 +8189,6 @@
     },
     {
         "group": "train_36",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_36.png",
@@ -9226,22 +8634,6 @@
     },
     {
         "group": "train_37",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_37.png",
@@ -9258,22 +8650,6 @@
     },
     {
         "group": "train_38",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_38.png",
@@ -9631,22 +9007,6 @@
     },
     {
         "group": "train_39",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_39.png",
@@ -9740,22 +9100,6 @@
     },
     {
         "group": "train_40",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_40.png",
@@ -9772,22 +9116,6 @@
     },
     {
         "group": "train_41",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_41.png",
@@ -10145,22 +9473,6 @@
     },
     {
         "group": "train_42",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_42.png",
@@ -10518,22 +9830,6 @@
     },
     {
         "group": "train_43",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_43.png",
@@ -10891,22 +10187,6 @@
     },
     {
         "group": "train_44",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_44.png",
@@ -11264,22 +10544,6 @@
     },
     {
         "group": "train_45",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_45.png",
@@ -11373,22 +10637,6 @@
     },
     {
         "group": "train_46",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_46.png",
@@ -11405,22 +10653,6 @@
     },
     {
         "group": "train_47",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_47.png",
@@ -11778,22 +11010,6 @@
     },
     {
         "group": "train_48",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_48.png",
@@ -11887,22 +11103,6 @@
     },
     {
         "group": "train_49",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_49.png",
@@ -11919,22 +11119,6 @@
     },
     {
         "group": "train_50",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_50.png",
@@ -12380,22 +11564,6 @@
     },
     {
         "group": "train_51",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_51.png",
@@ -12412,22 +11580,6 @@
     },
     {
         "group": "train_52",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_52.png",
@@ -12873,22 +12025,6 @@
     },
     {
         "group": "train_53",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_53.png",
@@ -12905,22 +12041,6 @@
     },
     {
         "group": "train_54",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_54.png",
@@ -13102,22 +12222,6 @@
     },
     {
         "group": "train_55",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_55.png",
@@ -13475,22 +12579,6 @@
     },
     {
         "group": "train_56",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_56.png",
@@ -13507,22 +12595,6 @@
     },
     {
         "group": "train_57",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_57.png",
@@ -13792,22 +12864,6 @@
     },
     {
         "group": "train_58",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_58.png",
@@ -13824,22 +12880,6 @@
     },
     {
         "group": "train_59",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_59.png",
@@ -14197,22 +13237,6 @@
     },
     {
         "group": "train_60",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_60.png",
@@ -14229,22 +13253,6 @@
     },
     {
         "group": "train_61",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_61.png",
@@ -14426,22 +13434,6 @@
     },
     {
         "group": "train_62",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_62.png",
@@ -14458,22 +13450,6 @@
     },
     {
         "group": "train_63",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_63.png",
@@ -14567,22 +13543,6 @@
     },
     {
         "group": "train_64",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_64.png",
@@ -14852,22 +13812,6 @@
     },
     {
         "group": "train_65",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_65.png",
@@ -14884,22 +13828,6 @@
     },
     {
         "group": "train_66",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_66.png",
@@ -14993,22 +13921,6 @@
     },
     {
         "group": "train_67",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_67.png",
@@ -15102,22 +14014,6 @@
     },
     {
         "group": "train_68",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_68.png",
@@ -15145,22 +14041,6 @@
     },
     {
         "group": "train_69",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_69.png",
@@ -15254,22 +14134,6 @@
     },
     {
         "group": "train_70",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_70.png",
@@ -15451,22 +14315,6 @@
     },
     {
         "group": "train_71",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_71.png",
@@ -15483,22 +14331,6 @@
     },
     {
         "group": "train_72",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_72.png",
@@ -15680,22 +14512,6 @@
     },
     {
         "group": "train_73",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_73.png",
@@ -15712,22 +14528,6 @@
     },
     {
         "group": "train_74",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_74.png",
@@ -16085,22 +14885,6 @@
     },
     {
         "group": "train_75",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_75.png",
@@ -16117,22 +14901,6 @@
     },
     {
         "group": "train_76",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_76.png",
@@ -16226,22 +14994,6 @@
     },
     {
         "group": "train_77",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_77.png",
@@ -16423,22 +15175,6 @@
     },
     {
         "group": "train_78",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_78.png",
@@ -16620,22 +15356,6 @@
     },
     {
         "group": "train_79",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_79.png",
@@ -16652,22 +15372,6 @@
     },
     {
         "group": "train_80",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_80.png",
@@ -16937,22 +15641,6 @@
     },
     {
         "group": "train_81",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_81.png",
@@ -16969,22 +15657,6 @@
     },
     {
         "group": "train_82",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_82.png",
@@ -17166,22 +15838,6 @@
     },
     {
         "group": "train_83",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_83.png",
@@ -17539,22 +16195,6 @@
     },
     {
         "group": "train_84",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_84.png",
@@ -17571,22 +16211,6 @@
     },
     {
         "group": "train_85",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_85.png",
@@ -17768,22 +16392,6 @@
     },
     {
         "group": "train_86",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_86.png",
@@ -17800,22 +16408,6 @@
     },
     {
         "group": "train_87",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_87.png",
@@ -17909,22 +16501,6 @@
     },
     {
         "group": "train_88",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_88.png",
@@ -18106,22 +16682,6 @@
     },
     {
         "group": "train_89",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_89.png",
@@ -18138,22 +16698,6 @@
     },
     {
         "group": "train_90",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_90.png",
@@ -18247,22 +16791,6 @@
     },
     {
         "group": "train_91",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_91.png",
@@ -18356,22 +16884,6 @@
     },
     {
         "group": "train_92",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_92.png",
@@ -18465,22 +16977,6 @@
     },
     {
         "group": "train_93",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_93.png",
@@ -18574,22 +17070,6 @@
     },
     {
         "group": "train_94",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_94.png",
@@ -18683,22 +17163,6 @@
     },
     {
         "group": "train_95",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_95.png",
@@ -18792,22 +17256,6 @@
     },
     {
         "group": "train_96",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_96.png",
@@ -19165,22 +17613,6 @@
     },
     {
         "group": "train_97",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_97.png",
@@ -19197,22 +17629,6 @@
     },
     {
         "group": "train_98",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_98.png",
@@ -19306,22 +17722,6 @@
     },
     {
         "group": "train_99",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_99.png",
@@ -19591,22 +17991,6 @@
     },
     {
         "group": "train_100",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_100.png",
@@ -19623,22 +18007,6 @@
     },
     {
         "group": "train_101",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_101.png",
@@ -19820,22 +18188,6 @@
     },
     {
         "group": "train_102",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_102.png",
@@ -19852,22 +18204,6 @@
     },
     {
         "group": "train_103",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_103.png",
@@ -20049,22 +18385,6 @@
     },
     {
         "group": "train_104",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_104.png",
@@ -20081,22 +18401,6 @@
     },
     {
         "group": "train_105",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_105.png",
@@ -20278,22 +18582,6 @@
     },
     {
         "group": "train_106",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_106.png",
@@ -20310,22 +18598,6 @@
     },
     {
         "group": "train_107",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_107.png",
@@ -20419,22 +18691,6 @@
     },
     {
         "group": "train_108",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_108.png",
@@ -20528,22 +18784,6 @@
     },
     {
         "group": "train_109",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_109.png",
@@ -20813,22 +19053,6 @@
     },
     {
         "group": "train_110",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_110.png",
@@ -20845,22 +19069,6 @@
     },
     {
         "group": "train_111",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_111.png",
@@ -21042,22 +19250,6 @@
     },
     {
         "group": "train_112",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_112.png",
@@ -21074,22 +19266,6 @@
     },
     {
         "group": "train_113",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_113.png",
@@ -21271,22 +19447,6 @@
     },
     {
         "group": "train_114",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_114.png",
@@ -21303,22 +19463,6 @@
     },
     {
         "group": "train_115",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_115.png",
@@ -21412,22 +19556,6 @@
     },
     {
         "group": "train_116",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_116.png",
@@ -21521,22 +19649,6 @@
     },
     {
         "group": "train_117",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_117.png",
@@ -21630,22 +19742,6 @@
     },
     {
         "group": "train_118",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_118.png",
@@ -21695,22 +19791,6 @@
     },
     {
         "group": "train_119",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_119.png",
@@ -22156,22 +20236,6 @@
     },
     {
         "group": "train_120",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_120.png",
@@ -22188,22 +20252,6 @@
     },
     {
         "group": "train_121",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_121.png",
@@ -22385,22 +20433,6 @@
     },
     {
         "group": "train_122",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_122.png",
@@ -22494,22 +20526,6 @@
     },
     {
         "group": "train_123",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_123.png",
@@ -22691,22 +20707,6 @@
     },
     {
         "group": "train_124",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_124.png",
@@ -22888,22 +20888,6 @@
     },
     {
         "group": "train_125",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_125.png",
@@ -22997,22 +20981,6 @@
     },
     {
         "group": "train_126",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_126.png",
@@ -23194,22 +21162,6 @@
     },
     {
         "group": "train_127",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_127.png",
@@ -23303,22 +21255,6 @@
     },
     {
         "group": "train_128",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_128.png",
@@ -23412,22 +21348,6 @@
     },
     {
         "group": "train_129",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_129.png",
@@ -23521,22 +21441,6 @@
     },
     {
         "group": "train_130",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_130.png",
@@ -23718,22 +21622,6 @@
     },
     {
         "group": "train_131",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_131.png",
@@ -23915,22 +21803,6 @@
     },
     {
         "group": "train_132",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_132.png",
@@ -24024,22 +21896,6 @@
     },
     {
         "group": "train_133",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_133.png",
@@ -24133,22 +21989,6 @@
     },
     {
         "group": "train_134",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_134.png",
@@ -24330,22 +22170,6 @@
     },
     {
         "group": "train_135",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_135.png",
@@ -24439,22 +22263,6 @@
     },
     {
         "group": "train_136",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_136.png",
@@ -24636,22 +22444,6 @@
     },
     {
         "group": "train_137",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_137.png",
@@ -24745,22 +22537,6 @@
     },
     {
         "group": "train_138",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_138.png",
@@ -24854,22 +22630,6 @@
     },
     {
         "group": "train_139",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_139.png",
@@ -24963,22 +22723,6 @@
     },
     {
         "group": "train_140",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_140.png",
@@ -25160,22 +22904,6 @@
     },
     {
         "group": "train_141",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_141.png",
@@ -25192,22 +22920,6 @@
     },
     {
         "group": "train_142",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_142.png",
@@ -25565,22 +23277,6 @@
     },
     {
         "group": "train_143",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_143.png",
@@ -26114,22 +23810,6 @@
     },
     {
         "group": "train_144",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_144.png",
@@ -26487,22 +24167,6 @@
     },
     {
         "group": "train_145",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_145.png",
@@ -26684,22 +24348,6 @@
     },
     {
         "group": "train_146",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_146.png",
@@ -26881,22 +24529,6 @@
     },
     {
         "group": "train_147",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_147.png",
@@ -27254,22 +24886,6 @@
     },
     {
         "group": "train_148",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_148.png",
@@ -27539,22 +25155,6 @@
     },
     {
         "group": "train_149",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_149.png",
@@ -27571,22 +25171,6 @@
     },
     {
         "group": "train_150",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_150.png",
@@ -27944,22 +25528,6 @@
     },
     {
         "group": "train_151",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_151.png",
@@ -27976,22 +25544,6 @@
     },
     {
         "group": "train_152",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_152.png",
@@ -28085,22 +25637,6 @@
     },
     {
         "group": "train_153",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_153.png",
@@ -28282,22 +25818,6 @@
     },
     {
         "group": "train_154",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_154.png",
@@ -28391,22 +25911,6 @@
     },
     {
         "group": "train_155",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_155.png",
@@ -28588,22 +26092,6 @@
     },
     {
         "group": "train_156",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_156.png",
@@ -28697,22 +26185,6 @@
     },
     {
         "group": "train_157",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_157.png",
@@ -28894,22 +26366,6 @@
     },
     {
         "group": "train_158",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_158.png",
@@ -29443,22 +26899,6 @@
     },
     {
         "group": "train_159",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_159.png",
@@ -29475,22 +26915,6 @@
     },
     {
         "group": "train_160",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_160.png",
@@ -29672,22 +27096,6 @@
     },
     {
         "group": "train_161",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_161.png",
@@ -29704,22 +27112,6 @@
     },
     {
         "group": "train_162",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_162.png",
@@ -29901,22 +27293,6 @@
     },
     {
         "group": "train_163",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_163.png",
@@ -29933,22 +27309,6 @@
     },
     {
         "group": "train_164",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_164.png",
@@ -30482,22 +27842,6 @@
     },
     {
         "group": "train_165",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_165.png",
@@ -30514,22 +27858,6 @@
     },
     {
         "group": "train_166",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_166.png",
@@ -31415,22 +28743,6 @@
     },
     {
         "group": "train_167",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_167.png",
@@ -31447,22 +28759,6 @@
     },
     {
         "group": "train_168",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_168.png",
@@ -31644,22 +28940,6 @@
     },
     {
         "group": "train_169",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_169.png",
@@ -32193,22 +29473,6 @@
     },
     {
         "group": "train_170",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_170.png",
@@ -32225,22 +29489,6 @@
     },
     {
         "group": "train_171",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_171.png",
@@ -32422,22 +29670,6 @@
     },
     {
         "group": "train_172",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_172.png",
@@ -32795,22 +30027,6 @@
     },
     {
         "group": "train_173",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_173.png",
@@ -32827,22 +30043,6 @@
     },
     {
         "group": "train_174",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_174.png",
@@ -33024,22 +30224,6 @@
     },
     {
         "group": "train_175",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_175.png",
@@ -33056,22 +30240,6 @@
     },
     {
         "group": "train_176",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_176.png",
@@ -33429,22 +30597,6 @@
     },
     {
         "group": "train_177",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_177.png",
@@ -33461,22 +30613,6 @@
     },
     {
         "group": "train_178",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_178.png",
@@ -33834,22 +30970,6 @@
     },
     {
         "group": "train_179",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_179.png",
@@ -33866,22 +30986,6 @@
     },
     {
         "group": "train_180",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_180.png",
@@ -34063,22 +31167,6 @@
     },
     {
         "group": "train_181",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_181.png",
@@ -34095,22 +31183,6 @@
     },
     {
         "group": "train_182",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_182.png",
@@ -34468,22 +31540,6 @@
     },
     {
         "group": "train_183",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_183.png",
@@ -34500,22 +31556,6 @@
     },
     {
         "group": "train_184",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_184.png",
@@ -34961,22 +32001,6 @@
     },
     {
         "group": "train_185",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_185.png",
@@ -34993,22 +32017,6 @@
     },
     {
         "group": "train_186",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_186.png",
@@ -35454,22 +32462,6 @@
     },
     {
         "group": "train_187",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_187.png",
@@ -36003,22 +32995,6 @@
     },
     {
         "group": "train_188",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_188.png",
@@ -36035,22 +33011,6 @@
     },
     {
         "group": "train_189",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_189.png",
@@ -36496,22 +33456,6 @@
     },
     {
         "group": "train_190",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_190.png",
@@ -37397,22 +34341,6 @@
     },
     {
         "group": "train_191",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_191.png",
@@ -37550,22 +34478,6 @@
     },
     {
         "group": "train_192",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_192.png",
@@ -37835,22 +34747,6 @@
     },
     {
         "group": "train_193",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_193.png",
@@ -37944,22 +34840,6 @@
     },
     {
         "group": "train_194",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_194.png",
@@ -38053,22 +34933,6 @@
     },
     {
         "group": "train_195",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_195.png",
@@ -38085,22 +34949,6 @@
     },
     {
         "group": "train_196",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_196.png",
@@ -38117,22 +34965,6 @@
     },
     {
         "group": "train_197",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_197.png",
@@ -39106,22 +35938,6 @@
     },
     {
         "group": "train_198",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_198.png",
@@ -39138,22 +35954,6 @@
     },
     {
         "group": "train_199",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_199.png",
@@ -40479,22 +37279,6 @@
     },
     {
         "group": "train_200",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_200.png",
@@ -40511,22 +37295,6 @@
     },
     {
         "group": "train_201",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_201.png",
@@ -41764,22 +38532,6 @@
     },
     {
         "group": "train_202",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_202.png",
@@ -43193,22 +39945,6 @@
     },
     {
         "group": "train_203",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_203.png",
@@ -43566,22 +40302,6 @@
     },
     {
         "group": "train_204",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_204.png",
@@ -43763,22 +40483,6 @@
     },
     {
         "group": "train_205",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_205.png",
@@ -43795,22 +40499,6 @@
     },
     {
         "group": "train_206",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_206.png",
@@ -44784,22 +41472,6 @@
     },
     {
         "group": "train_207",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_207.png",
@@ -44816,22 +41488,6 @@
     },
     {
         "group": "train_208",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_208.png",
@@ -46333,22 +42989,6 @@
     },
     {
         "group": "train_209",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_209.png",
@@ -46706,22 +43346,6 @@
     },
     {
         "group": "train_210",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_210.png",
@@ -48751,22 +45375,6 @@
     },
     {
         "group": "train_211",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_211.png",
@@ -50620,22 +47228,6 @@
     },
     {
         "group": "train_212",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_212.png",
@@ -52489,22 +49081,6 @@
     },
     {
         "group": "train_213",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_213.png",
@@ -52774,22 +49350,6 @@
     },
     {
         "group": "train_214",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_214.png",
@@ -54643,22 +51203,6 @@
     },
     {
         "group": "train_215",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_215.png",
@@ -54675,22 +51219,6 @@
     },
     {
         "group": "train_216",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_216.png",
@@ -55048,22 +51576,6 @@
     },
     {
         "group": "train_217",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_217.png",
@@ -55245,22 +51757,6 @@
     },
     {
         "group": "train_218",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_218.png",
@@ -55618,22 +52114,6 @@
     },
     {
         "group": "train_219",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_219.png",
@@ -55991,22 +52471,6 @@
     },
     {
         "group": "train_220",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_220.png",
@@ -56100,22 +52564,6 @@
     },
     {
         "group": "train_221",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_221.png",
@@ -56132,22 +52580,6 @@
     },
     {
         "group": "train_222",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_222.png",
@@ -56505,22 +52937,6 @@
     },
     {
         "group": "train_223",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_223.png",
@@ -56537,22 +52953,6 @@
     },
     {
         "group": "train_224",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_224.png",
@@ -56646,22 +53046,6 @@
     },
     {
         "group": "train_225",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_225.png",
@@ -56711,22 +53095,6 @@
     },
     {
         "group": "train_226",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_226.png",
@@ -56908,22 +53276,6 @@
     },
     {
         "group": "train_227",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_227.png",
@@ -57017,22 +53369,6 @@
     },
     {
         "group": "train_228",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_228.png",
@@ -57126,22 +53462,6 @@
     },
     {
         "group": "train_229",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_229.png",
@@ -57158,22 +53478,6 @@
     },
     {
         "group": "train_230",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_230.png",
@@ -57355,22 +53659,6 @@
     },
     {
         "group": "train_231",
-        "g": {
-            "group": "",
-            "reversable": false,
-            "loc": "Full",
-            "liv": [],
-            "alt": [],
-            "mu": false,
-            "length": 8,
-            "frames": 1,
-            "tender": "No",
-            "tenderLength": 8,
-            "bUnitSprites": -1,
-            "parts": [],
-            "cars": [],
-            "locoForCars": ""
-        },
         "realSprites": [
             {
                 "file": "res/train_231.png",

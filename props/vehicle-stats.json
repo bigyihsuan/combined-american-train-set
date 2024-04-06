@@ -50,27 +50,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -124,27 +109,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -198,27 +168,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -272,27 +227,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -346,27 +286,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -420,27 +345,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -494,27 +404,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -568,27 +463,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -642,27 +522,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -716,27 +581,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -790,27 +640,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -864,27 +699,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -938,27 +758,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -1012,27 +817,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -1086,27 +876,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -1160,27 +935,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -1234,27 +994,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -1308,27 +1053,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -1382,27 +1112,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -1456,27 +1171,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -1530,27 +1230,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -1604,27 +1289,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -1678,27 +1348,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -1752,27 +1407,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -1826,27 +1466,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -1900,27 +1525,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -1974,27 +1584,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -2048,27 +1643,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -2122,27 +1702,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -2196,27 +1761,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -2270,27 +1820,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -2344,27 +1879,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -2418,27 +1938,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -2492,27 +1997,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -2566,27 +2056,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -2640,27 +2115,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -2714,27 +2174,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -2788,27 +2233,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -2862,27 +2292,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -2936,27 +2351,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -3010,27 +2410,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -3084,27 +2469,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -3158,27 +2528,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -3232,27 +2587,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -3306,27 +2646,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -3380,27 +2705,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -3454,27 +2764,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -3528,27 +2823,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -3602,27 +2882,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -3676,27 +2941,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -3750,27 +3000,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -3824,27 +3059,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -3898,27 +3118,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -3972,27 +3177,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -4046,27 +3236,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -4120,27 +3295,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -4194,27 +3354,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -4268,27 +3413,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -4342,27 +3472,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -4416,27 +3531,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -4490,27 +3590,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -4564,27 +3649,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -4638,27 +3708,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -4712,27 +3767,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -4786,27 +3826,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -4860,27 +3885,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -4934,27 +3944,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -5008,27 +4003,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -5082,27 +4062,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -5156,27 +4121,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -5230,27 +4180,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -5304,27 +4239,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -5378,27 +4298,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -5452,27 +4357,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -5526,27 +4416,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -5600,27 +4475,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -5674,27 +4534,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -5748,27 +4593,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -5822,27 +4652,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -5896,27 +4711,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -5970,27 +4770,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -6044,27 +4829,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -6118,27 +4888,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -6201,27 +4956,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -6284,27 +5024,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -6367,27 +5092,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -6450,27 +5160,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -6538,27 +5233,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -6626,27 +5306,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -6714,27 +5379,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -6788,27 +5438,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -6862,27 +5497,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -6941,27 +5561,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -7020,27 +5625,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -7099,27 +5689,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -7177,27 +5752,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -7264,27 +5824,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -7347,27 +5892,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -7430,27 +5960,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -7513,27 +6028,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -7592,27 +6092,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -7670,27 +6155,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -7748,27 +6218,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -7822,27 +6277,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -7896,27 +6336,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -7976,27 +6401,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -8054,27 +6464,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -8130,27 +6525,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -8206,27 +6586,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -8282,27 +6647,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -8358,27 +6708,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -8432,27 +6767,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     },
     {
@@ -8506,27 +6826,12 @@
             "length": 8
         },
         "graphics": {
+            "gs": [],
             "purchaseSprite": {
                 "group": "",
-                "g": {
-                    "group": "",
-                    "reversable": false,
-                    "loc": "Full",
-                    "liv": [],
-                    "alt": [],
-                    "mu": false,
-                    "length": 8,
-                    "frames": 1,
-                    "tender": "No",
-                    "tenderLength": 8,
-                    "bUnitSprites": -1,
-                    "parts": [],
-                    "cars": [],
-                    "locoForCars": ""
-                },
                 "realSprites": []
             },
-            "spriteGroups": []
+            "spriteGroups": {}
         }
     }
 ]
