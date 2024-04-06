@@ -36,6 +36,8 @@ def main():
     catsGrf.add(grf.DisableDefault(grf.TRAIN))
     # fix sprites being cut off in the depot
     catsGrf.add(grf.SetGlobalTrainMiscFlag(grf.GlobalTrainMiscFlag.DEPOT_FULL_TRAIN_WIDTH))
+    # fix sprites being too high in depot
+    catsGrf.add(grf.SetGlobalTrainDepotYOffset(2))
 
     with open("./props/cargo-table.json", "r") as cargoTableFile:
         catsGrf.set_cargo_table(json.load(cargoTableFile))
