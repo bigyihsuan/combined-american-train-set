@@ -24,6 +24,15 @@ Some more features to bring NARS to the modern day.
 - More support for cargos.
 - More parameters for tweaking costs.
 
+## 2.x Goals
+
+- Reimplementation of NARS 2.03 features:
+  - Regearing
+  - Liveries
+  - Push-pull
+  - Running sounds
+  - Mandatory cabooses (new: with parameter)
+
 ## Credits
 
 - citymania: grf-py
