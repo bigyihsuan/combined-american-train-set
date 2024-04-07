@@ -3,6 +3,7 @@ import grf
 import json
 
 from enums import TenderSpriteLocation
+from group import Tender
 from vehicle import Vehicle
 import util
 
@@ -48,10 +49,12 @@ def main():
     # with open("./props/simple-vehicle-stats.json", "r") as vehicleFile:
     with open("./props/vehicle-stats-sprites.json", "r") as vehicleFile:
         vehicles: list[Vehicle] = [Vehicle(**e) for e in json.load(vehicleFile)]
-        for i in range(14):
-            vehicle = vehicles[i]
-
+        for vehicle in vehicles[:14]:
             print(f"Making {vehicle.name}...", end="")
+
+            tenderLocation = [
+                isinstance(graphic, Tender) or graphic.tender == TenderSpriteLocation.Same
+                for graphic in vehicle.graphics.gs].index(True)
 
             for g in vehicle.graphics.gs:
                 spriteTable = VehicleSpriteTable(grf.TRAIN)
@@ -60,6 +63,8 @@ def main():
                     vehicle.graphics.purchaseSprite.realSprites[0].asGrfFileSprite()))
                 if g.tender == TenderSpriteLocation.Same:
                     makeEngineWithTenderOnSameSheet(vehicle, spriteTable, sg, g, purchaseLayout)
+                # elif g.tender == TenderSpriteLocation.Separate:
+                #     makeEngineWithTenderSeparately(vehicle, spriteTable, sg, g, purchaseLayout)
             print(" Done!")
 
         # for vehicle in vehicles:
@@ -130,7 +135,7 @@ def makeEngineWithTenderOnSameSheet(vehicle, spriteTable, sg, g, purchaseLayout)
     props = {k: v for k, v in dataclasses.asdict(vehicle.props).items() if k not in [
         "introduction_date",
         "max_speed",
-        "length" if vehicle.props.shorten_by is not None else "shorten_by"
+        # "length" if vehicle.props.shorten_by is not None else "shorten_by"
     ]}
 
     train = Train(

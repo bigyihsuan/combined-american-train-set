@@ -75,7 +75,6 @@ class VehicleProps:
     tractive_effort_coefficient: int = 0
     cost_factor: int = 0
     running_cost_factor: int = 0
-    shorten_by: int = 0
     visual_effect_and_powered: int = 0
     engine_class: int = 0
     running_cost_base: int = 0

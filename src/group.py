@@ -8,24 +8,6 @@ false = False
 true = True
 
 
-# @dataclass
-# class E:
-#     id: int = -1
-#     isPurchaseSprite: bool = False
-#     reversable: bool = False
-#     loc: Loc = Loc.Full
-#     liv: list[str] = field(default_factory=list)
-#     alt: list[str] = field(default_factory=list)
-#     mu: bool = False  # whether this group is a car for an MU.
-#     length: int = 8  # number of 1/8tl units the sprite is
-#     locoSprites: int = 8
-#     tender: TenderSpriteLocation = TenderSpriteLocation.No
-#     bUnitSprites: int = -1
-#     parts: list[str] = field(default_factory=list)
-#     cars: list[str] = field(default_factory=list)
-#     locoForCars: str = ""
-
-
 @dataclass
 class G:
     group: str = ""
@@ -34,7 +16,7 @@ class G:
     liv: list[str] = field(default_factory=list)
     alt: list[str] = field(default_factory=list)
     mu: bool = False  # whether this group is a car for an MU.
-    length: int = 8  # number of 1/8tl units the sprite is
+    length: int = 8  # number of 1/8 0.5tl units the sprite is. 4px = 1/8
     frames: int = 1
     tender: TenderSpriteLocation = TenderSpriteLocation.No
     tenderLength: int = 8

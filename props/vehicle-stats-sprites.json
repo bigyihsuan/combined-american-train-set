@@ -22,7 +22,6 @@
             "tractive_effort_coefficient": 26,
             "cost_factor": 20,
             "running_cost_factor": 24,
-            "shorten_by": 5,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -47,7 +46,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 3
         },
         "graphics": {
             "gs": [
@@ -293,7 +292,6 @@
             "tractive_effort_coefficient": 20,
             "cost_factor": 25,
             "running_cost_factor": 29,
-            "shorten_by": 3,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -318,7 +316,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 5
         },
         "graphics": {
             "gs": [
@@ -828,7 +826,6 @@
             "tractive_effort_coefficient": 27,
             "cost_factor": 28,
             "running_cost_factor": 29,
-            "shorten_by": 3,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -853,7 +850,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 5
         },
         "graphics": {
             "gs": [
@@ -1363,7 +1360,6 @@
             "tractive_effort_coefficient": 36,
             "cost_factor": 30,
             "running_cost_factor": 31,
-            "shorten_by": 2,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -1388,7 +1384,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -1898,7 +1894,6 @@
             "tractive_effort_coefficient": 24,
             "cost_factor": 33,
             "running_cost_factor": 35,
-            "shorten_by": 2,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -1923,7 +1918,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -2433,7 +2428,6 @@
             "tractive_effort_coefficient": 20,
             "cost_factor": 32,
             "running_cost_factor": 36,
-            "shorten_by": 2,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -2458,7 +2452,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -2968,7 +2962,6 @@
             "tractive_effort_coefficient": 28,
             "cost_factor": 45,
             "running_cost_factor": 41,
-            "shorten_by": 2,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -2993,7 +2986,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -3503,7 +3496,6 @@
             "tractive_effort_coefficient": 20,
             "cost_factor": 42,
             "running_cost_factor": 43,
-            "shorten_by": 2,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -3528,7 +3520,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -4038,7 +4030,6 @@
             "tractive_effort_coefficient": 39,
             "cost_factor": 32,
             "running_cost_factor": 31,
-            "shorten_by": 3,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -4063,7 +4054,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 5
         },
         "graphics": {
             "gs": [
@@ -5035,7 +5026,6 @@
             "tractive_effort_coefficient": 30,
             "cost_factor": 55,
             "running_cost_factor": 50,
-            "shorten_by": 1,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -5060,7 +5050,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -5570,7 +5560,6 @@
             "tractive_effort_coefficient": 20,
             "cost_factor": 48,
             "running_cost_factor": 48,
-            "shorten_by": 1,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -5595,7 +5584,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -6105,7 +6094,6 @@
             "tractive_effort_coefficient": 29,
             "cost_factor": 96,
             "running_cost_factor": 78,
-            "shorten_by": 0,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -6640,7 +6628,6 @@
             "tractive_effort_coefficient": 21,
             "cost_factor": 60,
             "running_cost_factor": 54,
-            "shorten_by": 0,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -7175,7 +7162,6 @@
             "tractive_effort_coefficient": 24,
             "cost_factor": 78,
             "running_cost_factor": 66,
-            "shorten_by": 0,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -7710,7 +7696,6 @@
             "tractive_effort_coefficient": 34,
             "cost_factor": 121,
             "running_cost_factor": 97,
-            "shorten_by": 2,
             "visual_effect_and_powered": 18,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -7735,7 +7720,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -9389,7 +9374,6 @@
             "tractive_effort_coefficient": 24,
             "cost_factor": 110,
             "running_cost_factor": 92,
-            "shorten_by": 0,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -9924,7 +9908,6 @@
             "tractive_effort_coefficient": 17,
             "cost_factor": 66,
             "running_cost_factor": 61,
-            "shorten_by": 0,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -10481,7 +10464,6 @@
             "tractive_effort_coefficient": 28,
             "cost_factor": 109,
             "running_cost_factor": 90,
-            "shorten_by": 2,
             "visual_effect_and_powered": 18,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -10506,7 +10488,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -12160,7 +12142,6 @@
             "tractive_effort_coefficient": 21,
             "cost_factor": 53,
             "running_cost_factor": 56,
-            "shorten_by": 1,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -12185,7 +12166,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -12695,7 +12676,6 @@
             "tractive_effort_coefficient": 16,
             "cost_factor": 111,
             "running_cost_factor": 97,
-            "shorten_by": 0,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -13230,7 +13210,6 @@
             "tractive_effort_coefficient": 33,
             "cost_factor": 51,
             "running_cost_factor": 52,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -13489,7 +13468,6 @@
             "tractive_effort_coefficient": 46,
             "cost_factor": 36,
             "running_cost_factor": 38,
-            "shorten_by": 1,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -13514,7 +13492,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -13936,7 +13914,6 @@
             "tractive_effort_coefficient": 38,
             "cost_factor": 32,
             "running_cost_factor": 32,
-            "shorten_by": 2,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -13961,7 +13938,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -14295,7 +14272,6 @@
             "tractive_effort_coefficient": 37,
             "cost_factor": 43,
             "running_cost_factor": 46,
-            "shorten_by": 1,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -14320,7 +14296,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -14742,7 +14718,6 @@
             "tractive_effort_coefficient": 47,
             "cost_factor": 43,
             "running_cost_factor": 42,
-            "shorten_by": 1,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -14767,7 +14742,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -15013,7 +14988,6 @@
             "tractive_effort_coefficient": 40,
             "cost_factor": 45,
             "running_cost_factor": 42,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -15184,7 +15158,6 @@
             "tractive_effort_coefficient": 43,
             "cost_factor": 37,
             "running_cost_factor": 36,
-            "shorten_by": 2,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -15209,7 +15182,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -15543,7 +15516,6 @@
             "tractive_effort_coefficient": 55,
             "cost_factor": 81,
             "running_cost_factor": 72,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -15714,7 +15686,6 @@
             "tractive_effort_coefficient": 59,
             "cost_factor": 144,
             "running_cost_factor": 125,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -15908,7 +15879,6 @@
             "tractive_effort_coefficient": 58,
             "cost_factor": 68,
             "running_cost_factor": 61,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -16079,7 +16049,6 @@
             "tractive_effort_coefficient": 60,
             "cost_factor": 46,
             "running_cost_factor": 45,
-            "shorten_by": 1,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -16104,7 +16073,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -16350,7 +16319,6 @@
             "tractive_effort_coefficient": 48,
             "cost_factor": 66,
             "running_cost_factor": 66,
-            "shorten_by": 1,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -16375,7 +16343,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -16621,7 +16589,6 @@
             "tractive_effort_coefficient": 59,
             "cost_factor": 81,
             "running_cost_factor": 74,
-            "shorten_by": 1,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -16646,7 +16613,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -17068,7 +17035,6 @@
             "tractive_effort_coefficient": 70,
             "cost_factor": 86,
             "running_cost_factor": 77,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -17239,7 +17205,6 @@
             "tractive_effort_coefficient": 45,
             "cost_factor": 64,
             "running_cost_factor": 65,
-            "shorten_by": 1,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -17264,7 +17229,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -17712,7 +17677,6 @@
             "tractive_effort_coefficient": 33,
             "cost_factor": 29,
             "running_cost_factor": 30,
-            "shorten_by": 2,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -17737,7 +17701,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -18071,7 +18035,6 @@
             "tractive_effort_coefficient": 25,
             "cost_factor": 50,
             "running_cost_factor": 52,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -18330,7 +18293,6 @@
             "tractive_effort_coefficient": 51,
             "cost_factor": 40,
             "running_cost_factor": 40,
-            "shorten_by": 1,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -18355,7 +18317,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -18777,7 +18739,6 @@
             "tractive_effort_coefficient": 54,
             "cost_factor": 40,
             "running_cost_factor": 40,
-            "shorten_by": 1,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -18802,7 +18763,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -19048,7 +19009,6 @@
             "tractive_effort_coefficient": 56,
             "cost_factor": 69,
             "running_cost_factor": 61,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -19219,7 +19179,6 @@
             "tractive_effort_coefficient": 65,
             "cost_factor": 57,
             "running_cost_factor": 55,
-            "shorten_by": 1,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -19244,7 +19203,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -19490,7 +19449,6 @@
             "tractive_effort_coefficient": 55,
             "cost_factor": 68,
             "running_cost_factor": 62,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -19661,7 +19619,6 @@
             "tractive_effort_coefficient": 63,
             "cost_factor": 79,
             "running_cost_factor": 71,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -19832,7 +19789,6 @@
             "tractive_effort_coefficient": 70,
             "cost_factor": 87,
             "running_cost_factor": 77,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -20003,7 +19959,6 @@
             "tractive_effort_coefficient": 68,
             "cost_factor": 94,
             "running_cost_factor": 84,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -20174,7 +20129,6 @@
             "tractive_effort_coefficient": 57,
             "cost_factor": 88,
             "running_cost_factor": 85,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -20345,7 +20299,6 @@
             "tractive_effort_coefficient": 72,
             "cost_factor": 93,
             "running_cost_factor": 82,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -20516,7 +20469,6 @@
             "tractive_effort_coefficient": 48,
             "cost_factor": 40,
             "running_cost_factor": 40,
-            "shorten_by": 1,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -20541,7 +20493,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -20963,7 +20915,6 @@
             "tractive_effort_coefficient": 38,
             "cost_factor": 58,
             "running_cost_factor": 55,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -21134,7 +21085,6 @@
             "tractive_effort_coefficient": 46,
             "cost_factor": 31,
             "running_cost_factor": 30,
-            "shorten_by": 2,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -21159,7 +21109,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -21493,7 +21443,6 @@
             "tractive_effort_coefficient": 69,
             "cost_factor": 21,
             "running_cost_factor": 29,
-            "shorten_by": 2,
             "visual_effect_and_powered": 56,
             "engine_class": 40,
             "running_cost_base": 19504,
@@ -21518,7 +21467,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -21764,7 +21713,6 @@
             "tractive_effort_coefficient": 32,
             "cost_factor": 32,
             "running_cost_factor": 34,
-            "shorten_by": 2,
             "visual_effect_and_powered": 56,
             "engine_class": 40,
             "running_cost_base": 19504,
@@ -21789,7 +21737,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -22035,7 +21983,6 @@
             "tractive_effort_coefficient": 25,
             "cost_factor": 86,
             "running_cost_factor": 49,
-            "shorten_by": 1,
             "visual_effect_and_powered": 56,
             "engine_class": 40,
             "running_cost_base": 19504,
@@ -22060,7 +22007,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -22309,7 +22256,6 @@
             "tractive_effort_coefficient": 38,
             "cost_factor": 106,
             "running_cost_factor": 60,
-            "shorten_by": 0,
             "visual_effect_and_powered": 56,
             "engine_class": 40,
             "running_cost_base": 19504,
@@ -22480,7 +22426,6 @@
             "tractive_effort_coefficient": 55,
             "cost_factor": 76,
             "running_cost_factor": 45,
-            "shorten_by": 0,
             "visual_effect_and_powered": 56,
             "engine_class": 40,
             "running_cost_base": 19504,
@@ -22651,7 +22596,6 @@
             "tractive_effort_coefficient": 39,
             "cost_factor": 31,
             "running_cost_factor": 29,
-            "shorten_by": 2,
             "visual_effect_and_powered": 56,
             "engine_class": 40,
             "running_cost_base": 19504,
@@ -22676,7 +22620,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -23010,7 +22954,6 @@
             "tractive_effort_coefficient": 45,
             "cost_factor": 129,
             "running_cost_factor": 64,
-            "shorten_by": 1,
             "visual_effect_and_powered": 56,
             "engine_class": 40,
             "running_cost_base": 19504,
@@ -23035,7 +22978,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -23281,7 +23224,6 @@
             "tractive_effort_coefficient": 62,
             "cost_factor": 145,
             "running_cost_factor": 75,
-            "shorten_by": 1,
             "visual_effect_and_powered": 56,
             "engine_class": 40,
             "running_cost_base": 19504,
@@ -23306,7 +23248,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -23552,7 +23494,6 @@
             "tractive_effort_coefficient": 76,
             "cost_factor": 126,
             "running_cost_factor": 60,
-            "shorten_by": 0,
             "visual_effect_and_powered": 56,
             "engine_class": 40,
             "running_cost_base": 19504,
@@ -23723,7 +23664,6 @@
             "tractive_effort_coefficient": 86,
             "cost_factor": 173,
             "running_cost_factor": 83,
-            "shorten_by": 0,
             "visual_effect_and_powered": 56,
             "engine_class": 40,
             "running_cost_base": 19504,
@@ -23894,7 +23834,6 @@
             "tractive_effort_coefficient": 19,
             "cost_factor": 18,
             "running_cost_factor": 24,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -24065,7 +24004,6 @@
             "tractive_effort_coefficient": 27,
             "cost_factor": 21,
             "running_cost_factor": 29,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -24192,7 +24130,6 @@
             "tractive_effort_coefficient": 14,
             "cost_factor": 45,
             "running_cost_factor": 49,
-            "shorten_by": 1,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -24217,7 +24154,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -24732,7 +24669,6 @@
             "tractive_effort_coefficient": 47,
             "cost_factor": 72,
             "running_cost_factor": 77,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -25290,7 +25226,6 @@
             "tractive_effort_coefficient": 47,
             "cost_factor": 56,
             "running_cost_factor": 62,
-            "shorten_by": 0,
             "visual_effect_and_powered": 40,
             "engine_class": 8,
             "running_cost_base": 19504,
@@ -25845,7 +25780,6 @@
             "tractive_effort_coefficient": 45,
             "cost_factor": 24,
             "running_cost_factor": 33,
-            "shorten_by": 0,
             "visual_effect_and_powered": 56,
             "engine_class": 40,
             "running_cost_base": 19504,
@@ -26016,7 +25950,6 @@
             "tractive_effort_coefficient": 19,
             "cost_factor": 64,
             "running_cost_factor": 53,
-            "shorten_by": 0,
             "visual_effect_and_powered": 56,
             "engine_class": 40,
             "running_cost_base": 19504,
@@ -26477,7 +26410,6 @@
             "tractive_effort_coefficient": 44,
             "cost_factor": 52,
             "running_cost_factor": 43,
-            "shorten_by": 0,
             "visual_effect_and_powered": 56,
             "engine_class": 40,
             "running_cost_base": 19504,
@@ -26937,7 +26869,6 @@
             "tractive_effort_coefficient": 31,
             "cost_factor": 252,
             "running_cost_factor": 111,
-            "shorten_by": 0,
             "visual_effect_and_powered": 56,
             "engine_class": 40,
             "running_cost_base": 19504,
@@ -27489,7 +27420,6 @@
             "tractive_effort_coefficient": 37,
             "cost_factor": 76,
             "running_cost_factor": 52,
-            "shorten_by": 0,
             "visual_effect_and_powered": 56,
             "engine_class": 40,
             "running_cost_base": 19504,
@@ -27861,7 +27791,6 @@
             "tractive_effort_coefficient": 16,
             "cost_factor": 84,
             "running_cost_factor": 75,
-            "shorten_by": 0,
             "visual_effect_and_powered": 20,
             "engine_class": 0,
             "running_cost_base": 19504,
@@ -27920,7 +27849,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 94,
             "running_cost_factor": 100,
-            "shorten_by": 2,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -27945,7 +27873,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -28191,7 +28119,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 120,
             "running_cost_factor": 160,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -28626,7 +28553,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 106,
             "running_cost_factor": 160,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -29251,7 +29177,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 113,
             "running_cost_factor": 210,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -29712,7 +29637,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 114,
             "running_cost_factor": 200,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -30147,7 +30071,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 100,
             "running_cost_factor": 140,
-            "shorten_by": 1,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -30172,7 +30095,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -30506,7 +30429,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 80,
             "running_cost_factor": 60,
-            "shorten_by": 2,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -30531,7 +30453,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -30953,7 +30875,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 102,
             "running_cost_factor": 90,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -31322,7 +31243,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 86,
             "running_cost_factor": 90,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -31691,7 +31611,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 83,
             "running_cost_factor": 75,
-            "shorten_by": 1,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -31716,7 +31635,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -32060,7 +31979,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 95,
             "running_cost_factor": 75,
-            "shorten_by": 1,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -32085,7 +32003,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -32331,7 +32249,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 80,
             "running_cost_factor": 60,
-            "shorten_by": 2,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -32356,7 +32273,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -32602,7 +32519,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 64,
             "running_cost_factor": 40,
-            "shorten_by": 3,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -32636,7 +32552,7 @@
                 25,
                 4
             ],
-            "length": 8
+            "length": 5
         },
         "graphics": {
             "gs": [
@@ -33234,7 +33150,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 67,
             "running_cost_factor": 50,
-            "shorten_by": 2,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -33268,7 +33183,7 @@
                 25,
                 4
             ],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -34218,7 +34133,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 70,
             "running_cost_factor": 60,
-            "shorten_by": 1,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -34252,7 +34166,7 @@
                 25,
                 4
             ],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -35048,7 +34962,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 73,
             "running_cost_factor": 70,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -35702,7 +35615,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 74,
             "running_cost_factor": 60,
-            "shorten_by": 3,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -35741,7 +35653,7 @@
                 25,
                 4
             ],
-            "length": 8
+            "length": 5
         },
         "graphics": {
             "gs": [
@@ -35987,7 +35899,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 77,
             "running_cost_factor": 75,
-            "shorten_by": 2,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -36026,7 +35937,7 @@
                 25,
                 4
             ],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -36448,7 +36359,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 81,
             "running_cost_factor": 90,
-            "shorten_by": 1,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -36487,7 +36397,7 @@
                 25,
                 4
             ],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -36909,7 +36819,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 63,
             "running_cost_factor": 40,
-            "shorten_by": 3,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -36934,7 +36843,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 5
         },
         "graphics": {
             "gs": [
@@ -37180,7 +37089,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 68,
             "running_cost_factor": 50,
-            "shorten_by": 1,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -37205,7 +37113,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -37627,7 +37535,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 56,
             "running_cost_factor": 20,
-            "shorten_by": 4,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -37657,7 +37564,7 @@
                 19,
                 13
             ],
-            "length": 8
+            "length": 4
         },
         "graphics": {
             "gs": [
@@ -38167,7 +38074,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 59,
             "running_cost_factor": 30,
-            "shorten_by": 2,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -38197,7 +38103,7 @@
                 19,
                 13
             ],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -39257,7 +39163,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 61,
             "running_cost_factor": 40,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -40687,7 +40592,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 62,
             "running_cost_factor": 40,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -41192,7 +41096,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 70,
             "running_cost_factor": 60,
-            "shorten_by": 1,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -41230,7 +41133,7 @@
                 41,
                 25
             ],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -41498,7 +41401,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 63,
             "running_cost_factor": 40,
-            "shorten_by": 3,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -41532,7 +41434,7 @@
                 13,
                 4
             ],
-            "length": 8
+            "length": 5
         },
         "graphics": {
             "gs": [
@@ -42570,7 +42472,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 69,
             "running_cost_factor": 60,
-            "shorten_by": 2,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -42604,7 +42505,7 @@
                 13,
                 4
             ],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -43994,7 +43895,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 70,
             "running_cost_factor": 60,
-            "shorten_by": 1,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -44028,7 +43928,7 @@
                 13,
                 4
             ],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -46760,7 +46660,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 73,
             "running_cost_factor": 70,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -47398,7 +47297,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 56,
             "running_cost_factor": 20,
-            "shorten_by": 3,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -47427,7 +47325,7 @@
             "cargo_disallow_refit": [
                 4
             ],
-            "length": 8
+            "length": 5
         },
         "graphics": {
             "gs": [
@@ -48465,7 +48363,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 59,
             "running_cost_factor": 30,
-            "shorten_by": 1,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -48494,7 +48391,7 @@
             "cargo_disallow_refit": [
                 4
             ],
-            "length": 8
+            "length": 7
         },
         "graphics": {
             "gs": [
@@ -50060,7 +49957,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 61,
             "running_cost_factor": 35,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -52541,7 +52437,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 154,
             "running_cost_factor": 150,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -58510,7 +58405,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 61,
             "running_cost_factor": 35,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -59149,7 +59043,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 61,
             "running_cost_factor": 35,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -59962,7 +59855,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 63,
             "running_cost_factor": 40,
-            "shorten_by": 3,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -59989,7 +59881,7 @@
                 5
             ],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 5
         },
         "graphics": {
             "gs": [
@@ -60147,7 +60039,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 67,
             "running_cost_factor": 50,
-            "shorten_by": 2,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -60174,7 +60065,7 @@
                 5
             ],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [
@@ -60596,7 +60487,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 73,
             "running_cost_factor": 70,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -60841,7 +60731,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 73,
             "running_cost_factor": 70,
-            "shorten_by": 0,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -61212,7 +61101,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 80,
             "running_cost_factor": 30,
-            "shorten_by": 4,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -61237,7 +61125,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 4
         },
         "graphics": {
             "gs": [
@@ -61395,7 +61283,6 @@
             "tractive_effort_coefficient": 0,
             "cost_factor": 110,
             "running_cost_factor": 40,
-            "shorten_by": 2,
             "visual_effect_and_powered": 64,
             "engine_class": 0,
             "running_cost_base": 19510,
@@ -61420,7 +61307,7 @@
             "cargo_age_period": 185,
             "cargo_allow_refit": [],
             "cargo_disallow_refit": [],
-            "length": 8
+            "length": 6
         },
         "graphics": {
             "gs": [

@@ -34,6 +34,9 @@ class GRFFile(grf.LoadedResourceFile):
                 propsDict = {k: v[0] for k, v in s.props.items()}
                 introDate = propsDict["introduction_date"]
                 propsDict["introduction_date"] = (introDate.year, introDate.month, introDate.day)
+                if "shorten_by" in propsDict:
+                    propsDict["length"] = 8 - propsDict["shorten_by"]
+                    del propsDict["shorten_by"]
                 props = VehicleProps(**propsDict)
                 self.trains[s.id] = Vehicle(s.id, "", props)
             if isinstance(s, grf.DefineMultiple) and "cargo_table" in s.props:
