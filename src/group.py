@@ -86,7 +86,7 @@ same = TenderSpriteLocation.Same
 separate = TenderSpriteLocation.Separate
 
 ID_TO_GROUPS: dict[int, list[G]] = {
-    0: [Loco("train_1", false, tender=same, tenderLength=2), Purchase("train_2")],
+    0: [Loco("train_1", false, tender=same, tenderLength=3), Purchase("train_2")],
     1: [Loco("train_3", frames=4, tender=same, tenderLength=3), Purchase("train_4")],
     2: [Loco("train_5", frames=4, tender=same, tenderLength=3), Purchase("train_6")],
     3: [Loco("train_7", frames=4, tender=same, tenderLength=3), Purchase("train_8")],

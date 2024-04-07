@@ -17,18 +17,21 @@ TENDER_ID_OFFSET = 1000
 #         default=realSprites[0]
 #     )
 
+catsGrf = grf.NewGRF(
+    grfid=b"BY\x01\x03",  # someone took BY\x01\x02???
+    name="Combined American Train Set",
+    description="An American train set for the modern age.",
+    id_map_file="id_map.json"
+)
+
+Train: type[grf.Train] = catsGrf.bind(grf.Train)
+VehicleSpriteTable: type[grf.VehicleSpriteTable] = catsGrf.bind(grf.VehicleSpriteTable)
+Switch: type[grf.Switch] = catsGrf.bind(grf.Switch)
+
 
 def main():
-    catsGrf = grf.NewGRF(
-        grfid=b"BY\x01\x03",  # someone took BY\x01\x02???
-        name="Combined American Train Set",
-        description="An American train set for the modern age.",
-        id_map_file="id_map.json"
-    )
 
-    Train: type[grf.Train] = catsGrf.bind(grf.Train)
-    VehicleSpriteTable: type[grf.VehicleSpriteTable] = catsGrf.bind(grf.VehicleSpriteTable)
-    Switch: type[grf.Switch] = catsGrf.bind(grf.Switch)
+    global catsGrf, Train, VehicleSpriteTable, Switch
 
     # initGroups()
 
@@ -48,54 +51,16 @@ def main():
         for i in range(14):
             vehicle = vehicles[i]
 
+            print(f"Making {vehicle.name}...", end="")
+
             for g in vehicle.graphics.gs:
                 spriteTable = VehicleSpriteTable(grf.TRAIN)
                 sg = vehicle.graphics.spriteGroups[g.group]
                 purchaseLayout = spriteTable.get_layout(spriteTable.add_purchase_graphics(
                     vehicle.graphics.purchaseSprite.realSprites[0].asGrfFileSprite()))
                 if g.tender == TenderSpriteLocation.Same:
-                    engineRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[:-8]]
-                    engineFrames = util.chunk(engineRealSprites, 8)
-                    assert len(engineFrames) == g.frames
-
-                    engineLayouts = []
-                    for frame in engineFrames:
-                        engineLayouts.append(spriteTable.get_layout(spriteTable.add_row(frame)))
-
-                    engineGraphics = grf.Switch(
-                        code=f"motion_counter % {g.frames}",
-                        ranges={i: row for i, row in enumerate(engineLayouts)},
-                        default=engineLayouts[0]
-                    )
-
-                    # last set of 8 sprites is the tender
-                    tenderRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[-8:]]
-                    tenderGraphics = spriteTable.get_layout(spriteTable.add_row(tenderRealSprites))
-
-                    train = Train(
-                        id=vehicle.id,
-                        name="CATS " + vehicle.name,
-                        max_speed=Train.kmhish(vehicle.props.max_speed),
-                        weight=Train.ton(vehicle.props.weight_low),
-                        introduction_date=grf.datetime.date(*vehicle.props.introduction_date),
-                        **{k: v for k, v in dataclasses.asdict(vehicle.props).items() if k not in [
-                            "introduction_date",
-                            "max_speed",
-                            "length" if vehicle.props.shorten_by is not None else "shorten_by"
-                        ]},
-                        callbacks={
-                            "graphics": grf.GraphicsCallback(engineGraphics, purchaseLayout)
-                        }
-                    ).add_articulated_part(
-                        id=vehicle.id+TENDER_ID_OFFSET,
-                        skip_props_check=True,
-                        weight=Train.ton(vehicle.props.weight_low),
-                        length=g.tenderLength if g.tenderLength >= 8 else None,
-                        shorten_by=8-g.tenderLength if g.tenderLength < 8 else None,
-                        callbacks={
-                            "graphics": grf.GraphicsCallback(tenderGraphics)
-                        },
-                    )
+                    makeEngineWithTenderOnSameSheet(vehicle, spriteTable, sg, g, purchaseLayout)
+            print(" Done!")
 
         # for vehicle in vehicles:
         #     gr: Any = vehicle.graphics
@@ -141,6 +106,52 @@ def main():
         #         ]})
 
     grf.main(catsGrf, "dist/cats.grf")
+
+
+def makeEngineWithTenderOnSameSheet(vehicle, spriteTable, sg, g, purchaseLayout):
+    engineRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[:-8]]
+    engineFrames = util.chunk(engineRealSprites, 8)
+    assert len(engineFrames) == g.frames
+
+    engineLayouts = []
+    for frame in engineFrames:
+        engineLayouts.append(spriteTable.get_layout(spriteTable.add_row(frame)))
+
+    engineGraphics = grf.Switch(
+        code=f"motion_counter % {g.frames}",
+        ranges={i: row for i, row in enumerate(engineLayouts)},
+        default=engineLayouts[0]
+    )
+
+    # last set of 8 sprites is the tender
+    tenderRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[-8:]]
+    tenderGraphics = spriteTable.get_layout(spriteTable.add_row(tenderRealSprites))
+
+    props = {k: v for k, v in dataclasses.asdict(vehicle.props).items() if k not in [
+        "introduction_date",
+        "max_speed",
+        "length" if vehicle.props.shorten_by is not None else "shorten_by"
+    ]}
+
+    train = Train(
+        id=vehicle.id,
+        name="CATS " + vehicle.name,
+        max_speed=Train.kmhish(vehicle.props.max_speed),
+        weight=Train.ton(vehicle.props.weight_low),
+        introduction_date=grf.datetime.date(*vehicle.props.introduction_date),
+        **props,
+        callbacks={
+            "graphics": grf.GraphicsCallback(engineGraphics, purchaseLayout)
+        }
+    ).add_articulated_part(
+        id=vehicle.id+TENDER_ID_OFFSET,
+        skip_props_check=True,
+        weight=Train.ton(vehicle.props.weight_low),
+        length=g.tenderLength,
+        callbacks={
+            "graphics": grf.GraphicsCallback(tenderGraphics)
+        },
+    )
 
 
 if __name__ == "__main__":
