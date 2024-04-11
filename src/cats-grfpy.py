@@ -3,8 +3,8 @@ import grf
 import json
 
 from enums import TenderSpriteLocation
-from group import Tender
-from vehicle import Vehicle
+import group as G
+import vehicle as V
 import util
 
 TENDER_ID_OFFSET = 1000
@@ -48,15 +48,20 @@ def main():
 
     # with open("./props/simple-vehicle-stats.json", "r") as vehicleFile:
     with open("./props/vehicle-stats-sprites.json", "r") as vehicleFile:
-        vehicles: list[Vehicle] = [Vehicle(**e) for e in json.load(vehicleFile)]
+        vehicles: list[V.Vehicle] = [V.Vehicle(**e) for e in json.load(vehicleFile)]
         for vehicle in vehicles[:14]:
             print(f"Making {vehicle.name}...", end="")
 
             tenderLocation = [
-                isinstance(graphic, Tender) or graphic.tender == TenderSpriteLocation.Same
+                isinstance(graphic, G.Tender) or graphic.tender == TenderSpriteLocation.Same
                 for graphic in vehicle.graphics.gs].index(True)
 
             for g in vehicle.graphics.gs:
+                # TODO: handle engines that reverse direction when reversed
+                # TODO: if has a tender, tender should be first. otherwise use the other set of sprites
+                if g.reversable:
+                    continue
+
                 spriteTable = VehicleSpriteTable(grf.TRAIN)
                 sg = vehicle.graphics.spriteGroups[g.group]
                 purchaseLayout = spriteTable.get_layout(spriteTable.add_purchase_graphics(
@@ -113,7 +118,12 @@ def main():
     grf.main(catsGrf, "dist/cats.grf")
 
 
-def makeEngineWithTenderOnSameSheet(vehicle, spriteTable, sg, g, purchaseLayout):
+def makeEngineWithTenderOnSameSheet(
+        vehicle: V.Vehicle,
+        spriteTable: grf.VehicleSpriteTable,
+        sg: V.SpriteGroup,
+        g: G.G,
+        purchaseLayout: grf.GenericSpriteLayout):
     engineRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[:-8]]
     engineFrames = util.chunk(engineRealSprites, 8)
     assert len(engineFrames) == g.frames
