@@ -1,4 +1,5 @@
 import dataclasses
+from pprint import pprint
 import grf
 import json
 
@@ -60,52 +61,7 @@ def main():
             purchaseLayout = spriteTable.get_layout(spriteTable.add_purchase_graphics(
                 vehicle.graphics.purchaseSprite.realSprites[0].asGrfFileSprite()))
             makeEngine(vehicle, spriteTable, purchaseLayout)
-            # elif g.tender == TenderSpriteLocation.Separate:
-            #     makeEngineWithTenderSeparately(vehicle, spriteTable, sg, g, purchaseLayout)
             print(" Done!")
-
-        # for vehicle in vehicles:
-        #     gr: Any = vehicle.graphics
-        #     vehicle.graphics = VehicleGraphics(**gr)
-        #     p: Any = vehicle.props
-        #     vehicle.props = VehicleProps(**p)
-        #     spriteInfos = vehicle.graphics.sprites
-        #     sprites = []
-        #     for glr in spriteInfos:
-        #         sg: Any = glr
-        #         glr = SpriteGroup(**sg)
-        #         rs: list[Any] = glr.realSprites
-        #         glr.realSprites = [Sprite(**r) for r in rs]
-        #         groupName = glr.group
-        #         image = grf.ImageFile(f"./res/{groupName}.png")
-        #         sprites.extend([grf.FileSprite(
-        #             image,
-        #             rs.x,
-        #             rs.y,
-        #             rs.width,
-        #             rs.height,
-        #             xofs=rs.xofs,
-        #             yofs=rs.yofs,
-        #             zoom=rs.zoom
-        #         ) for rs in glr.realSprites])
-
-        #     engineLayouts, tenderLayouts = [], []
-        #     spriteTable = SpriteTable(grf.TRAIN)
-        #     for i, row in enumerate(util.chunk(sprites, 8)):
-        #         spriteTable.add_row(row)
-
-        #     train = Train(
-        #         id=vehicle.id,
-        #         name="CATS " + vehicle.name,
-        #         max_speed=Train.kmhish(vehicle.props.max_speed),
-        #         weight=Train.ton(vehicle.props.weight_low),
-        #         liveries=[{"name": "Default", "sprites": sprites}],
-        #         introduction_date=grf.datetime.date(*vehicle.props.introduction_date),
-        #         **{k: v for k, v in dataclasses.asdict(vehicle.props).items() if k not in [
-        #             "introduction_date",
-        #             "max_speed",
-        #             "length" if vehicle.props.shorten_by is not None else "shorten_by"
-        #         ]})
 
     grf.main(catsGrf, "dist/cats.grf")
 
@@ -114,58 +70,119 @@ def makeEngine(
         vehicle: V.Vehicle,
         spriteTable: grf.VehicleSpriteTable,
         purchaseLayout: grf.GenericSpriteLayout):
-    # TODO: handle engines that reverse direction when reversed
-    # TODO: if has a tender, tender should be first. otherwise use the other set of sprites
-    # TODO: use vehicle_is_reversed variable in a switch
+    # get the index of the reversed spritesheet
+    reversedIndex = -1
+    for i, g in enumerate(vehicle.graphics.gs):
+        if g.reversable:
+            reversedIndex = i
 
-    for g in vehicle.graphics.gs:
-        spriteTable = VehicleSpriteTable(grf.TRAIN)
+    # make a new spritetable for this vehicle
+    spriteTable = VehicleSpriteTable(grf.TRAIN)
+    # add purchase sprite
+    purchaseLayout = spriteTable.get_layout(
+        spriteTable.add_purchase_graphics(
+            vehicle.graphics.purchaseSprite.realSprites[0].asGrfFileSprite()
+        )
+    )
+
+    forwardEngine = None
+    forwardTender = None
+    backwardEngine = None
+    backwardTender = None
+
+    for i, g in enumerate(vehicle.graphics.gs):
         sg = vehicle.graphics.spriteGroups[g.group]
-        purchaseLayout = spriteTable.get_layout(spriteTable.add_purchase_graphics(
-            vehicle.graphics.purchaseSprite.realSprites[0].asGrfFileSprite()))
+
+        # all but the last 8 sprites are the tender
+        engineRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[:-8]]
+        # chunk into rows of 8 sprites, 1 per frame of animation
+        engineFrames = util.chunk(engineRealSprites, 8)
+        assert len(engineFrames) == g.frames
+        # make the layouts for each engine frame
+        engineLayouts = []
+        for frame in engineFrames:
+            engineLayouts.append(spriteTable.get_layout(spriteTable.add_row(frame)))
+        # switch over motion_counter mod framecount to make animations
+        engineGraphics = grf.Switch(
+            code=f"motion_counter % {g.frames}",
+            ranges={i: row for i, row in enumerate(engineLayouts)},
+            default=engineLayouts[0]
+        )
+
+        if i != reversedIndex:
+            forwardEngine = engineGraphics
+        else:
+            backwardEngine = engineGraphics
+
+        # TODO: handle engines that reverse direction when reversed
+        # TODO: if has a tender, tender should be first. otherwise use the other set of sprites
+        # TODO: use vehicle_is_reversed variable in a switch
+
+        # if the tender is on the same spritesheet...
         if g.tender == TenderSpriteLocation.Same:
-            engineRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[:-8]]
-            engineFrames = util.chunk(engineRealSprites, 8)
-            assert len(engineFrames) == g.frames
-
-            engineLayouts = []
-            for frame in engineFrames:
-                engineLayouts.append(spriteTable.get_layout(spriteTable.add_row(frame)))
-
-            engineGraphics = grf.Switch(
-                code=f"motion_counter % {g.frames}",
-                ranges={i: row for i, row in enumerate(engineLayouts)},
-                default=engineLayouts[0]
-            )
-
-            # last set of 8 sprites is the tender
+            # last set of 8 sprites is the tender, no animations
             tenderRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[-8:]]
             tenderGraphics = spriteTable.get_layout(spriteTable.add_row(tenderRealSprites))
+            if i != reversedIndex:
+                forwardTender = tenderGraphics
+            else:
+                backwardTender = tenderGraphics
+        # elif g.tender == TenderSpriteLocation.Separate:
+        #     makeEngineWithTenderSeparately(vehicle, spriteTable, sg, g, purchaseLayout)
 
-            train = Train(
-                id=vehicle.id,
-                name="CATS " + vehicle.name,
-                max_speed=Train.kmhish(vehicle.props.max_speed),
-                weight=Train.ton(vehicle.props.weight_low),
-                introduction_date=grf.datetime.date(*vehicle.props.introduction_date),
-                **{k: v for k, v in dataclasses.asdict(vehicle.props).items() if k not in [
-                    "introduction_date",
-                    "max_speed",
-                    # "length" if vehicle.props.shorten_by is not None else "shorten_by"
-                ]},
-                callbacks={
-                    "graphics": grf.GraphicsCallback(engineGraphics, purchaseLayout)
-                }
-            ).add_articulated_part(
-                id=vehicle.id+TENDER_ID_OFFSET,
-                skip_props_check=True,
-                weight=Train.ton(vehicle.props.weight_low),
-                length=g.tenderLength if g.tenderLength >= 8 else None,
-                shorten_by=8-g.tenderLength if g.tenderLength < 8 else None,
-                callbacks={
-                    "graphics": grf.GraphicsCallback(tenderGraphics)
-                },
-            )
+    # if the current sprite group is for the reversed version...
+    if reversedIndex != -1:
+        # the tender is "locomotive"/leading unit, no animations
+        # engine is the following articulated unit, with animations
+        # change the two to use switches
+        frontUnitGraphics = grf.Switch(
+            code="vehicle_is_reversed",
+            ranges={
+                0: forwardEngine,
+                1: backwardTender,
+            },
+            default=forwardEngine,
+            related_scope=True
+        )
+        backUnitGraphics = grf.Switch(
+            code="vehicle_is_reversed",
+            ranges={
+                0: forwardTender,
+                1: backwardEngine,
+            },
+            default=forwardTender,
+            related_scope=True
+        )
+    else:
+        frontUnitGraphics = forwardEngine
+        backUnitGraphics = forwardTender
+
+    print(vehicle.name, type(frontUnitGraphics), type(backUnitGraphics))
+
+    train = Train(
+        id=vehicle.id,
+        name="CATS " + vehicle.name,
+        max_speed=Train.kmhish(vehicle.props.max_speed),
+        weight=Train.ton(vehicle.props.weight_low),
+        introduction_date=grf.datetime.date(*vehicle.props.introduction_date),
+        **{k: v for k, v in dataclasses.asdict(vehicle.props).items() if k not in [
+            "introduction_date",
+            "max_speed",
+        ]},
+        callbacks={
+            "graphics": grf.GraphicsCallback(frontUnitGraphics, purchaseLayout)
+        }
+    )
+    if backUnitGraphics is not None:
+        train.add_articulated_part(
+            id=vehicle.id+TENDER_ID_OFFSET,
+            skip_props_check=True,
+            weight=Train.ton(vehicle.props.weight_low),
+            length=vehicle.graphics.gs[0].tenderLength,
+            callbacks={
+                "graphics": grf.GraphicsCallback(backUnitGraphics)
+            },
+        )
 
 
 if __name__ == "__main__":
