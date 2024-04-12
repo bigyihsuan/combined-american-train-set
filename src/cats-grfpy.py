@@ -56,20 +56,12 @@ def main():
                 isinstance(graphic, G.Tender) or graphic.tender == TenderSpriteLocation.Same
                 for graphic in vehicle.graphics.gs].index(True)
 
-            for g in vehicle.graphics.gs:
-                # TODO: handle engines that reverse direction when reversed
-                # TODO: if has a tender, tender should be first. otherwise use the other set of sprites
-                if g.reversable:
-                    continue
-
-                spriteTable = VehicleSpriteTable(grf.TRAIN)
-                sg = vehicle.graphics.spriteGroups[g.group]
-                purchaseLayout = spriteTable.get_layout(spriteTable.add_purchase_graphics(
-                    vehicle.graphics.purchaseSprite.realSprites[0].asGrfFileSprite()))
-                if g.tender == TenderSpriteLocation.Same:
-                    makeEngineWithTenderOnSameSheet(vehicle, spriteTable, sg, g, purchaseLayout)
-                # elif g.tender == TenderSpriteLocation.Separate:
-                #     makeEngineWithTenderSeparately(vehicle, spriteTable, sg, g, purchaseLayout)
+            spriteTable = VehicleSpriteTable(grf.TRAIN)
+            purchaseLayout = spriteTable.get_layout(spriteTable.add_purchase_graphics(
+                vehicle.graphics.purchaseSprite.realSprites[0].asGrfFileSprite()))
+            makeEngine(vehicle, spriteTable, purchaseLayout)
+            # elif g.tender == TenderSpriteLocation.Separate:
+            #     makeEngineWithTenderSeparately(vehicle, spriteTable, sg, g, purchaseLayout)
             print(" Done!")
 
         # for vehicle in vehicles:
@@ -118,55 +110,62 @@ def main():
     grf.main(catsGrf, "dist/cats.grf")
 
 
-def makeEngineWithTenderOnSameSheet(
+def makeEngine(
         vehicle: V.Vehicle,
         spriteTable: grf.VehicleSpriteTable,
-        sg: V.SpriteGroup,
-        g: G.G,
         purchaseLayout: grf.GenericSpriteLayout):
-    engineRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[:-8]]
-    engineFrames = util.chunk(engineRealSprites, 8)
-    assert len(engineFrames) == g.frames
+    # TODO: handle engines that reverse direction when reversed
+    # TODO: if has a tender, tender should be first. otherwise use the other set of sprites
+    # TODO: use vehicle_is_reversed variable in a switch
 
-    engineLayouts = []
-    for frame in engineFrames:
-        engineLayouts.append(spriteTable.get_layout(spriteTable.add_row(frame)))
+    for g in vehicle.graphics.gs:
+        spriteTable = VehicleSpriteTable(grf.TRAIN)
+        sg = vehicle.graphics.spriteGroups[g.group]
+        purchaseLayout = spriteTable.get_layout(spriteTable.add_purchase_graphics(
+            vehicle.graphics.purchaseSprite.realSprites[0].asGrfFileSprite()))
+        if g.tender == TenderSpriteLocation.Same:
+            engineRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[:-8]]
+            engineFrames = util.chunk(engineRealSprites, 8)
+            assert len(engineFrames) == g.frames
 
-    engineGraphics = grf.Switch(
-        code=f"motion_counter % {g.frames}",
-        ranges={i: row for i, row in enumerate(engineLayouts)},
-        default=engineLayouts[0]
-    )
+            engineLayouts = []
+            for frame in engineFrames:
+                engineLayouts.append(spriteTable.get_layout(spriteTable.add_row(frame)))
 
-    # last set of 8 sprites is the tender
-    tenderRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[-8:]]
-    tenderGraphics = spriteTable.get_layout(spriteTable.add_row(tenderRealSprites))
+            engineGraphics = grf.Switch(
+                code=f"motion_counter % {g.frames}",
+                ranges={i: row for i, row in enumerate(engineLayouts)},
+                default=engineLayouts[0]
+            )
 
-    props = {k: v for k, v in dataclasses.asdict(vehicle.props).items() if k not in [
-        "introduction_date",
-        "max_speed",
-        # "length" if vehicle.props.shorten_by is not None else "shorten_by"
-    ]}
+            # last set of 8 sprites is the tender
+            tenderRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[-8:]]
+            tenderGraphics = spriteTable.get_layout(spriteTable.add_row(tenderRealSprites))
 
-    train = Train(
-        id=vehicle.id,
-        name="CATS " + vehicle.name,
-        max_speed=Train.kmhish(vehicle.props.max_speed),
-        weight=Train.ton(vehicle.props.weight_low),
-        introduction_date=grf.datetime.date(*vehicle.props.introduction_date),
-        **props,
-        callbacks={
-            "graphics": grf.GraphicsCallback(engineGraphics, purchaseLayout)
-        }
-    ).add_articulated_part(
-        id=vehicle.id+TENDER_ID_OFFSET,
-        skip_props_check=True,
-        weight=Train.ton(vehicle.props.weight_low),
-        length=g.tenderLength,
-        callbacks={
-            "graphics": grf.GraphicsCallback(tenderGraphics)
-        },
-    )
+            train = Train(
+                id=vehicle.id,
+                name="CATS " + vehicle.name,
+                max_speed=Train.kmhish(vehicle.props.max_speed),
+                weight=Train.ton(vehicle.props.weight_low),
+                introduction_date=grf.datetime.date(*vehicle.props.introduction_date),
+                **{k: v for k, v in dataclasses.asdict(vehicle.props).items() if k not in [
+                    "introduction_date",
+                    "max_speed",
+                    # "length" if vehicle.props.shorten_by is not None else "shorten_by"
+                ]},
+                callbacks={
+                    "graphics": grf.GraphicsCallback(engineGraphics, purchaseLayout)
+                }
+            ).add_articulated_part(
+                id=vehicle.id+TENDER_ID_OFFSET,
+                skip_props_check=True,
+                weight=Train.ton(vehicle.props.weight_low),
+                length=g.tenderLength if g.tenderLength >= 8 else None,
+                shorten_by=8-g.tenderLength if g.tenderLength < 8 else None,
+                callbacks={
+                    "graphics": grf.GraphicsCallback(tenderGraphics)
+                },
+            )
 
 
 if __name__ == "__main__":
