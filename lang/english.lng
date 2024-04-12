@@ -1,7 +1,0 @@
-##grflangid 0x01
-STR_GRF_NAME        :{TITLE} {VERSION}
-STR_GRF_DESCRIPTION :An unofficial successor to NARS by Pikka et al.{}{}Contributors:{}- Pikka et al: original GRF and graphics (under GPL){}- bigyihsuan: code
-STR_GRF_URL         :https://github.com/bigyihsuan/combined-american-train-set
-
-# STR_ERROR_UNSUPPORTED_VERSION :{TITLE} requires an OpenTTD version which supports this feature such as JGR's patchpack v0.43.0 or later.
-# STR_ERROR_INCOMPATIBLE_SET    :{YELLOW}{TITLE}{WHITE} is incompatible with {YELLOW}{STRING}{WHITE}.

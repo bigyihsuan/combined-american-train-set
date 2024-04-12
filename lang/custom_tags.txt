@@ -1,2 +1,0 @@
-TITLE   :Combined American Train Set
-VERSION :v0.0.0
