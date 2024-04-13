@@ -15,6 +15,12 @@ Total feature parity with NARS:
 - Semi-randomized cargo (when available)
 - Cargo-specific car sprites (flatcars, gondolas, hoppers)
 
+## 1.0.1 Goals
+
+- Fix 2-8-8-2 Mallet and 4-6-6-4 Challenger having misaligned animation frames when going straight SE. This leads to the front driver of the fixed unit being one quarter turn too ear.y. (See `train_30`/`train_31` and `train_41`/`train_42` spritegroups, SE column for the error.)
+  - ![mallet-bug](./doc/mallet-bug.png)
+  - ![challenger-bug](./doc/challenger-bug.png)
+
 ## 1.x Goals
 
 Some more features to bring NARS to the modern day.
