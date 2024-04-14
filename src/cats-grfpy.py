@@ -56,20 +56,14 @@ def main():
                 continue
             print(f"Making {vehicle.name}...", end="")
 
-            spriteTable = VehicleSpriteTable(grf.TRAIN)
-            purchaseLayout = spriteTable.get_layout(spriteTable.add_purchase_graphics(
-                vehicle.graphics.purchaseSprite.realSprites[0].asGrfFileSprite()))
+            makeEngine(vehicle)
 
-            makeEngine(vehicle, spriteTable, purchaseLayout)
             print(" Done!")
 
     grf.main(catsGrf, "dist/cats.grf")
 
 
-def makeEngine(
-        vehicle: V.Vehicle,
-        spriteTable: grf.VehicleSpriteTable,
-        purchaseLayout: grf.GenericSpriteLayout):
+def makeEngine(vehicle: V.Vehicle):
     # get the index of the reversed spritesheet
     reversedIndex = -1
     for i, g in enumerate(vehicle.graphics.gs):
