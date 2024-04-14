@@ -10,20 +10,11 @@ import util
 
 TENDER_ID_OFFSET = 1000
 
-# def makeAnimation(vehicle: Vehicle, realSprites: list[grf.FileSprite], frameCount: int) -> grf.Switch:
-#     assert len(realSprites) > 0
-#     chunked = util.chunk(realSprites, 8)
-#     return grf.Switch(
-#         code=f"motion_counter % {frameCount}",
-#         ranges={i: chunked for i in range(frameCount)},
-#         default=realSprites[0]
-#     )
-
 catsGrf = grf.NewGRF(
     grfid=b"BY\x01\x03",  # someone took BY\x01\x02???
     name="Combined American Train Set",
     description="An American train set for the modern age.",
-    id_map_file="./id_map.json"
+    id_map_file="./id_map.json",
 )
 
 Train: type[grf.Train] = catsGrf.bind(grf.Train)
@@ -66,10 +57,7 @@ def main():
 
 def makeEngine(vehicle: V.Vehicle):
     # get the index of the reversed spritesheet
-    reversedIndex = -1
-    for i, g in enumerate(vehicle.graphics.gs):
-        if g.reversable:
-            reversedIndex = i
+    reversedIndex = l.index(True) if True in (l := list(g.reversable for g in vehicle.graphics.gs)) else -1
 
     # make a new spritetable for this vehicle
     spriteTable = VehicleSpriteTable(grf.TRAIN)
