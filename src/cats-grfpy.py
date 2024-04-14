@@ -132,6 +132,10 @@ def makeEngine(vehicle: V.Vehicle):
         else:
             backwardEngine = engineGraphics
 
+    mainUnitGraphics = None
+    # this is a list to allow for multiple articulated units
+    articulatedGraphics = []
+
     # if the current sprite group is for the reversed version...
     if reversedIndex != -1:
         # handle engines that reverse direction when reversed
@@ -140,7 +144,7 @@ def makeEngine(vehicle: V.Vehicle):
         # when reversed, the engine is the following articulated unit, with animations
         # switch on vehicle_is_reversed to change the graphics
 
-        frontUnitGraphics = grf.Switch(
+        mainUnitGraphics = grf.Switch(
             code="vehicle_is_reversed",
             ranges={
                 0: forwardEngine,
@@ -150,7 +154,7 @@ def makeEngine(vehicle: V.Vehicle):
             # also check the other cars of the consist. vehicle_is_reversed by default only checks the first car.
             related_scope=True
         )
-        backUnitGraphics = grf.Switch(
+        articulatedGraphics.append(grf.Switch(
             code="vehicle_is_reversed",
             ranges={
                 0: forwardTender,
@@ -158,10 +162,28 @@ def makeEngine(vehicle: V.Vehicle):
             },
             default=forwardTender,
             related_scope=True
-        )
+        ))
     else:
-        frontUnitGraphics = forwardEngine
-        backUnitGraphics = forwardTender
+        mainUnitGraphics = forwardEngine
+        articulatedGraphics.append(forwardTender)
+
+        # TODO: add support for articulateds with 3+ parts (e.g. malllet = fixed frame, front articulated, tender)
+        # TODO: NARS seems to use curv_info_cur_next, so switch over that.
+        # TODO: per https://newgrf-specs.tt-wiki.net/wiki/NML:Vehicles#:~:text=is%2045%20degrees.-,curv_info_cur_next,-%2D2%20...%202
+        # TODO: the range is from -2 to 2, inclusive. each unit is a 45 deg turn, so it ranges from 90 deg left to 90 deg right.
+        # TODO: NARS articulateds sprites have structure
+        # TODO:     fixed -> articulated straight -> articulated left -> articulated right -> tender.
+        # TODO: fixed and tender would use existing code for any other engine.
+        # TODO: articulated would need 3 makings.
+        # TODO: NARS only uses 1 and 15 (-1?) and defaults to straight.
+        frontArticulated = grf.Switch(
+            code="curv_info_cur_next",
+            ranges={
+                -1: None,  # TODO: turning left
+                +1: None,  # TODO: turning right
+            },
+            default=None  # TODO: straight
+        )
 
     train = Train(
         id=vehicle.id,
@@ -174,17 +196,17 @@ def makeEngine(vehicle: V.Vehicle):
             "max_speed",
         ]},
         callbacks={
-            "graphics": grf.GraphicsCallback(frontUnitGraphics, purchaseLayout)
+            "graphics": grf.GraphicsCallback(mainUnitGraphics, purchaseLayout)
         }
     )
-    if backUnitGraphics is not None:
+    for backUnit in articulatedGraphics:
         train.add_articulated_part(
             id=vehicle.id+TENDER_ID_OFFSET,
             skip_props_check=True,
             weight=Train.ton(vehicle.props.weight_low),
             length=vehicle.graphics.gs[0].tenderLength,
             callbacks={
-                "graphics": grf.GraphicsCallback(backUnitGraphics)
+                "graphics": grf.GraphicsCallback(backUnit)
             },
         )
 
