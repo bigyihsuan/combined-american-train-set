@@ -23,7 +23,7 @@ catsGrf = grf.NewGRF(
     grfid=b"BY\x01\x03",  # someone took BY\x01\x02???
     name="Combined American Train Set",
     description="An American train set for the modern age.",
-    id_map_file="id_map.json"
+    id_map_file="./id_map.json"
 )
 
 Train: type[grf.Train] = catsGrf.bind(grf.Train)
@@ -47,19 +47,19 @@ def main():
     with open("./props/cargo-table.json", "r") as cargoTableFile:
         catsGrf.set_cargo_table(json.load(cargoTableFile))
 
-    # with open("./props/simple-vehicle-stats.json", "r") as vehicleFile:
+    IGNORE_FOR_NOW = [14, 17]
     with open("./props/vehicle-stats-sprites.json", "r") as vehicleFile:
         vehicles: list[V.Vehicle] = [V.Vehicle(**e) for e in json.load(vehicleFile)]
-        for vehicle in vehicles[:14]:
+        for vehicle in vehicles[:max(IGNORE_FOR_NOW)+1]:
+            if vehicle.id in IGNORE_FOR_NOW:
+                print(f"SKIPPING {vehicle.name}...")
+                continue
             print(f"Making {vehicle.name}...", end="")
-
-            tenderLocation = [
-                isinstance(graphic, G.Tender) or graphic.tender == TenderSpriteLocation.Same
-                for graphic in vehicle.graphics.gs].index(True)
 
             spriteTable = VehicleSpriteTable(grf.TRAIN)
             purchaseLayout = spriteTable.get_layout(spriteTable.add_purchase_graphics(
                 vehicle.graphics.purchaseSprite.realSprites[0].asGrfFileSprite()))
+
             makeEngine(vehicle, spriteTable, purchaseLayout)
             print(" Done!")
 
@@ -89,19 +89,54 @@ def makeEngine(
     forwardTender = None
     backwardEngine = None
     backwardTender = None
-
+    tenderIndex = -1
     for i, g in enumerate(vehicle.graphics.gs):
+        if isinstance(g, G.Purchase):
+            print(f"Somehow got a Purchase in vehicle.gs at {i} for {vehicle.name}!")
+            continue
+        if isinstance(g, G.Tender) and tenderIndex != -1:
+            continue
+
         sg = vehicle.graphics.spriteGroups[g.group]
 
-        # all but the last 8 sprites are the tender
-        engineRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[:-8]]
+        tenderGraphics = None
+        tenderGraphicsLocation = []
+        engineRealSprites = []
+        if not isinstance(g, G.Tender) and g.tender == TenderSpriteLocation.Same:
+            # if the tender is on the same spritesheet
+            # last set of 8 sprites is the tender
+            # get the real sprites for the engine.
+            engineRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[:g.frames * 8]]
+            tenderGraphicsLocation = sg.realSprites[g.frames * 8:]
+        elif not isinstance(g, G.Tender) and g.tender == TenderSpriteLocation.Separate:
+            # current g is not a tender, i.e. a loco, and has its tender on a separate sprite
+            engineRealSprites = [s.asGrfFileSprite() for s in sg.realSprites]
+            # find the tender group
+            tenderIndex = list(isinstance(g, G.Tender) for g in vehicle.graphics.gs).index(True)
+            t: G.G = vehicle.graphics.gs[tenderIndex]
+            assert isinstance(t, G.Tender)
+            tender: G.Tender = t
+            tenderGraphicsLocation = vehicle.graphics.spriteGroups[tender.group].realSprites
+
+        tenderRealSprites = [s.asGrfFileSprite() for s in tenderGraphicsLocation]
+        # tender has no animations, so no switch for animations
+        tenderGraphics = spriteTable.get_layout(spriteTable.add_row(tenderRealSprites))
+
+        if i != reversedIndex:
+            forwardTender = tenderGraphics
+        else:
+            backwardTender = tenderGraphics
+
         # chunk into rows of 8 sprites, 1 per frame of animation
         engineFrames = util.chunk(engineRealSprites, 8)
         assert len(engineFrames) == g.frames
+        assert all(len(f) == 8 for f in engineFrames)
         # make the layouts for each engine frame
         engineLayouts = []
         for frame in engineFrames:
-            engineLayouts.append(spriteTable.get_layout(spriteTable.add_row(frame)))
+            engineLayouts.append(
+                spriteTable.get_layout(spriteTable.add_row(frame))
+            )
         # switch over motion_counter mod framecount to make animations
         engineGraphics = grf.Switch(
             code=f"motion_counter % {g.frames}",
@@ -114,27 +149,14 @@ def makeEngine(
         else:
             backwardEngine = engineGraphics
 
-        # TODO: handle engines that reverse direction when reversed
-        # TODO: if has a tender, tender should be first. otherwise use the other set of sprites
-        # TODO: use vehicle_is_reversed variable in a switch
-
-        # if the tender is on the same spritesheet...
-        if g.tender == TenderSpriteLocation.Same:
-            # last set of 8 sprites is the tender, no animations
-            tenderRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[-8:]]
-            tenderGraphics = spriteTable.get_layout(spriteTable.add_row(tenderRealSprites))
-            if i != reversedIndex:
-                forwardTender = tenderGraphics
-            else:
-                backwardTender = tenderGraphics
-        # elif g.tender == TenderSpriteLocation.Separate:
-        #     makeEngineWithTenderSeparately(vehicle, spriteTable, sg, g, purchaseLayout)
-
     # if the current sprite group is for the reversed version...
     if reversedIndex != -1:
-        # the tender is "locomotive"/leading unit, no animations
-        # engine is the following articulated unit, with animations
-        # change the two to use switches
+        # handle engines that reverse direction when reversed
+
+        # when reversed, the tender is "locomotive"/leading unit, no animations
+        # when reversed, the engine is the following articulated unit, with animations
+        # switch on vehicle_is_reversed to change the graphics
+
         frontUnitGraphics = grf.Switch(
             code="vehicle_is_reversed",
             ranges={
@@ -142,6 +164,7 @@ def makeEngine(
                 1: backwardTender,
             },
             default=forwardEngine,
+            # also check the other cars of the consist. vehicle_is_reversed by default only checks the first car.
             related_scope=True
         )
         backUnitGraphics = grf.Switch(
@@ -156,8 +179,6 @@ def makeEngine(
     else:
         frontUnitGraphics = forwardEngine
         backUnitGraphics = forwardTender
-
-    print(vehicle.name, type(frontUnitGraphics), type(backUnitGraphics))
 
     train = Train(
         id=vehicle.id,
