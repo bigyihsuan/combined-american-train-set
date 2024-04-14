@@ -179,3 +179,13 @@ class Vehicle:
             if bitmask * (1 << i) != 0:
                 flags.append(flag)
         return flags
+
+    def getTender(self) -> tuple[int, Tender]:
+        tenderIndex = l.index(True) if True in (l := list(isinstance(g, Tender)
+                                                          for g in self.graphics.gs)) else None
+        if tenderIndex is None:
+            raise Exception(f"Could not find separate tender for self {self.name}!")
+        t: G = self.graphics.gs[tenderIndex]
+        assert isinstance(t, Tender)
+        tender: Tender = t
+        return tenderIndex, tender

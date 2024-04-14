@@ -7744,7 +7744,7 @@
                 {
                     "group": "train_31",
                     "reversable": false,
-                    "loc": "Front",
+                    "loc": "FrontStraight",
                     "liv": [],
                     "alt": [],
                     "mu": false,
@@ -7761,7 +7761,7 @@
                 {
                     "group": "train_32",
                     "reversable": false,
-                    "loc": "Front",
+                    "loc": "FrontLeft",
                     "liv": [],
                     "alt": [],
                     "mu": false,
@@ -7778,7 +7778,7 @@
                 {
                     "group": "train_33",
                     "reversable": false,
-                    "loc": "Front",
+                    "loc": "FrontRight",
                     "liv": [],
                     "alt": [],
                     "mu": false,
@@ -10512,7 +10512,7 @@
                 {
                     "group": "train_42",
                     "reversable": false,
-                    "loc": "Front",
+                    "loc": "FrontStraight",
                     "liv": [],
                     "alt": [],
                     "mu": false,
@@ -10529,7 +10529,7 @@
                 {
                     "group": "train_43",
                     "reversable": false,
-                    "loc": "Front",
+                    "loc": "FrontLeft",
                     "liv": [],
                     "alt": [],
                     "mu": false,
@@ -10546,7 +10546,7 @@
                 {
                     "group": "train_44",
                     "reversable": false,
-                    "loc": "Front",
+                    "loc": "FrontRight",
                     "liv": [],
                     "alt": [],
                     "mu": false,

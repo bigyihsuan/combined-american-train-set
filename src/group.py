@@ -58,7 +58,9 @@ class Purchase(G):
         self.kind = "Purchase" if self.kind != "Purchase" else "Purchase"
 
 
-front = Loc.Front
+straight = Loc.FrontStraight
+left = Loc.FrontLeft
+right = Loc.FrontRight
 back = Loc.Back
 tender = Loc.Tender
 end = Loc.End
@@ -83,9 +85,9 @@ ID_TO_GROUPS: dict[int, list[G]] = {
     13: [Loco("train_28", frames=4, tender=same, tenderLength=6), Purchase("train_29")],
     14: [
         Loco("train_30", loc=back, frames=4, tender=separate),
-        Loco("train_31", loc=front, frames=4, tender=separate),
-        Loco("train_32", loc=front, frames=4, tender=separate),
-        Loco("train_33", loc=front, frames=4, tender=separate),
+        Loco("train_31", loc=straight, frames=4, tender=separate),
+        Loco("train_32", loc=left, frames=4, tender=separate),
+        Loco("train_33", loc=right, frames=4, tender=separate),
         Tender("train_34", loc=tender, tender=same, tenderLength=6),
         Purchase("train_35")
     ],
@@ -97,9 +99,9 @@ ID_TO_GROUPS: dict[int, list[G]] = {
     ],
     17: [
         Loco("train_41", loc=back, frames=4, tender=separate),
-        Loco("train_42", loc=front, frames=4, tender=separate),
-        Loco("train_43", loc=front, frames=4, tender=separate),
-        Loco("train_44", loc=front, frames=4, tender=separate),
+        Loco("train_42", loc=straight, frames=4, tender=separate),
+        Loco("train_43", loc=left, frames=4, tender=separate),
+        Loco("train_44", loc=right, frames=4, tender=separate),
         Tender("train_45", loc=tender, tender=same, tenderLength=6),
         Purchase("train_46")
     ],
