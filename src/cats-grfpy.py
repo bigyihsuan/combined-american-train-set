@@ -47,7 +47,8 @@ def main():
     with open("./props/cargo-table.json", "r") as cargoTableFile:
         catsGrf.set_cargo_table(json.load(cargoTableFile))
 
-    IGNORE_FOR_NOW = [14, 17]
+    IGNORE_FOR_NOW = [14, 17, 20]
+
     with open("./props/vehicle-stats-sprites.json", "r") as vehicleFile:
         vehicles: list[V.Vehicle] = [V.Vehicle(**e) for e in json.load(vehicleFile)]
         for vehicle in vehicles[:max(IGNORE_FOR_NOW)+1]:
