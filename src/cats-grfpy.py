@@ -173,9 +173,10 @@ def makeEngine(vehicle: V.Vehicle):
         name="CATS " + vehicle.name,
         max_speed=Train.kmhish(vehicle.props.max_speed),
         weight=Train.ton(vehicle.props.weight_low),
-        introduction_date=grf.datetime.date(*vehicle.props.introduction_date),
+        introduction_date=grf.datetime.date(year=vehicle.props.introduction_date[0], month=1, day=1),
         **{k: v for k, v in dataclasses.asdict(vehicle.props).items() if k not in [
             "introduction_date",
+            "introduction_days_since_1920",
             "max_speed",
         ]},
         callbacks={
@@ -294,10 +295,11 @@ def makeArticulatedSteamEngine(vehicle: V.Vehicle):
         name="CATS " + vehicle.name,
         max_speed=Train.kmhish(vehicle.props.max_speed),
         weight=Train.ton(vehicle.props.weight_low),
-        introduction_date=grf.datetime.date(*vehicle.props.introduction_date),
+        introduction_date=grf.datetime.date(year=vehicle.props.introduction_date[0], month=1, day=1),
         length=4,
         **{k: v for k, v in dataclasses.asdict(vehicle.props).items() if k not in [
             "introduction_date",
+            "introduction_days_since_1920",
             "max_speed",
             "length"
         ]},
