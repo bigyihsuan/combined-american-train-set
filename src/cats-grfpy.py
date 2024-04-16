@@ -38,7 +38,7 @@ def main():
     with open("./props/cargo-table.json", "r") as cargoTableFile:
         catsGrf.set_cargo_table(json.load(cargoTableFile))
 
-    IGNORE_FOR_NOW = [20]
+    IGNORE_FOR_NOW = [20]  # TODO
 
     with open("./props/vehicle-stats-sprites.json", "r") as vehicleFile:
         vehicles: list[V.Vehicle] = [V.Vehicle(**e) for e in json.load(vehicleFile)]
@@ -53,7 +53,7 @@ def main():
 
 def makeEngine(vehicle: V.Vehicle):
     if vehicle.id in [14, 17]:  # mallet, challenger
-        makeArticulatedSteamEngine(vehicle)
+        # makeArticulatedSteamEngine(vehicle)
         return
 
     print(f"Making {vehicle.name}...", end=" ")
@@ -277,19 +277,16 @@ def makeArticulatedSteamEngine(vehicle: V.Vehicle):
     articulatedTurnSwitch = grf.Switch(
         code="curv_info_cur_next",  # cur is the front articulated, next is the fixed unit
         ranges={
-            -1: frontArticulatedLeft,  # turning left
-            +1: frontArticulatedRight,  # turning right
+            -1: frontArticulatedLeft,
+            +1: frontArticulatedRight,
         },
-        default=frontArticulatedStraight,  # straight
+        default=frontArticulatedStraight,
+        related_scope=True,
     )
 
-    articulatedLength = {
-        14: 5,
-        17: 5,
-    }
     fixedLength = {
-        14: 9,
-        17: 10,
+        14: 4,
+        17: 4,
     }
 
     train = Train(
@@ -298,11 +295,11 @@ def makeArticulatedSteamEngine(vehicle: V.Vehicle):
         max_speed=Train.kmhish(vehicle.props.max_speed),
         weight=Train.ton(vehicle.props.weight_low),
         introduction_date=grf.datetime.date(*vehicle.props.introduction_date),
-        length=articulatedLength[vehicle.id],
+        length=4,
         **{k: v for k, v in dataclasses.asdict(vehicle.props).items() if k not in [
             "introduction_date",
             "max_speed",
-            "length",
+            "length"
         ]},
         callbacks={
             "graphics": grf.GraphicsCallback(articulatedTurnSwitch, purchaseLayout)
@@ -311,7 +308,7 @@ def makeArticulatedSteamEngine(vehicle: V.Vehicle):
         id=vehicle.id+(2*TENDER_ID_OFFSET),
         skip_props_check=True,
         # length=fixedLength[vehicle.id],
-        length=8,
+        length=6,
         callbacks={
             "graphics": grf.GraphicsCallback(fixedUnit)
         },
