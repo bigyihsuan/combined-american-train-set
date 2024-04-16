@@ -26,8 +26,6 @@ def main():
 
     global catsGrf, Train, VehicleSpriteTable, Switch
 
-    # initGroups()
-
     # this is here up top to remove vanilla trains
     catsGrf.add(grf.DisableDefault(grf.TRAIN))
     # fix sprites being cut off in the depot
@@ -53,7 +51,7 @@ def main():
 
 def makeEngine(vehicle: V.Vehicle):
     if vehicle.id in [14, 17]:  # mallet, challenger
-        # makeArticulatedSteamEngine(vehicle)
+        # TODO makeArticulatedSteamEngine(vehicle)
         return
 
     print(f"Making {vehicle.name}...", end=" ")
