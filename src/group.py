@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from enum import Enum
 from typing import TypeAlias
 
-from enums import Loc, TenderSpriteLocation
+from enums import Loc, TenderSpriteLocation, LocoType as LT
 
 false = False
 true = True
@@ -29,9 +29,11 @@ class G:
 @dataclass
 class Loco(G):
     kind: str = "Loco"
+    locoType: LT = LT.Unset
 
     def __post_init__(self):
         self.kind = "Loco" if self.kind != "Loco" else "Loco"
+        self.locoType = LT(self.locoType)
 
 
 @dataclass
@@ -68,92 +70,109 @@ end = Loc.End
 same = TenderSpriteLocation.Same
 separate = TenderSpriteLocation.Separate
 
+st = LT.SteamTender
+sat = LT.SteamArticulatedTender
+
+a = LT.DieselSingle
+aa = LT.DieselAA
+ab = LT.DieselAB
+abba = LT.DieselABBA
+
+es = LT.ElectricSingle
+ea = LT.ElectricArticulated
+
 ID_TO_GROUPS: dict[int, list[G]] = {
-    0: [Loco("train_1", false, tender=same, tenderLength=3), Purchase("train_2")],
-    1: [Loco("train_3", frames=4, tender=same, tenderLength=3), Purchase("train_4")],
-    2: [Loco("train_5", frames=4, tender=same, tenderLength=3), Purchase("train_6")],
-    3: [Loco("train_7", frames=4, tender=same, tenderLength=3), Purchase("train_8")],
-    4: [Loco("train_9", frames=4, tender=same, tenderLength=4), Purchase("train_10")],
-    5: [Loco("train_11", frames=4, tender=same, tenderLength=4), Purchase("train_12")],
-    6: [Loco("train_13", frames=4, tender=same, tenderLength=5), Purchase("train_14")],
-    7: [Loco("train_15", frames=4, tender=same, tenderLength=5), Purchase("train_16")],
-    8: [Loco("train_17", frames=4, tender=same, tenderLength=4), Loco("train_18", reversable=true, frames=4, tender=same, tenderLength=4), Purchase("train_19")],
-    9: [Loco("train_20", frames=4, tender=same, tenderLength=5), Purchase("train_21")],
-    10: [Loco("train_22", frames=4, tender=same, tenderLength=5), Purchase("train_23")],
-    11: [Loco("train_24", frames=4, tender=same, tenderLength=6), Purchase("train_25")],
-    12: [Loco("train_26", frames=4, tender=same, tenderLength=6), Purchase("train_27")],
-    13: [Loco("train_28", frames=4, tender=same, tenderLength=6), Purchase("train_29")],
+    0: [Loco("train_1", false, tender=same, tenderLength=3, locoType=st), Purchase("train_2")],
+    1: [Loco("train_3", frames=4, tender=same, tenderLength=3, locoType=st), Purchase("train_4")],
+    2: [Loco("train_5", frames=4, tender=same, tenderLength=3, locoType=st), Purchase("train_6")],
+    3: [Loco("train_7", frames=4, tender=same, tenderLength=3, locoType=st), Purchase("train_8")],
+    4: [Loco("train_9", frames=4, tender=same, tenderLength=4, locoType=st), Purchase("train_10")],
+    5: [Loco("train_11", frames=4, tender=same, tenderLength=4, locoType=st), Purchase("train_12")],
+    6: [Loco("train_13", frames=4, tender=same, tenderLength=5, locoType=st), Purchase("train_14")],
+    7: [Loco("train_15", frames=4, tender=same, tenderLength=5, locoType=st), Purchase("train_16")],
+    8: [Loco("train_17", frames=4, tender=same, tenderLength=4, locoType=st), Loco("train_18", reversable=true, frames=4, tender=same, tenderLength=4), Purchase("train_19")],
+    9: [Loco("train_20", frames=4, tender=same, tenderLength=5, locoType=st), Purchase("train_21")],
+    10: [Loco("train_22", frames=4, tender=same, tenderLength=5, locoType=st), Purchase("train_23")],
+    11: [Loco("train_24", frames=4, tender=same, tenderLength=6, locoType=st), Purchase("train_25")],
+    12: [Loco("train_26", frames=4, tender=same, tenderLength=6, locoType=st), Purchase("train_27")],
+    13: [Loco("train_28", frames=4, tender=same, tenderLength=6, locoType=st), Purchase("train_29")],
     14: [
-        Loco("train_30", loc=back, frames=4, tender=separate),
-        Loco("train_31", loc=straight, frames=4, tender=separate),
-        Loco("train_32", loc=left, frames=4, tender=separate),
-        Loco("train_33", loc=right, frames=4, tender=separate),
+        Loco("train_30", loc=back, frames=4, tender=separate, locoType=sat),
+        Loco("train_31", loc=straight, frames=4, tender=separate, locoType=sat),
+        Loco("train_32", loc=left, frames=4, tender=separate, locoType=sat),
+        Loco("train_33", loc=right, frames=4, tender=separate, locoType=sat),
         Tender("train_34", loc=tender, tender=same, tenderLength=6),
         Purchase("train_35")
     ],
-    15: [Loco("train_36", frames=4, tender=same, tenderLength=6), Purchase("train_37")],
+    15: [Loco("train_36", frames=4, tender=same, tenderLength=6, locoType=st), Purchase("train_37")],
     16: [
-        Loco("train_38", frames=4, tender=separate),
+        Loco("train_38", frames=4, tender=separate, locoType=st),
         Tender("train_39", loc=tender, tender=same, tenderLength=6),
         Purchase("train_40")
     ],
     17: [
-        Loco("train_41", loc=back, frames=4, tender=separate),
-        Loco("train_42", loc=straight, frames=4, tender=separate),
-        Loco("train_43", loc=left, frames=4, tender=separate),
-        Loco("train_44", loc=right, frames=4, tender=separate),
+        Loco("train_41", loc=back, frames=4, tender=separate, locoType=sat),
+        Loco("train_42", loc=straight, frames=4, tender=separate, locoType=sat),
+        Loco("train_43", loc=left, frames=4, tender=separate, locoType=sat),
+        Loco("train_44", loc=right, frames=4, tender=separate, locoType=sat),
         Tender("train_45", loc=tender, tender=same, tenderLength=6),
         Purchase("train_46")
     ],
     70: [
-        Loco("train_47", frames=4, tender=separate),
+        Loco("train_47", frames=4, tender=separate, locoType=st),
         Tender("train_48", loc=tender, tender=same, tenderLength=6),
         Purchase("train_49")
     ],
-    18: [Loco("train_50", frames=4, tender=same, tenderLength=5), Purchase("train_51")],
-    19: [Loco("train_52", frames=4, tender=same, tenderLength=7), Purchase("train_53")],
-    20: [Loco("train_54", bUnitSprites=8)],
-    21: [Loco("train_55", reversable=true, frames=2, bUnitSprites=2*8), Purchase("train_56")],
-    22: [Loco("train_57", reversable=true), Purchase("train_58")],
-    23: [Loco("train_59", reversable=true, frames=2, bUnitSprites=2*8), Purchase("train_60")],
-    24: [Loco("train_61", reversable=true), Purchase("train_62")],
-    25: [Loco("train_63")],
-    26: [Loco("train_64", reversable=true), Purchase("train_65")],
-    27: [Loco("train_66")],
-    28: [Loco("train_67", length=10), Purchase("train_68", length=10)],  # emd centennial, 40px = 10/8tl
-    29: [Loco("train_69")],
-    30: [Loco("train_70"), Purchase("train_71")],
-    31: [Loco("train_72"), Purchase("train_73")],
-    32: [Loco("train_74", reversable=true, bUnitSprites=8), Purchase("train_75")],
-    33: [Loco("train_76")],
-    34: [Loco("train_77", liv=["train_77"]), Loco("train_78", liv=["train_78"]), Purchase("train_79")],
-    35: [Loco("train_80", reversable=true), Purchase("train_81")],
-    36: [Loco("train_82", bUnitSprites=8)],
-    37: [Loco("train_83", reversable=true, bUnitSprites=8), Purchase("train_84")],
-    38: [Loco("train_85", reversable=true), Purchase("train_86")],
-    39: [Loco("train_87")],
-    40: [Loco("train_88", reversable=true), Purchase("train_89")],
-    41: [Loco("train_90")],
-    42: [Loco("train_91")],
-    43: [Loco("train_92")],
-    44: [Loco("train_93")],
-    45: [Loco("train_94")],
-    46: [Loco("train_95")],
-    47: [Loco("train_96", reversable=true, bUnitSprites=8), Purchase("train_97")],
-    48: [Loco("train_98")],
-    49: [Loco("train_99", reversable=true), Purchase("train_100")],
-    50: [Loco("train_101", reversable=true), Purchase("train_102")],
-    51: [Loco("train_103", reversable=true), Purchase("train_104")],
-    52: [Loco("train_105", parts=["train_105", "train_105"], bUnitSprites=8), Purchase("train_106")],
-    53: [Loco("train_107")],
-    54: [Loco("train_108")],
-    55: [Loco("train_109", reversable=true), Purchase("train_110")],
-    56: [Loco("train_111", reversable=true), Purchase("train_112")],
-    57: [Loco("train_113", reversable=true), Purchase("train_114")],
-    58: [Loco("train_115")],
-    59: [Loco("train_116")],
-    60: [Loco("train_117")],
-    61: [Loco("train_118", frames=4)],
+    18: [Loco("train_50", frames=4, tender=same, tenderLength=5, locoType=st), Purchase("train_51")],
+    19: [Loco("train_52", frames=4, tender=same, tenderLength=7, locoType=st), Purchase("train_53")],
+    20: [Loco("train_54", bUnitSprites=8, locoType=ab)],
+    21: [Loco("train_55", reversable=true, frames=2, bUnitSprites=2*8, locoType=abba), Purchase("train_56")],
+    22: [Loco("train_57", reversable=true, locoType=a), Purchase("train_58")],
+    23: [Loco("train_59", reversable=true, frames=2, bUnitSprites=2*8, locoType=abba), Purchase("train_60")],
+    24: [Loco("train_61", reversable=true, locoType=aa), Purchase("train_62")],
+    25: [Loco("train_63", locoType=a)],
+    26: [Loco("train_64", reversable=true, locoType=a), Purchase("train_65")],
+    27: [Loco("train_66", locoType=a)],
+    # train_67/train_68: emd centennial, 40px = 10/8tl
+    28: [Loco("train_67", length=10, locoType=a), Purchase("train_68", length=10)],
+    29: [Loco("train_69", locoType=a)],
+    30: [Loco("train_70", locoType=aa), Purchase("train_71")],
+    31: [Loco("train_72", locoType=aa), Purchase("train_73")],
+    32: [Loco("train_74", reversable=true, bUnitSprites=8, locoType=abba), Purchase("train_75")],
+    33: [Loco("train_76", locoType=a)],
+    34: [
+        Loco("train_77", liv=["train_77"], locoType=a),  # normal
+        Loco("train_78", liv=["train_78"], locoType=a),  # consist contains bilevel passenger car
+        Purchase("train_79")
+    ],
+    35: [Loco("train_80", reversable=true, locoType=a), Purchase("train_81")],
+    36: [Loco("train_82", bUnitSprites=8, locoType=ab)],
+    37: [Loco("train_83", reversable=true, bUnitSprites=8, locoType=abba), Purchase("train_84")],
+    38: [Loco("train_85", reversable=true, locoType=aa), Purchase("train_86")],
+    39: [Loco("train_87", locoType=a)],
+    40: [Loco("train_88", reversable=true, locoType=ab), Purchase("train_89")],
+    41: [Loco("train_90", locoType=a)],
+    42: [Loco("train_91", locoType=a)],
+    43: [Loco("train_92", locoType=a)],
+    44: [Loco("train_93", locoType=a)],
+    45: [Loco("train_94", locoType=a)],
+    46: [Loco("train_95", locoType=a)],
+    47: [Loco("train_96", reversable=true, bUnitSprites=8, locoType=abba), Purchase("train_97")],
+    48: [Loco("train_98", locoType=a)],
+    49: [Loco("train_99", reversable=true, locoType=a), Purchase("train_100")],
+    50: [Loco("train_101", reversable=true, locoType=es), Purchase("train_102")],
+    51: [Loco("train_103", reversable=true, locoType=es), Purchase("train_104")],
+    52: [Loco("train_105", parts=["train_105", "train_105"], bUnitSprites=8, locoType=ea), Purchase("train_106")],
+    53: [Loco("train_107", locoType=es)],
+    54: [Loco("train_108", locoType=es)],
+    55: [Loco("train_109", reversable=true, locoType=es), Purchase("train_110")],
+    56: [Loco("train_111", reversable=true, locoType=LT.ElectricAA), Purchase("train_112")],
+    57: [Loco("train_113", reversable=true, locoType=es), Purchase("train_114")],
+    58: [Loco("train_115", locoType=es)],
+    59: [Loco("train_116", locoType=es)],
+    60: [Loco("train_117", locoType=a)],
+    61: [Loco("train_118", frames=4, locoType=a)],
+    # TODO: this mess
     62: [Loco("train_119", reversable=true, parts=["train_119", "train_119", "train_119", "train_119"], bUnitSprites=8, locoForCars="train_119"), Purchase("train_120")],
     63: [Loco("train_121", parts=["train_121", "train_121"], bUnitSprites=8, cars=["train_123", "train_123"]), Purchase("train_122"), Car("train_123", mu=true, parts=["train_121", "train_121"], cars=["train_123", "train_123"], locoForCars="train_121")],
     64: [Loco("train_124", parts=["train_124", "train_124"], bUnitSprites=8, cars=["train_126", "train_126"]), Purchase("train_125"), Car("train_126", mu=true, cars=["train_126", "train_126"], locoForCars="train_124")],

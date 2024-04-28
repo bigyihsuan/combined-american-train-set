@@ -65,7 +65,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -335,7 +336,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -869,7 +871,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -1403,7 +1406,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -1937,7 +1941,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -2471,7 +2476,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -3005,7 +3011,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -3539,7 +3546,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -4073,7 +4081,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 },
                 {
                     "group": "train_18",
@@ -4090,7 +4099,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "Unset"
                 }
             ],
             "purchaseSprite": {
@@ -5069,7 +5079,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -5603,7 +5614,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -6137,7 +6149,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -6671,7 +6684,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -7205,7 +7219,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -7739,7 +7754,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamArticulatedTender"
                 },
                 {
                     "group": "train_31",
@@ -7756,7 +7772,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamArticulatedTender"
                 },
                 {
                     "group": "train_32",
@@ -7773,7 +7790,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamArticulatedTender"
                 },
                 {
                     "group": "train_33",
@@ -7790,7 +7808,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamArticulatedTender"
                 },
                 {
                     "group": "train_34",
@@ -9417,7 +9436,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -9951,7 +9971,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 },
                 {
                     "group": "train_39",
@@ -10507,7 +10528,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamArticulatedTender"
                 },
                 {
                     "group": "train_42",
@@ -10524,7 +10546,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamArticulatedTender"
                 },
                 {
                     "group": "train_43",
@@ -10541,7 +10564,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamArticulatedTender"
                 },
                 {
                     "group": "train_44",
@@ -10558,7 +10582,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamArticulatedTender"
                 },
                 {
                     "group": "train_45",
@@ -12185,7 +12210,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -12719,7 +12745,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 }
             ],
             "purchaseSprite": {
@@ -13253,7 +13280,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselAB"
                 }
             ],
             "purchaseSprite": {
@@ -13511,7 +13539,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselABBA"
                 }
             ],
             "purchaseSprite": {
@@ -13957,7 +13986,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -14315,7 +14345,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselABBA"
                 }
             ],
             "purchaseSprite": {
@@ -14761,7 +14792,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselAA"
                 }
             ],
             "purchaseSprite": {
@@ -15031,7 +15063,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -15201,7 +15234,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -15559,7 +15593,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -15729,7 +15764,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -15922,7 +15958,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -16092,7 +16129,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselAA"
                 }
             ],
             "purchaseSprite": {
@@ -16362,7 +16400,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselAA"
                 }
             ],
             "purchaseSprite": {
@@ -16632,7 +16671,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselABBA"
                 }
             ],
             "purchaseSprite": {
@@ -17078,7 +17118,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -17250,7 +17291,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 },
                 {
                     "group": "train_78",
@@ -17269,7 +17311,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -17720,7 +17763,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -18078,7 +18122,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselAB"
                 }
             ],
             "purchaseSprite": {
@@ -18336,7 +18381,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselABBA"
                 }
             ],
             "purchaseSprite": {
@@ -18782,7 +18828,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselAA"
                 }
             ],
             "purchaseSprite": {
@@ -19052,7 +19099,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -19222,7 +19270,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselAB"
                 }
             ],
             "purchaseSprite": {
@@ -19492,7 +19541,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -19662,7 +19712,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -19832,7 +19883,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -20002,7 +20054,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -20172,7 +20225,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -20342,7 +20396,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -20512,7 +20567,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselABBA"
                 }
             ],
             "purchaseSprite": {
@@ -20958,7 +21014,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -21128,7 +21185,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -21486,7 +21544,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "ElectricSingle"
                 }
             ],
             "purchaseSprite": {
@@ -21756,7 +21815,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "ElectricSingle"
                 }
             ],
             "purchaseSprite": {
@@ -22029,7 +22089,8 @@
                     ],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "ElectricArticulated"
                 }
             ],
             "purchaseSprite": {
@@ -22299,7 +22360,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "ElectricSingle"
                 }
             ],
             "purchaseSprite": {
@@ -22469,7 +22531,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "ElectricSingle"
                 }
             ],
             "purchaseSprite": {
@@ -22639,7 +22702,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "ElectricSingle"
                 }
             ],
             "purchaseSprite": {
@@ -22997,7 +23061,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "ElectricAA"
                 }
             ],
             "purchaseSprite": {
@@ -23267,7 +23332,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "ElectricSingle"
                 }
             ],
             "purchaseSprite": {
@@ -23537,7 +23603,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "ElectricSingle"
                 }
             ],
             "purchaseSprite": {
@@ -23707,7 +23774,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "ElectricSingle"
                 }
             ],
             "purchaseSprite": {
@@ -23877,7 +23945,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -24047,7 +24116,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "DieselSingle"
                 }
             ],
             "purchaseSprite": {
@@ -24178,7 +24248,8 @@
                     ],
                     "cars": [],
                     "locoForCars": "train_119",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "Unset"
                 }
             ],
             "purchaseSprite": {
@@ -24718,7 +24789,8 @@
                         "train_123"
                     ],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "Unset"
                 },
                 {
                     "group": "train_123",
@@ -25275,7 +25347,8 @@
                         "train_126"
                     ],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "Unset"
                 },
                 {
                     "group": "train_126",
@@ -25823,7 +25896,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "Unset"
                 }
             ],
             "purchaseSprite": {
@@ -25996,7 +26070,8 @@
                         "train_130"
                     ],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "Unset"
                 },
                 {
                     "group": "train_130",
@@ -26455,7 +26530,8 @@
                         "train_133"
                     ],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "Unset"
                 },
                 {
                     "group": "train_133",
@@ -26918,7 +26994,8 @@
                         "train_136"
                     ],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "Unset"
                 },
                 {
                     "group": "train_136",
@@ -27465,7 +27542,8 @@
                         "train_139"
                     ],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "Unset"
                 },
                 {
                     "group": "train_139",
@@ -27834,7 +27912,8 @@
                     "parts": [],
                     "cars": [],
                     "locoForCars": "",
-                    "kind": "Loco"
+                    "kind": "Loco",
+                    "locoType": "SteamTender"
                 },
                 {
                     "group": "train_48",
