@@ -303,7 +303,7 @@ def makeDieselSingle(
     # TODO: reversable
     if vehicle.graphics.gs[0].reversable:
         print("TODO!!! HANDLE REVERSABLE DIESELS !!!TODO", end=" ")
-        return
+        # return
 
     # get the index of the reversed spritesheet
     # reversedIndex = l.index(True) if True in (l := list(g.reversable for g in vehicle.graphics.gs)) else -1
@@ -415,8 +415,65 @@ def makeRDC(
     VehicleSpriteTable: type[grf.VehicleSpriteTable],
     Switch: type[grf.Switch]
 ):
-    # TODO: RDC is special because it only has 4 sprites
-    pass
+    # RDC is special because it only has 4 sprites
+    # make a new spritetable for this vehicle
+    spriteTable = VehicleSpriteTable(grf.TRAIN)
+    # add purchase sprite
+    purchaseSprite = [v for v in vehicle.graphics.spriteGroups.values()][0].realSprites[2]
+    purchaseLayout = spriteTable.get_layout(
+        spriteTable.add_purchase_graphics(
+            purchaseSprite.asGrfFileSprite()
+        )
+    )
+
+    mainUnitGraphics = None
+
+    length = vehicle.props.length
+
+    # get the engine and tender graphics
+    for i, g in enumerate(vehicle.graphics.gs):
+        if isinstance(g, G.Purchase):
+            raise Exception(f"Somehow got a Purchase in vehicle.gs at {i} for {vehicle.name}!")
+
+        if g.length != 8:
+            length = g.length
+
+        sg = vehicle.graphics.spriteGroups[g.group]
+
+        engineRealSprites = [s.asGrfFileSprite() for s in sg.realSprites]
+        engineRealSprites = [*engineRealSprites[:], *engineRealSprites[:]]
+        engineFrames = util.chunk(engineRealSprites, 8)
+        # make the layouts for each engine frame
+        engineLayouts = []
+        for frame in engineFrames:
+            engineLayouts.append(
+                spriteTable.get_layout(spriteTable.add_row(frame))
+            )
+        # switch over motion_counter mod framecount to make animations
+        engineGraphics = grf.Switch(
+            code=f"motion_counter % {g.frames}",
+            ranges={i: row for i, row in enumerate(engineLayouts)},
+            default=engineLayouts[0]
+        )
+        mainUnitGraphics = engineGraphics
+
+    train = Train(
+        id=vehicle.id,
+        name="CATS " + vehicle.name,
+        max_speed=Train.kmhish(vehicle.props.max_speed),
+        weight=Train.ton(vehicle.props.weight_low),
+        introduction_date=grf.datetime.date(year=vehicle.props.introduction_date[0], month=1, day=1),
+        length=length,
+        ** {k: v for k, v in dataclasses.asdict(vehicle.props).items() if k not in [
+            "introduction_date",
+            "introduction_days_since_1920",
+            "max_speed",
+            "length",
+        ]},
+        callbacks={
+            "graphics": grf.GraphicsCallback(mainUnitGraphics, purchaseLayout)
+        }
+    )
 
 
 def makeElectricSingle(
