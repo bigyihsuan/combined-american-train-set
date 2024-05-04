@@ -81,11 +81,7 @@ def makeSteamTender(
                 spriteTable.get_layout(spriteTable.add_row(frame))
             )
         # switch over motion_counter mod framecount to make animations
-        engineGraphics = grf.Switch(
-            code=f"motion_counter % {g.frames}",
-            ranges={i: row for i, row in enumerate(engineLayouts)},
-            default=engineLayouts[0]
-        )
+        engineGraphics = util.animatedVehicleSwitch(Switch, engineLayouts, g.frames)
 
         if i != reversedIndex:
             forwardEngine = engineGraphics
@@ -103,25 +99,8 @@ def makeSteamTender(
         # when reversed, the engine is the following articulated unit, with animations
         # switch on vehicle_is_reversed to change the graphics
 
-        mainUnitGraphics = grf.Switch(
-            code="vehicle_is_reversed",
-            ranges={
-                0: forwardEngine,
-                1: backwardTender,
-            },
-            default=forwardEngine,
-            # also check the other cars of the consist. vehicle_is_reversed by default only checks the first car.
-            related_scope=True
-        )
-        articulatedGraphics = grf.Switch(
-            code="vehicle_is_reversed",
-            ranges={
-                0: forwardTender,
-                1: backwardEngine,
-            },
-            default=forwardTender,
-            related_scope=True
-        )
+        mainUnitGraphics = util.reversableVehicleSwitch(Switch, forwardEngine, backwardTender, related_scope=True)
+        articulatedGraphics = util.reversableVehicleSwitch(Switch, forwardTender, backwardEngine, related_scope=True)
     else:
         mainUnitGraphics = forwardEngine
         articulatedGraphics = forwardTender
@@ -213,11 +192,7 @@ def makeArticulatedSteamEngine(
                 spriteTable.get_layout(spriteTable.add_row(frame))
             )
         # switch over motion_counter mod framecount to make animations
-        engineGraphics = grf.Switch(
-            code=f"motion_counter % {g.frames}",
-            ranges={i: row for i, row in enumerate(engineLayouts)},
-            default=engineLayouts[0]
-        )
+        engineGraphics = util.animatedVehicleSwitch(Switch, engineLayouts, g.frames)
         match g.loc:
             case Loc.Back:
                 fixedUnit = engineGraphics
@@ -300,13 +275,8 @@ def makeDieselSingle(
         makeRDC(vehicle, Train, VehicleSpriteTable, Switch)
         return
 
-    # TODO: reversable
-    if vehicle.graphics.gs[0].reversable:
-        print("TODO!!! HANDLE REVERSABLE DIESELS !!!TODO", end=" ")
-        # return
-
     # get the index of the reversed spritesheet
-    # reversedIndex = l.index(True) if True in (l := list(g.reversable for g in vehicle.graphics.gs)) else -1
+    reversedIndex = l.index(True) if True in (l := list(g.reversable for g in vehicle.graphics.gs)) else -1
 
     # make a new spritetable for this vehicle
     spriteTable = VehicleSpriteTable(grf.TRAIN)
@@ -324,11 +294,13 @@ def makeDieselSingle(
         )
     )
 
+    forwardGraphics = None
+    reverseGraphics = None
     mainUnitGraphics = None
 
     length = vehicle.props.length
 
-    # get the engine and tender graphics
+    # get the engine graphics
     for i, g in enumerate(vehicle.graphics.gs):
         if isinstance(g, G.Purchase):
             raise Exception(f"Somehow got a Purchase in vehicle.gs at {i} for {vehicle.name}!")
@@ -351,12 +323,21 @@ def makeDieselSingle(
                 spriteTable.get_layout(spriteTable.add_row(frame))
             )
         # switch over motion_counter mod framecount to make animations
-        engineGraphics = grf.Switch(
-            code=f"motion_counter % {g.frames}",
-            ranges={i: row for i, row in enumerate(engineLayouts)},
-            default=engineLayouts[0]
-        )
-        mainUnitGraphics = engineGraphics
+        engineGraphics = util.animatedVehicleSwitch(Switch, engineLayouts, g.frames)
+        forwardGraphics = engineGraphics
+
+        if reversedIndex != -1:
+            # for these reversable single diesels the reversed is on the same spritesheet, similar to the 0-6-0 switcher
+            # in the 2nd row
+            reverseGraphics = engineLayouts[1]
+
+    # reversable diesel
+    if reversedIndex != -1:
+        assert forwardGraphics is not None
+        assert reverseGraphics is not None
+        mainUnitGraphics = util.reversableVehicleSwitch(Switch, forwardGraphics, reverseGraphics)
+    else:
+        mainUnitGraphics = forwardGraphics
 
     train = Train(
         id=vehicle.id,
@@ -450,11 +431,7 @@ def makeRDC(
                 spriteTable.get_layout(spriteTable.add_row(frame))
             )
         # switch over motion_counter mod framecount to make animations
-        engineGraphics = grf.Switch(
-            code=f"motion_counter % {g.frames}",
-            ranges={i: row for i, row in enumerate(engineLayouts)},
-            default=engineLayouts[0]
-        )
+        engineGraphics = util.animatedVehicleSwitch(Switch, engineLayouts, g.frames)
         mainUnitGraphics = engineGraphics
 
     train = Train(
