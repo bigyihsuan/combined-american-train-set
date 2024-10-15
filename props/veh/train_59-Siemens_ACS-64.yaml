@@ -1,0 +1,30 @@
+id: 59
+name: Siemens ACS-64
+props:
+    cargo_age_period: 185
+    cargo_allow_refit: []
+    cargo_disallow_refit: []
+    cb_flags: 129
+    climates_available: 15
+    cost_factor: 173
+    engine_class: 40
+    introduction_date:
+    - 2014
+    - 1
+    - 1
+    loading_speed: 5
+    max_speed: 216
+    misc_flags: 26
+    model_life: 255
+    power: 8600
+    reliability_decay: 20
+    retire_early: 20
+    running_cost_base: 19504
+    running_cost_factor: 83
+    sort_purchase_list: 128
+    sprite_id: 253
+    track_type: 1
+    tractive_effort_coefficient: 86
+    vehicle_life: 30
+    visual_effect_and_powered: 56
+    weight_low: 97

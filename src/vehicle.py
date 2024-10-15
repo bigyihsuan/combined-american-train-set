@@ -101,6 +101,10 @@ class VehicleProps:
     cargo_disallow_refit: list[int] = field(default_factory=list)
     length: int = 8
 
+    @staticmethod
+    def default():
+        return VehicleProps()
+
 
 @dataclass
 class VehicleGraphics:

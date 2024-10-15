@@ -1,0 +1,33 @@
+id: 111
+name: 50' Flat Car
+props:
+    cargo_age_period: 185
+    cargo_allow_refit:
+    - 5
+    cargo_capacity: 30
+    cargo_disallow_refit:
+    - 4
+    cb_flags: 72
+    climates_available: 15
+    cost_factor: 59
+    default_cargo_type: 7
+    introduction_date:
+    - 1910
+    - 1
+    - 1
+    length: 7
+    loading_speed: 15
+    max_speed: 104
+    misc_flags: 18
+    model_life: 255
+    non_refittable_cargo_classes: 640
+    refittable_cargo_classes: 32
+    reliability_decay: 20
+    retire_early: 10
+    running_cost_base: 19510
+    running_cost_factor: 30
+    sort_purchase_list: 128
+    sprite_id: 253
+    vehicle_life: 30
+    visual_effect_and_powered: 64
+    weight_low: 19

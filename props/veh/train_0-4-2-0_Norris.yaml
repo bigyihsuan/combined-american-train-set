@@ -1,0 +1,29 @@
+id: 0
+name: 4-2-0 Norris
+props:
+    cargo_age_period: 185
+    cargo_allow_refit: []
+    cargo_disallow_refit: []
+    cb_flags: 145
+    climates_available: 15
+    cost_factor: 20
+    introduction_date:
+    - 1837
+    - 1
+    - 1
+    length: 3
+    loading_speed: 5
+    max_speed: 56
+    misc_flags: 26
+    model_life: 70
+    power: 200
+    reliability_decay: 20
+    retire_early: 20
+    running_cost_base: 19504
+    running_cost_factor: 24
+    sort_purchase_list: 128
+    sprite_id: 253
+    tractive_effort_coefficient: 26
+    vehicle_life: 35
+    visual_effect_and_powered: 20
+    weight_low: 20

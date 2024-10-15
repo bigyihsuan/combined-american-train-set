@@ -1,8 +1,9 @@
 import dataclasses
 import json
+import yaml
 
 from group import ID_TO_GROUPS, Car, Loco, Purchase, Tender
-from vehicle import Vehicle, SpriteGroup
+from vehicle import Vehicle, SpriteGroup, VehicleProps
 from enums import Loc
 import grffile
 
@@ -18,6 +19,16 @@ def extractProps():
     with open("./props/vehicle-stats.json", "w") as vehicleStatsJson:
         rowsDict = [dataclasses.asdict(train) for train in trains]
         json.dump(rowsDict, vehicleStatsJson, indent=4, default=str)
+
+    default_props = dataclasses.asdict(VehicleProps.default())
+    for train in trains:
+        id = train.id
+        name = train.name.replace(" ", "_").replace("/", "-")
+        d = {k: v for k, v in dataclasses.asdict(train).items() if k != "graphics"}
+        d["props"] = {k: v if type(v) is not tuple else list(v)
+                      for k, v in d["props"].items() if v != default_props[k]}
+        with open(f"./props/veh/train_{id}-{name}.yaml", "w") as veh:
+            yaml.dump(d, veh, indent=4, default_flow_style=False)
 
     with open("./props/sprites.json", "w") as spritesJson:
         s = [dataclasses.asdict(e) for e in nars.sprites]

@@ -1,0 +1,31 @@
+id: 91
+name: Express Car
+props:
+    cargo_age_period: 185
+    cargo_allow_refit: []
+    cargo_capacity: 20
+    cargo_disallow_refit: []
+    cb_flags: 8
+    climates_available: 15
+    cost_factor: 80
+    default_cargo_type: 2
+    introduction_date:
+    - 1800
+    - 1
+    - 1
+    length: 6
+    loading_speed: 5
+    max_speed: 128
+    misc_flags: 18
+    model_life: 150
+    non_refittable_cargo_classes: 1
+    refittable_cargo_classes: 14
+    reliability_decay: 20
+    retire_early: 10
+    running_cost_base: 19510
+    running_cost_factor: 60
+    sort_purchase_list: 128
+    sprite_id: 253
+    vehicle_life: 30
+    visual_effect_and_powered: 64
+    weight_low: 30

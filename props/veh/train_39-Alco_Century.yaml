@@ -1,0 +1,29 @@
+id: 39
+name: Alco Century
+props:
+    cargo_age_period: 185
+    cargo_allow_refit: []
+    cargo_disallow_refit: []
+    cb_flags: 129
+    climates_available: 15
+    cost_factor: 69
+    engine_class: 8
+    introduction_date:
+    - 1967
+    - 1
+    - 1
+    loading_speed: 5
+    max_speed: 104
+    misc_flags: 26
+    model_life: 60
+    power: 3000
+    reliability_decay: 20
+    retire_early: 20
+    running_cost_base: 19504
+    running_cost_factor: 61
+    sort_purchase_list: 128
+    sprite_id: 253
+    tractive_effort_coefficient: 56
+    vehicle_life: 30
+    visual_effect_and_powered: 40
+    weight_low: 188

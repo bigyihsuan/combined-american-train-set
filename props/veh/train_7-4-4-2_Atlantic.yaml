@@ -1,0 +1,29 @@
+id: 7
+name: 4-4-2 Atlantic
+props:
+    cargo_age_period: 185
+    cargo_allow_refit: []
+    cargo_disallow_refit: []
+    cb_flags: 145
+    climates_available: 15
+    cost_factor: 42
+    introduction_date:
+    - 1905
+    - 1
+    - 1
+    length: 6
+    loading_speed: 5
+    max_speed: 128
+    misc_flags: 26
+    model_life: 70
+    power: 1400
+    reliability_decay: 20
+    retire_early: 20
+    running_cost_base: 19504
+    running_cost_factor: 43
+    sort_purchase_list: 128
+    sprite_id: 253
+    tractive_effort_coefficient: 20
+    vehicle_life: 35
+    visual_effect_and_powered: 20
+    weight_low: 158
