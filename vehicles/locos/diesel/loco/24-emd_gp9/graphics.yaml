@@ -11,147 +11,75 @@ purchase_sprite:
 sprite_groups:
   file: ./vehicles/locos/diesel/loco/24-emd_gp9/train_61-real.png
   realsprites:
-  - __orientation: NW
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 21
-    width: 8
-    xofs: -3
-    yofs: -11
-    zoom: 0
-  - __orientation: N
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 15
-    width: 20
-    xofs: -12
-    yofs: -8
-    zoom: 0
-  - __orientation: NE
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 12
-    width: 28
-    xofs: -12
-    yofs: -8
-    zoom: 0
-  - __orientation: E
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 15
-    width: 20
-    xofs: -4
-    yofs: -7
-    zoom: 0
-  - __orientation: SE
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 21
-    width: 8
-    xofs: -3
-    yofs: -9
-    zoom: 0
-  - __orientation: S
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 15
-    width: 20
-    xofs: -14
-    yofs: -7
-    zoom: 0
-  - __orientation: SW
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 12
-    width: 28
-    xofs: -16
-    yofs: -8
-    zoom: 0
-  - __orientation: W
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 15
-    width: 20
-    xofs: -6
-    yofs: -8
-    zoom: 0
-  - __orientation: NW
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 21
-    width: 8
-    xofs: -3
-    yofs: -9
-    zoom: 0
-  - __orientation: N
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 15
-    width: 20
-    xofs: -14
-    yofs: -7
-    zoom: 0
-  - __orientation: NE
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 12
-    width: 28
-    xofs: -16
-    yofs: -8
-    zoom: 0
-  - __orientation: E
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 15
-    width: 20
-    xofs: -6
-    yofs: -8
-    zoom: 0
-  - __orientation: SE
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 21
-    width: 8
-    xofs: -3
-    yofs: -11
-    zoom: 0
-  - __orientation: S
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 15
-    width: 20
-    xofs: -12
-    yofs: -8
-    zoom: 0
-  - __orientation: SW
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 12
-    width: 28
-    xofs: -12
-    yofs: -8
-    zoom: 0
-  - __orientation: W
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 15
-    width: 20
-    xofs: -4
-    yofs: -7
-    zoom: 0
+    - __orientation: NW
+      _x: 0
+      _y: 0
+      bpp: 1
+      height: 21
+      width: 8
+      xofs: -3
+      yofs: -11
+      zoom: 0
+    - __orientation: N
+      _x: 10
+      _y: 0
+      bpp: 1
+      height: 15
+      width: 20
+      xofs: -12
+      yofs: -8
+      zoom: 0
+    - __orientation: NE
+      _x: 40
+      _y: 0
+      bpp: 1
+      height: 12
+      width: 28
+      xofs: -12
+      yofs: -8
+      zoom: 0
+    - __orientation: E
+      _x: 70
+      _y: 0
+      bpp: 1
+      height: 15
+      width: 20
+      xofs: -4
+      yofs: -7
+      zoom: 0
+    - __orientation: SE
+      _x: 100
+      _y: 0
+      bpp: 1
+      height: 21
+      width: 8
+      xofs: -3
+      yofs: -9
+      zoom: 0
+    - __orientation: S
+      _x: 110
+      _y: 0
+      bpp: 1
+      height: 15
+      width: 20
+      xofs: -14
+      yofs: -7
+      zoom: 0
+    - __orientation: SW
+      _x: 140
+      _y: 0
+      bpp: 1
+      height: 12
+      width: 28
+      xofs: -16
+      yofs: -8
+      zoom: 0
+    - __orientation: W
+      _x: 170
+      _y: 0
+      bpp: 1
+      height: 15
+      width: 20
+      xofs: -6
+      yofs: -8
+      zoom: 0

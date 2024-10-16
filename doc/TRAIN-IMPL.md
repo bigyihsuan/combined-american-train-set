@@ -2,7 +2,7 @@
 
 | Train                  | ID  | Sprites Reorganized | Graphics YAML | Programmed | Fully Functional |
 | ---------------------- | --- | :-----------------: | :-----------: | :--------: | :--------------: |
-| 4-2-0 Norris           | 0   |          Y          |               |            |                  |
+| 4-2-0 Norris           | 0   |          y          |               |            |                  |
 | 4-4-0 American         | 1   |                     |               |            |                  |
 | 2-6-0 Mogul            | 2   |                     |               |            |                  |
 | 2-8-0 Consolidation    | 3   |                     |               |            |                  |
@@ -26,11 +26,11 @@
 
 | Train            | ID  | Sprites Reorganized | Graphics YAML | Programmed | Fully Functional |
 | ---------------- | --- | :-----------------: | :-----------: | :--------: | :--------------: |
-| EMC E3           | 20  |          Y          |       Y       |            |                  |
+| EMC E3           | 20  |          y          |       y       |            |                  |
 | EMD FT           | 21  |                     |               |            |                  |
 | EMD SW1200       | 22  |                     |               |            |                  |
 | EMD FP9          | 23  |                     |               |            |                  |
-| EMD GP9          | 24  |                     |               |            |                  |
+| EMD GP9          | 24  |          y          |       y       |            |                  |
 | EMD SD9          | 25  |                     |               |            |                  |
 | EMD SW1500       | 26  |                     |               |            |                  |
 | EMD SD45         | 27  |                     |               |            |                  |

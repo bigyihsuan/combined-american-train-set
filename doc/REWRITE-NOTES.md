@@ -25,7 +25,7 @@ I don't think that this is sustainable.
   - Each orientation is a column.
   - Each animation frame is a row.
   - Cars with visible cargoes are placed in separate sprite sheets.
-  - Columns are separated on ~~4px = 1/8tl → 1/2tl = 16px~~ multiples of 20px, and more if needed.
+  - Columns are separated on ~~4px = 1/8tl → 1/2tl = 16px~~ multiples of 10px.
   - Rows are separated by multiples of 20px.
   - `(0,0)` is the top left corner.
 - [ ] Reimplement single-unit diesel/electric locomotives with no animations.
