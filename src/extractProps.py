@@ -30,9 +30,9 @@ def extractProps():
     spriteGroups: dict[str, SpriteGroup] = {sprite.group: sprite for sprite in nars.sprites}
 
     # checklist = open("./checklist.md", "w")
-    # checklist.write("|Train|Sprites Reorganized|Graphics YAML|Programmed|Fully Functional|\n")
-    # checklist.write("|-|-|-|-|-|\n")
-    # checklist.writelines([f"|{train._name}|||||\n" for train in trains.values()])
+    # checklist.write("|Train|ID|Sprites Reorganized|Graphics YAML|Programmed|Fully Functional|\n")
+    # checklist.write("|-|-|-|-|-|-|\n")
+    # checklist.writelines([f"|{train._name}|{train._id}|||||\n" for train in trains.values()])
     # checklist.close()
 
     with open(os.path.join(VEHICLES, "cargo-table.yaml"), "w") as cargoTable:
