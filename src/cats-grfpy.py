@@ -48,24 +48,11 @@ def main():
     with open("./cargo-table.yaml", "r") as cargoTableFile:
         cats_grf.set_cargo_table(yaml.safe_load(cargoTableFile))
 
-    default_props = dataclasses.asdict(V.VehicleProps.default())
-
     # iterate through each vehicle in vehicles to generate the trains
     for root, subdirs, files in os.walk("./vehicles"):
         if len(subdirs) > 0:  # skip folders with folders inside
             continue
-        # vehicles.MAKE_VEHICLE[os.path.basename(root)]()
-        loco_yaml = os.path.join(root, os.path.basename(root)+".yaml")
-        print(loco_yaml)
-        with open(loco_yaml, "r") as loco_yaml_file:
-            loco: dict[str, Any] = yaml.safe_load(loco_yaml_file)
-            # fill in default values
-            for k, default in default_props.items():
-                if k not in loco["props"]:
-                    loco["props"][k] = default
-            # add name and id to the loco props
-            loco["props"]["id"] = loco["_id"]
-            loco["props"]["name"] = loco["_name"]
+        vehicles.make_vehicle(root, os.path.basename(root))
 
     # grf.main(cats_grf, "dist/cats.grf")
 

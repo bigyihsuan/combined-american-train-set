@@ -1,454 +1,592 @@
 
+import dataclasses
+import os
+from typing import Any
 
-def make_livestock_car():
+import yaml
+import shared.vehicle as V
+
+default_props = dataclasses.asdict(V.VehicleProps.default())
+
+
+def load_yaml(root: str, name: str) -> dict[str, Any]:
+    loco_yaml = os.path.join(root, f"{name}.yaml")
+    print(loco_yaml)
+
+    with open(loco_yaml, "r") as loco_yaml_file:
+        loco_props: dict[str, Any] = yaml.safe_load(loco_yaml_file)
+        # fill in default values
+        for k, default in default_props.items():
+            if k not in loco_props["props"]:
+                loco_props["props"][k] = default
+            # add name and id to the loco props
+            loco_props["props"]["id"] = loco_props["_id"]
+            loco_props["props"]["name"] = loco_props["_name"]
+        return loco_props
+
+
+def make_livestock_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_single_hopper():
+def make_single_hopper(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_two_bay_hopper():
+def make_two_bay_hopper(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_large_hopper():
+def make_large_hopper(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_woodchip_hopper():
+def make_woodchip_hopper(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_covered_hopper():
+def make_covered_hopper(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_gondola():
+def make_gondola(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_40_gondola():
+def make_40_gondola(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_50_gondola():
+def make_50_gondola(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_steel_coil_car():
+def make_steel_coil_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_flat_car():
+def make_flat_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_50_flat_car():
+def make_50_flat_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_container_car():
+def make_container_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_double_stack_intermodal():
+def make_double_stack_intermodal(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_centerbeam_flat_car():
+def make_centerbeam_flat_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_autorack():
+def make_autorack(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_tank_car():
+def make_tank_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_40_tank_car():
+def make_40_tank_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_60_tank_car_oil():
+def make_60_tank_car_oil(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_60_tank_car_cc():
+def make_60_tank_car_cc(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_caboose_short():
+def make_caboose_short(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_caboose_long():
+def make_caboose_long(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_passenger_car():
+def make_passenger_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_heavyweight_car():
+def make_heavyweight_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_lightweight_car():
+def make_lightweight_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_bilevel_car():
+def make_bilevel_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_superliner_car():
+def make_superliner_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_highspeed_car():
+def make_highspeed_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_mail_car():
+def make_mail_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_heavyweight_mail_car():
+def make_heavyweight_mail_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_lightweight_mail_car():
+def make_lightweight_mail_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_highspeed_mail_car():
+def make_highspeed_mail_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_cabbage_car():
+def make_cabbage_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_express_car():
+def make_express_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_boxcar():
+def make_boxcar(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_40_boxcar():
+def make_40_boxcar(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_50_boxcar():
+def make_50_boxcar(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_hicube_boxcar():
+def make_hicube_boxcar(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_reefer():
+def make_reefer(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_40_reefer():
+def make_40_reefer(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_50_reefer():
+def make_50_reefer(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_cattle_car():
+def make_cattle_car(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emc_e3():
+def make_emc_e3(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emd_ft():
+def make_emd_ft(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emd_sw1200():
+def make_emd_sw1200(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emd_fp9():
+def make_emd_fp9(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emd_gp9():
+def make_emd_gp9(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emd_sd9():
+def make_emd_sd9(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emd_sw1500():
+def make_emd_sw1500(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emd_sd45():
+def make_emd_sd45(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emd_centennial():
+def make_emd_centennial(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emd_sd402():
+def make_emd_sd402(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emd_gp382():
+def make_emd_gp382(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emd_f40ph():
+def make_emd_f40ph(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emd_gp60():
+def make_emd_gp60(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emd_sd70mac():
+def make_emd_sd70mac(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emd_f59phi():
+def make_emd_f59phi(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_alco_s2():
+def make_alco_s2(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_alco_pa():
+def make_alco_pa(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_alco_fa():
+def make_alco_fa(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_alco_rs3():
+def make_alco_rs3(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_alco_century():
+def make_alco_century(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_ge_u25b():
+def make_ge_u25b(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_ge_u30c():
+def make_ge_u30c(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_ge_c367():
+def make_ge_c367(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_ge_c408():
+def make_ge_c408(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_ge_c449w():
+def make_ge_c449w(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_ge_p42dc_genesis():
+def make_ge_p42dc_genesis(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_ge_evolution():
+def make_ge_evolution(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_baldwin_rf16():
+def make_baldwin_rf16(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_fm_train_master():
+def make_fm_train_master(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_hybrid_switcher():
+def make_hybrid_switcher(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emc_doodlebug():
+def make_emc_doodlebug(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_budd_rdc():
+def make_budd_rdc(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_emd_aerotrain():
+def make_emd_aerotrain(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_uac_turbotrain():
+def make_uac_turbotrain(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_rtl_turboliner():
+def make_rtl_turboliner(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_ge_steeplecab():
+def make_ge_steeplecab(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_baldwin_boxcab():
+def make_baldwin_boxcab(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_alcoge_boxcab():
+def make_alcoge_boxcab(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_pennsylvania_gg1():
+def make_pennsylvania_gg1(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_virginian_elc():
+def make_virginian_elc(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_gmd_sw1200mg():
+def make_gmd_sw1200mg(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_ge_e60c():
+def make_ge_e60c(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_aseaemd_aem7():
+def make_aseaemd_aem7(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_gmd_gf6c():
+def make_gmd_gf6c(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_siemens_acs64():
+def make_siemens_acs64(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_bombardier_acela():
+def make_bombardier_acela(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_electric_interurban():
+def make_electric_interurban(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_budd_metroliner():
+def make_budd_metroliner(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_bombardier_emu():
+def make_bombardier_emu(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_nippon_sharyo_emu():
+def make_nippon_sharyo_emu(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_420_norris():
+def make_420_norris(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_440_american():
+def make_440_american(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_462_pacific():
+def make_462_pacific(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_2102_santa_fe():
+def make_2102_santa_fe(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_482_mountain():
+def make_482_mountain(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_284_berkshire():
+def make_284_berkshire(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_2882_mallet():
+def make_2882_mallet(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_2104_selkirk():
+def make_2104_selkirk(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_464_hudson():
+def make_464_hudson(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_4664_challenger():
+def make_4664_challenger(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_444_jubilee():
+def make_444_jubilee(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_4444_duplex():
+def make_4444_duplex(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_260_mogul():
+def make_260_mogul(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_280_consolidation():
+def make_280_consolidation(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_460_tenwheeler():
+def make_460_tenwheeler(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_440_express():
+def make_440_express(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_280_consolidation_ii():
+def make_280_consolidation_ii(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_442_atlantic():
+def make_442_atlantic(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_464_baltic():
+def make_464_baltic(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_060_switcher():
+def make_060_switcher(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
-def make_282_mikado():
+def make_282_mikado(root: str, name: str):
+    loco_props = load_yaml(root, name)
     pass
 
 
@@ -567,3 +705,7 @@ MAKE_VEHICLE = {
     "8-060_switcher": make_060_switcher,
     "9-282_mikado": make_282_mikado,
 }
+
+
+def make_vehicle(root: str, name: str):
+    MAKE_VEHICLE[name](root, name)
