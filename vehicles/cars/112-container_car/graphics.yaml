@@ -2,7 +2,8 @@ purchase_sprite: {}
 sprite_groups:
   file: ./vehicles/cars/112-container_car/train_210-real.png
   realsprites:
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 18
@@ -10,7 +11,8 @@ sprite_groups:
     xofs: -3
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 12
@@ -18,7 +20,8 @@ sprite_groups:
     xofs: -14
     yofs: -4
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 7
@@ -26,7 +29,8 @@ sprite_groups:
     xofs: -16
     yofs: -3
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 12
@@ -34,7 +38,8 @@ sprite_groups:
     xofs: -6
     yofs: -4
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 18
@@ -42,7 +47,8 @@ sprite_groups:
     xofs: -3
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 12
@@ -50,7 +56,8 @@ sprite_groups:
     xofs: -14
     yofs: -4
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 7
@@ -58,7 +65,8 @@ sprite_groups:
     xofs: -16
     yofs: -3
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 12
@@ -66,7 +74,8 @@ sprite_groups:
     xofs: -6
     yofs: -4
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 18
@@ -74,7 +83,8 @@ sprite_groups:
     xofs: -3
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 13
@@ -82,7 +92,8 @@ sprite_groups:
     xofs: -14
     yofs: -5
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -90,7 +101,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -98,7 +110,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -106,7 +119,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -114,7 +128,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -122,7 +137,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 13
@@ -130,7 +146,8 @@ sprite_groups:
     xofs: -6
     yofs: -5
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -138,7 +155,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -146,7 +164,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -154,7 +173,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -162,7 +182,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -170,7 +191,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -178,7 +200,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -186,7 +209,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -194,7 +218,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -202,7 +227,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -210,7 +236,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -218,7 +245,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -226,7 +254,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -234,7 +263,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -242,7 +272,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -250,7 +281,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -258,7 +290,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -266,7 +299,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -274,7 +308,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -282,7 +317,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -290,7 +326,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -298,7 +335,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -306,7 +344,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -314,7 +353,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -322,7 +362,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -330,7 +371,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -338,7 +380,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -346,7 +389,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -354,7 +398,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -362,7 +407,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -370,7 +416,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -378,7 +425,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -386,7 +434,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -394,7 +443,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -402,7 +452,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -410,7 +461,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 13
@@ -418,7 +470,8 @@ sprite_groups:
     xofs: -6
     yofs: -5
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 18
@@ -426,7 +479,8 @@ sprite_groups:
     xofs: -3
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 13
@@ -434,7 +488,8 @@ sprite_groups:
     xofs: -14
     yofs: -5
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -442,7 +497,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -450,7 +506,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -458,7 +515,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -466,7 +524,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -474,7 +533,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -482,7 +542,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -490,7 +551,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -498,7 +560,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -506,7 +569,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -514,7 +578,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -522,7 +587,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -530,7 +596,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -538,7 +605,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -546,7 +614,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -554,7 +623,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -562,7 +632,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -570,7 +641,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -578,7 +650,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -586,7 +659,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -594,7 +668,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -602,7 +677,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -610,7 +686,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -618,7 +695,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -626,7 +704,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -634,7 +713,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -642,7 +722,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -650,7 +731,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -658,7 +740,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -666,7 +749,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -674,7 +758,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -682,7 +767,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -690,7 +776,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -698,7 +785,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -706,7 +794,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 18
@@ -714,7 +803,8 @@ sprite_groups:
     xofs: -3
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 13
@@ -722,7 +812,8 @@ sprite_groups:
     xofs: -14
     yofs: -5
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -730,7 +821,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -738,7 +830,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -746,7 +839,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -754,7 +848,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -762,7 +857,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 13
@@ -770,7 +866,8 @@ sprite_groups:
     xofs: -6
     yofs: -5
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -778,7 +875,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -786,7 +884,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -794,7 +893,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -802,7 +902,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -810,7 +911,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -818,7 +920,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -826,7 +929,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -834,7 +938,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -842,7 +947,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -850,7 +956,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -858,7 +965,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -866,7 +974,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -874,7 +983,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -882,7 +992,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -890,7 +1001,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -898,7 +1010,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -906,7 +1019,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -914,7 +1028,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -922,7 +1037,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -930,7 +1046,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -938,7 +1055,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -946,7 +1064,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -954,7 +1073,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -962,7 +1082,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -970,7 +1091,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -978,7 +1100,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -986,7 +1109,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -994,7 +1118,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -1002,7 +1127,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1010,7 +1136,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -1018,7 +1145,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1026,7 +1154,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -1034,7 +1163,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1042,7 +1172,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -1050,7 +1181,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 13
@@ -1058,7 +1190,8 @@ sprite_groups:
     xofs: -6
     yofs: -5
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 18
@@ -1066,7 +1199,8 @@ sprite_groups:
     xofs: -3
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 13
@@ -1074,7 +1208,8 @@ sprite_groups:
     xofs: -14
     yofs: -5
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -1082,7 +1217,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1090,7 +1226,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -1098,7 +1235,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1106,7 +1244,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -1114,7 +1253,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1122,7 +1262,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -1130,7 +1271,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1138,7 +1280,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -1146,7 +1289,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1154,7 +1298,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -1162,7 +1307,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1170,7 +1316,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -1178,7 +1325,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1186,7 +1334,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -1194,7 +1343,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1202,7 +1352,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -1210,7 +1361,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1218,7 +1370,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -1226,7 +1379,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1234,7 +1388,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -1242,7 +1397,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1250,7 +1406,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -1258,7 +1415,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1266,7 +1424,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -1274,7 +1433,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1282,7 +1442,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -1290,7 +1451,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1298,7 +1460,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -1306,7 +1469,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1314,7 +1478,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 22
@@ -1322,7 +1487,8 @@ sprite_groups:
     xofs: -3
     yofs: -10
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1330,7 +1496,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -1338,7 +1505,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1346,7 +1514,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 21
@@ -1354,7 +1523,8 @@ sprite_groups:
     xofs: -3
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1362,7 +1532,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 13
@@ -1370,7 +1541,8 @@ sprite_groups:
     xofs: -16
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1378,7 +1550,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 21
@@ -1386,7 +1559,8 @@ sprite_groups:
     xofs: -3
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1394,7 +1568,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 13
@@ -1402,7 +1577,8 @@ sprite_groups:
     xofs: -16
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1410,7 +1586,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 21
@@ -1418,7 +1595,8 @@ sprite_groups:
     xofs: -3
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1426,7 +1604,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 13
@@ -1434,7 +1613,8 @@ sprite_groups:
     xofs: -16
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1442,7 +1622,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 21
@@ -1450,7 +1631,8 @@ sprite_groups:
     xofs: -3
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 17
@@ -1458,7 +1640,8 @@ sprite_groups:
     xofs: -14
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 13
@@ -1466,7 +1649,8 @@ sprite_groups:
     xofs: -16
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 17

@@ -51,11 +51,11 @@ Total feature parity with NARS:
 - Fix 2-8-8-2 Mallet and 4-6-6-4 Challenger having misaligned animation frames when going straight SE after turning left.
   This leads to the front driver of the fixed unit being one quarter turn too early.
   (See `train_30`/`train_31` and `train_41`/`train_42` spritegroups, SE column for the error.)
-  - ![mallet-bug](./doc/mallet-bug.png) ![challenger-bug](./doc/challenger-bug.png)
+  - ![mallet-bug](./mallet-bug.png) ![challenger-bug](./challenger-bug.png)
 
 ## 1.1
 
-- Company color randomization:
+- Company color randomization: (editable by parameter)
   - Every car that supports 1cc should randomly pick from all company colors
   - Every car that supports 2cc should pick random pairs of colors
 

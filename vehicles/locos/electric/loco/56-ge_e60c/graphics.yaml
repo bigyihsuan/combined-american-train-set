@@ -11,7 +11,8 @@ purchase_sprite:
 sprite_groups:
   file: ./vehicles/locos/electric/loco/56-ge_e60c/train_111-real.png
   realsprites:
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 21
@@ -19,7 +20,8 @@ sprite_groups:
     xofs: -3
     yofs: -11
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 15
@@ -27,7 +29,8 @@ sprite_groups:
     xofs: -12
     yofs: -8
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 15
@@ -35,7 +38,8 @@ sprite_groups:
     xofs: -12
     yofs: -11
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 16
@@ -43,7 +47,8 @@ sprite_groups:
     xofs: -4
     yofs: -8
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 21
@@ -51,7 +56,8 @@ sprite_groups:
     xofs: -3
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 16
@@ -59,7 +65,8 @@ sprite_groups:
     xofs: -14
     yofs: -8
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 15
@@ -67,7 +74,8 @@ sprite_groups:
     xofs: -16
     yofs: -11
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 15
@@ -75,7 +83,8 @@ sprite_groups:
     xofs: -5
     yofs: -8
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 21
@@ -83,7 +92,8 @@ sprite_groups:
     xofs: -3
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 15
@@ -91,7 +101,8 @@ sprite_groups:
     xofs: -14
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 15
@@ -99,7 +110,8 @@ sprite_groups:
     xofs: -16
     yofs: -11
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 16
@@ -107,7 +119,8 @@ sprite_groups:
     xofs: -6
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 21
@@ -115,7 +128,8 @@ sprite_groups:
     xofs: -3
     yofs: -11
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 16
@@ -123,7 +137,8 @@ sprite_groups:
     xofs: -12
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 15
@@ -131,7 +146,8 @@ sprite_groups:
     xofs: -12
     yofs: -11
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 15

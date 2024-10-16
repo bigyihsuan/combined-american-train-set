@@ -11,7 +11,8 @@ purchase_sprite:
 sprite_groups:
   file: ./vehicles/locos/diesel/pax/62-emd_aerotrain/train_119-real.png
   realsprites:
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 21
@@ -19,7 +20,8 @@ sprite_groups:
     xofs: -3
     yofs: -11
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 15
@@ -27,7 +29,8 @@ sprite_groups:
     xofs: -12
     yofs: -8
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -35,7 +38,8 @@ sprite_groups:
     xofs: -12
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 15
@@ -43,7 +47,8 @@ sprite_groups:
     xofs: -4
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 21
@@ -51,7 +56,8 @@ sprite_groups:
     xofs: -3
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 15
@@ -59,7 +65,8 @@ sprite_groups:
     xofs: -14
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -67,7 +74,8 @@ sprite_groups:
     xofs: -15
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 15
@@ -75,7 +83,8 @@ sprite_groups:
     xofs: -6
     yofs: -8
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 21
@@ -83,7 +92,8 @@ sprite_groups:
     xofs: -3
     yofs: -11
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 15
@@ -91,7 +101,8 @@ sprite_groups:
     xofs: -12
     yofs: -8
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -99,7 +110,8 @@ sprite_groups:
     xofs: -11
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 15
@@ -107,7 +119,8 @@ sprite_groups:
     xofs: -4
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 21
@@ -115,7 +128,8 @@ sprite_groups:
     xofs: -3
     yofs: -9
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 15
@@ -123,7 +137,8 @@ sprite_groups:
     xofs: -14
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 11
@@ -131,7 +146,8 @@ sprite_groups:
     xofs: -16
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 15
@@ -139,7 +155,8 @@ sprite_groups:
     xofs: -6
     yofs: -8
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 19
@@ -147,7 +164,8 @@ sprite_groups:
     xofs: -3
     yofs: -11
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 14
@@ -155,7 +173,8 @@ sprite_groups:
     xofs: -10
     yofs: -8
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 10
@@ -163,7 +182,8 @@ sprite_groups:
     xofs: -8
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 14
@@ -171,7 +191,8 @@ sprite_groups:
     xofs: -2
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 19
@@ -179,7 +200,8 @@ sprite_groups:
     xofs: -3
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 14
@@ -187,7 +209,8 @@ sprite_groups:
     xofs: -14
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 10
@@ -195,7 +218,8 @@ sprite_groups:
     xofs: -16
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 14
@@ -203,7 +227,8 @@ sprite_groups:
     xofs: -6
     yofs: -8
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 19
@@ -211,7 +236,8 @@ sprite_groups:
     xofs: -3
     yofs: -11
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 14
@@ -219,7 +245,8 @@ sprite_groups:
     xofs: -10
     yofs: -8
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 10
@@ -227,7 +254,8 @@ sprite_groups:
     xofs: -8
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 14
@@ -235,7 +263,8 @@ sprite_groups:
     xofs: -2
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 19
@@ -243,7 +272,8 @@ sprite_groups:
     xofs: -3
     yofs: -7
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 14
@@ -251,7 +281,8 @@ sprite_groups:
     xofs: -14
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 10
@@ -259,7 +290,8 @@ sprite_groups:
     xofs: -16
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 14
@@ -267,7 +299,8 @@ sprite_groups:
     xofs: -6
     yofs: -8
     zoom: 0
-  - _x: -1
+  - __orientation: NW
+    _x: -1
     _y: -1
     bpp: 1
     height: 19
@@ -275,7 +308,8 @@ sprite_groups:
     xofs: -3
     yofs: -11
     zoom: 0
-  - _x: -1
+  - __orientation: N
+    _x: -1
     _y: -1
     bpp: 1
     height: 14
@@ -283,7 +317,8 @@ sprite_groups:
     xofs: -11
     yofs: -8
     zoom: 0
-  - _x: -1
+  - __orientation: NE
+    _x: -1
     _y: -1
     bpp: 1
     height: 10
@@ -291,7 +326,8 @@ sprite_groups:
     xofs: -9
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: E
+    _x: -1
     _y: -1
     bpp: 1
     height: 13
@@ -299,7 +335,8 @@ sprite_groups:
     xofs: -3
     yofs: -5
     zoom: 0
-  - _x: -1
+  - __orientation: SE
+    _x: -1
     _y: -1
     bpp: 1
     height: 18
@@ -307,7 +344,8 @@ sprite_groups:
     xofs: -3
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: S
+    _x: -1
     _y: -1
     bpp: 1
     height: 13
@@ -315,7 +353,8 @@ sprite_groups:
     xofs: -14
     yofs: -5
     zoom: 0
-  - _x: -1
+  - __orientation: SW
+    _x: -1
     _y: -1
     bpp: 1
     height: 10
@@ -323,7 +362,8 @@ sprite_groups:
     xofs: -16
     yofs: -6
     zoom: 0
-  - _x: -1
+  - __orientation: W
+    _x: -1
     _y: -1
     bpp: 1
     height: 14

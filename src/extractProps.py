@@ -1,4 +1,5 @@
 import dataclasses
+import itertools
 import json
 import os
 import re
@@ -22,6 +23,8 @@ def extractProps():
     ELECTRIC = "electric"
     PAX = "pax"
     LOCO = "loco"
+
+    orientations = ["NW", "N", "NE", "E", "SE", "S", "SW", "W"]
 
     default_props = dataclasses.asdict(VehicleProps.default())
 
@@ -93,12 +96,15 @@ def extractProps():
                 if isinstance(sprite, (Loco, Tender, Car)):
                     d["sprite_groups"]["realsprites"] = [dataclasses.asdict(
                         sprite) for sprite in spriteGroup.realSprites]
-                    for i, sprite in enumerate(d["sprite_groups"]["realsprites"]):
+                    for i, (sprite, orientation) in enumerate(
+                        zip(d["sprite_groups"]["realsprites"],
+                            itertools.cycle(orientations))):
+                        del d["sprite_groups"]["realsprites"][i]["file"]  # handled 1 level up
                         del d["sprite_groups"]["realsprites"][i]["x"]
                         del d["sprite_groups"]["realsprites"][i]["y"]
                         d["sprite_groups"]["realsprites"][i]["_x"] = -1  # for later filling
                         d["sprite_groups"]["realsprites"][i]["_y"] = -1  # for later filling
-                        del d["sprite_groups"]["realsprites"][i]["file"]  # handled 1 level up
+                        d["sprite_groups"]["realsprites"][i]["__orientation"] = orientation
                     d["sprite_groups"]["file"] = real_path
                     path = real_path
 
@@ -110,10 +116,10 @@ def extractProps():
                     d["purchase_sprite"]["_y"] = 0  # purchase sprites always appear at (0,0)
                     d["purchase_sprite"]["file"] = purchase_path
                     path = purchase_path
-                # do not overwrite the modified files
-                if not os.path.exists(path):
-                    # move the sprites for this train
-                    shutil.copy(group_path, path)
+                # # do not overwrite the modified files
+                # if not os.path.exists(path):
+                #     # move the sprites for this train
+                #     shutil.copy(group_path, path)
 
             yaml.dump(d, graphics_file)
 

@@ -1,19 +1,19 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/locos/diesel/loco/46-ge_evolution/train_95-real.png
+  file: ./vehicles/locos/diesel/loco/20-emc_e3/train_54-real.png
   realsprites:
   - __orientation: NW
-    _x: -1
-    _y: -1
+    _x: 0
+    _y: 0
     bpp: 1
-    height: 23
+    height: 24
     width: 8
     xofs: -3
-    yofs: -11
+    yofs: -12
     zoom: 0
   - __orientation: N
-    _x: -1
-    _y: -1
+    _x: 10
+    _y: 0
     bpp: 1
     height: 17
     width: 22
@@ -21,8 +21,8 @@ sprite_groups:
     yofs: -9
     zoom: 0
   - __orientation: NE
-    _x: -1
-    _y: -1
+    _x: 40
+    _y: 0
     bpp: 1
     height: 12
     width: 32
@@ -30,8 +30,8 @@ sprite_groups:
     yofs: -8
     zoom: 0
   - __orientation: E
-    _x: -1
-    _y: -1
+    _x: 80
+    _y: 0
     bpp: 1
     height: 17
     width: 22
@@ -39,17 +39,17 @@ sprite_groups:
     yofs: -9
     zoom: 0
   - __orientation: SE
-    _x: -1
-    _y: -1
+    _x: 110
+    _y: 0
     bpp: 1
-    height: 23
+    height: 24
     width: 8
     xofs: -3
-    yofs: -11
+    yofs: -12
     zoom: 0
   - __orientation: S
-    _x: -1
-    _y: -1
+    _x: 120
+    _y: 0
     bpp: 1
     height: 17
     width: 22
@@ -57,8 +57,8 @@ sprite_groups:
     yofs: -9
     zoom: 0
   - __orientation: SW
-    _x: -1
-    _y: -1
+    _x: 150
+    _y: 0
     bpp: 1
     height: 12
     width: 32
@@ -66,11 +66,12 @@ sprite_groups:
     yofs: -8
     zoom: 0
   - __orientation: W
-    _x: -1
-    _y: -1
+    _x: 190
+    _y: 0
     bpp: 1
     height: 17
     width: 22
     xofs: -6
     yofs: -9
     zoom: 0
+
