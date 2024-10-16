@@ -64,22 +64,22 @@ def extractProps():
         for sprite in sprites:
             group_path = os.path.join(RES, f"{sprite.group}.png")
             shutil.copy(group_path, sprite_path)
-        # add graphics offsets to the train struct
-        groups = ID_TO_GROUPS[id]
-        train.graphics.gs = [g for g in groups if isinstance(g, (Loco, Tender, Car))]
-        for group in groups:
-            spriteGroup: SpriteGroup = spriteGroups[group.group]
-            if isinstance(group, (Loco, Tender, Car)):
-                train.graphics.spriteGroups[group.group] = spriteGroup
-            elif isinstance(group, Purchase):
-                train.graphics.purchaseSprite = spriteGroup
+        # # add graphics offsets to the train struct
+        # groups = ID_TO_GROUPS[id]
+        # train.graphics.gs = [g for g in groups if isinstance(g, (Loco, Tender, Car))]
+        # for group in groups:
+        #     spriteGroup: SpriteGroup = spriteGroups[group.group]
+        #     if isinstance(group, (Loco, Tender, Car)):
+        #         train.graphics.spriteGroups[group.group] = spriteGroup
+        #     elif isinstance(group, Purchase):
+        #         train.graphics.purchaseSprite = spriteGroup
 
         # write to the train's yaml file
         with open(os.path.join(sprite_path, f"{id}-{train_name}.yaml"), "w") as veh:
-            d = {k: v for k, v in dataclasses.asdict(train).items()}
+            d = {k: v for k, v in dataclasses.asdict(train).items() if k not in ["graphics"]}
             d["props"] = {k: list(v) if type(v) is tuple else v
                           for k, v in d["props"].items() if v != default_props[k]}
-            d["graphics"] = {k: v for k, v in d["graphics"].items() if k in ["purchaseSprite", "spriteGroups"]}
+            # d["graphics"] = {k: v for k, v in d["graphics"].items() if k in ["purchaseSprite", "spriteGroups"]}
             yaml.dump(d, veh, indent=4, default_flow_style=False)
 
 
