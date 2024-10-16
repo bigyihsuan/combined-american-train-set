@@ -78,14 +78,13 @@ def extractProps():
                 "sprite_groups": {},
                 "purchase_sprite": {}
             }
-            groups = ID_TO_GROUPS[id]
-            for group in groups:
-                group_path = os.path.join(RES, f"{group.group}.png")
-                real_path = os.path.join(sprite_path, f"{group.group}-real.png")
-                purchase_path = os.path.join(sprite_path, f"{group.group}-purchase.png")
-                spriteGroup: SpriteGroup = spriteGroups[group.group]
+            for sprite in sprites:
+                group_path = os.path.join(RES, f"{sprite.group}.png")
+                real_path = os.path.join(sprite_path, f"{sprite.group}-real.png")
+                purchase_path = os.path.join(sprite_path, f"{sprite.group}-purchase.png")
+                spriteGroup: SpriteGroup = spriteGroups[sprite.group]
                 path = ""
-                if isinstance(group, (Loco, Tender, Car)):
+                if isinstance(sprite, (Loco, Tender, Car)):
                     d["sprite_groups"]["realsprites"] = [dataclasses.asdict(
                         sprite) for sprite in spriteGroup.realSprites]
                     for i, sprite in enumerate(d["sprite_groups"]["realsprites"]):
@@ -95,7 +94,7 @@ def extractProps():
                     d["sprite_groups"]["file"] = real_path
                     path = real_path
 
-                elif isinstance(group, Purchase):
+                elif isinstance(sprite, Purchase):
                     d["purchase_sprite"] = dataclasses.asdict(spriteGroup.realSprites[0])
                     d["purchase_sprite"]["x"] = 0  # purchase sprites always appear at (0,0)
                     d["purchase_sprite"]["y"] = 0  # purchase sprites always appear at (0,0)
