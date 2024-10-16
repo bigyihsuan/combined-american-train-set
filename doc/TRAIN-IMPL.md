@@ -31,7 +31,7 @@
 | EMD SW1200       | 22  |                     |               |            |                  |
 | EMD FP9          | 23  |                     |               |            |                  |
 | EMD GP9          | 24  |          y          |       y       |            |                  |
-| EMD SD9          | 25  |                     |               |            |                  |
+| EMD SD9          | 25  |          y          |       y       |            |                  |
 | EMD SW1500       | 26  |                     |               |            |                  |
 | EMD SD45         | 27  |                     |               |            |                  |
 | EMD Centennial   | 28  |                     |               |            |                  |

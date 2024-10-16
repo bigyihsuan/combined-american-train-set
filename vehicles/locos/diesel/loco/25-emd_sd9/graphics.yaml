@@ -2,75 +2,75 @@ purchase_sprite: {}
 sprite_groups:
   file: ./vehicles/locos/diesel/loco/25-emd_sd9/train_63-real.png
   realsprites:
-  - __orientation: NW
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 23
-    width: 8
-    xofs: -3
-    yofs: -11
-    zoom: 0
-  - __orientation: N
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 16
-    width: 22
-    xofs: -14
-    yofs: -8
-    zoom: 0
-  - __orientation: NE
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 12
-    width: 32
-    xofs: -16
-    yofs: -8
-    zoom: 0
-  - __orientation: E
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 16
-    width: 22
-    xofs: -6
-    yofs: -8
-    zoom: 0
-  - __orientation: SE
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 23
-    width: 8
-    xofs: -3
-    yofs: -11
-    zoom: 0
-  - __orientation: S
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 16
-    width: 22
-    xofs: -14
-    yofs: -8
-    zoom: 0
-  - __orientation: SW
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 12
-    width: 32
-    xofs: -16
-    yofs: -8
-    zoom: 0
-  - __orientation: W
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 16
-    width: 22
-    xofs: -6
-    yofs: -8
-    zoom: 0
+    - __orientation: NW
+      _x: 0
+      _y: 0
+      bpp: 1
+      height: 23
+      width: 8
+      xofs: -3
+      yofs: -11
+      zoom: 0
+    - __orientation: N
+      _x: 10
+      _y: 0
+      bpp: 1
+      height: 16
+      width: 22
+      xofs: -14
+      yofs: -8
+      zoom: 0
+    - __orientation: NE
+      _x: 40
+      _y: 0
+      bpp: 1
+      height: 12
+      width: 32
+      xofs: -16
+      yofs: -8
+      zoom: 0
+    - __orientation: E
+      _x: 80
+      _y: 0
+      bpp: 1
+      height: 16
+      width: 22
+      xofs: -6
+      yofs: -8
+      zoom: 0
+    - __orientation: SE
+      _x: 110
+      _y: 0
+      bpp: 1
+      height: 23
+      width: 8
+      xofs: -3
+      yofs: -11
+      zoom: 0
+    - __orientation: S
+      _x: 120
+      _y: 0
+      bpp: 1
+      height: 16
+      width: 22
+      xofs: -14
+      yofs: -8
+      zoom: 0
+    - __orientation: SW
+      _x: 150
+      _y: 0
+      bpp: 1
+      height: 12
+      width: 32
+      xofs: -16
+      yofs: -8
+      zoom: 0
+    - __orientation: W
+      _x: 190
+      _y: 0
+      bpp: 1
+      height: 16
+      width: 22
+      xofs: -6
+      yofs: -8
+      zoom: 0
