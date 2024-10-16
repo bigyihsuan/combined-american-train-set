@@ -1,7 +1,7 @@
 from collections import defaultdict
 import grf
 
-from vehicle import Sprite, SpriteGroup, Vehicle, VehicleProps
+from shared.vehicle import Sprite, SpriteGroup, Vehicle, VehicleProps
 
 
 class GRFFile(grf.LoadedResourceFile):

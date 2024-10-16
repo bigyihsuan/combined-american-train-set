@@ -1,16 +1,12 @@
 import dataclasses
 import itertools
-import json
 import os
 import re
-import shutil
-from typing import Any
 import yaml
 
-from group import G, ID_TO_GROUPS, Car, Loco, Purchase, Tender
-from vehicle import Vehicle, SpriteGroup, VehicleProps
-from enums import Loc
-import grffile
+from shared.group import ID_TO_GROUPS, Car, Loco, Purchase, Tender
+from shared.vehicle import SpriteGroup, VehicleProps
+import shared.grffile as grffile
 
 
 def extractProps():

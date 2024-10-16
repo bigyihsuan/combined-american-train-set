@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Any
 
-from enums import Loc
-from group import G, Car, Loco, Tender
+from shared.enums import Loc
+from shared.group import G, Car, Loco, Tender
 
 import grf
 

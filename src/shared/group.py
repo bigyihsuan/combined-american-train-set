@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from enum import Enum
 from typing import TypeAlias
 
-from enums import Loc, TenderSpriteLocation, LocoType as LT
+from shared.enums import Loc, TenderSpriteLocation, LocoType as LT
 
 false = False
 true = True

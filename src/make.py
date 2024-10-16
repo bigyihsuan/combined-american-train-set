@@ -1,10 +1,10 @@
 import dataclasses
 import grf
 
-from enums import Loc, TenderSpriteLocation
-import group as G
-import vehicle as V
-import util
+from shared.enums import Loc, TenderSpriteLocation
+import shared.group as G
+import shared.vehicle as V
+import shared.util as util
 
 TENDER_ID_OFFSET = 1000
 
