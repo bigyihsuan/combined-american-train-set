@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/locos/diesel/loco/28-emd_centennial/train_68.png
+  file: ./vehicles/locos/diesel/loco/28-emd_centennial/train_68-purchase.png
   height: 12
   width: 40
-  x: -1
+  x: 0
   xofs: -18
-  y: -1
+  y: 0
   yofs: -8
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/diesel/loco/28-emd_centennial/train_67.png
+  file: ./vehicles/locos/diesel/loco/28-emd_centennial/train_67-real.png
   realsprites:
   - bpp: 1
     height: 27

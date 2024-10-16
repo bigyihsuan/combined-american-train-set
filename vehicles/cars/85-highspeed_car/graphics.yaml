@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/cars/85-highspeed_car/train_149.png
+  file: ./vehicles/cars/85-highspeed_car/train_149-purchase.png
   height: 10
   width: 28
-  x: -1
+  x: 0
   xofs: -14
-  y: -1
+  y: 0
   yofs: -6
   zoom: 0
 sprite_groups:
-  file: ./vehicles/cars/85-highspeed_car/train_148.png
+  file: ./vehicles/cars/85-highspeed_car/train_148-real.png
   realsprites:
   - bpp: 1
     height: 21

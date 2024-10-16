@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/locos/steam/loco/4-460_tenwheeler/train_10.png
+  file: ./vehicles/locos/steam/loco/4-460_tenwheeler/train_10-purchase.png
   height: 13
   width: 41
-  x: -1
+  x: 0
   xofs: -21
-  y: -1
+  y: 0
   yofs: -9
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/steam/loco/4-460_tenwheeler/train_9.png
+  file: ./vehicles/locos/steam/loco/4-460_tenwheeler/train_9-real.png
   realsprites:
   - bpp: 1
     height: 19

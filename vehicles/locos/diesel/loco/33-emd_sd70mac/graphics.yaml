@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/locos/diesel/loco/33-emd_sd70mac/train_76.png
+  file: ./vehicles/locos/diesel/loco/33-emd_sd70mac/train_76-real.png
   realsprites:
   - bpp: 1
     height: 22

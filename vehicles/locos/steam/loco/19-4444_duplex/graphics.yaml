@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/locos/steam/loco/19-4444_duplex/train_53.png
+  file: ./vehicles/locos/steam/loco/19-4444_duplex/train_53-purchase.png
   height: 12
   width: 64
-  x: -1
+  x: 0
   xofs: -28
-  y: -1
+  y: 0
   yofs: -8
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/steam/loco/19-4444_duplex/train_52.png
+  file: ./vehicles/locos/steam/loco/19-4444_duplex/train_52-real.png
   realsprites:
   - bpp: 1
     height: 24

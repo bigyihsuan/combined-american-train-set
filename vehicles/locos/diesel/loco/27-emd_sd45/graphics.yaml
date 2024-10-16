@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/locos/diesel/loco/27-emd_sd45/train_66.png
+  file: ./vehicles/locos/diesel/loco/27-emd_sd45/train_66-real.png
   realsprites:
   - bpp: 1
     height: 22

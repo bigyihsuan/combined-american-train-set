@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/cars/109-steel_coil_car/train_204.png
+  file: ./vehicles/cars/109-steel_coil_car/train_204-real.png
   realsprites:
   - bpp: 1
     height: 19

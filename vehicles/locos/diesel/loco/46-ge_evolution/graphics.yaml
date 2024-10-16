@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/locos/diesel/loco/46-ge_evolution/train_95.png
+  file: ./vehicles/locos/diesel/loco/46-ge_evolution/train_95-real.png
   realsprites:
   - bpp: 1
     height: 23

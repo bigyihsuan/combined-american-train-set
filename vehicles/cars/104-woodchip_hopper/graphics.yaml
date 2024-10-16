@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/cars/104-woodchip_hopper/train_192.png
+  file: ./vehicles/cars/104-woodchip_hopper/train_192-real.png
   realsprites:
   - bpp: 1
     height: 25

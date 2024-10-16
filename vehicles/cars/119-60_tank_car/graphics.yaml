@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/cars/119-60_tank_car/train_227.png
+  file: ./vehicles/cars/119-60_tank_car/train_227-real.png
   realsprites:
   - bpp: 1
     height: 24

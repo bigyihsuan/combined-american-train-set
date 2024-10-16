@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/locos/steam/loco/7-442_atlantic/train_16.png
+  file: ./vehicles/locos/steam/loco/7-442_atlantic/train_16-purchase.png
   height: 12
   width: 44
-  x: -1
+  x: 0
   xofs: -22
-  y: -1
+  y: 0
   yofs: -8
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/steam/loco/7-442_atlantic/train_15.png
+  file: ./vehicles/locos/steam/loco/7-442_atlantic/train_15-real.png
   realsprites:
   - bpp: 1
     height: 19

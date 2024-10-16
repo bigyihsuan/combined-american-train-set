@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/locos/diesel/loco/38-alco_rs3/train_86.png
+  file: ./vehicles/locos/diesel/loco/38-alco_rs3/train_86-purchase.png
   height: 12
   width: 28
-  x: -1
+  x: 0
   xofs: -14
-  y: -1
+  y: 0
   yofs: -8
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/diesel/loco/38-alco_rs3/train_85.png
+  file: ./vehicles/locos/diesel/loco/38-alco_rs3/train_85-real.png
   realsprites:
   - bpp: 1
     height: 21

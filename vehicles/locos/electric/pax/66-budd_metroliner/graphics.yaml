@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/locos/electric/pax/66-budd_metroliner/train_129.png
+  file: ./vehicles/locos/electric/pax/66-budd_metroliner/train_129-purchase.png
   height: 1
   width: 1
-  x: -1
+  x: 0
   xofs: -1
-  y: -1
+  y: 0
   yofs: -1
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/electric/pax/66-budd_metroliner/train_130.png
+  file: ./vehicles/locos/electric/pax/66-budd_metroliner/train_130-real.png
   realsprites:
   - bpp: 1
     height: 24

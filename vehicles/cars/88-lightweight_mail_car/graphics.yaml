@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/cars/88-lightweight_mail_car/train_155.png
+  file: ./vehicles/cars/88-lightweight_mail_car/train_155-real.png
   realsprites:
   - bpp: 1
     height: 24

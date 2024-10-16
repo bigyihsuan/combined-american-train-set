@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/cars/115-autorack/train_219.png
+  file: ./vehicles/cars/115-autorack/train_219-real.png
   realsprites:
   - bpp: 1
     height: 24

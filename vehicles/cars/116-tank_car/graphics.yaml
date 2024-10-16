@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/cars/116-tank_car/train_221.png
+  file: ./vehicles/cars/116-tank_car/train_221-purchase.png
   height: 10
   width: 20
-  x: -1
+  x: 0
   xofs: -10
-  y: -1
+  y: 0
   yofs: -6
   zoom: 0
 sprite_groups:
-  file: ./vehicles/cars/116-tank_car/train_220.png
+  file: ./vehicles/cars/116-tank_car/train_220-real.png
   realsprites:
   - bpp: 1
     height: 15

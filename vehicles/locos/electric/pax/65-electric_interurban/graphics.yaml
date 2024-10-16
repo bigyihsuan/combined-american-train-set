@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/locos/electric/pax/65-electric_interurban/train_127.png
+  file: ./vehicles/locos/electric/pax/65-electric_interurban/train_127-real.png
   realsprites:
   - bpp: 1
     height: 24

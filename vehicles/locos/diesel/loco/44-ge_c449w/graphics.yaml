@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/locos/diesel/loco/44-ge_c449w/train_93.png
+  file: ./vehicles/locos/diesel/loco/44-ge_c449w/train_93-real.png
   realsprites:
   - bpp: 1
     height: 23

@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/cars/83-bilevel_car/train_146.png
+  file: ./vehicles/cars/83-bilevel_car/train_146-real.png
   realsprites:
   - bpp: 1
     height: 25

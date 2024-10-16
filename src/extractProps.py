@@ -61,10 +61,6 @@ def extractProps():
         sprite_path = os.path.join(path_prefix, f"{id}-{train_name}")
         if not os.path.isdir(sprite_path):
             os.makedirs(sprite_path)
-        # move the sprites for this train
-        for sprite in sprites:
-            group_path = os.path.join(RES, f"{sprite.group}.png")
-            shutil.copy(group_path, sprite_path)
 
         # write to the train's yaml file
         with open(os.path.join(sprite_path, f"{id}-{train_name}.yaml"), "w") as veh:
@@ -84,7 +80,11 @@ def extractProps():
             }
             groups = ID_TO_GROUPS[id]
             for group in groups:
+                group_path = os.path.join(RES, f"{group.group}.png")
+                real_path = os.path.join(sprite_path, f"{group.group}-real.png")
+                purchase_path = os.path.join(sprite_path, f"{group.group}-purchase.png")
                 spriteGroup: SpriteGroup = spriteGroups[group.group]
+                path = ""
                 if isinstance(group, (Loco, Tender, Car)):
                     d["sprite_groups"]["realsprites"] = [dataclasses.asdict(
                         sprite) for sprite in spriteGroup.realSprites]
@@ -92,12 +92,20 @@ def extractProps():
                         d["sprite_groups"]["realsprites"][i]["x"] = -1  # for later filling
                         d["sprite_groups"]["realsprites"][i]["y"] = -1  # for later filling
                         del d["sprite_groups"]["realsprites"][i]["file"]  # handled 1 level up
-                    d["sprite_groups"]["file"] = os.path.join(sprite_path, f"{group.group}.png")
+                    d["sprite_groups"]["file"] = real_path
+                    path = real_path
+
                 elif isinstance(group, Purchase):
                     d["purchase_sprite"] = dataclasses.asdict(spriteGroup.realSprites[0])
-                    d["purchase_sprite"]["x"] = -1
-                    d["purchase_sprite"]["y"] = -1
-                    d["purchase_sprite"]["file"] = os.path.join(sprite_path, f"{group.group}.png")
+                    d["purchase_sprite"]["x"] = 0  # purchase sprites always appear at (0,0)
+                    d["purchase_sprite"]["y"] = 0  # purchase sprites always appear at (0,0)
+                    d["purchase_sprite"]["file"] = purchase_path
+                    path = purchase_path
+                # do not overwrite the modified files
+                if not os.path.exists(path):
+                    # move the sprites for this train
+                    shutil.copy(group_path, path)
+
             yaml.dump(d, graphics_file)
 
 

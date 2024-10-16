@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/locos/electric/loco/52-alcoge_boxcab/train_106.png
+  file: ./vehicles/locos/electric/loco/52-alcoge_boxcab/train_106-purchase.png
   height: 13
   width: 56
-  x: -1
+  x: 0
   xofs: -28
-  y: -1
+  y: 0
   yofs: -9
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/electric/loco/52-alcoge_boxcab/train_105.png
+  file: ./vehicles/locos/electric/loco/52-alcoge_boxcab/train_105-real.png
   realsprites:
   - bpp: 1
     height: 21

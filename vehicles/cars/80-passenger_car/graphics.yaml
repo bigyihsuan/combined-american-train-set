@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/cars/80-passenger_car/train_141.png
+  file: ./vehicles/cars/80-passenger_car/train_141-purchase.png
   height: 11
   width: 24
-  x: -1
+  x: 0
   xofs: -12
-  y: -1
+  y: 0
   yofs: -7
   zoom: 0
 sprite_groups:
-  file: ./vehicles/cars/80-passenger_car/train_140.png
+  file: ./vehicles/cars/80-passenger_car/train_140-real.png
   realsprites:
   - bpp: 1
     height: 20

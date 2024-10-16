@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/locos/steam/loco/70-464_baltic/train_49.png
+  file: ./vehicles/locos/steam/loco/70-464_baltic/train_49-purchase.png
   height: 12
   width: 56
-  x: -1
+  x: 0
   xofs: -28
-  y: -1
+  y: 0
   yofs: -8
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/steam/loco/70-464_baltic/train_48.png
+  file: ./vehicles/locos/steam/loco/70-464_baltic/train_48-real.png
   realsprites:
   - bpp: 1
     height: 20

@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/locos/steam/loco/5-440_express/train_12.png
+  file: ./vehicles/locos/steam/loco/5-440_express/train_12-purchase.png
   height: 13
   width: 41
-  x: -1
+  x: 0
   xofs: -21
-  y: -1
+  y: 0
   yofs: -9
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/steam/loco/5-440_express/train_11.png
+  file: ./vehicles/locos/steam/loco/5-440_express/train_11-real.png
   realsprites:
   - bpp: 1
     height: 19

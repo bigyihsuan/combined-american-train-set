@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/cars/114-centerbeam_flat_car/train_217.png
+  file: ./vehicles/cars/114-centerbeam_flat_car/train_217-real.png
   realsprites:
   - bpp: 1
     height: 23

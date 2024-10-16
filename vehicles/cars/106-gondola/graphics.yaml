@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/cars/106-gondola/train_196.png
+  file: ./vehicles/cars/106-gondola/train_196-purchase.png
   height: 8
   width: 20
-  x: -1
+  x: 0
   xofs: -10
-  y: -1
+  y: 0
   yofs: -4
   zoom: 0
 sprite_groups:
-  file: ./vehicles/cars/106-gondola/train_197.png
+  file: ./vehicles/cars/106-gondola/train_197-real.png
   realsprites:
   - bpp: 1
     height: 13

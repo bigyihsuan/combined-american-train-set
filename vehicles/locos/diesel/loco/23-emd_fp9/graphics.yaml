@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/locos/diesel/loco/23-emd_fp9/train_60.png
+  file: ./vehicles/locos/diesel/loco/23-emd_fp9/train_60-purchase.png
   height: 12
   width: 28
-  x: -1
+  x: 0
   xofs: -14
-  y: -1
+  y: 0
   yofs: -8
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/diesel/loco/23-emd_fp9/train_59.png
+  file: ./vehicles/locos/diesel/loco/23-emd_fp9/train_59-real.png
   realsprites:
   - bpp: 1
     height: 20

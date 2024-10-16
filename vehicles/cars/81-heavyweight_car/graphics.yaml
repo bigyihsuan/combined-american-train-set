@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/cars/81-heavyweight_car/train_142.png
+  file: ./vehicles/cars/81-heavyweight_car/train_142-real.png
   realsprites:
   - bpp: 1
     height: 24

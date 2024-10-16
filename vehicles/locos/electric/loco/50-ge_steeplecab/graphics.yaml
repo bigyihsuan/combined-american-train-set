@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/locos/electric/loco/50-ge_steeplecab/train_102.png
+  file: ./vehicles/locos/electric/loco/50-ge_steeplecab/train_102-purchase.png
   height: 16
   width: 24
-  x: -1
+  x: 0
   xofs: -12
-  y: -1
+  y: 0
   yofs: -12
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/electric/loco/50-ge_steeplecab/train_101.png
+  file: ./vehicles/locos/electric/loco/50-ge_steeplecab/train_101-real.png
   realsprites:
   - bpp: 1
     height: 20

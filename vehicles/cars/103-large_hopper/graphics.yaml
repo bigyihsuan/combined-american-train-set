@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/cars/103-large_hopper/train_190.png
+  file: ./vehicles/cars/103-large_hopper/train_190-real.png
   realsprites:
   - bpp: 1
     height: 23

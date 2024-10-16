@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/cars/89-highspeed_mail_car/train_157.png
+  file: ./vehicles/cars/89-highspeed_mail_car/train_157-real.png
   realsprites:
   - bpp: 1
     height: 24

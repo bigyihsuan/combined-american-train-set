@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/cars/93-40_boxcar/train_167.png
+  file: ./vehicles/cars/93-40_boxcar/train_167-purchase.png
   height: 12
   width: 24
-  x: -1
+  x: 0
   xofs: -12
-  y: -1
+  y: 0
   yofs: -8
   zoom: 0
 sprite_groups:
-  file: ./vehicles/cars/93-40_boxcar/train_166.png
+  file: ./vehicles/cars/93-40_boxcar/train_166-real.png
   realsprites:
   - bpp: 1
     height: 20

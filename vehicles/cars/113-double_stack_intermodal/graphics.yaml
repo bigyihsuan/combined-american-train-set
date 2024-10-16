@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/cars/113-double_stack_intermodal/train_215.png
+  file: ./vehicles/cars/113-double_stack_intermodal/train_215-purchase.png
   height: 9
   width: 54
-  x: -1
+  x: 0
   xofs: -27
-  y: -1
+  y: 0
   yofs: -5
   zoom: 0
 sprite_groups:
-  file: ./vehicles/cars/113-double_stack_intermodal/train_214.png
+  file: ./vehicles/cars/113-double_stack_intermodal/train_214-real.png
   realsprites:
   - bpp: 1
     height: 16

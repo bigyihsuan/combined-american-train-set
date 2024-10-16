@@ -1,15 +1,15 @@
 purchase_sprite:
   bpp: 1
-  file: ./vehicles/locos/steam/loco/1-440_american/train_4.png
+  file: ./vehicles/locos/steam/loco/1-440_american/train_4-purchase.png
   height: 12
   width: 32
-  x: -1
+  x: 0
   xofs: -16
-  y: -1
+  y: 0
   yofs: -8
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/steam/loco/1-440_american/train_3.png
+  file: ./vehicles/locos/steam/loco/1-440_american/train_3-real.png
   realsprites:
   - bpp: 1
     height: 18
