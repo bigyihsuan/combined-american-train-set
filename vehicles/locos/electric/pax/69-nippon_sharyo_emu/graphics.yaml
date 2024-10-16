@@ -1,77 +1,77 @@
 purchase_sprite:
+  _x: 0
+  _y: 0
   bpp: 1
   file: ./vehicles/locos/electric/pax/69-nippon_sharyo_emu/train_138-purchase.png
   height: 1
   width: 1
-  x: 0
   xofs: -1
-  y: 0
   yofs: -1
   zoom: 0
 sprite_groups:
   file: ./vehicles/locos/electric/pax/69-nippon_sharyo_emu/train_139-real.png
   realsprites:
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 26
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -14
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -14
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 14
     width: 32
-    x: -1
     xofs: -16
-    y: -1
     yofs: -10
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -6
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 26
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -14
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -14
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 14
     width: 32
-    x: -1
     xofs: -16
-    y: -1
     yofs: -10
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -6
-    y: -1
     yofs: -11
     zoom: 0

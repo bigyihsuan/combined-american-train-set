@@ -1,333 +1,333 @@
 purchase_sprite:
+  _x: 0
+  _y: 0
   bpp: 1
   file: ./vehicles/locos/steam/loco/8-060_switcher/train_19-purchase.png
   height: 12
   width: 36
-  x: 0
   xofs: -18
-  y: 0
   yofs: -8
   zoom: 0
 sprite_groups:
   file: ./vehicles/locos/steam/loco/8-060_switcher/train_18-real.png
   realsprites:
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 18
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -15
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: -6
-    y: -1
     yofs: -9
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 12
     width: 20
-    x: -1
     xofs: 0
-    y: -1
     yofs: -8
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: 2
-    y: -1
     yofs: -4
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 18
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -9
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: -17
-    y: -1
     yofs: -4
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 12
     width: 21
-    x: -1
     xofs: -21
-    y: -1
     yofs: -8
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: -9
-    y: -1
     yofs: -9
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 18
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -15
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: -6
-    y: -1
     yofs: -9
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 12
     width: 20
-    x: -1
     xofs: 0
-    y: -1
     yofs: -8
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: 2
-    y: -1
     yofs: -4
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 18
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -9
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: -17
-    y: -1
     yofs: -4
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 12
     width: 21
-    x: -1
     xofs: -21
-    y: -1
     yofs: -8
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: -9
-    y: -1
     yofs: -9
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 18
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -15
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: -6
-    y: -1
     yofs: -9
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 12
     width: 20
-    x: -1
     xofs: 0
-    y: -1
     yofs: -8
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: 2
-    y: -1
     yofs: -4
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 18
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -9
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: -17
-    y: -1
     yofs: -4
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 12
     width: 21
-    x: -1
     xofs: -21
-    y: -1
     yofs: -8
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: -9
-    y: -1
     yofs: -9
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 18
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -15
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: -6
-    y: -1
     yofs: -9
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 12
     width: 20
-    x: -1
     xofs: 0
-    y: -1
     yofs: -8
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: 2
-    y: -1
     yofs: -4
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 18
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -9
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: -17
-    y: -1
     yofs: -4
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 12
     width: 21
-    x: -1
     xofs: -21
-    y: -1
     yofs: -8
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 17
-    x: -1
     xofs: -9
-    y: -1
     yofs: -9
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -10
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 10
     width: 14
-    x: -1
     xofs: -6
-    y: -1
     yofs: -6
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 10
     width: 16
-    x: -1
     xofs: 0
-    y: -1
     yofs: -6
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 11
     width: 14
-    x: -1
     xofs: 2
-    y: -1
     yofs: -3
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 13
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -2
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 11
     width: 14
-    x: -1
     xofs: -14
-    y: -1
     yofs: -3
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 10
     width: 16
-    x: -1
     xofs: -16
-    y: -1
     yofs: -6
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 10
     width: 14
-    x: -1
     xofs: -6
-    y: -1
     yofs: -6
     zoom: 0

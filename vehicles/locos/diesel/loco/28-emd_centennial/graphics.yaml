@@ -1,77 +1,77 @@
 purchase_sprite:
+  _x: 0
+  _y: 0
   bpp: 1
   file: ./vehicles/locos/diesel/loco/28-emd_centennial/train_68-purchase.png
   height: 12
   width: 40
-  x: 0
   xofs: -18
-  y: 0
   yofs: -8
   zoom: 0
 sprite_groups:
   file: ./vehicles/locos/diesel/loco/28-emd_centennial/train_67-real.png
   realsprites:
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 27
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 18
     width: 26
-    x: -1
     xofs: -18
-    y: -1
     yofs: -8
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 12
     width: 40
-    x: -1
     xofs: -24
-    y: -1
     yofs: -8
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 18
     width: 26
-    x: -1
     xofs: -10
-    y: -1
     yofs: -10
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 27
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -15
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 18
     width: 26
-    x: -1
     xofs: -14
-    y: -1
     yofs: -10
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 12
     width: 40
-    x: -1
     xofs: -16
-    y: -1
     yofs: -8
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 18
     width: 26
-    x: -1
     xofs: -6
-    y: -1
     yofs: -8
     zoom: 0

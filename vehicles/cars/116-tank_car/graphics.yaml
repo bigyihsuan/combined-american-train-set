@@ -1,77 +1,77 @@
 purchase_sprite:
+  _x: 0
+  _y: 0
   bpp: 1
   file: ./vehicles/cars/116-tank_car/train_221-purchase.png
   height: 10
   width: 20
-  x: 0
   xofs: -10
-  y: 0
   yofs: -6
   zoom: 0
 sprite_groups:
   file: ./vehicles/cars/116-tank_car/train_220-real.png
   realsprites:
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 15
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -10
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 11
     width: 16
-    x: -1
     xofs: -8
-    y: -1
     yofs: -6
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 10
     width: 20
-    x: -1
     xofs: -4
-    y: -1
     yofs: -6
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 11
     width: 16
-    x: -1
     xofs: 0
-    y: -1
     yofs: -3
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 15
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -4
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 11
     width: 16
-    x: -1
     xofs: -14
-    y: -1
     yofs: -3
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 10
     width: 20
-    x: -1
     xofs: -16
-    y: -1
     yofs: -6
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 11
     width: 16
-    x: -1
     xofs: -6
-    y: -1
     yofs: -6
     zoom: 0

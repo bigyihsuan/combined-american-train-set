@@ -1,269 +1,269 @@
 purchase_sprite:
+  _x: 0
+  _y: 0
   bpp: 1
   file: ./vehicles/cars/95-hicube_boxcar/train_173-purchase.png
   height: 14
   width: 32
-  x: 0
   xofs: -16
-  y: 0
   yofs: -10
   zoom: 0
 sprite_groups:
   file: ./vehicles/cars/95-hicube_boxcar/train_172-real.png
   realsprites:
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 26
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -14
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -14
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 14
     width: 32
-    x: -1
     xofs: -16
-    y: -1
     yofs: -10
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -6
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 26
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -14
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -14
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 14
     width: 32
-    x: -1
     xofs: -16
-    y: -1
     yofs: -10
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -6
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 26
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -14
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -14
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 14
     width: 32
-    x: -1
     xofs: -16
-    y: -1
     yofs: -10
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -6
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 26
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -14
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -14
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 14
     width: 32
-    x: -1
     xofs: -16
-    y: -1
     yofs: -10
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -6
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 26
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -14
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -14
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 14
     width: 32
-    x: -1
     xofs: -16
-    y: -1
     yofs: -10
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -6
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 26
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -14
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -14
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 14
     width: 32
-    x: -1
     xofs: -16
-    y: -1
     yofs: -10
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -6
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 26
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -14
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -14
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 14
     width: 32
-    x: -1
     xofs: -16
-    y: -1
     yofs: -10
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -6
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 26
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -14
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -14
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 14
     width: 32
-    x: -1
     xofs: -16
-    y: -1
     yofs: -10
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 19
     width: 22
-    x: -1
     xofs: -6
-    y: -1
     yofs: -11
     zoom: 0

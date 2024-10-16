@@ -2,67 +2,67 @@ purchase_sprite: {}
 sprite_groups:
   file: ./vehicles/locos/diesel/loco/42-ge_c367/train_91-real.png
   realsprites:
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 23
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 17
     width: 22
-    x: -1
     xofs: -14
-    y: -1
     yofs: -9
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 12
     width: 32
-    x: -1
     xofs: -16
-    y: -1
     yofs: -8
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 17
     width: 22
-    x: -1
     xofs: -6
-    y: -1
     yofs: -9
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 23
     width: 8
-    x: -1
     xofs: -3
-    y: -1
     yofs: -11
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 17
     width: 22
-    x: -1
     xofs: -14
-    y: -1
     yofs: -9
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 12
     width: 32
-    x: -1
     xofs: -16
-    y: -1
     yofs: -8
     zoom: 0
-  - bpp: 1
+  - _x: -1
+    _y: -1
+    bpp: 1
     height: 17
     width: 22
-    x: -1
     xofs: -6
-    y: -1
     yofs: -9
     zoom: 0

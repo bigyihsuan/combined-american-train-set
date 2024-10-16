@@ -94,16 +94,20 @@ def extractProps():
                     d["sprite_groups"]["realsprites"] = [dataclasses.asdict(
                         sprite) for sprite in spriteGroup.realSprites]
                     for i, sprite in enumerate(d["sprite_groups"]["realsprites"]):
-                        d["sprite_groups"]["realsprites"][i]["x"] = -1  # for later filling
-                        d["sprite_groups"]["realsprites"][i]["y"] = -1  # for later filling
+                        del d["sprite_groups"]["realsprites"][i]["x"]
+                        del d["sprite_groups"]["realsprites"][i]["y"]
+                        d["sprite_groups"]["realsprites"][i]["_x"] = -1  # for later filling
+                        d["sprite_groups"]["realsprites"][i]["_y"] = -1  # for later filling
                         del d["sprite_groups"]["realsprites"][i]["file"]  # handled 1 level up
                     d["sprite_groups"]["file"] = real_path
                     path = real_path
 
                 elif isinstance(sprite, Purchase):
                     d["purchase_sprite"] = dataclasses.asdict(spriteGroup.realSprites[0])
-                    d["purchase_sprite"]["x"] = 0  # purchase sprites always appear at (0,0)
-                    d["purchase_sprite"]["y"] = 0  # purchase sprites always appear at (0,0)
+                    del d["purchase_sprite"]["x"]
+                    del d["purchase_sprite"]["y"]
+                    d["purchase_sprite"]["_x"] = 0  # purchase sprites always appear at (0,0)
+                    d["purchase_sprite"]["_y"] = 0  # purchase sprites always appear at (0,0)
                     d["purchase_sprite"]["file"] = purchase_path
                     path = purchase_path
                 # do not overwrite the modified files
