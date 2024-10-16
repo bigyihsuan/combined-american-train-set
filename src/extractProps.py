@@ -3,9 +3,10 @@ import json
 import os
 import re
 import shutil
+from typing import Any
 import yaml
 
-from group import ID_TO_GROUPS, Car, Loco, Purchase, Tender
+from group import G, ID_TO_GROUPS, Car, Loco, Purchase, Tender
 from vehicle import Vehicle, SpriteGroup, VehicleProps
 from enums import Loc
 import grffile
@@ -64,15 +65,6 @@ def extractProps():
         for sprite in sprites:
             group_path = os.path.join(RES, f"{sprite.group}.png")
             shutil.copy(group_path, sprite_path)
-        # # add graphics offsets to the train struct
-        # groups = ID_TO_GROUPS[id]
-        # train.graphics.gs = [g for g in groups if isinstance(g, (Loco, Tender, Car))]
-        # for group in groups:
-        #     spriteGroup: SpriteGroup = spriteGroups[group.group]
-        #     if isinstance(group, (Loco, Tender, Car)):
-        #         train.graphics.spriteGroups[group.group] = spriteGroup
-        #     elif isinstance(group, Purchase):
-        #         train.graphics.purchaseSprite = spriteGroup
 
         # write to the train's yaml file
         with open(os.path.join(sprite_path, f"{id}-{train_name}.yaml"), "w") as veh:
@@ -81,6 +73,32 @@ def extractProps():
                           for k, v in d["props"].items() if v != default_props[k]}
             # d["graphics"] = {k: v for k, v in d["graphics"].items() if k in ["purchaseSprite", "spriteGroups"]}
             yaml.dump(d, veh, indent=4, default_flow_style=False)
+
+        # create a graphics yaml for this train
+        graphics_path = os.path.join(sprite_path, "graphics.yaml")
+        with open(graphics_path, "w") as graphics_file:
+            # take each sprite in realsprites, and everything except file and x/y
+            d = {
+                "sprite_groups": {},
+                "purchase_sprite": {}
+            }
+            groups = ID_TO_GROUPS[id]
+            for group in groups:
+                spriteGroup: SpriteGroup = spriteGroups[group.group]
+                if isinstance(group, (Loco, Tender, Car)):
+                    d["sprite_groups"]["realsprites"] = [dataclasses.asdict(
+                        sprite) for sprite in spriteGroup.realSprites]
+                    for i, sprite in enumerate(d["sprite_groups"]["realsprites"]):
+                        d["sprite_groups"]["realsprites"][i]["x"] = -1  # for later filling
+                        d["sprite_groups"]["realsprites"][i]["y"] = -1  # for later filling
+                        del d["sprite_groups"]["realsprites"][i]["file"]  # handled 1 level up
+                    d["sprite_groups"]["file"] = os.path.join(sprite_path, f"{group.group}.png")
+                elif isinstance(group, Purchase):
+                    d["purchase_sprite"] = dataclasses.asdict(spriteGroup.realSprites[0])
+                    d["purchase_sprite"]["x"] = -1
+                    d["purchase_sprite"]["y"] = -1
+                    d["purchase_sprite"]["file"] = os.path.join(sprite_path, f"{group.group}.png")
+            yaml.dump(d, graphics_file)
 
 
 if __name__ == "__main__":

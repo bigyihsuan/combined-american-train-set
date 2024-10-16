@@ -1,0 +1,1357 @@
+purchase_sprite:
+  bpp: 1
+  file: ./vehicles/cars/113-double_stack_intermodal/train_215.png
+  height: 9
+  width: 54
+  x: -1
+  xofs: -27
+  y: -1
+  yofs: -5
+  zoom: 0
+sprite_groups:
+  file: ./vehicles/cars/113-double_stack_intermodal/train_214.png
+  realsprites:
+  - bpp: 1
+    height: 16
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 10
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -3
+    zoom: 0
+  - bpp: 1
+    height: 7
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -3
+    zoom: 0
+  - bpp: 1
+    height: 10
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -2
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -4
+    zoom: 0
+  - bpp: 1
+    height: 10
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -2
+    zoom: 0
+  - bpp: 1
+    height: 7
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -3
+    zoom: 0
+  - bpp: 1
+    height: 10
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -3
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 10
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 10
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 10
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 10
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -12
+    zoom: 0

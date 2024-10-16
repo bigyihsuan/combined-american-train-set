@@ -11,24 +11,21 @@ I don't think that this is sustainable.
 
 ## Things to Do
 
-- [ ] CONSIDER: Pick a different data serialization format for vehicle data.
-- [ ] Separate each vehicle into its own file.
+- [x] CONSIDER: Pick a different data serialization format for vehicle data.
+- [x] Separate each vehicle into its own file.
 - [ ] Rename each image in `res` to something more descriptive than an `train_$ID.png`.
 - [ ] (While implementing) Document all special behavior from NARS. (e.g. auto-flip, B-units, coaches/mail cars having special graphics when used with certain locos)
-- [ ] Reorganize vehicle sprites into:
+- [x] Reorganize vehicle sprites into:
   - `cars`
-    - `freight`
-    - `coach`
-    - `other`
   - `locos`
     - `steam`
     - `diesel`
     - `electric`
 - [ ] Rework vehicle sprites to use less cryptic offsets.
-  - Each orientation is a row.
-  - Each animation frame is a column.
+  - Each orientation is a column.
+  - Each animation frame is a row.
   - Cars with visible cargoes are placed in separate sprite sheets.
-  - Columns are separated on 4px = 1/8tl → 1/2tl = 16px.
+  - Columns are separated on ~~4px = 1/8tl → 1/2tl = 16px~~ multiples of 20px, and more if needed.
   - Rows are separated by multiples of 20px.
   - `(0,0)` is the top left corner.
 - [ ] Reimplement single-unit diesel/electric locomotives with no animations.

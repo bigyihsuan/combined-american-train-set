@@ -1,0 +1,68 @@
+purchase_sprite: {}
+sprite_groups:
+  file: ./vehicles/locos/electric/loco/53-pennsylvania_gg1/train_107.png
+  realsprites:
+  - bpp: 1
+    height: 23
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 24
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0

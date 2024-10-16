@@ -1,0 +1,77 @@
+purchase_sprite:
+  bpp: 1
+  file: ./vehicles/locos/electric/pax/67-bombardier_emu/train_132.png
+  height: 1
+  width: 1
+  x: -1
+  xofs: -1
+  y: -1
+  yofs: -1
+  zoom: 0
+sprite_groups:
+  file: ./vehicles/locos/electric/pax/67-bombardier_emu/train_133.png
+  realsprites:
+  - bpp: 1
+    height: 23
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 23
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0

@@ -1,0 +1,333 @@
+purchase_sprite:
+  bpp: 1
+  file: ./vehicles/locos/steam/loco/1-440_american/train_4.png
+  height: 12
+  width: 32
+  x: -1
+  xofs: -16
+  y: -1
+  yofs: -8
+  zoom: 0
+sprite_groups:
+  file: ./vehicles/locos/steam/loco/1-440_american/train_3.png
+  realsprites:
+  - bpp: 1
+    height: 18
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -13
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 16
+    x: -1
+    xofs: -8
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 20
+    x: -1
+    xofs: -5
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 17
+    x: -1
+    xofs: -1
+    y: -1
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 18
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 17
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 20
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 16
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 18
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -13
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 16
+    x: -1
+    xofs: -8
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 20
+    x: -1
+    xofs: -5
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 17
+    x: -1
+    xofs: -1
+    y: -1
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 18
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 17
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 20
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 16
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 18
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -13
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 16
+    x: -1
+    xofs: -8
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 20
+    x: -1
+    xofs: -5
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 17
+    x: -1
+    xofs: -1
+    y: -1
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 18
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 17
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 20
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 16
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 18
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -13
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 16
+    x: -1
+    xofs: -8
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 20
+    x: -1
+    xofs: -5
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 17
+    x: -1
+    xofs: -1
+    y: -1
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 18
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 17
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 20
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 16
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 10
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 9
+    width: 12
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 8
+    width: 12
+    x: -1
+    xofs: 4
+    y: -1
+    yofs: -4
+    zoom: 0
+  - bpp: 1
+    height: 9
+    width: 12
+    x: -1
+    xofs: 4
+    y: -1
+    yofs: -1
+    zoom: 0
+  - bpp: 1
+    height: 10
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: 0
+    zoom: 0
+  - bpp: 1
+    height: 9
+    width: 12
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -1
+    zoom: 0
+  - bpp: 1
+    height: 8
+    width: 12
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -4
+    zoom: 0
+  - bpp: 1
+    height: 9
+    width: 12
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -6
+    zoom: 0

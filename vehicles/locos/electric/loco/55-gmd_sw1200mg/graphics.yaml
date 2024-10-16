@@ -1,0 +1,205 @@
+purchase_sprite:
+  bpp: 1
+  file: ./vehicles/locos/electric/loco/55-gmd_sw1200mg/train_110.png
+  height: 14
+  width: 24
+  x: -1
+  xofs: -12
+  y: -1
+  yofs: -10
+  zoom: 0
+sprite_groups:
+  file: ./vehicles/locos/electric/loco/55-gmd_sw1200mg/train_109.png
+  realsprites:
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 18
+    x: -1
+    xofs: -10
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 24
+    x: -1
+    xofs: -8
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 18
+    x: -1
+    xofs: -2
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 18
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 24
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 18
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 18
+    x: -1
+    xofs: -10
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 24
+    x: -1
+    xofs: -8
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 18
+    x: -1
+    xofs: -2
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 18
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 24
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 18
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 18
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 24
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 18
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 18
+    x: -1
+    xofs: -10
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 14
+    width: 24
+    x: -1
+    xofs: -8
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 18
+    x: -1
+    xofs: -2
+    y: -1
+    yofs: -7
+    zoom: 0

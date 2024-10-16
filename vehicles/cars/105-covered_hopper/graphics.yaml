@@ -1,0 +1,77 @@
+purchase_sprite:
+  bpp: 1
+  file: ./vehicles/cars/105-covered_hopper/train_195.png
+  height: 12
+  width: 28
+  x: -1
+  xofs: -14
+  y: -1
+  yofs: -8
+  zoom: 0
+sprite_groups:
+  file: ./vehicles/cars/105-covered_hopper/train_194.png
+  realsprites:
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 20
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 28
+    x: -1
+    xofs: -12
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 20
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 28
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 20
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0

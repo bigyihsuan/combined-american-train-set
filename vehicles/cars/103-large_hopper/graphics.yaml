@@ -1,0 +1,644 @@
+purchase_sprite: {}
+sprite_groups:
+  file: ./vehicles/cars/103-large_hopper/train_190.png
+  realsprites:
+  - bpp: 1
+    height: 23
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 23
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 23
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 23
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 23
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 23
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 22
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 16
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0

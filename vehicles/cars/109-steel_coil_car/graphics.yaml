@@ -1,0 +1,132 @@
+purchase_sprite: {}
+sprite_groups:
+  file: ./vehicles/cars/109-steel_coil_car/train_204.png
+  realsprites:
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -4
+    zoom: 0
+  - bpp: 1
+    height: 7
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -3
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -4
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 8
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -4
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -4
+    zoom: 0
+  - bpp: 1
+    height: 19
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 8
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -4
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 21
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 22
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
+    width: 32
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 15
+    width: 22
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -7
+    zoom: 0

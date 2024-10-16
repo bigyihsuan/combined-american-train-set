@@ -1,0 +1,141 @@
+purchase_sprite:
+  bpp: 1
+  file: ./vehicles/cars/96-reefer/train_175.png
+  height: 12
+  width: 20
+  x: -1
+  xofs: -10
+  y: -1
+  yofs: -8
+  zoom: 0
+sprite_groups:
+  file: ./vehicles/cars/96-reefer/train_174.png
+  realsprites:
+  - bpp: 1
+    height: 17
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 16
+    x: -1
+    xofs: -8
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 16
+    x: -1
+    xofs: 0
+    y: -1
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 16
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 20
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 16
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 16
+    x: -1
+    xofs: -8
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 20
+    x: -1
+    xofs: -4
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 16
+    x: -1
+    xofs: 0
+    y: -1
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 17
+    width: 8
+    x: -1
+    xofs: -3
+    y: -1
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 16
+    x: -1
+    xofs: -14
+    y: -1
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 12
+    width: 20
+    x: -1
+    xofs: -16
+    y: -1
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 13
+    width: 16
+    x: -1
+    xofs: -6
+    y: -1
+    yofs: -8
+    zoom: 0
