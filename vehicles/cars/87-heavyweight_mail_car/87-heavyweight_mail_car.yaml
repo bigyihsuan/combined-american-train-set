@@ -1,5 +1,232 @@
-id: 87
-name: Heavyweight Mail Car
+_id: 87
+_name: Heavyweight Mail Car
+graphics:
+    purchaseSprite:
+        group: ''
+        realSprites: []
+    spriteGroups:
+        train_152:
+            group: train_152
+            realSprites:
+            -   bpp: 1
+                file: res/train_152.png
+                height: 24
+                width: 8
+                x: 5
+                xofs: -3
+                y: 5
+                yofs: -12
+                zoom: 0
+            -   bpp: 1
+                file: res/train_152.png
+                height: 17
+                width: 22
+                x: 23
+                xofs: -14
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_152.png
+                height: 12
+                width: 32
+                x: 55
+                xofs: -16
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_152.png
+                height: 17
+                width: 22
+                x: 97
+                xofs: -6
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_152.png
+                height: 24
+                width: 8
+                x: 129
+                xofs: -3
+                y: 5
+                yofs: -12
+                zoom: 0
+            -   bpp: 1
+                file: res/train_152.png
+                height: 17
+                width: 22
+                x: 147
+                xofs: -14
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_152.png
+                height: 12
+                width: 32
+                x: 179
+                xofs: -16
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_152.png
+                height: 17
+                width: 22
+                x: 221
+                xofs: -6
+                y: 5
+                yofs: -9
+                zoom: 0
+        train_153:
+            group: train_153
+            realSprites:
+            -   bpp: 1
+                file: res/train_153.png
+                height: 24
+                width: 8
+                x: 5
+                xofs: -3
+                y: 5
+                yofs: -12
+                zoom: 0
+            -   bpp: 1
+                file: res/train_153.png
+                height: 17
+                width: 22
+                x: 23
+                xofs: -14
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_153.png
+                height: 12
+                width: 32
+                x: 55
+                xofs: -16
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_153.png
+                height: 17
+                width: 22
+                x: 97
+                xofs: -6
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_153.png
+                height: 24
+                width: 8
+                x: 129
+                xofs: -3
+                y: 5
+                yofs: -12
+                zoom: 0
+            -   bpp: 1
+                file: res/train_153.png
+                height: 17
+                width: 22
+                x: 147
+                xofs: -14
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_153.png
+                height: 12
+                width: 32
+                x: 179
+                xofs: -16
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_153.png
+                height: 17
+                width: 22
+                x: 221
+                xofs: -6
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_153.png
+                height: 24
+                width: 8
+                x: 5
+                xofs: -3
+                y: 39
+                yofs: -12
+                zoom: 0
+            -   bpp: 1
+                file: res/train_153.png
+                height: 17
+                width: 22
+                x: 23
+                xofs: -14
+                y: 39
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_153.png
+                height: 12
+                width: 32
+                x: 55
+                xofs: -16
+                y: 39
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_153.png
+                height: 17
+                width: 22
+                x: 97
+                xofs: -6
+                y: 39
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_153.png
+                height: 24
+                width: 8
+                x: 129
+                xofs: -3
+                y: 39
+                yofs: -12
+                zoom: 0
+            -   bpp: 1
+                file: res/train_153.png
+                height: 17
+                width: 22
+                x: 147
+                xofs: -14
+                y: 39
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_153.png
+                height: 12
+                width: 32
+                x: 179
+                xofs: -16
+                y: 39
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_153.png
+                height: 17
+                width: 22
+                x: 221
+                xofs: -6
+                y: 39
+                yofs: -9
+                zoom: 0
 props:
     cargo_age_period: 185
     cargo_allow_refit: []

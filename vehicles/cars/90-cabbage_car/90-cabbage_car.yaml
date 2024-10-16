@@ -1,5 +1,166 @@
-id: 90
-name: Cabbage Car
+_id: 90
+_name: Cabbage Car
+graphics:
+    purchaseSprite:
+        group: train_161
+        realSprites:
+        -   bpp: 1
+            file: res/train_161.png
+            height: 13
+            width: 28
+            x: 5
+            xofs: -14
+            y: 5
+            yofs: -9
+            zoom: 0
+    spriteGroups:
+        train_160:
+            group: train_160
+            realSprites:
+            -   bpp: 1
+                file: res/train_160.png
+                height: 23
+                width: 8
+                x: 5
+                xofs: -3
+                y: 5
+                yofs: -13
+                zoom: 0
+            -   bpp: 1
+                file: res/train_160.png
+                height: 17
+                width: 20
+                x: 23
+                xofs: -12
+                y: 5
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_160.png
+                height: 13
+                width: 28
+                x: 53
+                xofs: -12
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_160.png
+                height: 17
+                width: 20
+                x: 91
+                xofs: -4
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_160.png
+                height: 22
+                width: 8
+                x: 121
+                xofs: -3
+                y: 5
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_160.png
+                height: 17
+                width: 20
+                x: 139
+                xofs: -14
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_160.png
+                height: 13
+                width: 28
+                x: 169
+                xofs: -16
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_160.png
+                height: 17
+                width: 20
+                x: 207
+                xofs: -6
+                y: 5
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_160.png
+                height: 23
+                width: 8
+                x: 5
+                xofs: -3
+                y: 38
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_160.png
+                height: 17
+                width: 20
+                x: 23
+                xofs: -14
+                y: 38
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_160.png
+                height: 13
+                width: 28
+                x: 53
+                xofs: -16
+                y: 38
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_160.png
+                height: 17
+                width: 20
+                x: 91
+                xofs: -6
+                y: 38
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_160.png
+                height: 22
+                width: 8
+                x: 121
+                xofs: -3
+                y: 38
+                yofs: -12
+                zoom: 0
+            -   bpp: 1
+                file: res/train_160.png
+                height: 17
+                width: 20
+                x: 139
+                xofs: -12
+                y: 38
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_160.png
+                height: 13
+                width: 28
+                x: 169
+                xofs: -12
+                y: 38
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_160.png
+                height: 17
+                width: 20
+                x: 207
+                xofs: -4
+                y: 38
+                yofs: -9
+                zoom: 0
 props:
     cargo_age_period: 185
     cargo_allow_refit: []

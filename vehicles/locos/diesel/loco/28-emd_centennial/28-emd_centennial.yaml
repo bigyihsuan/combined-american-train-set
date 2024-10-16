@@ -1,5 +1,103 @@
-id: 28
-name: EMD Centennial
+_id: 28
+_name: EMD Centennial
+graphics:
+    purchaseSprite:
+        group: train_68
+        realSprites:
+        -   bpp: 1
+            file: res/train_68.png
+            height: 12
+            width: 40
+            x: 5
+            xofs: -18
+            y: 5
+            yofs: -8
+            zoom: 0
+        -   bpp: 1
+            file: res/train_68.png
+            height: 1
+            width: 1
+            x: 55
+            xofs: -1
+            y: 5
+            yofs: -1
+            zoom: 0
+    spriteGroups:
+        train_67:
+            group: train_67
+            realSprites:
+            -   bpp: 1
+                file: res/train_67.png
+                height: 27
+                width: 8
+                x: 5
+                xofs: -3
+                y: 5
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_67.png
+                height: 18
+                width: 26
+                x: 23
+                xofs: -18
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_67.png
+                height: 12
+                width: 40
+                x: 59
+                xofs: -24
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_67.png
+                height: 18
+                width: 26
+                x: 109
+                xofs: -10
+                y: 5
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_67.png
+                height: 27
+                width: 8
+                x: 145
+                xofs: -3
+                y: 5
+                yofs: -15
+                zoom: 0
+            -   bpp: 1
+                file: res/train_67.png
+                height: 18
+                width: 26
+                x: 163
+                xofs: -14
+                y: 5
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_67.png
+                height: 12
+                width: 40
+                x: 199
+                xofs: -16
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_67.png
+                height: 18
+                width: 26
+                x: 249
+                xofs: -6
+                y: 5
+                yofs: -8
+                zoom: 0
 props:
     cargo_age_period: 185
     cargo_allow_refit: []

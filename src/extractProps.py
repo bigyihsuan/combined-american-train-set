@@ -1,5 +1,8 @@
 import dataclasses
 import json
+import os
+import re
+import shutil
 import yaml
 
 from group import ID_TO_GROUPS, Car, Loco, Purchase, Tender
@@ -9,48 +12,75 @@ import grffile
 
 
 def extractProps():
-    nars = grffile.GRFFile("./decompiled/newnars.grf")
-    trains = [train for train in nars.trains.values()]
-    trains.sort(key=lambda row: row._id)
-
-    with open("./props/cargo-table.json", "w") as cargoTableJson:
-        json.dump(nars.cargo_table, cargoTableJson)
-
-    with open("./props/vehicle-stats.json", "w") as vehicleStatsJson:
-        rowsDict = [dataclasses.asdict(train) for train in trains]
-        json.dump(rowsDict, vehicleStatsJson, indent=4, default=str)
+    RES = "./res"
+    VEHICLES = "./vehicles"
+    CARS = "cars"
+    LOCOS = "locos"
+    STEAM = "steam"
+    DIESEL = "diesel"
+    ELECTRIC = "electric"
+    PAX = "pax"
+    LOCO = "loco"
 
     default_props = dataclasses.asdict(VehicleProps.default())
-    for train in trains:
-        id = train._id
-        name = train._name.replace(" ", "_").replace("/", "-")
-        d = {k: v for k, v in dataclasses.asdict(train).items() if k != "graphics"}
-        d["props"] = {k: v if type(v) is not tuple else list(v)
-                      for k, v in d["props"].items() if v != default_props[k]}
-        with open(f"./props/veh/train_{id}-{name}.yaml", "w") as veh:
+
+    nars = grffile.GRFFile("./decompiled/newnars.grf")
+    trains = {train._id: train for train in nars.trains.values()}
+    spriteGroups: dict[str, SpriteGroup] = {sprite.group: sprite for sprite in nars.sprites}
+
+    with open(os.path.join(VEHICLES, "cargo-table.yaml"), "w") as cargoTable:
+        yaml.dump(nars.cargo_table, cargoTable)
+
+    for id, sprites in ID_TO_GROUPS.items():
+        train = trains[id]
+
+        # process train name
+        train_name = train._name
+        train_name = re.sub(r'[^\w\s-]', '', train_name.lower()).strip('-_')
+        train_name = re.sub('-', '', train_name)
+        train_name = re.sub(r' ', '_', train_name)
+
+        # create the folder that the train will go in
+        path_prefix = ""
+        veh_type = LOCOS if train.props.power > 0 else CARS
+        tractive_type = ""
+        loco_type = PAX if veh_type == LOCOS and train.props.refittable_cargo_classes == 1 \
+            else LOCO if veh_type == LOCOS \
+            else ""
+        match train.props.engine_class:
+            case 0: tractive_type = STEAM if veh_type == LOCOS else ""
+            case 8: tractive_type = DIESEL
+            case 40: tractive_type = ELECTRIC
+        if veh_type == CARS:
+            path_prefix = os.path.join(VEHICLES, CARS)
+        else:
+            path_prefix = os.path.join(VEHICLES, LOCOS, tractive_type, loco_type)
+
+        # make the train's directory as needed
+        sprite_path = os.path.join(path_prefix, f"{id}-{train_name}")
+        if not os.path.isdir(sprite_path):
+            os.makedirs(sprite_path)
+        # move the sprites for this train
+        for sprite in sprites:
+            group_path = os.path.join(RES, f"{sprite.group}.png")
+            shutil.copy(group_path, sprite_path)
+        # add graphics offsets to the train struct
+        groups = ID_TO_GROUPS[id]
+        train.graphics.gs = [g for g in groups if isinstance(g, (Loco, Tender, Car))]
+        for group in groups:
+            spriteGroup: SpriteGroup = spriteGroups[group.group]
+            if isinstance(group, (Loco, Tender, Car)):
+                train.graphics.spriteGroups[group.group] = spriteGroup
+            elif isinstance(group, Purchase):
+                train.graphics.purchaseSprite = spriteGroup
+
+        # write to the train's yaml file
+        with open(os.path.join(sprite_path, f"{id}-{train_name}.yaml"), "w") as veh:
+            d = {k: v for k, v in dataclasses.asdict(train).items()}
+            d["props"] = {k: list(v) if type(v) is tuple else v
+                          for k, v in d["props"].items() if v != default_props[k]}
+            d["graphics"] = {k: v for k, v in d["graphics"].items() if k in ["purchaseSprite", "spriteGroups"]}
             yaml.dump(d, veh, indent=4, default_flow_style=False)
-
-    with open("./props/sprites.json", "w") as spritesJson:
-        s = [dataclasses.asdict(e) for e in nars.sprites]
-        json.dump(s, spritesJson, indent=4, default=str)
-
-    with open("./props/vehicle-stats-sprites.json", "w") as vehicleStatsSpritesJson:
-        statsDict: dict[int, Vehicle] = {train._id: train for train in trains}
-        spriteGroups: dict[str, SpriteGroup] = {sprite.group: sprite for sprite in nars.sprites}
-
-        for id, stat in statsDict.items():
-            if id in ID_TO_GROUPS:
-                groups = ID_TO_GROUPS[id]
-                stat.graphics.gs = [g for g in groups if isinstance(g, (Loco, Tender, Car))]
-                for group in groups:
-                    spriteGroup: SpriteGroup = spriteGroups[group.group]
-                    if isinstance(group, (Loco, Tender, Car)):
-                        stat.graphics.spriteGroups[group.group] = spriteGroup
-                    elif isinstance(group, Purchase):
-                        stat.graphics.purchaseSprite = spriteGroup
-
-        stasSpritesDict = [dataclasses.asdict(stat) for stat in statsDict.values()]
-        json.dump(stasSpritesDict, vehicleStatsSpritesJson, default=str, indent=4)
 
 
 if __name__ == "__main__":

@@ -1,5 +1,85 @@
-id: 45
-name: GE P42DC Genesis
+_id: 45
+_name: GE P42DC Genesis
+graphics:
+    purchaseSprite:
+        group: ''
+        realSprites: []
+    spriteGroups:
+        train_94:
+            group: train_94
+            realSprites:
+            -   bpp: 1
+                file: res/train_94.png
+                height: 23
+                width: 8
+                x: 5
+                xofs: -3
+                y: 5
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_94.png
+                height: 16
+                width: 22
+                x: 23
+                xofs: -14
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_94.png
+                height: 12
+                width: 32
+                x: 55
+                xofs: -16
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_94.png
+                height: 17
+                width: 22
+                x: 97
+                xofs: -6
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_94.png
+                height: 24
+                width: 8
+                x: 129
+                xofs: -3
+                y: 5
+                yofs: -12
+                zoom: 0
+            -   bpp: 1
+                file: res/train_94.png
+                height: 17
+                width: 22
+                x: 147
+                xofs: -14
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_94.png
+                height: 12
+                width: 32
+                x: 179
+                xofs: -16
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_94.png
+                height: 16
+                width: 22
+                x: 221
+                xofs: -6
+                y: 5
+                yofs: -8
+                zoom: 0
 props:
     cargo_age_period: 185
     cargo_allow_refit: []

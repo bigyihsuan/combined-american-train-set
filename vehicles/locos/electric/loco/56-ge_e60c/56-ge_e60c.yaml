@@ -1,5 +1,166 @@
-id: 56
-name: GE E60C
+_id: 56
+_name: GE E60C
+graphics:
+    purchaseSprite:
+        group: train_112
+        realSprites:
+        -   bpp: 1
+            file: res/train_112.png
+            height: 12
+            width: 28
+            x: 5
+            xofs: -14
+            y: 5
+            yofs: -8
+            zoom: 0
+    spriteGroups:
+        train_111:
+            group: train_111
+            realSprites:
+            -   bpp: 1
+                file: res/train_111.png
+                height: 21
+                width: 8
+                x: 5
+                xofs: -3
+                y: 5
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_111.png
+                height: 15
+                width: 19
+                x: 23
+                xofs: -12
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_111.png
+                height: 15
+                width: 28
+                x: 52
+                xofs: -12
+                y: 5
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_111.png
+                height: 16
+                width: 20
+                x: 90
+                xofs: -4
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_111.png
+                height: 21
+                width: 8
+                x: 120
+                xofs: -3
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_111.png
+                height: 16
+                width: 20
+                x: 138
+                xofs: -14
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_111.png
+                height: 15
+                width: 28
+                x: 168
+                xofs: -16
+                y: 5
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_111.png
+                height: 15
+                width: 19
+                x: 206
+                xofs: -5
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_111.png
+                height: 21
+                width: 8
+                x: 5
+                xofs: -3
+                y: 36
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_111.png
+                height: 15
+                width: 19
+                x: 23
+                xofs: -14
+                y: 36
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_111.png
+                height: 15
+                width: 28
+                x: 52
+                xofs: -16
+                y: 36
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_111.png
+                height: 16
+                width: 20
+                x: 90
+                xofs: -6
+                y: 36
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_111.png
+                height: 21
+                width: 8
+                x: 120
+                xofs: -3
+                y: 36
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_111.png
+                height: 16
+                width: 20
+                x: 138
+                xofs: -12
+                y: 36
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_111.png
+                height: 15
+                width: 28
+                x: 168
+                xofs: -12
+                y: 36
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_111.png
+                height: 15
+                width: 19
+                x: 206
+                xofs: -3
+                y: 36
+                yofs: -7
+                zoom: 0
 props:
     cargo_age_period: 185
     cargo_allow_refit: []

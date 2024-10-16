@@ -1,5 +1,166 @@
-id: 99
-name: Cattle Car
+_id: 99
+_name: Cattle Car
+graphics:
+    purchaseSprite:
+        group: train_181
+        realSprites:
+        -   bpp: 1
+            file: res/train_181.png
+            height: 11
+            width: 20
+            x: 5
+            xofs: -10
+            y: 5
+            yofs: -7
+            zoom: 0
+    spriteGroups:
+        train_180:
+            group: train_180
+            realSprites:
+            -   bpp: 1
+                file: res/train_180.png
+                height: 17
+                width: 8
+                x: 5
+                xofs: -3
+                y: 5
+                yofs: -12
+                zoom: 0
+            -   bpp: 1
+                file: res/train_180.png
+                height: 13
+                width: 16
+                x: 23
+                xofs: -8
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_180.png
+                height: 11
+                width: 20
+                x: 49
+                xofs: -4
+                y: 5
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_180.png
+                height: 13
+                width: 16
+                x: 79
+                xofs: 0
+                y: 5
+                yofs: -5
+                zoom: 0
+            -   bpp: 1
+                file: res/train_180.png
+                height: 17
+                width: 8
+                x: 105
+                xofs: -3
+                y: 5
+                yofs: -6
+                zoom: 0
+            -   bpp: 1
+                file: res/train_180.png
+                height: 13
+                width: 16
+                x: 123
+                xofs: -14
+                y: 5
+                yofs: -5
+                zoom: 0
+            -   bpp: 1
+                file: res/train_180.png
+                height: 11
+                width: 20
+                x: 149
+                xofs: -16
+                y: 5
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_180.png
+                height: 13
+                width: 16
+                x: 179
+                xofs: -6
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_180.png
+                height: 17
+                width: 8
+                x: 5
+                xofs: -3
+                y: 32
+                yofs: -12
+                zoom: 0
+            -   bpp: 1
+                file: res/train_180.png
+                height: 13
+                width: 16
+                x: 23
+                xofs: -8
+                y: 32
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_180.png
+                height: 11
+                width: 20
+                x: 49
+                xofs: -4
+                y: 32
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_180.png
+                height: 13
+                width: 16
+                x: 79
+                xofs: 0
+                y: 32
+                yofs: -5
+                zoom: 0
+            -   bpp: 1
+                file: res/train_180.png
+                height: 17
+                width: 8
+                x: 105
+                xofs: -3
+                y: 32
+                yofs: -6
+                zoom: 0
+            -   bpp: 1
+                file: res/train_180.png
+                height: 13
+                width: 16
+                x: 123
+                xofs: -14
+                y: 32
+                yofs: -5
+                zoom: 0
+            -   bpp: 1
+                file: res/train_180.png
+                height: 11
+                width: 20
+                x: 149
+                xofs: -16
+                y: 32
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_180.png
+                height: 13
+                width: 16
+                x: 179
+                xofs: -6
+                y: 32
+                yofs: -8
+                zoom: 0
 props:
     cargo_age_period: 185
     cargo_allow_refit: []

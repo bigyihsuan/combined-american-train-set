@@ -1,5 +1,1096 @@
-id: 103
-name: Large Hopper
+_id: 103
+_name: Large Hopper
+graphics:
+    purchaseSprite:
+        group: ''
+        realSprites: []
+    spriteGroups:
+        train_189:
+            group: train_189
+            realSprites:
+            -   bpp: 1
+                file: res/train_189.png
+                height: 23
+                width: 8
+                x: 5
+                xofs: -3
+                y: 5
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 17
+                width: 22
+                x: 23
+                xofs: -14
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 12
+                width: 32
+                x: 55
+                xofs: -16
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 17
+                width: 22
+                x: 97
+                xofs: -6
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 23
+                width: 8
+                x: 129
+                xofs: -3
+                y: 5
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 17
+                width: 22
+                x: 147
+                xofs: -14
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 12
+                width: 32
+                x: 179
+                xofs: -16
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 17
+                width: 22
+                x: 221
+                xofs: -6
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 23
+                width: 8
+                x: 5
+                xofs: -3
+                y: 38
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 17
+                width: 22
+                x: 23
+                xofs: -14
+                y: 38
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 12
+                width: 32
+                x: 55
+                xofs: -16
+                y: 38
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 17
+                width: 22
+                x: 97
+                xofs: -6
+                y: 38
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 22
+                width: 8
+                x: 129
+                xofs: -3
+                y: 38
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 16
+                width: 22
+                x: 147
+                xofs: -14
+                y: 38
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 11
+                width: 32
+                x: 179
+                xofs: -16
+                y: 38
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 16
+                width: 22
+                x: 221
+                xofs: -6
+                y: 38
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 22
+                width: 8
+                x: 5
+                xofs: -3
+                y: 71
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 16
+                width: 22
+                x: 23
+                xofs: -14
+                y: 71
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 11
+                width: 32
+                x: 55
+                xofs: -16
+                y: 71
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 16
+                width: 22
+                x: 97
+                xofs: -6
+                y: 71
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 22
+                width: 8
+                x: 129
+                xofs: -3
+                y: 71
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 16
+                width: 22
+                x: 147
+                xofs: -14
+                y: 71
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 11
+                width: 32
+                x: 179
+                xofs: -16
+                y: 71
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 16
+                width: 22
+                x: 221
+                xofs: -6
+                y: 71
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 22
+                width: 8
+                x: 5
+                xofs: -3
+                y: 103
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 16
+                width: 22
+                x: 23
+                xofs: -14
+                y: 103
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 11
+                width: 32
+                x: 55
+                xofs: -16
+                y: 103
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 16
+                width: 22
+                x: 97
+                xofs: -6
+                y: 103
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 22
+                width: 8
+                x: 129
+                xofs: -3
+                y: 103
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 16
+                width: 22
+                x: 147
+                xofs: -14
+                y: 103
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 11
+                width: 32
+                x: 179
+                xofs: -16
+                y: 103
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 16
+                width: 22
+                x: 221
+                xofs: -6
+                y: 103
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 22
+                width: 8
+                x: 5
+                xofs: -3
+                y: 135
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 16
+                width: 22
+                x: 23
+                xofs: -14
+                y: 135
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 11
+                width: 32
+                x: 55
+                xofs: -16
+                y: 135
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 16
+                width: 22
+                x: 97
+                xofs: -6
+                y: 135
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 22
+                width: 8
+                x: 129
+                xofs: -3
+                y: 135
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 16
+                width: 22
+                x: 147
+                xofs: -14
+                y: 135
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 11
+                width: 32
+                x: 179
+                xofs: -16
+                y: 135
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_189.png
+                height: 16
+                width: 22
+                x: 221
+                xofs: -6
+                y: 135
+                yofs: -8
+                zoom: 0
+        train_190:
+            group: train_190
+            realSprites:
+            -   bpp: 1
+                file: res/train_190.png
+                height: 23
+                width: 8
+                x: 5
+                xofs: -3
+                y: 5
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 17
+                width: 22
+                x: 23
+                xofs: -14
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 12
+                width: 32
+                x: 55
+                xofs: -16
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 17
+                width: 22
+                x: 97
+                xofs: -6
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 23
+                width: 8
+                x: 129
+                xofs: -3
+                y: 5
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 17
+                width: 22
+                x: 147
+                xofs: -14
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 12
+                width: 32
+                x: 179
+                xofs: -16
+                y: 5
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 17
+                width: 22
+                x: 221
+                xofs: -6
+                y: 5
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 23
+                width: 8
+                x: 5
+                xofs: -3
+                y: 38
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 17
+                width: 22
+                x: 23
+                xofs: -14
+                y: 38
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 12
+                width: 32
+                x: 55
+                xofs: -16
+                y: 38
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 17
+                width: 22
+                x: 97
+                xofs: -6
+                y: 38
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 23
+                width: 8
+                x: 129
+                xofs: -3
+                y: 38
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 17
+                width: 22
+                x: 147
+                xofs: -14
+                y: 38
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 12
+                width: 32
+                x: 179
+                xofs: -16
+                y: 38
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 17
+                width: 22
+                x: 221
+                xofs: -6
+                y: 38
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 23
+                width: 8
+                x: 5
+                xofs: -3
+                y: 71
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 17
+                width: 22
+                x: 23
+                xofs: -14
+                y: 71
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 12
+                width: 32
+                x: 55
+                xofs: -16
+                y: 71
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 17
+                width: 22
+                x: 97
+                xofs: -6
+                y: 71
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 23
+                width: 8
+                x: 129
+                xofs: -3
+                y: 71
+                yofs: -11
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 17
+                width: 22
+                x: 147
+                xofs: -14
+                y: 71
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 12
+                width: 32
+                x: 179
+                xofs: -16
+                y: 71
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 17
+                width: 22
+                x: 221
+                xofs: -6
+                y: 71
+                yofs: -9
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 22
+                width: 8
+                x: 5
+                xofs: -3
+                y: 104
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 23
+                xofs: -14
+                y: 104
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 11
+                width: 32
+                x: 55
+                xofs: -16
+                y: 104
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 97
+                xofs: -6
+                y: 104
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 22
+                width: 8
+                x: 129
+                xofs: -3
+                y: 104
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 147
+                xofs: -14
+                y: 104
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 11
+                width: 32
+                x: 179
+                xofs: -16
+                y: 104
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 221
+                xofs: -6
+                y: 104
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 22
+                width: 8
+                x: 5
+                xofs: -3
+                y: 136
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 23
+                xofs: -14
+                y: 136
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 11
+                width: 32
+                x: 55
+                xofs: -16
+                y: 136
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 97
+                xofs: -6
+                y: 136
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 22
+                width: 8
+                x: 129
+                xofs: -3
+                y: 136
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 147
+                xofs: -14
+                y: 136
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 11
+                width: 32
+                x: 179
+                xofs: -16
+                y: 136
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 221
+                xofs: -6
+                y: 136
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 22
+                width: 8
+                x: 5
+                xofs: -3
+                y: 168
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 23
+                xofs: -14
+                y: 168
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 11
+                width: 32
+                x: 55
+                xofs: -16
+                y: 168
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 97
+                xofs: -6
+                y: 168
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 22
+                width: 8
+                x: 129
+                xofs: -3
+                y: 168
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 147
+                xofs: -14
+                y: 168
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 11
+                width: 32
+                x: 179
+                xofs: -16
+                y: 168
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 221
+                xofs: -6
+                y: 168
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 22
+                width: 8
+                x: 5
+                xofs: -3
+                y: 200
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 23
+                xofs: -14
+                y: 200
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 11
+                width: 32
+                x: 55
+                xofs: -16
+                y: 200
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 97
+                xofs: -6
+                y: 200
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 22
+                width: 8
+                x: 129
+                xofs: -3
+                y: 200
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 147
+                xofs: -14
+                y: 200
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 11
+                width: 32
+                x: 179
+                xofs: -16
+                y: 200
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 221
+                xofs: -6
+                y: 200
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 22
+                width: 8
+                x: 5
+                xofs: -3
+                y: 232
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 23
+                xofs: -14
+                y: 232
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 11
+                width: 32
+                x: 55
+                xofs: -16
+                y: 232
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 97
+                xofs: -6
+                y: 232
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 22
+                width: 8
+                x: 129
+                xofs: -3
+                y: 232
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 147
+                xofs: -14
+                y: 232
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 11
+                width: 32
+                x: 179
+                xofs: -16
+                y: 232
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 221
+                xofs: -6
+                y: 232
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 22
+                width: 8
+                x: 5
+                xofs: -3
+                y: 264
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 23
+                xofs: -14
+                y: 264
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 11
+                width: 32
+                x: 55
+                xofs: -16
+                y: 264
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 97
+                xofs: -6
+                y: 264
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 22
+                width: 8
+                x: 129
+                xofs: -3
+                y: 264
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 147
+                xofs: -14
+                y: 264
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 11
+                width: 32
+                x: 179
+                xofs: -16
+                y: 264
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 221
+                xofs: -6
+                y: 264
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 22
+                width: 8
+                x: 5
+                xofs: -3
+                y: 296
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 23
+                xofs: -14
+                y: 296
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 11
+                width: 32
+                x: 55
+                xofs: -16
+                y: 296
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 97
+                xofs: -6
+                y: 296
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 22
+                width: 8
+                x: 129
+                xofs: -3
+                y: 296
+                yofs: -10
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 147
+                xofs: -14
+                y: 296
+                yofs: -8
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 11
+                width: 32
+                x: 179
+                xofs: -16
+                y: 296
+                yofs: -7
+                zoom: 0
+            -   bpp: 1
+                file: res/train_190.png
+                height: 16
+                width: 22
+                x: 221
+                xofs: -6
+                y: 296
+                yofs: -8
+                zoom: 0
 props:
     cargo_age_period: 185
     cargo_allow_refit: []
