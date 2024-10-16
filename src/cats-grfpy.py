@@ -44,7 +44,7 @@ def main():
     with open("./props/vehicle-stats-sprites.json", "r") as vehicleFile:
         vehicles: list[V.Vehicle] = [V.Vehicle(**e) for e in json.load(vehicleFile)]
         for vehicle in vehicles:
-            print(f"Making {vehicle.name} w/ id={vehicle.id}...", end=" ")
+            print(f"Making {vehicle._name} w/ id={vehicle._id}...", end=" ")
             if isinstance(vehicle.graphics.gs[0], G.Loco):
                 match vehicle.graphics.gs[0].locoType:
                     case G.LT.SteamTank:

@@ -36,7 +36,7 @@ def makeSteamTender(
     tenderIndex = -1
     for i, g in enumerate(vehicle.graphics.gs):
         if isinstance(g, G.Purchase):
-            raise Exception(f"Somehow got a Purchase in vehicle.gs at {i} for {vehicle.name}!")
+            raise Exception(f"Somehow got a Purchase in vehicle.gs at {i} for {vehicle._name}!")
         if isinstance(g, G.Tender) and tenderIndex != -1:
             continue
 
@@ -106,8 +106,8 @@ def makeSteamTender(
         articulatedGraphics = forwardTender
 
     train = Train(
-        id=vehicle.id,
-        name="CATS " + vehicle.name,
+        id=vehicle._id,
+        name="CATS " + vehicle._name,
         max_speed=Train.kmhish(vehicle.props.max_speed),
         weight=Train.ton(vehicle.props.weight_low),
         introduction_date=grf.datetime.date(year=vehicle.props.introduction_date[0], month=1, day=1),
@@ -122,7 +122,7 @@ def makeSteamTender(
     )
     if articulatedGraphics is not None:
         train.add_articulated_part(
-            id=vehicle.id+TENDER_ID_OFFSET,
+            id=vehicle._id+TENDER_ID_OFFSET,
             skip_props_check=True,
             length=vehicle.graphics.gs[0].tenderLength,
             callbacks={
@@ -226,8 +226,8 @@ def makeArticulatedSteamEngine(
     }
 
     train = Train(
-        id=vehicle.id,
-        name="CATS " + vehicle.name,
+        id=vehicle._id,
+        name="CATS " + vehicle._name,
         max_speed=Train.kmhish(vehicle.props.max_speed),
         weight=Train.ton(vehicle.props.weight_low),
         introduction_date=grf.datetime.date(year=vehicle.props.introduction_date[0], month=1, day=1),
@@ -242,7 +242,7 @@ def makeArticulatedSteamEngine(
             "graphics": grf.GraphicsCallback(articulatedTurnSwitch, purchaseLayout)
         }
     ).add_articulated_part(
-        id=vehicle.id+(2*TENDER_ID_OFFSET),
+        id=vehicle._id+(2*TENDER_ID_OFFSET),
         skip_props_check=True,
         # length=fixedLength[vehicle.id],
         length=6,
@@ -250,7 +250,7 @@ def makeArticulatedSteamEngine(
             "graphics": grf.GraphicsCallback(fixedUnit)
         },
     ).add_articulated_part(
-        id=vehicle.id+TENDER_ID_OFFSET,
+        id=vehicle._id+TENDER_ID_OFFSET,
         skip_props_check=True,
         length=tenderLength,
         callbacks={
@@ -267,11 +267,11 @@ def makeDieselSingle(
 ):
     # TODO: a diesel engine that has only one A unit
 
-    if vehicle.id == 28:
+    if vehicle._id == 28:
         return  # TODO: figure out why it ValueErrors
 
     # RDCs only have 4 sprites, special-case them
-    if vehicle.id == 61:
+    if vehicle._id == 61:
         makeRDC(vehicle, Train, VehicleSpriteTable, Switch)
         return
 
@@ -282,7 +282,7 @@ def makeDieselSingle(
     spriteTable = VehicleSpriteTable(grf.TRAIN)
     # add purchase sprite
     purchaseSprite = None
-    if not any(isinstance(g, G.Purchase) for g in G.ID_TO_GROUPS[vehicle.id]):
+    if not any(isinstance(g, G.Purchase) for g in G.ID_TO_GROUPS[vehicle._id]):
         # no dedicated purchase sprite
         # select the 6th realsprite, the west-facing sprite
         purchaseSprite = [v for v in vehicle.graphics.spriteGroups.values()][0].realSprites[6]
@@ -303,7 +303,7 @@ def makeDieselSingle(
     # get the engine graphics
     for i, g in enumerate(vehicle.graphics.gs):
         if isinstance(g, G.Purchase):
-            raise Exception(f"Somehow got a Purchase in vehicle.gs at {i} for {vehicle.name}!")
+            raise Exception(f"Somehow got a Purchase in vehicle.gs at {i} for {vehicle._name}!")
 
         if g.length != 8:
             length = g.length
@@ -340,8 +340,8 @@ def makeDieselSingle(
         mainUnitGraphics = forwardGraphics
 
     train = Train(
-        id=vehicle.id,
-        name="CATS " + vehicle.name,
+        id=vehicle._id,
+        name="CATS " + vehicle._name,
         max_speed=Train.kmhish(vehicle.props.max_speed),
         weight=Train.ton(vehicle.props.weight_low),
         introduction_date=grf.datetime.date(year=vehicle.props.introduction_date[0], month=1, day=1),
@@ -414,7 +414,7 @@ def makeRDC(
     # get the engine and tender graphics
     for i, g in enumerate(vehicle.graphics.gs):
         if isinstance(g, G.Purchase):
-            raise Exception(f"Somehow got a Purchase in vehicle.gs at {i} for {vehicle.name}!")
+            raise Exception(f"Somehow got a Purchase in vehicle.gs at {i} for {vehicle._name}!")
 
         if g.length != 8:
             length = g.length
@@ -435,8 +435,8 @@ def makeRDC(
         mainUnitGraphics = engineGraphics
 
     train = Train(
-        id=vehicle.id,
-        name="CATS " + vehicle.name,
+        id=vehicle._id,
+        name="CATS " + vehicle._name,
         max_speed=Train.kmhish(vehicle.props.max_speed),
         weight=Train.ton(vehicle.props.weight_low),
         introduction_date=grf.datetime.date(year=vehicle.props.introduction_date[0], month=1, day=1),

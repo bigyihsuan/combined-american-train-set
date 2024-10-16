@@ -14,12 +14,12 @@ RES_PATH = "./res"
 if __name__ == "__main__":
     default_props = dataclasses.asdict(VehicleProps.default())
     nars = grffile.GRFFile("./decompiled/newnars.grf")
-    trains = {train.id: train for train in nars.trains.values()}
+    trains = {train._id: train for train in nars.trains.values()}
 
     for id, sprites in ID_TO_GROUPS.items():
         train = trains[id]
 
-        train_name = train.name
+        train_name = train._name
         train_name = re.sub(r'[^\w\s-]', '', train_name.lower()).strip('-_')
         train_name = re.sub('-', '', train_name)
         train_name = re.sub(r' ', '_', train_name)

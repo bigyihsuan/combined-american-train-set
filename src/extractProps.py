@@ -11,7 +11,7 @@ import grffile
 def extractProps():
     nars = grffile.GRFFile("./decompiled/newnars.grf")
     trains = [train for train in nars.trains.values()]
-    trains.sort(key=lambda row: row.id)
+    trains.sort(key=lambda row: row._id)
 
     with open("./props/cargo-table.json", "w") as cargoTableJson:
         json.dump(nars.cargo_table, cargoTableJson)
@@ -22,8 +22,8 @@ def extractProps():
 
     default_props = dataclasses.asdict(VehicleProps.default())
     for train in trains:
-        id = train.id
-        name = train.name.replace(" ", "_").replace("/", "-")
+        id = train._id
+        name = train._name.replace(" ", "_").replace("/", "-")
         d = {k: v for k, v in dataclasses.asdict(train).items() if k != "graphics"}
         d["props"] = {k: v if type(v) is not tuple else list(v)
                       for k, v in d["props"].items() if v != default_props[k]}
@@ -35,7 +35,7 @@ def extractProps():
         json.dump(s, spritesJson, indent=4, default=str)
 
     with open("./props/vehicle-stats-sprites.json", "w") as vehicleStatsSpritesJson:
-        statsDict: dict[int, Vehicle] = {train.id: train for train in trains}
+        statsDict: dict[int, Vehicle] = {train._id: train for train in trains}
         spriteGroups: dict[str, SpriteGroup] = {sprite.group: sprite for sprite in nars.sprites}
 
         for id, stat in statsDict.items():

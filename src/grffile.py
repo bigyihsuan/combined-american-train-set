@@ -47,7 +47,7 @@ class GRFFile(grf.LoadedResourceFile):
             if isinstance(s, grf.DefineStrings) and s.feature == grf.TRAIN:
                 if s.offset in self.trains:
                     name: bytes = s.strings[-1]
-                    self.trains[s.offset].name = name.decode()
+                    self.trains[s.offset]._name = name.decode()
 
         # get sprite gorup names
         groups = [(group, sprite_id) for sprite_id in self.context.sprites if (

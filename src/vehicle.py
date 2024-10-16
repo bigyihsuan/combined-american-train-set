@@ -143,8 +143,8 @@ class VehicleGraphics:
 
 @dataclass
 class Vehicle:
-    id: int = -1
-    name: str = ""
+    _id: int = -1
+    _name: str = ""
     props: VehicleProps = field(default_factory=VehicleProps)
     graphics: VehicleGraphics = field(default_factory=VehicleGraphics)
 
@@ -188,7 +188,7 @@ class Vehicle:
         tenderIndex = l.index(True) if True in (l := list(isinstance(g, Tender)
                                                           for g in self.graphics.gs)) else None
         if tenderIndex is None:
-            raise Exception(f"Could not find separate tender for self {self.name}!")
+            raise Exception(f"Could not find separate tender for self {self._name}!")
         t: G = self.graphics.gs[tenderIndex]
         assert isinstance(t, Tender)
         tender: Tender = t
