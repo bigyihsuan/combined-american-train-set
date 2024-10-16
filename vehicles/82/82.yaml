@@ -1,0 +1,28 @@
+id: 82
+name: Lightweight Car
+props:
+    cargo_age_period: 185
+    cargo_allow_refit: []
+    cargo_capacity: 40
+    cargo_disallow_refit: []
+    cb_flags: 8
+    climates_available: 15
+    cost_factor: 106
+    introduction_date:
+    - 1925
+    - 1
+    - 1
+    loading_speed: 8
+    max_speed: 200
+    misc_flags: 18
+    model_life: 255
+    refittable_cargo_classes: 1
+    reliability_decay: 20
+    retire_early: 10
+    running_cost_base: 19510
+    running_cost_factor: 160
+    sort_purchase_list: 128
+    sprite_id: 253
+    vehicle_life: 30
+    visual_effect_and_powered: 64
+    weight_low: 28

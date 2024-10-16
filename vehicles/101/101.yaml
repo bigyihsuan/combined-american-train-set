@@ -1,0 +1,34 @@
+id: 101
+name: Single Hopper
+props:
+    cargo_age_period: 185
+    cargo_allow_refit: []
+    cargo_capacity: 20
+    cargo_disallow_refit:
+    - 6
+    - 18
+    - 19
+    - 13
+    cb_flags: 72
+    climates_available: 15
+    cost_factor: 56
+    default_cargo_type: 1
+    introduction_date:
+    - 1800
+    - 1
+    - 1
+    length: 4
+    loading_speed: 10
+    max_speed: 64
+    misc_flags: 18
+    model_life: 150
+    refittable_cargo_classes: 16
+    reliability_decay: 20
+    retire_early: 10
+    running_cost_base: 19510
+    running_cost_factor: 20
+    sort_purchase_list: 128
+    sprite_id: 253
+    vehicle_life: 30
+    visual_effect_and_powered: 64
+    weight_low: 12

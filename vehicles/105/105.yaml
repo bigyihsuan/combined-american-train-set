@@ -1,0 +1,42 @@
+id: 105
+name: Covered Hopper
+props:
+    cargo_age_period: 185
+    cargo_allow_refit:
+    - 5
+    - 12
+    - 13
+    - 35
+    cargo_capacity: 30
+    cargo_disallow_refit:
+    - 1
+    - 8
+    - 14
+    - 34
+    - 44
+    - 41
+    - 25
+    cb_flags: 72
+    climates_available: 15
+    cost_factor: 70
+    default_cargo_type: 6
+    introduction_date:
+    - 1940
+    - 1
+    - 1
+    length: 7
+    loading_speed: 10
+    max_speed: 128
+    misc_flags: 18
+    model_life: 255
+    non_refittable_cargo_classes: 4096
+    refittable_cargo_classes: 16
+    reliability_decay: 20
+    retire_early: 10
+    running_cost_base: 19510
+    running_cost_factor: 60
+    sort_purchase_list: 128
+    sprite_id: 253
+    vehicle_life: 30
+    visual_effect_and_powered: 64
+    weight_low: 20

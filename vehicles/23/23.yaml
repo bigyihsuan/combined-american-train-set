@@ -1,0 +1,30 @@
+id: 23
+name: EMD FP9
+props:
+    cargo_age_period: 185
+    cargo_allow_refit: []
+    cargo_disallow_refit: []
+    cb_flags: 129
+    climates_available: 15
+    cost_factor: 43
+    engine_class: 8
+    introduction_date:
+    - 1954
+    - 1
+    - 1
+    length: 7
+    loading_speed: 5
+    max_speed: 143
+    misc_flags: 26
+    model_life: 60
+    power: 1750
+    reliability_decay: 20
+    retire_early: 20
+    running_cost_base: 19504
+    running_cost_factor: 46
+    sort_purchase_list: 128
+    sprite_id: 253
+    tractive_effort_coefficient: 37
+    vehicle_life: 30
+    visual_effect_and_powered: 40
+    weight_low: 104

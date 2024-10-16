@@ -1,0 +1,30 @@
+id: 28
+name: EMD Centennial
+props:
+    cargo_age_period: 185
+    cargo_allow_refit: []
+    cargo_disallow_refit: []
+    cb_flags: 145
+    climates_available: 15
+    cost_factor: 144
+    engine_class: 8
+    introduction_date:
+    - 1969
+    - 1
+    - 1
+    loading_speed: 5
+    max_speed: 144
+    misc_flags: 24
+    model_life: 60
+    power: 6600
+    reliability_decay: 20
+    retire_early: 20
+    running_cost_base: 19504
+    running_cost_factor: 125
+    sort_purchase_list: 128
+    sprite_id: 253
+    tractive_effort_coefficient: 59
+    vehicle_life: 30
+    visual_effect_and_powered: 40
+    weight_high: 1
+    weight_low: 15
