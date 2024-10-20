@@ -8,6 +8,7 @@ props:
     climates_available: 15
     cost_factor: 64
     engine_class: 8
+    id: 34
     introduction_date:
     - 1993
     - 1
@@ -17,6 +18,7 @@ props:
     max_speed: 176
     misc_flags: 26
     model_life: 255
+    name: EMD F59PHI
     power: 3000
     reliability_decay: 20
     retire_early: 20

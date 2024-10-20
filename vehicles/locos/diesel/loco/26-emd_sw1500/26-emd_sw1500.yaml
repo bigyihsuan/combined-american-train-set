@@ -8,6 +8,7 @@ props:
     climates_available: 15
     cost_factor: 37
     engine_class: 8
+    id: 26
     introduction_date:
     - 1966
     - 1
@@ -17,6 +18,7 @@ props:
     max_speed: 96
     misc_flags: 26
     model_life: 70
+    name: EMD SW1500
     power: 1500
     reliability_decay: 20
     retire_early: 20

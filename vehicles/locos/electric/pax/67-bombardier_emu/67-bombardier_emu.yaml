@@ -10,6 +10,7 @@ props:
     cost_factor: 52
     dual_headed: 1
     engine_class: 40
+    id: 67
     introduction_date:
     - 1989
     - 1
@@ -18,6 +19,7 @@ props:
     max_speed: 136
     misc_flags: 30
     model_life: 80
+    name: Bombardier EMU
     power: 2000
     refittable_cargo_classes: 1
     reliability_decay: 20

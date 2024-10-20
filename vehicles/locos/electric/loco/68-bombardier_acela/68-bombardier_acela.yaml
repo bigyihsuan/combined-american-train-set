@@ -9,6 +9,7 @@ props:
     cost_factor: 252
     dual_headed: 1
     engine_class: 40
+    id: 68
     introduction_date:
     - 2001
     - 1
@@ -17,6 +18,7 @@ props:
     max_speed: 240
     misc_flags: 31
     model_life: 255
+    name: Bombardier Acela
     power: 12300
     reliability_decay: 20
     retire_early: 20

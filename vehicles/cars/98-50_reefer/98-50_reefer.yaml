@@ -21,6 +21,7 @@ props:
     climates_available: 15
     cost_factor: 81
     default_cargo_type: 12
+    id: 98
     introduction_date:
     - 1935
     - 1
@@ -30,6 +31,7 @@ props:
     max_speed: 136
     misc_flags: 18
     model_life: 255
+    name: 50' Reefer
     non_refittable_cargo_classes: 1
     refittable_cargo_classes: 36
     reliability_decay: 20

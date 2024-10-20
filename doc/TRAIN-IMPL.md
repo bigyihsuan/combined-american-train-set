@@ -2,7 +2,7 @@
 
 | Train                  | ID  | Sprites Reorganized | Graphics YAML | Programmed | Fully Functional |
 | ---------------------- | --- | :-----------------: | :-----------: | :--------: | :--------------: |
-| 4-2-0 Norris           | 0   |          y          |               |            |                  |
+| 4-2-0 Norris           | 0   |                     |               |            |                  |
 | 4-4-0 American         | 1   |                     |               |            |                  |
 | 2-6-0 Mogul            | 2   |                     |               |            |                  |
 | 2-8-0 Consolidation    | 3   |                     |               |            |                  |
@@ -26,12 +26,12 @@
 
 | Train            | ID  | Sprites Reorganized | Graphics YAML | Programmed | Fully Functional |
 | ---------------- | --- | :-----------------: | :-----------: | :--------: | :--------------: |
-| EMC E3           | 20  |          y          |       y       |            |                  |
+| EMC E3           | 20  |                     |               |            |                  |
 | EMD FT           | 21  |                     |               |            |                  |
 | EMD SW1200       | 22  |                     |               |            |                  |
 | EMD FP9          | 23  |                     |               |            |                  |
-| EMD GP9          | 24  |          y          |       y       |            |                  |
-| EMD SD9          | 25  |          y          |       y       |            |                  |
+| EMD GP9          | 24  |                     |               |            |                  |
+| EMD SD9          | 25  |                     |               |            |                  |
 | EMD SW1500       | 26  |                     |               |            |                  |
 | EMD SD45         | 27  |                     |               |            |                  |
 | EMD Centennial   | 28  |                     |               |            |                  |

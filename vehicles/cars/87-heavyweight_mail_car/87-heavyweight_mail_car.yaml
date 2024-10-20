@@ -9,6 +9,7 @@ props:
     climates_available: 15
     cost_factor: 102
     default_cargo_type: 2
+    id: 87
     introduction_date:
     - 1880
     - 1
@@ -17,6 +18,7 @@ props:
     max_speed: 160
     misc_flags: 18
     model_life: 100
+    name: Heavyweight Mail Car
     non_refittable_cargo_classes: 1
     refittable_cargo_classes: 14
     reliability_decay: 20

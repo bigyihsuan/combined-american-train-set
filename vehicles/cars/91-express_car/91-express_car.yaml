@@ -9,6 +9,7 @@ props:
     climates_available: 15
     cost_factor: 80
     default_cargo_type: 2
+    id: 91
     introduction_date:
     - 1800
     - 1
@@ -18,6 +19,7 @@ props:
     max_speed: 128
     misc_flags: 18
     model_life: 150
+    name: Express Car
     non_refittable_cargo_classes: 1
     refittable_cargo_classes: 14
     reliability_decay: 20

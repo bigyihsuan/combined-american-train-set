@@ -2,6 +2,7 @@ purchase_sprite:
   bpp: 1
   file: ./vehicles/locos/diesel/pax/62-emd_aerotrain/train_120-purchase.png
   height: 11
+  orientation: 6
   width: 54
   x: 5
   xofs: -27
@@ -9,362 +10,362 @@ purchase_sprite:
   yofs: -7
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/diesel/pax/62-emd_aerotrain/train_119-real.png
-  realsprites:
-  - __orientation: N
-    bpp: 1
+- file: ./vehicles/locos/diesel/pax/62-emd_aerotrain/train_119-real.png
+  real_sprites:
+  - bpp: 1
     height: 21
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 5
     yofs: -11
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 11
+    orientation: 2
     width: 27
     x: 53
     xofs: -12
     y: 5
     yofs: -7
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 3
     width: 20
     x: 90
     xofs: -4
     y: 5
     yofs: -7
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 21
+    orientation: 4
     width: 8
     x: 120
     xofs: -3
     y: 5
     yofs: -9
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 5
     width: 20
     x: 138
     xofs: -14
     y: 5
     yofs: -7
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 11
+    orientation: 6
     width: 27
     x: 168
     xofs: -15
     y: 5
     yofs: -7
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 7
     width: 20
     x: 205
     xofs: -6
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 21
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 36
     yofs: -11
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 36
     yofs: -8
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 11
+    orientation: 2
     width: 27
     x: 53
     xofs: -11
     y: 36
     yofs: -7
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 3
     width: 20
     x: 90
     xofs: -4
     y: 36
     yofs: -7
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 21
+    orientation: 4
     width: 8
     x: 120
     xofs: -3
     y: 36
     yofs: -9
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 5
     width: 20
     x: 138
     xofs: -14
     y: 36
     yofs: -7
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 11
+    orientation: 6
     width: 27
     x: 168
     xofs: -16
     y: 36
     yofs: -7
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 7
     width: 20
     x: 205
     xofs: -6
     y: 36
     yofs: -8
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 67
     yofs: -11
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 1
     width: 18
     x: 23
     xofs: -10
     y: 67
     yofs: -8
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 2
     width: 24
     x: 51
     xofs: -8
     y: 67
     yofs: -6
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 3
     width: 18
     x: 85
     xofs: -2
     y: 67
     yofs: -6
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 4
     width: 8
     x: 113
     xofs: -3
     y: 67
     yofs: -7
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 5
     width: 18
     x: 131
     xofs: -14
     y: 67
     yofs: -6
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 6
     width: 24
     x: 159
     xofs: -16
     y: 67
     yofs: -6
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 7
     width: 18
     x: 193
     xofs: -6
     y: 67
     yofs: -8
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 96
     yofs: -11
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 1
     width: 18
     x: 23
     xofs: -10
     y: 96
     yofs: -8
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 2
     width: 24
     x: 51
     xofs: -8
     y: 96
     yofs: -6
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 3
     width: 18
     x: 85
     xofs: -2
     y: 96
     yofs: -6
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 4
     width: 8
     x: 113
     xofs: -3
     y: 96
     yofs: -7
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 5
     width: 18
     x: 131
     xofs: -14
     y: 96
     yofs: -6
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 6
     width: 24
     x: 159
     xofs: -16
     y: 96
     yofs: -6
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 7
     width: 18
     x: 193
     xofs: -6
     y: 96
     yofs: -8
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 125
     yofs: -11
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 1
     width: 19
     x: 23
     xofs: -11
     y: 125
     yofs: -8
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 2
     width: 25
     x: 52
     xofs: -9
     y: 125
     yofs: -6
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 13
+    orientation: 3
     width: 19
     x: 87
     xofs: -3
     y: 125
     yofs: -5
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 18
+    orientation: 4
     width: 8
     x: 116
     xofs: -3
     y: 125
     yofs: -6
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 13
+    orientation: 5
     width: 19
     x: 134
     xofs: -14
     y: 125
     yofs: -5
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 6
     width: 25
     x: 163
     xofs: -16
     y: 125
     yofs: -6
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 7
     width: 19
     x: 198
     xofs: -6

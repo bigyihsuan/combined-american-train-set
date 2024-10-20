@@ -10,6 +10,7 @@ props:
     cost_factor: 64
     dual_headed: 1
     engine_class: 40
+    id: 66
     introduction_date:
     - 1969
     - 1
@@ -18,6 +19,7 @@ props:
     max_speed: 200
     misc_flags: 30
     model_life: 80
+    name: Budd Metroliner
     power: 2400
     refittable_cargo_classes: 1
     reliability_decay: 20

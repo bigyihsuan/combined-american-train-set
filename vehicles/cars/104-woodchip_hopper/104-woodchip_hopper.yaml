@@ -12,6 +12,7 @@ props:
     climates_available: 15
     cost_factor: 62
     default_cargo_type: 7
+    id: 104
     introduction_date:
     - 1950
     - 1
@@ -20,6 +21,7 @@ props:
     max_speed: 120
     misc_flags: 18
     model_life: 255
+    name: Woodchip Hopper
     reliability_decay: 20
     retire_early: 10
     running_cost_base: 19510

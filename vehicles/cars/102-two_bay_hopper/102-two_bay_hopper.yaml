@@ -13,6 +13,7 @@ props:
     climates_available: 15
     cost_factor: 59
     default_cargo_type: 1
+    id: 102
     introduction_date:
     - 1890
     - 1
@@ -22,6 +23,7 @@ props:
     max_speed: 96
     misc_flags: 18
     model_life: 100
+    name: Two Bay Hopper
     refittable_cargo_classes: 16
     reliability_decay: 20
     retire_early: 10

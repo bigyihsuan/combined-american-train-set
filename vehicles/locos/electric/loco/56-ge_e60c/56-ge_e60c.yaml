@@ -8,6 +8,7 @@ props:
     climates_available: 15
     cost_factor: 129
     engine_class: 40
+    id: 56
     introduction_date:
     - 1972
     - 1
@@ -17,6 +18,7 @@ props:
     max_speed: 144
     misc_flags: 26
     model_life: 70
+    name: GE E60C
     power: 6000
     reliability_decay: 20
     retire_early: 20

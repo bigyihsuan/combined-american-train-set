@@ -8,6 +8,7 @@ props:
     climates_available: 15
     cost_factor: 32
     engine_class: 8
+    id: 22
     introduction_date:
     - 1954
     - 1
@@ -17,6 +18,7 @@ props:
     max_speed: 96
     misc_flags: 26
     model_life: 60
+    name: EMD SW1200
     power: 1200
     reliability_decay: 20
     retire_early: 20

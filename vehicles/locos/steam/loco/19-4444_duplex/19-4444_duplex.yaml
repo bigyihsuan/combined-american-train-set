@@ -7,6 +7,7 @@ props:
     cb_flags: 145
     climates_available: 15
     cost_factor: 111
+    id: 19
     introduction_date:
     - 1942
     - 1
@@ -15,6 +16,7 @@ props:
     max_speed: 184
     misc_flags: 26
     model_life: 70
+    name: 4-4-4-4 Duplex
     power: 4600
     reliability_decay: 20
     retire_early: 20

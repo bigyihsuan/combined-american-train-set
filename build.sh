@@ -5,7 +5,7 @@ USAGE="usage: ./build.sh (default | extract | compile | bundle | install | clean
 GRF_PATH=./dist/cats.grf
 
 function default() {
-	extract
+	# extract
     compile
     install
 }

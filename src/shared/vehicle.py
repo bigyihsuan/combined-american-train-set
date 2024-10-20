@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
-from typing import Any
+from typing import Any, Optional
 
-from shared.enums import Loc
+from shared.enums import Loc, Orientation
 from shared.group import G, Car, Loco, Tender
 
 import grf
@@ -28,8 +28,9 @@ class Sprite:
     yofs: int = 0
     zoom: int = 0
     bpp: int = 0
+    orientation: int = Orientation.INVALID
 
-    def asGrfFileSprite(self) -> grf.FileSprite:
+    def to_grf_file_sprite(self) -> grf.FileSprite:
         return grf.FileSprite(
             file=grf.ImageFile(self.file),
             x=self.x,
@@ -44,18 +45,30 @@ class Sprite:
 
 @dataclass
 class SpriteGroup:
-    group: str = ""
-    realSprites: list[Sprite] = field(default_factory=list)
+    file: str = ""
+    real_sprites: list[Sprite] = field(default_factory=list)
 
     def __post_init__(self):
         realSprites = []
-        for realSprite in self.realSprites:
+        for realSprite in self.real_sprites:
             if not isinstance(realSprite, Sprite):
                 rs: Any = realSprite
                 realSprites.append(Sprite(**rs))
             else:
                 realSprites.append(realSprite)
-        self.realSprites = realSprites
+        self.real_sprites = realSprites
+
+    def file_sprites(self) -> list[grf.FileSprite]:
+        return [grf.FileSprite(
+            file=grf.ImageFile(self.file),
+            x=sprite.x,
+            y=sprite.y,
+            w=sprite.width,
+            h=sprite.height,
+            xofs=sprite.xofs,
+            yofs=sprite.yofs,
+            zoom=sprite.zoom,
+        ) for sprite in self.real_sprites]
 
 
 @dataclass
@@ -193,3 +206,87 @@ class Vehicle:
         assert isinstance(t, Tender)
         tender: Tender = t
         return tenderIndex, tender
+
+
+@dataclass
+class Props:
+    id: int = -1
+    name: str = ""
+    introduction_days_since_1920: int = 0
+    introduction_date: list[int] = field(default_factory=lambda: [1900, 1, 1])
+    reliability_decay: int = 0
+    vehicle_life: int = 0
+    model_life: int = 0
+    track_type: int = 0
+    climates_available: int = 0
+    loading_speed: int = 0
+    max_speed: int = 0
+    power: int = 0
+    weight_low: int = 0
+    weight_high: int = 0
+    tractive_effort_coefficient: int = 0
+    cost_factor: int = 0
+    running_cost_factor: int = 0
+    visual_effect_and_powered: int = 0
+    engine_class: int = 0
+    running_cost_base: int = 0
+    sprite_id: int = 0
+    dual_headed: int = 0
+    cargo_capacity: int = 0
+    default_cargo_type: int = 0
+    ai_special_flag: int = 0
+    ai_engine_rank: int = 0
+    sort_purchase_list: int = 0
+    extra_power_per_wagon: int = 0
+    refit_cost: int = 0
+    refittable_cargo_types: int = 0
+    cb_flags: int = 0
+    air_drag_coefficient: int = 0
+    extra_weight_per_wagon: int = 0
+    bitmask_vehicle_info: int = 0
+    retire_early: int = 0
+    misc_flags: int = 0
+    refittable_cargo_classes: int = 0
+    non_refittable_cargo_classes: int = 0
+    cargo_age_period: int = 0
+    cargo_allow_refit: list[int] = field(default_factory=list)
+    cargo_disallow_refit: list[int] = field(default_factory=list)
+    length: int = 8
+
+    @staticmethod
+    def default():
+        return Props()
+
+
+@dataclass
+class Veh:
+    _id: int = -1
+    _name: str = ""
+    props: Props = field(default_factory=Props.default)
+
+    def __post_init__(self):
+        if not isinstance(self.props, Props):
+            props: Any = self.props
+            self.props = Props(**props)
+
+
+@dataclass
+class Graphics:
+    purchase_sprite: Optional[Sprite] = None
+    sprite_groups: list[SpriteGroup] = field(default_factory=list)
+
+    def __post_init__(self):
+        purchase_sprite: Any = self.purchase_sprite
+        if purchase_sprite is None:
+            purchase_sprite = None
+        else:
+            self.purchase_sprite = Sprite(**purchase_sprite)
+
+        sprite_groups: list[SpriteGroup] = []
+        for sprite_group in self.sprite_groups:
+            if not isinstance(sprite_group, SpriteGroup):
+                sg: Any = sprite_group
+                sprite_groups.append(SpriteGroup(**sg))
+            else:
+                sprite_groups.append(sprite_group)
+        self.sprite_groups = sprite_groups

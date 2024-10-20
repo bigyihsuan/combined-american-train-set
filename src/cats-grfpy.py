@@ -1,15 +1,10 @@
-import dataclasses
 import os
 from typing import Any
-import grf
-import json
 
+import grf
 import yaml
 
-import shared.group as G
-import shared.vehicle as V
-import make as M
-import vehicles
+import make_vehicles
 
 cats_grf = grf.NewGRF(
     grfid=b"BY\x01\x03",  # someone took BY\x01\x02???
@@ -52,9 +47,10 @@ def main():
     for root, subdirs, files in os.walk("./vehicles"):
         if len(subdirs) > 0:  # skip folders with folders inside
             continue
-        vehicles.make_vehicle(root, os.path.basename(root))
+        make_vehicles.bind_grf(cats_grf)
+        make_vehicles.make_vehicle(root, os.path.basename(root))
 
-    # grf.main(cats_grf, "dist/cats.grf")
+    grf.main(cats_grf, "dist/cats.grf")
 
 
 if __name__ == "__main__":

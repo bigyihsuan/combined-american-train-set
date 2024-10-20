@@ -7,6 +7,7 @@ props:
     cb_flags: 145
     climates_available: 15
     cost_factor: 66
+    id: 16
     introduction_date:
     - 1933
     - 1
@@ -15,6 +16,7 @@ props:
     max_speed: 160
     misc_flags: 26
     model_life: 70
+    name: 4-6-4 Hudson
     power: 2500
     reliability_decay: 20
     retire_early: 20

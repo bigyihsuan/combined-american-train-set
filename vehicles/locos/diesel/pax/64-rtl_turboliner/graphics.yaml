@@ -2,6 +2,7 @@ purchase_sprite:
   bpp: 1
   file: ./vehicles/locos/diesel/pax/64-rtl_turboliner/train_125-purchase.png
   height: 1
+  orientation: 6
   width: 1
   x: 5
   xofs: -1
@@ -9,146 +10,292 @@ purchase_sprite:
   yofs: -1
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/diesel/pax/64-rtl_turboliner/train_126-real.png
-  realsprites:
-  - __orientation: N
-    bpp: 1
+- file: ./vehicles/locos/diesel/pax/64-rtl_turboliner/train_124-real.png
+  real_sprites:
+  - bpp: 1
+    height: 22
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 5
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 5
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 11
+    orientation: 2
+    width: 31
+    x: 55
+    xofs: -16
+    y: 5
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 3
+    width: 21
+    x: 96
+    xofs: -6
+    y: 5
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 24
+    orientation: 4
+    width: 8
+    x: 127
+    xofs: -3
+    y: 5
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 16
+    orientation: 5
+    width: 21
+    x: 145
+    xofs: -13
+    y: 5
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    orientation: 6
+    width: 32
+    x: 176
+    xofs: -16
+    y: 5
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 7
+    width: 22
+    x: 218
+    xofs: -6
+    y: 5
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 22
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 39
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 39
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 11
+    orientation: 2
+    width: 31
+    x: 55
+    xofs: -16
+    y: 39
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 3
+    width: 21
+    x: 96
+    xofs: -6
+    y: 39
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 24
+    orientation: 4
+    width: 8
+    x: 127
+    xofs: -3
+    y: 39
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 16
+    orientation: 5
+    width: 21
+    x: 145
+    xofs: -13
+    y: 39
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 11
+    orientation: 6
+    width: 32
+    x: 176
+    xofs: -16
+    y: 39
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 7
+    width: 22
+    x: 218
+    xofs: -6
+    y: 39
+    yofs: -7
+    zoom: 0
+- file: ./vehicles/locos/diesel/pax/64-rtl_turboliner/train_126-real.png
+  real_sprites:
+  - bpp: 1
     height: 21
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 5
     yofs: -11
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 11
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 5
     yofs: -7
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 5
     yofs: -6
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 21
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 5
     yofs: -9
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 5
     yofs: -7
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 11
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 5
     yofs: -7
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 5
     yofs: -7
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 21
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 36
     yofs: -11
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 36
     yofs: -8
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 11
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 36
     yofs: -7
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 36
     yofs: -6
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 21
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 36
     yofs: -9
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 36
     yofs: -7
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 11
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 36
     yofs: -7
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 7
     width: 20
     x: 207
     xofs: -6

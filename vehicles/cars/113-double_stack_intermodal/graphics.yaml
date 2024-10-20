@@ -2,6 +2,7 @@ purchase_sprite:
   bpp: 1
   file: ./vehicles/cars/113-double_stack_intermodal/train_215-purchase.png
   height: 9
+  orientation: 6
   width: 54
   x: 5
   xofs: -27
@@ -9,1514 +10,4760 @@ purchase_sprite:
   yofs: -5
   zoom: 0
 sprite_groups:
-  file: ./vehicles/cars/113-double_stack_intermodal/train_214-real.png
-  realsprites:
-  - __orientation: N
-    bpp: 1
-    height: 16
+- file: ./vehicles/cars/113-double_stack_intermodal/train_211-real.png
+  real_sprites:
+  - bpp: 1
+    height: 18
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 5
     yofs: -6
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
+    height: 13
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 5
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 9
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 5
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 11
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 5
+    yofs: -3
+    zoom: 0
+  - bpp: 1
+    height: 18
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 5
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 11
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 5
+    yofs: -3
+    zoom: 0
+  - bpp: 1
+    height: 9
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 5
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 13
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 5
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 18
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 33
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 33
+    yofs: -6
+    zoom: 0
+  - bpp: 1
     height: 10
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 33
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 33
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 21
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 33
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 33
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 33
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 33
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 18
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 64
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 64
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 64
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 64
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 21
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 64
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 64
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 64
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 64
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 18
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 95
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 95
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 95
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 95
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 21
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 95
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 95
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 95
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 95
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 18
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 126
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 126
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 126
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 126
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 21
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 126
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 126
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 126
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 126
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 157
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 157
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 157
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 157
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 157
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 157
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 157
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 157
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 193
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 193
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 193
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 193
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 193
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 193
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 193
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 193
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 229
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 229
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 229
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 229
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 229
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 229
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 229
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 229
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 265
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 265
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 265
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 265
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 265
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 265
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 265
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 265
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 301
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 301
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 301
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 301
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 301
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 301
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 301
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 301
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 337
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 337
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 337
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 337
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 337
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 337
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 337
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 337
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 373
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 373
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 373
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 373
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 373
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 373
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 373
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 373
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 409
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 409
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 409
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 409
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 409
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 409
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 409
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 409
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 445
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 445
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 445
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 445
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 445
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 445
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 445
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 445
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 481
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 481
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 481
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 481
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 481
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 481
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 481
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 481
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 517
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 517
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 517
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 517
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 517
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 517
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 517
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 517
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 553
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 553
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 553
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 553
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 553
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 553
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 553
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 553
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 589
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 589
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 589
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 589
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 589
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 589
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 589
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 589
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 625
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 625
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 625
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 625
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 625
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 625
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 625
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 625
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 661
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 661
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 661
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 661
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 661
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 661
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 661
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 661
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 697
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 697
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 697
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 697
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 697
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 697
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 697
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 697
+    yofs: -11
+    zoom: 0
+- file: ./vehicles/cars/113-double_stack_intermodal/train_212-real.png
+  real_sprites:
+  - bpp: 1
+    height: 18
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 5
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 11
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 5
+    yofs: -3
+    zoom: 0
+  - bpp: 1
+    height: 9
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 5
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 13
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 5
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 18
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 5
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 13
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 5
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 9
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 5
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 11
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 5
+    yofs: -3
+    zoom: 0
+  - bpp: 1
+    height: 21
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 33
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 33
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 33
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 33
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 18
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 33
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 33
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 33
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 33
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 21
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 64
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 64
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 64
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 64
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 18
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 64
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 64
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 64
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 64
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 21
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 95
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 95
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 95
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 95
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 18
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 95
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 95
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 95
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 95
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 21
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 126
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 126
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 126
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 126
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 18
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 126
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 126
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 126
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 126
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 157
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 157
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 157
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 157
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 157
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 157
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 157
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 157
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 193
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 193
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 193
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 193
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 193
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 193
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 193
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 193
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 229
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 229
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 229
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 229
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 229
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 229
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 229
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 229
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 265
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 265
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 265
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 265
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 265
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 265
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 265
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 265
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 301
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 301
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 301
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 301
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 301
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 301
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 301
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 301
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 337
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 337
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 337
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 337
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 337
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 337
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 337
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 337
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 373
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 373
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 373
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 373
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 373
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 373
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 373
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 373
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 409
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 409
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 409
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 409
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 409
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 409
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 409
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 409
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 445
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 445
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 445
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 445
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 445
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 445
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 445
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 445
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 481
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 481
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 481
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 481
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 481
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 481
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 481
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 481
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 517
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 517
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 517
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 517
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 517
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 517
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 517
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 517
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 553
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 553
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 553
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 553
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 553
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 553
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 553
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 553
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 589
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 589
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 589
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 589
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 589
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 589
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 589
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 589
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 625
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 625
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 625
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 625
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 625
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 625
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 625
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 625
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 661
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 661
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 661
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 661
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 661
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 661
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 661
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 661
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 697
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 697
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 697
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 697
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 697
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 697
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 697
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 697
+    yofs: -12
+    zoom: 0
+- file: ./vehicles/cars/113-double_stack_intermodal/train_213-real.png
+  real_sprites:
+  - bpp: 1
+    height: 18
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 5
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 11
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 5
+    yofs: -3
+    zoom: 0
+  - bpp: 1
+    height: 9
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 5
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 13
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 5
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 5
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 13
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 5
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 9
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 5
+    yofs: -5
+    zoom: 0
+  - bpp: 1
+    height: 11
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 5
+    yofs: -3
+    zoom: 0
+  - bpp: 1
+    height: 21
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 34
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 34
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 34
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 34
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 34
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 14
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 34
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 34
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 34
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 26
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 65
+    yofs: -14
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 65
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 65
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 65
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 65
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 19
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 65
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 65
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 20
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 65
+    yofs: -12
+    zoom: 0
+- file: ./vehicles/cars/113-double_stack_intermodal/train_214-real.png
+  real_sprites:
+  - bpp: 1
+    height: 16
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 5
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 10
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 5
     yofs: -3
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 7
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 5
     yofs: -3
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 5
     yofs: -2
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 16
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 5
     yofs: -4
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 5
     yofs: -2
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 7
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 5
     yofs: -3
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 5
     yofs: -3
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 31
     yofs: -9
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 31
     yofs: -7
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 31
     yofs: -6
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 31
     yofs: -6
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 31
     yofs: -7
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 31
     yofs: -6
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 31
     yofs: -6
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 31
     yofs: -7
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 60
     yofs: -9
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 60
     yofs: -7
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 60
     yofs: -6
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 60
     yofs: -6
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 60
     yofs: -7
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 60
     yofs: -6
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 60
     yofs: -6
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 60
     yofs: -7
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 89
     yofs: -9
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 89
     yofs: -7
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 89
     yofs: -6
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 89
     yofs: -6
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 89
     yofs: -7
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 89
     yofs: -6
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 89
     yofs: -6
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 89
     yofs: -7
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 118
     yofs: -9
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 118
     yofs: -7
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 118
     yofs: -6
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 118
     yofs: -6
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 118
     yofs: -7
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 118
     yofs: -6
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 10
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 118
     yofs: -6
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 14
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 118
     yofs: -7
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 147
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 147
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 147
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 147
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 147
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 147
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 147
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 147
     yofs: -12
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 181
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 181
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 181
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 181
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 181
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 181
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 181
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 181
     yofs: -12
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 215
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 215
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 215
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 215
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 215
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 215
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 215
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 215
     yofs: -12
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 249
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 249
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 249
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 249
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 249
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 249
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 249
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 249
     yofs: -12
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 283
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 283
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 283
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 283
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 283
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 283
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 283
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 283
     yofs: -12
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 317
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 317
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 317
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 317
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 317
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 317
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 317
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 317
     yofs: -12
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 351
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 351
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 351
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 351
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 351
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 351
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 351
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 351
     yofs: -12
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 385
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 385
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 385
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 385
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 385
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 385
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 385
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 385
     yofs: -12
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 419
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 419
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 419
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 419
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 419
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 419
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 419
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 419
     yofs: -12
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 453
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 453
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 453
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 453
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 453
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 453
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 453
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 453
     yofs: -12
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 487
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 487
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 487
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 487
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 487
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 487
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 487
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 487
     yofs: -12
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 521
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 521
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 521
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 521
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 521
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 521
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 521
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 521
     yofs: -12
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 555
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 555
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 555
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 555
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 555
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 555
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 555
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 555
     yofs: -12
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 589
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 589
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 589
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 589
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 589
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 589
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 589
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 589
     yofs: -12
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 623
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 623
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 623
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 623
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 623
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 623
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 623
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6
     y: 623
     yofs: -12
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 657
     yofs: -14
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 657
     yofs: -12
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 657
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 657
     yofs: -11
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 657
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 657
     yofs: -11
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 657
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 19
+    orientation: 7
     width: 20
     x: 207
     xofs: -6

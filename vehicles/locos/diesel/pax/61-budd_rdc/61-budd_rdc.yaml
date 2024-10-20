@@ -9,6 +9,7 @@ props:
     climates_available: 15
     cost_factor: 21
     engine_class: 8
+    id: 61
     introduction_date:
     - 1949
     - 1
@@ -17,6 +18,7 @@ props:
     max_speed: 136
     misc_flags: 30
     model_life: 80
+    name: Budd RDC
     power: 550
     refittable_cargo_classes: 1
     reliability_decay: 20

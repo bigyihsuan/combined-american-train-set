@@ -9,6 +9,7 @@ props:
     climates_available: 15
     cost_factor: 18
     engine_class: 8
+    id: 60
     introduction_date:
     - 1925
     - 1
@@ -17,6 +18,7 @@ props:
     max_speed: 96
     misc_flags: 30
     model_life: 80
+    name: EMC Doodlebug
     power: 300
     refittable_cargo_classes: 1
     reliability_decay: 20

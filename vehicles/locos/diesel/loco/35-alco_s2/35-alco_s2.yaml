@@ -8,6 +8,7 @@ props:
     climates_available: 15
     cost_factor: 29
     engine_class: 8
+    id: 35
     introduction_date:
     - 1940
     - 1
@@ -17,6 +18,7 @@ props:
     max_speed: 96
     misc_flags: 26
     model_life: 60
+    name: Alco S2
     power: 1000
     reliability_decay: 20
     retire_early: 20

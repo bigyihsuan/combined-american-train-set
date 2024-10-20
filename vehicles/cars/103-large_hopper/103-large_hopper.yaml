@@ -13,6 +13,7 @@ props:
     climates_available: 15
     cost_factor: 61
     default_cargo_type: 1
+    id: 103
     introduction_date:
     - 1930
     - 1
@@ -21,6 +22,7 @@ props:
     max_speed: 112
     misc_flags: 18
     model_life: 255
+    name: Large Hopper
     refittable_cargo_classes: 16
     reliability_decay: 20
     retire_early: 10

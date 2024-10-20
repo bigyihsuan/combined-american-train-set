@@ -17,6 +17,7 @@ props:
     climates_available: 15
     cost_factor: 73
     default_cargo_type: 5
+    id: 95
     introduction_date:
     - 1970
     - 1
@@ -25,6 +26,7 @@ props:
     max_speed: 144
     misc_flags: 18
     model_life: 255
+    name: Hicube Boxcar
     non_refittable_cargo_classes: 1
     refittable_cargo_classes: 52
     reliability_decay: 20

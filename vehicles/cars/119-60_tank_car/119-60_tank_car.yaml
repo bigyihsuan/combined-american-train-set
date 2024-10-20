@@ -10,6 +10,7 @@ props:
     climates_available: 15
     cost_factor: 73
     default_cargo_type: 3
+    id: 119
     introduction_date:
     - 1955
     - 1
@@ -18,6 +19,7 @@ props:
     max_speed: 136
     misc_flags: 18
     model_life: 255
+    name: 60' Tank Car
     refittable_cargo_classes: 64
     reliability_decay: 20
     retire_early: 10

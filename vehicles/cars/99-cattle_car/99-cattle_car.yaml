@@ -9,6 +9,7 @@ props:
     climates_available: 15
     cost_factor: 63
     default_cargo_type: 4
+    id: 99
     introduction_date:
     - 1800
     - 1
@@ -18,6 +19,7 @@ props:
     max_speed: 72
     misc_flags: 18
     model_life: 180
+    name: Cattle Car
     non_refittable_cargo_classes: 1
     refittable_cargo_classes: 32
     reliability_decay: 20

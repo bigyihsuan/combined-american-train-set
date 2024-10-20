@@ -11,6 +11,7 @@ props:
     climates_available: 15
     cost_factor: 59
     default_cargo_type: 7
+    id: 111
     introduction_date:
     - 1910
     - 1
@@ -20,6 +21,7 @@ props:
     max_speed: 104
     misc_flags: 18
     model_life: 255
+    name: 50' Flat Car
     non_refittable_cargo_classes: 640
     refittable_cargo_classes: 32
     reliability_decay: 20

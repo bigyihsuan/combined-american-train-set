@@ -10,6 +10,7 @@ props:
     cost_factor: 76
     dual_headed: 1
     engine_class: 40
+    id: 69
     introduction_date:
     - 2005
     - 1
@@ -18,6 +19,7 @@ props:
     max_speed: 128
     misc_flags: 30
     model_life: 255
+    name: Nippon Sharyo EMU
     power: 2000
     refittable_cargo_classes: 1
     reliability_decay: 20

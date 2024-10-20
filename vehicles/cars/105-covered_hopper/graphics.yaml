@@ -2,6 +2,7 @@ purchase_sprite:
   bpp: 1
   file: ./vehicles/cars/105-covered_hopper/train_195-purchase.png
   height: 12
+  orientation: 6
   width: 28
   x: 5
   xofs: -14
@@ -9,74 +10,148 @@ purchase_sprite:
   yofs: -8
   zoom: 0
 sprite_groups:
-  file: ./vehicles/cars/105-covered_hopper/train_194-real.png
-  realsprites:
-  - __orientation: N
-    bpp: 1
+- file: ./vehicles/cars/105-covered_hopper/train_193-real.png
+  real_sprites:
+  - bpp: 1
     height: 22
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 5
     yofs: -12
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 16
+    orientation: 1
     width: 20
     x: 23
     xofs: -12
     y: 5
     yofs: -9
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 12
+    orientation: 2
     width: 28
     x: 53
     xofs: -12
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 16
+    orientation: 3
     width: 20
     x: 91
     xofs: -4
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 22
+    orientation: 4
     width: 8
     x: 121
     xofs: -3
     y: 5
     yofs: -10
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 16
+    orientation: 5
     width: 20
     x: 139
     xofs: -14
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 12
+    orientation: 6
     width: 28
     x: 169
     xofs: -16
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 16
+    orientation: 7
+    width: 20
+    x: 207
+    xofs: -6
+    y: 5
+    yofs: -9
+    zoom: 0
+- file: ./vehicles/cars/105-covered_hopper/train_194-real.png
+  real_sprites:
+  - bpp: 1
+    height: 22
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 5
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 16
+    orientation: 1
+    width: 20
+    x: 23
+    xofs: -12
+    y: 5
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    orientation: 2
+    width: 28
+    x: 53
+    xofs: -12
+    y: 5
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 16
+    orientation: 3
+    width: 20
+    x: 91
+    xofs: -4
+    y: 5
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 22
+    orientation: 4
+    width: 8
+    x: 121
+    xofs: -3
+    y: 5
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 16
+    orientation: 5
+    width: 20
+    x: 139
+    xofs: -14
+    y: 5
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 12
+    orientation: 6
+    width: 28
+    x: 169
+    xofs: -16
+    y: 5
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 16
+    orientation: 7
     width: 20
     x: 207
     xofs: -6

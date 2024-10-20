@@ -8,6 +8,7 @@ props:
     climates_available: 15
     cost_factor: 145
     engine_class: 40
+    id: 57
     introduction_date:
     - 1978
     - 1
@@ -17,6 +18,7 @@ props:
     max_speed: 200
     misc_flags: 26
     model_life: 70
+    name: ASEA/EMD AEM-7
     power: 7000
     reliability_decay: 20
     retire_early: 20

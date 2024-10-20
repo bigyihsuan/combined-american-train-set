@@ -8,6 +8,7 @@ props:
     climates_available: 15
     cost_factor: 43
     engine_class: 8
+    id: 23
     introduction_date:
     - 1954
     - 1
@@ -17,6 +18,7 @@ props:
     max_speed: 143
     misc_flags: 26
     model_life: 60
+    name: EMD FP9
     power: 1750
     reliability_decay: 20
     retire_early: 20

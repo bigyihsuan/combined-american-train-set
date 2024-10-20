@@ -20,6 +20,7 @@ props:
     climates_available: 15
     cost_factor: 70
     default_cargo_type: 6
+    id: 105
     introduction_date:
     - 1940
     - 1
@@ -29,6 +30,7 @@ props:
     max_speed: 128
     misc_flags: 18
     model_life: 255
+    name: Covered Hopper
     non_refittable_cargo_classes: 4096
     refittable_cargo_classes: 16
     reliability_decay: 20

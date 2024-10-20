@@ -8,6 +8,7 @@ props:
     cb_flags: 8
     climates_available: 15
     cost_factor: 114
+    id: 84
     introduction_date:
     - 1979
     - 1
@@ -16,6 +17,7 @@ props:
     max_speed: 160
     misc_flags: 18
     model_life: 255
+    name: Superliner Car
     refittable_cargo_classes: 1
     reliability_decay: 20
     retire_early: 10

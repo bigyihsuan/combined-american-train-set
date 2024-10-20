@@ -8,6 +8,7 @@ props:
     climates_available: 15
     cost_factor: 31
     engine_class: 40
+    id: 55
     introduction_date:
     - 1963
     - 1
@@ -17,6 +18,7 @@ props:
     max_speed: 96
     misc_flags: 26
     model_life: 70
+    name: GMD SW1200MG
     power: 1200
     reliability_decay: 20
     retire_early: 20

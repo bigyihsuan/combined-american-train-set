@@ -8,6 +8,7 @@ props:
     climates_available: 15
     cost_factor: 66
     engine_class: 8
+    id: 31
     introduction_date:
     - 1977
     - 1
@@ -17,6 +18,7 @@ props:
     max_speed: 166
     misc_flags: 26
     model_life: 60
+    name: EMD F40PH
     power: 3000
     reliability_decay: 20
     retire_early: 20

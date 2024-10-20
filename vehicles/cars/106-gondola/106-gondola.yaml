@@ -16,6 +16,7 @@ props:
     climates_available: 15
     cost_factor: 63
     default_cargo_type: 5
+    id: 106
     introduction_date:
     - 1800
     - 1
@@ -25,6 +26,7 @@ props:
     max_speed: 72
     misc_flags: 18
     model_life: 120
+    name: Gondola
     refittable_cargo_classes: 48
     reliability_decay: 20
     retire_early: 10

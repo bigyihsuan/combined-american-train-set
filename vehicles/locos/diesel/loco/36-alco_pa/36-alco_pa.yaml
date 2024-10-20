@@ -8,6 +8,7 @@ props:
     climates_available: 15
     cost_factor: 50
     engine_class: 8
+    id: 36
     introduction_date:
     - 1946
     - 1
@@ -16,6 +17,7 @@ props:
     max_speed: 165
     misc_flags: 26
     model_life: 60
+    name: Alco PA
     power: 2000
     reliability_decay: 20
     retire_early: 20

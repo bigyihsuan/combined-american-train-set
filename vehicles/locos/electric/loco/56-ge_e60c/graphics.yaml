@@ -2,6 +2,7 @@ purchase_sprite:
   bpp: 1
   file: ./vehicles/locos/electric/loco/56-ge_e60c/train_112-purchase.png
   height: 12
+  orientation: 6
   width: 28
   x: 5
   xofs: -14
@@ -9,146 +10,146 @@ purchase_sprite:
   yofs: -8
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/electric/loco/56-ge_e60c/train_111-real.png
-  realsprites:
-  - __orientation: N
-    bpp: 1
+- file: ./vehicles/locos/electric/loco/56-ge_e60c/train_111-real.png
+  real_sprites:
+  - bpp: 1
     height: 21
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 5
     yofs: -11
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 1
     width: 19
     x: 23
     xofs: -12
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 52
     xofs: -12
     y: 5
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 16
+    orientation: 3
     width: 20
     x: 90
     xofs: -4
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 21
+    orientation: 4
     width: 8
     x: 120
     xofs: -3
     y: 5
     yofs: -9
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 16
+    orientation: 5
     width: 20
     x: 138
     xofs: -14
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 168
     xofs: -16
     y: 5
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 7
     width: 19
     x: 206
     xofs: -5
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: N
-    bpp: 1
+  - bpp: 1
     height: 21
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 36
     yofs: -9
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 1
     width: 19
     x: 23
     xofs: -14
     y: 36
     yofs: -7
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 2
     width: 28
     x: 52
     xofs: -16
     y: 36
     yofs: -11
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 16
+    orientation: 3
     width: 20
     x: 90
     xofs: -6
     y: 36
     yofs: -9
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 21
+    orientation: 4
     width: 8
     x: 120
     xofs: -3
     y: 36
     yofs: -11
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 16
+    orientation: 5
     width: 20
     x: 138
     xofs: -12
     y: 36
     yofs: -9
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 6
     width: 28
     x: 168
     xofs: -12
     y: 36
     yofs: -11
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 15
+    orientation: 7
     width: 19
     x: 206
     xofs: -3

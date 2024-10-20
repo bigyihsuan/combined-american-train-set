@@ -12,6 +12,7 @@ props:
     climates_available: 15
     cost_factor: 61
     default_cargo_type: 23
+    id: 115
     introduction_date:
     - 1960
     - 1
@@ -20,6 +21,7 @@ props:
     max_speed: 128
     misc_flags: 18
     model_life: 255
+    name: Autorack
     reliability_decay: 20
     retire_early: 10
     running_cost_base: 19510

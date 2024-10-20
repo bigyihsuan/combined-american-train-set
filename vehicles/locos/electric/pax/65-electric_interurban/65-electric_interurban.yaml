@@ -9,14 +9,12 @@ props:
     climates_available: 15
     cost_factor: 24
     engine_class: 40
-    introduction_date:
-    - 1900
-    - 1
-    - 1
+    id: 65
     loading_speed: 8
     max_speed: 80
     misc_flags: 30
     model_life: 80
+    name: Electric Interurban
     power: 440
     refittable_cargo_classes: 1
     reliability_decay: 20

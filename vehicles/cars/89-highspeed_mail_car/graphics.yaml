@@ -1,145 +1,219 @@
-purchase_sprite: {}
+purchase_sprite: null
 sprite_groups:
-  file: ./vehicles/cars/89-highspeed_mail_car/train_157-real.png
-  realsprites:
-  - __orientation: N
-    bpp: 1
+- file: ./vehicles/cars/89-highspeed_mail_car/train_156-real.png
+  real_sprites:
+  - bpp: 1
     height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 5
     yofs: -12
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 17
+    orientation: 1
     width: 22
     x: 23
     xofs: -14
     y: 5
     yofs: -9
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 12
+    orientation: 2
     width: 32
     x: 55
     xofs: -16
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 17
+    orientation: 3
     width: 22
     x: 97
     xofs: -6
     y: 5
     yofs: -9
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 129
     xofs: -3
     y: 5
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 17
+    orientation: 5
     width: 22
     x: 147
     xofs: -14
     y: 5
     yofs: -9
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 12
+    orientation: 6
     width: 32
     x: 179
     xofs: -16
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 17
+    orientation: 7
     width: 22
     x: 221
     xofs: -6
     y: 5
     yofs: -9
     zoom: 0
-  - __orientation: N
-    bpp: 1
+- file: ./vehicles/cars/89-highspeed_mail_car/train_157-real.png
+  real_sprites:
+  - bpp: 1
     height: 24
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 5
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 17
+    orientation: 1
+    width: 22
+    x: 23
+    xofs: -14
+    y: 5
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    orientation: 2
+    width: 32
+    x: 55
+    xofs: -16
+    y: 5
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 17
+    orientation: 3
+    width: 22
+    x: 97
+    xofs: -6
+    y: 5
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 24
+    orientation: 4
+    width: 8
+    x: 129
+    xofs: -3
+    y: 5
+    yofs: -12
+    zoom: 0
+  - bpp: 1
+    height: 17
+    orientation: 5
+    width: 22
+    x: 147
+    xofs: -14
+    y: 5
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 12
+    orientation: 6
+    width: 32
+    x: 179
+    xofs: -16
+    y: 5
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 17
+    orientation: 7
+    width: 22
+    x: 221
+    xofs: -6
+    y: 5
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 24
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 39
     yofs: -12
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 17
+    orientation: 1
     width: 22
     x: 23
     xofs: -14
     y: 39
     yofs: -9
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 12
+    orientation: 2
     width: 32
     x: 55
     xofs: -16
     y: 39
     yofs: -8
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 17
+    orientation: 3
     width: 22
     x: 97
     xofs: -6
     y: 39
     yofs: -9
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 24
+    orientation: 4
     width: 8
     x: 129
     xofs: -3
     y: 39
     yofs: -12
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 17
+    orientation: 5
     width: 22
     x: 147
     xofs: -14
     y: 39
     yofs: -9
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 12
+    orientation: 6
     width: 32
     x: 179
     xofs: -16
     y: 39
     yofs: -8
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 17
+    orientation: 7
     width: 22
     x: 221
     xofs: -6

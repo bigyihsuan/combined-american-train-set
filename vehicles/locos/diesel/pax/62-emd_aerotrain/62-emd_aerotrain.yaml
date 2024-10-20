@@ -9,6 +9,7 @@ props:
     climates_available: 15
     cost_factor: 45
     engine_class: 8
+    id: 62
     introduction_date:
     - 1956
     - 1
@@ -18,6 +19,7 @@ props:
     max_speed: 160
     misc_flags: 30
     model_life: 80
+    name: EMD Aerotrain
     power: 1200
     refittable_cargo_classes: 1
     reliability_decay: 20

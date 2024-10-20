@@ -3,14 +3,14 @@ import grf
 
 from shared.enums import Loc, TenderSpriteLocation
 import shared.group as G
-import shared.vehicle as V
+import shared.vehicle as vehicle
 import shared.util as util
 
 TENDER_ID_OFFSET = 1000
 
 
 def makeSteamTender(
-    vehicle: V.Vehicle,
+    vehicle: vehicle.Vehicle,
     Train: type[grf.Train],
     VehicleSpriteTable: type[grf.VehicleSpriteTable],
     Switch: type[grf.Switch]
@@ -24,7 +24,7 @@ def makeSteamTender(
     # add purchase sprite
     purchaseLayout = spriteTable.get_layout(
         spriteTable.add_purchase_graphics(
-            vehicle.graphics.purchaseSprite.realSprites[0].asGrfFileSprite()
+            vehicle.graphics.purchaseSprite.real_sprites[0].asGrfFileSprite()
         )
     )
 
@@ -50,16 +50,16 @@ def makeSteamTender(
             # if the tender is on the same spritesheet,
             # last set of 8 sprites is the tender
             # get the real sprites for the engine.
-            engineRealSprites = [s.asGrfFileSprite() for s in sg.realSprites[:g.frames * 8]]
-            tenderGraphicsLocation = sg.realSprites[g.frames * 8:]
+            engineRealSprites = [s.asGrfFileSprite() for s in sg.real_sprites[:g.frames * 8]]
+            tenderGraphicsLocation = sg.real_sprites[g.frames * 8:]
         elif not isinstance(g, G.Tender) and g.tender == TenderSpriteLocation.Separate:
             print("Tender is on separate spritesheet...", end=" ")
             # if the tender is on a different spritesheet,
             # current g is not a tender, i.e. a loco, and has its tender on a separate sprite
-            engineRealSprites = [s.asGrfFileSprite() for s in sg.realSprites]
+            engineRealSprites = [s.asGrfFileSprite() for s in sg.real_sprites]
             # find the tender group
             tenderIndex, tender = vehicle.getTender()
-            tenderGraphicsLocation = vehicle.graphics.spriteGroups[tender.group].realSprites
+            tenderGraphicsLocation = vehicle.graphics.spriteGroups[tender.group].real_sprites
 
         tenderRealSprites = [s.asGrfFileSprite() for s in tenderGraphicsLocation]
         # tender has no animations, so no switch for animations
@@ -132,7 +132,7 @@ def makeSteamTender(
 
 
 def makeArticulatedSteamEngine(
-    vehicle: V.Vehicle,
+    vehicle: vehicle.Vehicle,
     Train: type[grf.Train],
     VehicleSpriteTable: type[grf.VehicleSpriteTable],
     Switch: type[grf.Switch]
@@ -143,7 +143,7 @@ def makeArticulatedSteamEngine(
     # add purchase sprite
     purchaseLayout = spriteTable.get_layout(
         spriteTable.add_purchase_graphics(
-            vehicle.graphics.purchaseSprite.realSprites[0].asGrfFileSprite()
+            vehicle.graphics.purchaseSprite.real_sprites[0].asGrfFileSprite()
         )
     )
 
@@ -171,7 +171,7 @@ def makeArticulatedSteamEngine(
         if isinstance(g, G.Tender):
             print("Tender is on separate spritesheet...", end=" ")
             _, tenderGroup = vehicle.getTender()
-            tenderGraphicsLocation = vehicle.graphics.spriteGroups[tenderGroup.group].realSprites
+            tenderGraphicsLocation = vehicle.graphics.spriteGroups[tenderGroup.group].real_sprites
             tenderRealSprites = [s.asGrfFileSprite() for s in tenderGraphicsLocation]
             assert len(tenderRealSprites) > 0
             # tender has no animations, so no switch for animations
@@ -180,7 +180,7 @@ def makeArticulatedSteamEngine(
             continue
 
         # same process for each part of the engine
-        realSprites = [s.asGrfFileSprite() for s in sg.realSprites]
+        realSprites = [s.asGrfFileSprite() for s in sg.real_sprites]
         assert len(realSprites) > 0
         engineFrames = util.chunk(realSprites, 8)
         assert len(engineFrames) == g.frames
@@ -260,7 +260,7 @@ def makeArticulatedSteamEngine(
 
 
 def makeDieselSingle(
-    vehicle: V.Vehicle,
+    vehicle: vehicle.Vehicle,
     Train: type[grf.Train],
     VehicleSpriteTable: type[grf.VehicleSpriteTable],
     Switch: type[grf.Switch]
@@ -285,12 +285,12 @@ def makeDieselSingle(
     if not any(isinstance(g, G.Purchase) for g in G.ID_TO_GROUPS[vehicle._id]):
         # no dedicated purchase sprite
         # select the 6th realsprite, the west-facing sprite
-        purchaseSprite = [v for v in vehicle.graphics.spriteGroups.values()][0].realSprites[6]
+        purchaseSprite = [v for v in vehicle.graphics.spriteGroups.values()][0].real_sprites[6]
     else:
-        purchaseSprite = vehicle.graphics.purchaseSprite.realSprites[0]
+        purchaseSprite = vehicle.graphics.purchaseSprite.real_sprites[0]
     purchaseLayout = spriteTable.get_layout(
         spriteTable.add_purchase_graphics(
-            purchaseSprite.asGrfFileSprite()
+            purchaseSprite.to_grf_file_sprite()
         )
     )
 
@@ -310,7 +310,7 @@ def makeDieselSingle(
 
         sg = vehicle.graphics.spriteGroups[g.group]
 
-        engineRealSprites = [s.asGrfFileSprite() for s in sg.realSprites]
+        engineRealSprites = [s.to_grf_file_sprite() for s in sg.real_sprites]
 
         # chunk into rows of 8 sprites, 1 per frame of animation
         engineFrames = util.chunk(engineRealSprites, 8)
@@ -359,7 +359,7 @@ def makeDieselSingle(
 
 
 def makeDieselAA(
-    vehicle: V.Vehicle,
+    vehicle: vehicle.Vehicle,
     Train: type[grf.Train],
     VehicleSpriteTable: type[grf.VehicleSpriteTable],
     Switch: type[grf.Switch]
@@ -369,7 +369,7 @@ def makeDieselAA(
 
 
 def makeDieselAB(
-    vehicle: V.Vehicle,
+    vehicle: vehicle.Vehicle,
     Train: type[grf.Train],
     VehicleSpriteTable: type[grf.VehicleSpriteTable],
     Switch: type[grf.Switch]
@@ -379,7 +379,7 @@ def makeDieselAB(
 
 
 def makeDieselABBA(
-    vehicle: V.Vehicle,
+    vehicle: vehicle.Vehicle,
     Train: type[grf.Train],
     VehicleSpriteTable: type[grf.VehicleSpriteTable],
     Switch: type[grf.Switch]
@@ -391,7 +391,7 @@ def makeDieselABBA(
 
 
 def makeRDC(
-    vehicle: V.Vehicle,
+    vehicle: vehicle.Vehicle,
     Train: type[grf.Train],
     VehicleSpriteTable: type[grf.VehicleSpriteTable],
     Switch: type[grf.Switch]
@@ -400,10 +400,10 @@ def makeRDC(
     # make a new spritetable for this vehicle
     spriteTable = VehicleSpriteTable(grf.TRAIN)
     # add purchase sprite
-    purchaseSprite = [v for v in vehicle.graphics.spriteGroups.values()][0].realSprites[2]
+    purchaseSprite = [v for v in vehicle.graphics.spriteGroups.values()][0].real_sprites[2]
     purchaseLayout = spriteTable.get_layout(
         spriteTable.add_purchase_graphics(
-            purchaseSprite.asGrfFileSprite()
+            purchaseSprite.to_grf_file_sprite()
         )
     )
 
@@ -421,7 +421,7 @@ def makeRDC(
 
         sg = vehicle.graphics.spriteGroups[g.group]
 
-        engineRealSprites = [s.asGrfFileSprite() for s in sg.realSprites]
+        engineRealSprites = [s.to_grf_file_sprite() for s in sg.real_sprites]
         engineRealSprites = [*engineRealSprites[:], *engineRealSprites[:]]
         engineFrames = util.chunk(engineRealSprites, 8)
         # make the layouts for each engine frame
@@ -454,7 +454,7 @@ def makeRDC(
 
 
 def makeElectricSingle(
-    vehicle: V.Vehicle,
+    vehicle: vehicle.Vehicle,
     Train: type[grf.Train],
     VehicleSpriteTable: type[grf.VehicleSpriteTable],
     Switch: type[grf.Switch]
@@ -464,7 +464,7 @@ def makeElectricSingle(
 
 
 def makeElectricArticulated(
-    vehicle: V.Vehicle,
+    vehicle: vehicle.Vehicle,
     Train: type[grf.Train],
     VehicleSpriteTable: type[grf.VehicleSpriteTable],
     Switch: type[grf.Switch]
@@ -474,7 +474,7 @@ def makeElectricArticulated(
 
 
 def makeElectricAA(
-    vehicle: V.Vehicle,
+    vehicle: vehicle.Vehicle,
     Train: type[grf.Train],
     VehicleSpriteTable: type[grf.VehicleSpriteTable],
     Switch: type[grf.Switch]

@@ -9,6 +9,7 @@ props:
     climates_available: 15
     cost_factor: 154
     default_cargo_type: 5
+    id: 113
     introduction_date:
     - 1977
     - 1
@@ -17,6 +18,7 @@ props:
     max_speed: 128
     misc_flags: 18
     model_life: 255
+    name: Double Stack Intermodal
     refittable_cargo_classes: 4
     reliability_decay: 20
     retire_early: 10

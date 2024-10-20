@@ -2,6 +2,7 @@ purchase_sprite:
   bpp: 1
   file: ./vehicles/locos/diesel/loco/28-emd_centennial/train_68-purchase.png
   height: 12
+  orientation: 6
   width: 40
   x: 5
   xofs: -18
@@ -9,74 +10,74 @@ purchase_sprite:
   yofs: -8
   zoom: 0
 sprite_groups:
-  file: ./vehicles/locos/diesel/loco/28-emd_centennial/train_67-real.png
-  realsprites:
-  - __orientation: N
-    bpp: 1
+- file: ./vehicles/locos/diesel/loco/28-emd_centennial/train_67-real.png
+  real_sprites:
+  - bpp: 1
     height: 27
+    orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 5
     yofs: -11
     zoom: 0
-  - __orientation: NE
-    bpp: 1
+  - bpp: 1
     height: 18
+    orientation: 1
     width: 26
     x: 23
     xofs: -18
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: E
-    bpp: 1
+  - bpp: 1
     height: 12
+    orientation: 2
     width: 40
     x: 59
     xofs: -24
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: SE
-    bpp: 1
+  - bpp: 1
     height: 18
+    orientation: 3
     width: 26
     x: 109
     xofs: -10
     y: 5
     yofs: -10
     zoom: 0
-  - __orientation: S
-    bpp: 1
+  - bpp: 1
     height: 27
+    orientation: 4
     width: 8
     x: 145
     xofs: -3
     y: 5
     yofs: -15
     zoom: 0
-  - __orientation: SW
-    bpp: 1
+  - bpp: 1
     height: 18
+    orientation: 5
     width: 26
     x: 163
     xofs: -14
     y: 5
     yofs: -10
     zoom: 0
-  - __orientation: W
-    bpp: 1
+  - bpp: 1
     height: 12
+    orientation: 6
     width: 40
     x: 199
     xofs: -16
     y: 5
     yofs: -8
     zoom: 0
-  - __orientation: NW
-    bpp: 1
+  - bpp: 1
     height: 18
+    orientation: 7
     width: 26
     x: 249
     xofs: -6

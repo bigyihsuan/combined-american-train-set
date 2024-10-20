@@ -33,12 +33,13 @@ class GRFFile(grf.LoadedResourceFile):
                 # convert props to VehicleProps
                 propsDict = {k: v[0] for k, v in s.props.items()}
                 introDate = propsDict["introduction_date"]
-                propsDict["introduction_date"] = (introDate.year, introDate.month, introDate.day)
+                propsDict["introduction_date"] = [introDate.year, introDate.month, introDate.day]
                 if "shorten_by" in propsDict:
                     propsDict["length"] = 8 - propsDict["shorten_by"]
                     del propsDict["shorten_by"]
                 props = VehicleProps(**propsDict)
                 self.trains[s.id] = Vehicle(s.id, "", props)
+            # cargo table
             if isinstance(s, grf.DefineMultiple) and "cargo_table" in s.props:
                 self.cargo_table = [e.decode("utf-8") for e in s.props["cargo_table"]]
 
@@ -86,8 +87,8 @@ class GRFFile(grf.LoadedResourceFile):
                     xofs = PADDING
                 x = xofs
                 y = yofs
-                sprites.append(Sprite(f"res/{group}.png", x, y, sprite.width, sprite.height,
+                sprites.append(Sprite(group, x, y, sprite.width, sprite.height,
                                       xofs=sprite.xofs, yofs=sprite.yofs, zoom=sprite.zoom, bpp=sprite.bpp))
                 xofs += sprite.width + 2 * PADDING
-            real_sprites.append(SpriteGroup(group=group, realSprites=sprites))
+            real_sprites.append(SpriteGroup(file=group, real_sprites=sprites))
         self.sprites = real_sprites

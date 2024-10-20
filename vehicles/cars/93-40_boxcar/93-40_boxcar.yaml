@@ -17,6 +17,7 @@ props:
     climates_available: 15
     cost_factor: 67
     default_cargo_type: 5
+    id: 93
     introduction_date:
     - 1895
     - 1
@@ -26,6 +27,7 @@ props:
     max_speed: 112
     misc_flags: 18
     model_life: 75
+    name: 40' Boxcar
     non_refittable_cargo_classes: 1
     refittable_cargo_classes: 52
     reliability_decay: 20
