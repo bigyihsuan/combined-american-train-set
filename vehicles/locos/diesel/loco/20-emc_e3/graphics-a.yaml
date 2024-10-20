@@ -1,6 +1,6 @@
 purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/locos/diesel/loco/20-emc_e3/train_54-real.png
+  file: ./vehicles/locos/diesel/loco/20-emc_e3/train_54-a.png
   realsprites:
     - __orientation: NW
       _x: 0

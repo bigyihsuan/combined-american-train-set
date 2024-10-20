@@ -2,147 +2,147 @@ purchase_sprite: {}
 sprite_groups:
   file: ./vehicles/cars/83-bilevel_car/train_146-real.png
   realsprites:
-  - __orientation: NW
-    _x: -1
-    _y: -1
+  - __orientation: N
     bpp: 1
     height: 25
     width: 8
+    x: 5
     xofs: -3
+    y: 5
     yofs: -13
-    zoom: 0
-  - __orientation: N
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 17
-    width: 21
-    xofs: -13
-    yofs: -9
     zoom: 0
   - __orientation: NE
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 14
-    width: 32
-    xofs: -16
-    yofs: -10
-    zoom: 0
-  - __orientation: E
-    _x: -1
-    _y: -1
     bpp: 1
     height: 17
     width: 21
-    xofs: -6
+    x: 23
+    xofs: -13
+    y: 5
     yofs: -9
     zoom: 0
+  - __orientation: E
+    bpp: 1
+    height: 14
+    width: 32
+    x: 54
+    xofs: -16
+    y: 5
+    yofs: -10
+    zoom: 0
   - __orientation: SE
-    _x: -1
-    _y: -1
+    bpp: 1
+    height: 17
+    width: 21
+    x: 96
+    xofs: -6
+    y: 5
+    yofs: -9
+    zoom: 0
+  - __orientation: S
     bpp: 1
     height: 25
     width: 8
+    x: 127
     xofs: -3
+    y: 5
     yofs: -13
     zoom: 0
-  - __orientation: S
-    _x: -1
-    _y: -1
+  - __orientation: SW
     bpp: 1
     height: 17
     width: 21
+    x: 145
     xofs: -13
+    y: 5
     yofs: -9
     zoom: 0
-  - __orientation: SW
-    _x: -1
-    _y: -1
+  - __orientation: W
     bpp: 1
     height: 14
     width: 32
+    x: 176
     xofs: -16
+    y: 5
     yofs: -10
-    zoom: 0
-  - __orientation: W
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 17
-    width: 21
-    xofs: -6
-    yofs: -9
     zoom: 0
   - __orientation: NW
-    _x: -1
-    _y: -1
     bpp: 1
-    height: 25
-    width: 8
-    xofs: -3
-    yofs: -13
+    height: 17
+    width: 21
+    x: 218
+    xofs: -6
+    y: 5
+    yofs: -9
     zoom: 0
   - __orientation: N
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 17
-    width: 21
-    xofs: -13
-    yofs: -9
-    zoom: 0
-  - __orientation: NE
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 14
-    width: 32
-    xofs: -16
-    yofs: -10
-    zoom: 0
-  - __orientation: E
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 17
-    width: 21
-    xofs: -6
-    yofs: -9
-    zoom: 0
-  - __orientation: SE
-    _x: -1
-    _y: -1
     bpp: 1
     height: 25
     width: 8
+    x: 5
     xofs: -3
+    y: 40
     yofs: -13
     zoom: 0
-  - __orientation: S
-    _x: -1
-    _y: -1
+  - __orientation: NE
     bpp: 1
     height: 17
     width: 21
+    x: 23
     xofs: -13
+    y: 40
     yofs: -9
     zoom: 0
-  - __orientation: SW
-    _x: -1
-    _y: -1
+  - __orientation: E
     bpp: 1
     height: 14
     width: 32
+    x: 54
     xofs: -16
+    y: 40
     yofs: -10
     zoom: 0
-  - __orientation: W
-    _x: -1
-    _y: -1
+  - __orientation: SE
     bpp: 1
     height: 17
     width: 21
+    x: 96
     xofs: -6
+    y: 40
+    yofs: -9
+    zoom: 0
+  - __orientation: S
+    bpp: 1
+    height: 25
+    width: 8
+    x: 127
+    xofs: -3
+    y: 40
+    yofs: -13
+    zoom: 0
+  - __orientation: SW
+    bpp: 1
+    height: 17
+    width: 21
+    x: 145
+    xofs: -13
+    y: 40
+    yofs: -9
+    zoom: 0
+  - __orientation: W
+    bpp: 1
+    height: 14
+    width: 32
+    x: 176
+    xofs: -16
+    y: 40
+    yofs: -10
+    zoom: 0
+  - __orientation: NW
+    bpp: 1
+    height: 17
+    width: 21
+    x: 218
+    xofs: -6
+    y: 40
     yofs: -9
     zoom: 0

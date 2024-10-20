@@ -2,75 +2,75 @@ purchase_sprite: {}
 sprite_groups:
   file: ./vehicles/locos/diesel/loco/43-ge_c408/train_92-real.png
   realsprites:
-  - __orientation: NW
-    _x: -1
-    _y: -1
+  - __orientation: N
     bpp: 1
     height: 23
     width: 8
+    x: 5
     xofs: -3
+    y: 5
     yofs: -11
-    zoom: 0
-  - __orientation: N
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 17
-    width: 22
-    xofs: -14
-    yofs: -9
     zoom: 0
   - __orientation: NE
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 12
-    width: 32
-    xofs: -16
-    yofs: -8
-    zoom: 0
-  - __orientation: E
-    _x: -1
-    _y: -1
     bpp: 1
     height: 17
     width: 22
-    xofs: -6
+    x: 23
+    xofs: -14
+    y: 5
     yofs: -9
     zoom: 0
+  - __orientation: E
+    bpp: 1
+    height: 12
+    width: 32
+    x: 55
+    xofs: -16
+    y: 5
+    yofs: -8
+    zoom: 0
   - __orientation: SE
-    _x: -1
-    _y: -1
+    bpp: 1
+    height: 17
+    width: 22
+    x: 97
+    xofs: -6
+    y: 5
+    yofs: -9
+    zoom: 0
+  - __orientation: S
     bpp: 1
     height: 23
     width: 8
+    x: 129
     xofs: -3
+    y: 5
     yofs: -11
     zoom: 0
-  - __orientation: S
-    _x: -1
-    _y: -1
+  - __orientation: SW
     bpp: 1
     height: 17
     width: 22
+    x: 147
     xofs: -14
+    y: 5
     yofs: -9
     zoom: 0
-  - __orientation: SW
-    _x: -1
-    _y: -1
+  - __orientation: W
     bpp: 1
     height: 12
     width: 32
+    x: 179
     xofs: -16
+    y: 5
     yofs: -8
     zoom: 0
-  - __orientation: W
-    _x: -1
-    _y: -1
+  - __orientation: NW
     bpp: 1
     height: 17
     width: 22
+    x: 221
     xofs: -6
+    y: 5
     yofs: -9
     zoom: 0

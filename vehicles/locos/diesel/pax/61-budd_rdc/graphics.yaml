@@ -2,39 +2,39 @@ purchase_sprite: {}
 sprite_groups:
   file: ./vehicles/locos/diesel/pax/61-budd_rdc/train_118-real.png
   realsprites:
-  - __orientation: NW
-    _x: -1
-    _y: -1
+  - __orientation: N
     bpp: 1
     height: 24
     width: 8
+    x: 5
     xofs: -3
+    y: 5
     yofs: -12
     zoom: 0
-  - __orientation: N
-    _x: -1
-    _y: -1
+  - __orientation: NE
     bpp: 1
     height: 17
     width: 22
+    x: 23
     xofs: -14
-    yofs: -9
-    zoom: 0
-  - __orientation: NE
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 13
-    width: 32
-    xofs: -16
+    y: 5
     yofs: -9
     zoom: 0
   - __orientation: E
-    _x: -1
-    _y: -1
+    bpp: 1
+    height: 13
+    width: 32
+    x: 55
+    xofs: -16
+    y: 5
+    yofs: -9
+    zoom: 0
+  - __orientation: SE
     bpp: 1
     height: 17
     width: 22
+    x: 97
     xofs: -6
+    y: 5
     yofs: -9
     zoom: 0

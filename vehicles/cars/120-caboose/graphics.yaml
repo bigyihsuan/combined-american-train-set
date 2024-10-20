@@ -1,85 +1,85 @@
 purchase_sprite:
-  _x: 0
-  _y: 0
   bpp: 1
   file: ./vehicles/cars/120-caboose/train_229-purchase.png
   height: 13
   width: 16
+  x: 5
   xofs: -8
+  y: 5
   yofs: -9
   zoom: 0
 sprite_groups:
   file: ./vehicles/cars/120-caboose/train_228-real.png
   realsprites:
-  - __orientation: NW
-    _x: -1
-    _y: -1
+  - __orientation: N
     bpp: 1
     height: 14
     width: 8
+    x: 5
     xofs: -3
+    y: 5
     yofs: -11
     zoom: 0
-  - __orientation: N
-    _x: -1
-    _y: -1
+  - __orientation: NE
     bpp: 1
     height: 13
     width: 14
+    x: 23
     xofs: -6
-    yofs: -9
-    zoom: 0
-  - __orientation: NE
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 13
-    width: 16
-    xofs: 0
+    y: 5
     yofs: -9
     zoom: 0
   - __orientation: E
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 13
-    width: 14
-    xofs: 2
-    yofs: -5
-    zoom: 0
-  - __orientation: SE
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 15
-    width: 8
-    xofs: -3
-    yofs: -6
-    zoom: 0
-  - __orientation: S
-    _x: -1
-    _y: -1
-    bpp: 1
-    height: 13
-    width: 14
-    xofs: -14
-    yofs: -5
-    zoom: 0
-  - __orientation: SW
-    _x: -1
-    _y: -1
     bpp: 1
     height: 13
     width: 16
-    xofs: -16
+    x: 47
+    xofs: 0
+    y: 5
     yofs: -9
     zoom: 0
-  - __orientation: W
-    _x: -1
-    _y: -1
+  - __orientation: SE
     bpp: 1
     height: 13
     width: 14
+    x: 73
+    xofs: 2
+    y: 5
+    yofs: -5
+    zoom: 0
+  - __orientation: S
+    bpp: 1
+    height: 15
+    width: 8
+    x: 97
+    xofs: -3
+    y: 5
+    yofs: -6
+    zoom: 0
+  - __orientation: SW
+    bpp: 1
+    height: 13
+    width: 14
+    x: 115
+    xofs: -14
+    y: 5
+    yofs: -5
+    zoom: 0
+  - __orientation: W
+    bpp: 1
+    height: 13
+    width: 16
+    x: 139
+    xofs: -16
+    y: 5
+    yofs: -9
+    zoom: 0
+  - __orientation: NW
+    bpp: 1
+    height: 13
+    width: 14
+    x: 165
     xofs: -6
+    y: 5
     yofs: -9
     zoom: 0

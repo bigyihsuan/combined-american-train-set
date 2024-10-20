@@ -2,11 +2,12 @@ import dataclasses
 import itertools
 import os
 import re
-import yaml
+import shutil
 
+import yaml
+from shared.grffile import GRFFile
 from shared.group import ID_TO_GROUPS, Car, Loco, Purchase, Tender
 from shared.vehicle import SpriteGroup, VehicleProps
-import shared.grffile as grffile
 
 
 def extractProps():
@@ -20,11 +21,11 @@ def extractProps():
     PAX = "pax"
     LOCO = "loco"
 
-    orientations = ["NW", "N", "NE", "E", "SE", "S", "SW", "W"]
+    orientations = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
 
     default_props = dataclasses.asdict(VehicleProps.default())
 
-    nars = grffile.GRFFile("./decompiled/newnars.grf")
+    nars = GRFFile("./decompiled/newnars.grf")
     trains = {train._id: train for train in nars.trains.values()}
     spriteGroups: dict[str, SpriteGroup] = {sprite.group: sprite for sprite in nars.sprites}
 
@@ -95,27 +96,18 @@ def extractProps():
                     for i, (sprite, orientation) in enumerate(
                         zip(d["sprite_groups"]["realsprites"],
                             itertools.cycle(orientations))):
-                        del d["sprite_groups"]["realsprites"][i]["file"]  # handled 1 level up
-                        del d["sprite_groups"]["realsprites"][i]["x"]
-                        del d["sprite_groups"]["realsprites"][i]["y"]
-                        d["sprite_groups"]["realsprites"][i]["_x"] = -1  # for later filling
-                        d["sprite_groups"]["realsprites"][i]["_y"] = -1  # for later filling
+                        del d["sprite_groups"]["realsprites"][i]["file"]  # file path is handled 1 level up
                         d["sprite_groups"]["realsprites"][i]["__orientation"] = orientation
                     d["sprite_groups"]["file"] = real_path
                     path = real_path
 
                 elif isinstance(sprite, Purchase):
                     d["purchase_sprite"] = dataclasses.asdict(spriteGroup.realSprites[0])
-                    del d["purchase_sprite"]["x"]
-                    del d["purchase_sprite"]["y"]
-                    d["purchase_sprite"]["_x"] = 0  # purchase sprites always appear at (0,0)
-                    d["purchase_sprite"]["_y"] = 0  # purchase sprites always appear at (0,0)
                     d["purchase_sprite"]["file"] = purchase_path
                     path = purchase_path
-                # # do not overwrite the modified files
-                # if not os.path.exists(path):
-                #     # move the sprites for this train
-                #     shutil.copy(group_path, path)
+                # move the sprites for this train
+                if not os.path.exists(path):
+                    shutil.copy(group_path, path)
 
             yaml.dump(d, graphics_file)
 

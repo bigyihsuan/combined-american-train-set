@@ -1,157 +1,148 @@
-purchase_sprite:
-  bpp: 1
-  file: ./vehicles/locos/diesel/loco/38-alco_rs3/train_86-purchase.png
-  height: 12
-  width: 28
-  x: 5
-  xofs: -14
-  y: 5
-  yofs: -8
-  zoom: 0
+purchase_sprite: {}
 sprite_groups:
-  file: ./vehicles/locos/diesel/loco/38-alco_rs3/train_85-real.png
+  file: ./vehicles/locos/diesel/loco/20-emc_e3/train_54-real.png
   realsprites:
   - __orientation: N
     bpp: 1
-    height: 21
+    height: 24
     width: 8
     x: 5
     xofs: -3
     y: 5
-    yofs: -11
+    yofs: -12
     zoom: 0
   - __orientation: NE
     bpp: 1
-    height: 14
-    width: 20
+    height: 16
+    width: 22
     x: 23
-    xofs: -12
+    xofs: -14
     y: 5
-    yofs: -7
+    yofs: -8
     zoom: 0
   - __orientation: E
     bpp: 1
     height: 12
-    width: 28
-    x: 53
-    xofs: -12
+    width: 32
+    x: 55
+    xofs: -16
     y: 5
     yofs: -8
     zoom: 0
   - __orientation: SE
     bpp: 1
-    height: 15
-    width: 20
-    x: 91
-    xofs: -4
-    y: 5
-    yofs: -7
-    zoom: 0
-  - __orientation: S
-    bpp: 1
-    height: 21
-    width: 8
-    x: 121
-    xofs: -3
+    height: 17
+    width: 22
+    x: 97
+    xofs: -6
     y: 5
     yofs: -9
     zoom: 0
+  - __orientation: S
+    bpp: 1
+    height: 24
+    width: 8
+    x: 129
+    xofs: -3
+    y: 5
+    yofs: -12
+    zoom: 0
   - __orientation: SW
     bpp: 1
-    height: 15
-    width: 20
-    x: 139
+    height: 17
+    width: 22
+    x: 147
     xofs: -14
     y: 5
-    yofs: -7
+    yofs: -9
     zoom: 0
   - __orientation: W
     bpp: 1
     height: 12
-    width: 28
-    x: 169
-    xofs: -16
+    width: 33
+    x: 179
+    xofs: -17
     y: 5
     yofs: -8
     zoom: 0
   - __orientation: NW
     bpp: 1
-    height: 14
-    width: 20
-    x: 207
+    height: 16
+    width: 22
+    x: 222
     xofs: -6
     y: 5
-    yofs: -7
+    yofs: -8
     zoom: 0
   - __orientation: N
     bpp: 1
-    height: 21
+    height: 24
     width: 8
     x: 5
     xofs: -3
-    y: 36
-    yofs: -11
+    y: 39
+    yofs: -12
     zoom: 0
   - __orientation: NE
     bpp: 1
-    height: 15
-    width: 20
+    height: 17
+    width: 22
     x: 23
-    xofs: -12
-    y: 36
-    yofs: -8
+    xofs: -14
+    y: 39
+    yofs: -9
     zoom: 0
   - __orientation: E
     bpp: 1
     height: 12
-    width: 28
-    x: 53
-    xofs: -12
-    y: 36
+    width: 32
+    x: 55
+    xofs: -16
+    y: 39
     yofs: -8
     zoom: 0
   - __orientation: SE
     bpp: 1
-    height: 14
-    width: 20
-    x: 91
-    xofs: -4
-    y: 36
-    yofs: -6
+    height: 17
+    width: 22
+    x: 97
+    xofs: -6
+    y: 39
+    yofs: -9
     zoom: 0
   - __orientation: S
     bpp: 1
-    height: 21
+    height: 24
     width: 8
-    x: 121
+    x: 129
     xofs: -3
-    y: 36
-    yofs: -9
+    y: 39
+    yofs: -12
     zoom: 0
   - __orientation: SW
     bpp: 1
-    height: 14
-    width: 20
-    x: 139
+    height: 17
+    width: 22
+    x: 147
     xofs: -14
-    y: 36
-    yofs: -6
+    y: 39
+    yofs: -9
     zoom: 0
   - __orientation: W
     bpp: 1
     height: 12
-    width: 28
-    x: 169
+    width: 32
+    x: 179
     xofs: -16
-    y: 36
+    y: 39
     yofs: -8
     zoom: 0
   - __orientation: NW
     bpp: 1
-    height: 15
-    width: 20
-    x: 207
+    height: 17
+    width: 22
+    x: 221
     xofs: -6
-    y: 36
-    yofs: -8
+    y: 39
+    yofs: -9
     zoom: 0
