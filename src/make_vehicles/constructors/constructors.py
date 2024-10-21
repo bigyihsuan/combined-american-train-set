@@ -8,7 +8,7 @@ import shared.vehicle as vehicle
 from make_vehicles import *
 from make_vehicles.vehicles.cars import *
 from shared.enums import Orientation
-from util import animated_vehicle_switch
+from util import animated_vehicle
 
 DEFAULT_PROPS = dataclasses.asdict(vehicle.Props.default())
 
@@ -97,6 +97,49 @@ def simple_vehicle(
         {k: v for k, v in dataclasses.asdict(loco_props).items()
          if k not in ["id", "name", "introduction_date", "introduction_days_since_1920", "max_speed", "length",]},
         callbacks={"graphics": grf.GraphicsCallback(
-            default=animated_vehicle_switch(Switch, engine_layouts, animation_frame_count),
+            default=animated_vehicle(Switch, engine_layouts, animation_frame_count),
             purchase=purchase_layout)})
+    return train
+
+
+def simple_vehicle_long(
+        root: str, name: str,
+        orientation_count: int = 8,
+        animation_frame_count: int = 1,
+        length: int | None = None
+) -> grf.Train:
+    '''
+    Builds a simple vehicle with exactly 8 orientations, no animations, consists of a single unit,
+    and is longer than 8 length.
+
+    This is uses a workaround for a current bug/incompatibility/limitation/??? with auto-articulation in grfpy 0.3.0.
+    With vehicles of a length > 8, you cannot use any switches (or at least GraphicsCallback) on it
+    The workaround is to use a livery instead of a GraphicsCallback.
+    '''
+    (loco_props, loco_graphics) = load_yaml(root, name)
+
+    engine_length = loco_props.length
+    if length != None:
+        engine_length = length
+
+    # set up loco graphics
+    engine_sprites: list[grf.FileSprite] = []
+    for sprite_group in loco_graphics.sprite_groups:
+        engine_sprites.extend(sprite_group.file_sprites()[:orientation_count])  # 8 sprites, 1 for each orientation
+
+    train = Train(
+        id=loco_props.id, name="CATS " + loco_props.name, max_speed=Train.kmhish(loco_props.max_speed),
+        weight=Train.ton(loco_props.weight_low),
+        introduction_date=grf.datetime.date(
+            year=loco_props.introduction_date[0],
+            month=loco_props.introduction_date[1],
+            day=loco_props.introduction_date[2]),
+        length=engine_length,
+        liveries=[{  # using a livery to bypass limitation in grfpy 0.3.0 with auto-articulation
+            "name": "Default",
+            "sprites": engine_sprites
+        }],
+        **
+        {k: v for k, v in dataclasses.asdict(loco_props).items()
+            if k not in ["id", "name", "introduction_date", "introduction_days_since_1920", "max_speed", "length",]})
     return train

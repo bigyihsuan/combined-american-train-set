@@ -1,1 +1,9 @@
-{"version": 1, "index": {}}
+{
+    "version": 1,
+    "index": {
+        "train": {
+            "__28_aa_mid": 300,
+            "__28_aa_tail": 301
+        }
+    }
+}

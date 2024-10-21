@@ -4,3 +4,4 @@ bin/
 decompiled/
 dist/
 cats.tar
+.cache

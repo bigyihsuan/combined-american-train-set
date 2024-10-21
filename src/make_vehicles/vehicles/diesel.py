@@ -1,5 +1,5 @@
 
-from make_vehicles.constructors.constructors import simple_vehicle
+from make_vehicles.constructors.constructors import *
 
 
 def make_emc_e3(root: str, name: str):
@@ -50,7 +50,7 @@ def make_emd_centennial(root: str, name: str):
     '''
     EMD Centennial is a single-unit diesel loco. It is overlength.
     '''
-    simple_vehicle(root, name, length=10)
+    simple_vehicle_long(root, name, length=10)
 
 
 def make_emd_sd402(root: str, name: str):

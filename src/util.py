@@ -8,7 +8,7 @@ def chunk(l: list[T], n: int) -> list[list[T]]:
     return [l[i:i + n] for i in range(0, len(l), n)]
 
 
-def animated_vehicle_switch(Switch: type[grf.Switch], engineLayouts, frameCount=1) -> grf.Switch:
+def animated_vehicle(Switch: type[grf.Switch], engineLayouts, frameCount=1) -> grf.Switch:
     return Switch(
         feature=grf.TRAIN,
         code=f"motion_counter % {frameCount}",
