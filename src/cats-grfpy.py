@@ -4,7 +4,8 @@ from typing import Any
 import grf
 import yaml
 
-import make_vehicles
+from make_vehicles import make_vehicles
+from make_vehicles.constructors.constructors import bind_grf
 
 cats_grf = grf.NewGRF(
     grfid=b"BY\x01\x03",  # someone took BY\x01\x02???
@@ -47,7 +48,7 @@ def main():
     for root, subdirs, files in os.walk("./vehicles"):
         if len(subdirs) > 0:  # skip folders with folders inside
             continue
-        make_vehicles.bind_grf(cats_grf)
+        bind_grf(cats_grf)
         make_vehicles.make_vehicle(root, os.path.basename(root))
 
     grf.main(cats_grf, "dist/cats.grf")
