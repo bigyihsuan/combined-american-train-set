@@ -58,6 +58,9 @@ def simple_vehicle(
         animation_frame_count: int = 1,
         length: int | None = None
 ) -> grf.Train:
+    '''
+    Builds a simple vehicle with exactly 8 orientations, maybe with animations, and consists of a single unit.
+    '''
     (loco_props, loco_graphics) = load_yaml(root, name)
     sprite_table = VehicleSpriteTable(grf.TRAIN)
 
@@ -74,17 +77,12 @@ def simple_vehicle(
         engine_layouts.append(sprite_table.get_layout(sprite_table.add_row(engine_sprites)))
 
     # set up purchase sprite
-    purchase_sprite = loco_graphics.purchase_sprite
-    if purchase_sprite == None:
-        # no dedicated purchase sprite; use W realsprite instead
-        purchase_sprite = engine_sprites[Orientation.PURCHASE]
-    else:
-        purchase_sprite = purchase_sprite.to_grf_file_sprite()
+    purchase_sprite = ps.to_grf_file_sprite() if (ps := loco_graphics.purchase_sprite) != None else None
     purchase_layout = sprite_table.get_layout(
         sprite_table.add_purchase_graphics(
             purchase_sprite
         )
-    )
+    ) if purchase_sprite != None else None
 
     train = Train(
         id=loco_props.id, name="CATS " + loco_props.name, max_speed=Train.kmhish(loco_props.max_speed),
