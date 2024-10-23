@@ -33,11 +33,12 @@ def bind_grf(g: grf.NewGRF):
     )
 
 
-def load_yaml(root: str, name: str) -> tuple[vehicle.Props, vehicle.Graphics]:
+def load_yaml(root: str, name: str, has_overrides: bool = False) -> tuple[vehicle.Props, vehicle.Graphics]:
     loco_yaml_path = os.path.join(root, f"{name}.yaml")
     loco_graphics_path = os.path.join(root, f"graphics.yaml")
+    loco_overrides_path = os.path.join(root, f"overrides.yaml")
 
-    print(loco_yaml_path, loco_graphics_path)
+    # print(loco_yaml_path, loco_graphics_path)
 
     loco_props: vehicle.Props
     with open(loco_yaml_path, "r") as loco_yaml_file:
@@ -48,6 +49,18 @@ def load_yaml(root: str, name: str) -> tuple[vehicle.Props, vehicle.Graphics]:
     with open(loco_graphics_path, "r") as loco_graphics_file:
         d = yaml.safe_load(loco_graphics_file)
         loco_graphics = vehicle.Graphics(**d)
+
+        # apply offset overrides if needed
+        if loco_graphics != None and has_overrides:
+            with open(loco_overrides_path) as loco_overrides_file:
+                overrides = vehicle.Graphics(**yaml.safe_load(loco_overrides_file))
+                if loco_graphics.purchase_sprite != None and overrides.purchase_sprite != None:
+                    loco_graphics.purchase_sprite.xofs = overrides.purchase_sprite.xofs
+                    loco_graphics.purchase_sprite.yofs = overrides.purchase_sprite.yofs
+                for i, sprite_group in enumerate(overrides.sprite_groups):
+                    for j, sprite in enumerate(sprite_group.real_sprites):
+                        loco_graphics.sprite_groups[i].real_sprites[j].xofs = sprite.xofs
+                        loco_graphics.sprite_groups[i].real_sprites[j].yofs = sprite.yofs
 
     return (loco_props, loco_graphics)
 
@@ -73,6 +86,8 @@ def simple_vehicle(
     engine_layouts: list[grf.GenericSpriteLayout] = []
     for sprite_group in loco_graphics.sprite_groups:
         engine_sprites = sprite_group.file_sprites()[:orientation_count]  # 8 sprites, 1 for each orientation
+        if orientation_count < 8:
+            engine_sprites = [*engine_sprites, *engine_sprites]
         # make the engine layout
         engine_layouts.append(sprite_table.get_layout(sprite_table.add_row(engine_sprites)))
 
@@ -104,7 +119,7 @@ def simple_vehicle_long(
         root: str, name: str,
         orientation_count: int = 8,
         animation_frame_count: int = 1,
-        length: int | None = None
+        length: int | None = None,
 ) -> grf.Train:
     '''
     Builds a simple vehicle with exactly 8 orientations, no animations, consists of a single unit,
@@ -114,7 +129,7 @@ def simple_vehicle_long(
     With vehicles of a length > 8, you cannot use any switches (or at least GraphicsCallback) on it
     The workaround is to use a livery instead of a GraphicsCallback.
     '''
-    (loco_props, loco_graphics) = load_yaml(root, name)
+    (loco_props, loco_graphics) = load_yaml(root, name, has_overrides=True)
 
     engine_length = loco_props.length
     if length != None:

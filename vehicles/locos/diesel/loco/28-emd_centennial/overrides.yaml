@@ -1,0 +1,21 @@
+purchase_sprite:
+  xofs: -4
+  yofs: 0
+sprite_groups:
+  - real_sprites:
+      - xofs: -3
+        yofs: -13
+      - xofs: -16
+        yofs: -9
+      - xofs: -20
+        yofs: -8
+      - xofs: -8
+        yofs: -9
+      - xofs: -3
+        yofs: -13
+      - xofs: -16
+        yofs: -9
+      - xofs: -20
+        yofs: -8
+      - xofs: -8
+        yofs: -9
