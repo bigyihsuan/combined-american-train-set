@@ -65,6 +65,21 @@ def load_yaml(root: str, name: str, has_overrides: bool = False) -> tuple[vehicl
     return (loco_props, loco_graphics)
 
 
+def _setup_purchase_sprite(
+    loco_graphics: vehicle.Graphics,
+    sprite_table: grf.VehicleSpriteTable,
+    loco_sprites: list[grf.FileSprite]
+) -> grf.GenericSpriteLayout:
+    purchase_sprite = ps.to_grf_file_sprite() if (
+        ps := loco_graphics.purchase_sprite) != None else loco_sprites[Orientation.W]
+    purchase_layout = sprite_table.get_layout(
+        sprite_table.add_purchase_graphics(
+            purchase_sprite
+        )
+    )
+    return purchase_layout
+
+
 def simple_vehicle(
         root: str, name: str,
         orientation_count: int = 8,
@@ -82,6 +97,7 @@ def simple_vehicle(
         engine_length = length
 
     # set up loco graphics
+    engine_sprites: list[grf.FileSprite] = []
     engine_layouts: list[grf.GenericSpriteLayout] = []
     for sprite_group in loco_graphics.sprite_groups:
         engine_sprites = sprite_group.file_sprites()[:orientation_count]  # 8 sprites, 1 for each orientation
@@ -90,13 +106,7 @@ def simple_vehicle(
         # make the engine layout
         engine_layouts.append(sprite_table.get_layout(sprite_table.add_row(engine_sprites)))
 
-    # set up purchase sprite
-    purchase_sprite = ps.to_grf_file_sprite() if (ps := loco_graphics.purchase_sprite) != None else None
-    purchase_layout = sprite_table.get_layout(
-        sprite_table.add_purchase_graphics(
-            purchase_sprite
-        )
-    ) if purchase_sprite != None else None
+    purchase_layout = _setup_purchase_sprite(loco_graphics, sprite_table, engine_sprites)
 
     train = Train(
         id=loco_props.id, name="CATS " + loco_props.name, max_speed=Train.kmhish(loco_props.max_speed),
@@ -160,13 +170,7 @@ def simple_vehicle_with_b_unit(
     b_unit_reversed_layouts = engine_layouts[3] if len(engine_layouts) > 2 else b_unit_layouts
 
     # set up purchase sprite
-    purchase_sprite = ps.to_grf_file_sprite() if (
-        ps := loco_graphics.purchase_sprite) != None else a_unit_sprites[Orientation.W]
-    purchase_layout = sprite_table.get_layout(
-        sprite_table.add_purchase_graphics(
-            purchase_sprite
-        )
-    )
+    purchase_layout = _setup_purchase_sprite(loco_graphics, sprite_table, a_unit_sprites)
 
     # set up b-unit switches
     # see BEHAVIOR.md for B-unit appearance and behavior
