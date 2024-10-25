@@ -26,10 +26,10 @@
 
 | Train            | ID  | Programmed | Fully Functional |
 | ---------------- | --- | :--------: | :--------------: |
-| EMC E3           | 20  |            |                  |
-| EMD FT           | 21  |            |                  |
+| EMC E3           | 20  |     y      |        y         |
+| EMD FT           | 21  |     y      |        y         |
 | EMD SW1200       | 22  |            |                  |
-| EMD FP9          | 23  |            |                  |
+| EMD FP9          | 23  |     y      |        y         |
 | EMD GP9          | 24  |     y      |        y         |
 | EMD SD9          | 25  |     y      |        y         |
 | EMD SW1500       | 26  |            |                  |
@@ -38,12 +38,12 @@
 | EMD SD40-2       | 29  |     y      |        y         |
 | EMD GP38-2       | 30  |     y      |        y         |
 | EMD F40PH        | 31  |     y      |        y         |
-| EMD GP60         | 32  |            |                  |
+| EMD GP60         | 32  |     y      |        y         |
 | EMD SD70MAC      | 33  |     y      |        y         |
 | EMD F59PHI       | 34  |            |                  |
 | Alco S2          | 35  |            |                  |
-| Alco PA          | 36  |            |                  |
-| Alco FA          | 37  |            |                  |
+| Alco PA          | 36  |     y      |        y         |
+| Alco FA          | 37  |     y      |        y         |
 | Alco RS3         | 38  |            |                  |
 | Alco Century     | 39  |     y      |        y         |
 | GE U25B          | 40  |     y      |        y         |
@@ -53,7 +53,7 @@
 | GE C44-9W        | 44  |     y      |        y         |
 | GE P42DC Genesis | 45  |     y      |        y         |
 | GE Evolution     | 46  |     y      |        y         |
-| Baldwin RF-16    | 47  |            |                  |
+| Baldwin RF-16    | 47  |     y      |        y         |
 | FM Train Master  | 48  |     y      |        y         |
 | Hybrid Switcher  | 49  |            |                  |
 

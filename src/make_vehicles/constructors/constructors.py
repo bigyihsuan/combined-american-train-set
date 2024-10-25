@@ -117,7 +117,6 @@ def simple_vehicle(
 def simple_vehicle_with_b_unit(
         root: str, name: str,
         orientation_count: int = 8,
-        animation_frame_count: int = 1,
         length: int | None = None
 ) -> grf.Train:
     '''
@@ -133,6 +132,8 @@ def simple_vehicle_with_b_unit(
     # set up loco graphics
     a_unit_sprites: list[grf.FileSprite] = []
     b_unit_sprites: list[grf.FileSprite] = []
+    a_unit_reversed_sprites: list[grf.FileSprite] = []
+    b_unit_reversed_sprites: list[grf.FileSprite] = []
     engine_layouts: list[grf.GenericSpriteLayout] = []
     for sprite_group in loco_graphics.sprite_groups:
         sprites = chunk(sprite_group.file_sprites(), orientation_count)
@@ -140,14 +141,24 @@ def simple_vehicle_with_b_unit(
         b_unit_sprites = sprites[1]
         assert len(a_unit_sprites) == orientation_count
         assert len(b_unit_sprites) == orientation_count
-
         # make the engine layout
         engine_layouts.append(sprite_table.get_layout(sprite_table.add_row(a_unit_sprites)))
         engine_layouts.append(sprite_table.get_layout(sprite_table.add_row(b_unit_sprites)))
 
+        if len(sprites) > 2:
+            a_unit_reversed_sprites = sprites[2]
+            b_unit_reversed_sprites = sprites[3]
+            assert len(a_unit_reversed_sprites) == orientation_count
+            assert len(b_unit_reversed_sprites) == orientation_count
+            engine_layouts.append(sprite_table.get_layout(sprite_table.add_row(a_unit_reversed_sprites)))
+            engine_layouts.append(sprite_table.get_layout(sprite_table.add_row(b_unit_reversed_sprites)))
+
     assert len(engine_layouts) >= 2
     a_unit_layouts = engine_layouts[0]
     b_unit_layouts = engine_layouts[1]
+    a_unit_reversed_layouts = engine_layouts[2] if len(engine_layouts) > 2 else a_unit_layouts
+    b_unit_reversed_layouts = engine_layouts[3] if len(engine_layouts) > 2 else b_unit_layouts
+
     # set up purchase sprite
     purchase_sprite = ps.to_grf_file_sprite() if (
         ps := loco_graphics.purchase_sprite) != None else a_unit_sprites[Orientation.W]
@@ -163,20 +174,28 @@ def simple_vehicle_with_b_unit(
         code="(position_in_vehid_chain_from_end == 0)*4 + (position_in_vehid_chain > 0)*2 + vehicle_is_flipped",
         # 0b000 = is_last, is_not_first, is_flipped
         ranges={
-            0b000: a_unit_layouts,  # not last, first, forward
-            0b001: b_unit_layouts,  # not last, first, reverse
-            0b010: b_unit_layouts,  # not last, middle, forward
-            0b011: b_unit_layouts,  # not last, middle, reverse
-            0b100: a_unit_layouts,  # last, first, forward # AKA a single unit
-            0b101: b_unit_layouts,  # last, first, reverse # AKA a single unit
-            0b110: b_unit_layouts,  # last, middle, forward
-            0b111: a_unit_layouts,  # last, middle, reverse
+            # not last, first, forward
+            0b000: a_unit_layouts,
+            # not last, first, reverse
+            0b001: b_unit_reversed_layouts,
+            # not last, middle, forward
+            0b010: b_unit_layouts,
+            # not last, middle, reverse
+            0b011: b_unit_reversed_layouts,
+            # last, first, forward # AKA a single unit
+            0b100: a_unit_layouts,
+            # last, first, reverse # AKA a single unit
+            0b101: b_unit_reversed_layouts,
+            # last, middle, forward
+            0b110: b_unit_layouts,
+            # last, middle, reverse
+            0b111: a_unit_reversed_layouts,
         },
         default=a_unit_layouts
     )
 
     train = Train(
-        id=loco_props.id, name="CATS " + loco_props.name, max_speed=Train.kmhish(loco_props.max_speed),
+        id=loco_props.id, name="CATS B-UNIT " + loco_props.name, max_speed=Train.kmhish(loco_props.max_speed),
         weight=Train.ton(loco_props.weight_low),
         introduction_date=grf.datetime.date(
             year=loco_props.introduction_date[0],

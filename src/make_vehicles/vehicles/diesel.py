@@ -2,24 +2,23 @@
 from make_vehicles.constructors.constructors import *
 
 
-def make_emc_e3(root: str, name: str):  # TODO: b unit
+def make_emc_e3(root: str, name: str):  # b unit
     simple_vehicle_with_b_unit(root, name)
-    pass
 
 
-def make_emd_ft(root: str, name: str):  # TODO: b unit
-    pass
+def make_emd_ft(root: str, name: str):  # b unit
+    simple_vehicle_with_b_unit(root, name)
 
 
 def make_emd_sw1200(root: str, name: str):  # TODO: simple, reversing
     pass
 
 
-def make_emd_fp9(root: str, name: str):  # TODO: b unit
+def make_emd_fp9(root: str, name: str):  # b unit
     '''
     EMD FP9 is a single-unit diesel loco with a B-unit.
     '''
-    pass
+    simple_vehicle_with_b_unit(root, name)
 
 
 def make_emd_gp9(root: str, name: str):
@@ -72,8 +71,8 @@ def make_emd_f40ph(root: str, name: str):
     simple_vehicle(root, name)
 
 
-def make_emd_gp60(root: str, name: str):  # TODO: b unit
-    pass
+def make_emd_gp60(root: str, name: str):  # b unit
+    simple_vehicle_with_b_unit(root, name)
 
 
 def make_emd_sd70mac(root: str, name: str):
@@ -88,12 +87,12 @@ def make_alco_s2(root: str, name: str):  # TODO: simple, reversing
     pass
 
 
-def make_alco_pa(root: str, name: str):  # TODO: b unit
-    pass
+def make_alco_pa(root: str, name: str):  # b unit
+    simple_vehicle_with_b_unit(root, name)
 
 
-def make_alco_fa(root: str, name: str):  # TODO: b unit
-    pass
+def make_alco_fa(root: str, name: str):  # b unit
+    simple_vehicle_with_b_unit(root, name)
 
 
 def make_alco_rs3(root: str, name: str):  # TODO: simple, reversible
@@ -132,8 +131,8 @@ def make_ge_evolution(root: str, name: str):
     simple_vehicle(root, name)
 
 
-def make_baldwin_rf16(root: str, name: str):  # TODO: b unit
-    pass
+def make_baldwin_rf16(root: str, name: str):  # b unit
+    simple_vehicle_with_b_unit(root, name)
 
 
 def make_fm_train_master(root: str, name: str):
