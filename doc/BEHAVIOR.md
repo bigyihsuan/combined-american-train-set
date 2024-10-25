@@ -4,20 +4,35 @@ This file documents special behavior and interactions between certain locomotive
 
 ## B-units
 
-The following locos have B-units:
-
-- EMD FP9
-- (more...)
-
-B-units only appear in chains of identical locomotives (i.e. train of EMD FP9, EMD FT, and EMD FP9, the middle FT will be an A-unit). For the rest of this document, this will be called a ***chain***.
+B-units only appear in chains of identical locomotives (i.e. train of EMD FP9, EMD FT, and EMD FP9, the middle FT will be an A-unit).
+This is called a ***chain*** (see NML docs, which uses the same term).
 
 Locos with B-units have the following conditions:
 
-| Location in chain | Orientation | Appearance  |
-| :---------------: | :---------: | :---------: |
-|       First       |   Forward   |      A      |
-|       First       |   Reverse   | B (reverse) |
-|      Middle       |   Forward   |      B      |
-|      Middle       |   Reverse   | B (reverse) |
-|       Last        |   Forward   |      B      |
-|       Last        |   Reverse   | A (reverse) |
+|     Location in chain      | Orientation | Appearance  |
+| :------------------------: | :---------: | :---------: |
+|           First            |   Normal    |      A      |
+|           First            |   Flipped   | B (Flipped) |
+|           Middle           |   Normal    |      B      |
+|           Middle           |   Flipped   | B (Flipped) |
+|            Last            |   Normal    |      B      |
+|            Last            |   Flipped   | A (Flipped) |
+| Last & First (single unit) |   Normal    |      A      |
+| Last & First (single unit) |   Flipped   |      B      |
+
+## Reversing locomotives
+
+Some locomotives, instead of flipping when reversing at a station/waypoint/signal, will instead reverse in the same orientation.
+They usually are switchers.
+
+The reversing state can be read with `vehicle_is_reversed` and interacts weirdly with flipping:
+
+| Reversing State | Orientation |    Graphics     |
+| :-------------: | :---------: | :-------------: |
+|     Forward     |   Normal    |     Forward     |
+|     Forward     |   Flipped   | Forward Flipped |
+|    Reversed     |   Normal    |    Reversed     |
+|    Reversed     |   Flipped   | Forward Flipped |
+
+What is strange is that the NARS devs did not write a set of offsets for the final reversed-and-flipped case.
+This arrangement leads to reversed-and-flipped locos having the usual flip-when-reversing behavior instead of the custom reverse-instead-of-flip behavior.

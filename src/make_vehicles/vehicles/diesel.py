@@ -11,7 +11,7 @@ def make_emd_ft(root: str, name: str):  # b unit
 
 
 def make_emd_sw1200(root: str, name: str):  # TODO: simple, reversing
-    pass
+    simple_vehicle_reversible(root, name)
 
 
 def make_emd_fp9(root: str, name: str):  # b unit

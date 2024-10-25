@@ -140,6 +140,8 @@ def simple_vehicle_with_b_unit(
         engine_length = length
 
     # set up loco graphics
+    # b-unit locos have 2 or 4 rows: a-unit, b-unit, a-unit flipped, b-unit flipped
+    # the latter 2 rows are for encoding custom offsets for when e.g. it is shorter than 8/8 tl.
     a_unit_sprites: list[grf.FileSprite] = []
     b_unit_sprites: list[grf.FileSprite] = []
     a_unit_reversed_sprites: list[grf.FileSprite] = []
@@ -254,4 +256,75 @@ def simple_vehicle_long(
         **
         {k: v for k, v in dataclasses.asdict(loco_props).items()
             if k not in ["id", "name", "introduction_date", "introduction_days_since_1920", "max_speed", "length",]})
+    return train
+
+
+def simple_vehicle_reversible(
+        root: str, name: str,
+        orientation_count: int = 8,
+        length: int | None = None
+) -> grf.Train:
+    '''
+    Builds a simple vehicle with exactly 8 orientations, with no animations, and consists of a single, reversible unit.
+    E.g. a diesel endcab switcher.
+    '''
+    (loco_props, loco_graphics) = load_yaml(root, name)
+    sprite_table = VehicleSpriteTable(grf.TRAIN)
+
+    engine_length = loco_props.length
+    if length != None:
+        engine_length = length
+
+    # set up loco graphics
+    # these reversable sprites have 3 rows: forward, reversed???, and flipped???
+    forward_sprites: list[grf.FileSprite] = []
+    reversed_sprites: list[grf.FileSprite] = []
+    forward_flipped_sprites: list[grf.FileSprite] = []
+    engine_layouts: list[grf.GenericSpriteLayout] = []
+    for sprite_group in loco_graphics.sprite_groups:
+        sprites = chunk(sprite_group.file_sprites(), orientation_count)
+        forward_sprites = sprites[0]
+        reversed_sprites = sprites[1]
+        forward_flipped_sprites = sprites[2]
+        # make the engine layout
+        engine_layouts.append(sprite_table.get_layout(sprite_table.add_row(forward_sprites)))
+        engine_layouts.append(sprite_table.get_layout(sprite_table.add_row(reversed_sprites)))
+        engine_layouts.append(sprite_table.get_layout(sprite_table.add_row(forward_flipped_sprites)))
+
+    forward_layout = engine_layouts[0]
+    reversed_layout = engine_layouts[1]
+    forward_flipped_layout = engine_layouts[2]
+
+    # set up purchase sprite
+    purchase_layout = _setup_purchase_sprite(loco_graphics, sprite_table, forward_sprites)
+
+    reversed_switch = Switch(
+        code="vehicle_is_reversed*2 + vehicle_is_flipped",
+        # 0b00 = reversed, flipped
+        ranges={
+            # not reversed, not flipped
+            0b00: forward_layout,
+            # not reversed, flipped
+            0b01: forward_flipped_layout,
+            # reversed, not flipped
+            0b10: reversed_layout,
+            # reversed, flipped
+            0b11: forward_flipped_layout,
+        },
+        default=forward_layout
+    )
+
+    train = Train(
+        id=loco_props.id, name="CATS REV " + loco_props.name, max_speed=Train.kmhish(loco_props.max_speed),
+        weight=Train.ton(loco_props.weight_low),
+        introduction_date=grf.datetime.date(
+            year=loco_props.introduction_date[0],
+            month=loco_props.introduction_date[1],
+            day=loco_props.introduction_date[2]),
+        length=engine_length, **
+        {k: v for k, v in dataclasses.asdict(loco_props).items()
+         if k not in ["id", "name", "introduction_date", "introduction_days_since_1920", "max_speed", "length",]},
+        callbacks={"graphics": grf.GraphicsCallback(
+            default=reversed_switch,
+            purchase=purchase_layout)})
     return train
