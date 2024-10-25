@@ -37,24 +37,24 @@
 | EMD Centennial   | 28  |     y      |        y         |
 | EMD SD40-2       | 29  |     y      |        y         |
 | EMD GP38-2       | 30  |     y      |        y         |
-| EMD F40PH        | 31  |            |                  |
+| EMD F40PH        | 31  |     y      |        y         |
 | EMD GP60         | 32  |            |                  |
-| EMD SD70MAC      | 33  |            |                  |
+| EMD SD70MAC      | 33  |     y      |        y         |
 | EMD F59PHI       | 34  |            |                  |
 | Alco S2          | 35  |            |                  |
 | Alco PA          | 36  |            |                  |
 | Alco FA          | 37  |            |                  |
 | Alco RS3         | 38  |            |                  |
-| Alco Century     | 39  |            |                  |
-| GE U25B          | 40  |            |                  |
-| GE U30C          | 41  |            |                  |
-| GE C36-7         | 42  |            |                  |
-| GE C40-8         | 43  |            |                  |
-| GE C44-9W        | 44  |            |                  |
-| GE P42DC Genesis | 45  |            |                  |
-| GE Evolution     | 46  |            |                  |
+| Alco Century     | 39  |     y      |        y         |
+| GE U25B          | 40  |     y      |        y         |
+| GE U30C          | 41  |     y      |        y         |
+| GE C36-7         | 42  |     y      |        y         |
+| GE C40-8         | 43  |     y      |        y         |
+| GE C44-9W        | 44  |     y      |        y         |
+| GE P42DC Genesis | 45  |     y      |        y         |
+| GE Evolution     | 46  |     y      |        y         |
 | Baldwin RF-16    | 47  |            |                  |
-| FM Train Master  | 48  |            |                  |
+| FM Train Master  | 48  |     y      |        y         |
 | Hybrid Switcher  | 49  |            |                  |
 
 | Train            | ID  | Programmed | Fully Functional |
@@ -72,8 +72,8 @@
 
 | Train               | ID  | Programmed | Fully Functional |
 | ------------------- | --- | :--------: | :--------------: |
-| EMC Doodlebug       | 60  |            |                  |
-| Budd RDC            | 61  |            |                  |
+| EMC Doodlebug       | 60  |     y      |        y         |
+| Budd RDC            | 61  |     y      |        y         |
 | EMD Aerotrain       | 62  |            |                  |
 | UAC TurboTrain      | 63  |            |                  |
 | RTL Turboliner      | 64  |            |                  |

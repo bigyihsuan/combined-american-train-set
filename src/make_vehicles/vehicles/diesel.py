@@ -3,6 +3,7 @@ from make_vehicles.constructors.constructors import *
 
 
 def make_emc_e3(root: str, name: str):  # TODO: b unit
+    simple_vehicle_with_b_unit(root, name)
     pass
 
 
@@ -35,7 +36,7 @@ def make_emd_sd9(root: str, name: str):
     simple_vehicle(root, name)
 
 
-def make_emd_sw1500(root: str, name: str):
+def make_emd_sw1500(root: str, name: str):  # TODO: reversible
     pass
 
 

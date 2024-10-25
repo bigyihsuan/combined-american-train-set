@@ -8,7 +8,7 @@ import shared.vehicle as vehicle
 from make_vehicles import *
 from make_vehicles.vehicles.cars import *
 from shared.enums import Orientation
-from util import animated_vehicle
+from util.util import animated_vehicle, chunk
 
 DEFAULT_PROPS = dataclasses.asdict(vehicle.Props.default())
 
@@ -82,7 +82,6 @@ def simple_vehicle(
         engine_length = length
 
     # set up loco graphics
-    engine_sprites: list[grf.FileSprite] = []
     engine_layouts: list[grf.GenericSpriteLayout] = []
     for sprite_group in loco_graphics.sprite_groups:
         engine_sprites = sprite_group.file_sprites()[:orientation_count]  # 8 sprites, 1 for each orientation
@@ -111,6 +110,83 @@ def simple_vehicle(
          if k not in ["id", "name", "introduction_date", "introduction_days_since_1920", "max_speed", "length",]},
         callbacks={"graphics": grf.GraphicsCallback(
             default=animated_vehicle(Switch, engine_layouts, animation_frame_count),
+            purchase=purchase_layout)})
+    return train
+
+
+def simple_vehicle_with_b_unit(
+        root: str, name: str,
+        orientation_count: int = 8,
+        animation_frame_count: int = 1,
+        length: int | None = None
+) -> grf.Train:
+    '''
+    Builds a simple vehicle with exactly 8 orientations, maybe with animations, and consists an A unit and B unit.
+    '''
+    (loco_props, loco_graphics) = load_yaml(root, name)
+    sprite_table = VehicleSpriteTable(grf.TRAIN)
+
+    engine_length = loco_props.length
+    if length != None:
+        engine_length = length
+
+    # set up loco graphics
+    a_unit_sprites: list[grf.FileSprite] = []
+    b_unit_sprites: list[grf.FileSprite] = []
+    engine_layouts: list[grf.GenericSpriteLayout] = []
+    for sprite_group in loco_graphics.sprite_groups:
+        sprites = chunk(sprite_group.file_sprites(), orientation_count)
+        a_unit_sprites = sprites[0]
+        b_unit_sprites = sprites[1]
+        assert len(a_unit_sprites) == orientation_count
+        assert len(b_unit_sprites) == orientation_count
+
+        # make the engine layout
+        engine_layouts.append(sprite_table.get_layout(sprite_table.add_row(a_unit_sprites)))
+        engine_layouts.append(sprite_table.get_layout(sprite_table.add_row(b_unit_sprites)))
+
+    assert len(engine_layouts) >= 2
+    a_unit_layouts = engine_layouts[0]
+    b_unit_layouts = engine_layouts[1]
+    # set up purchase sprite
+    purchase_sprite = ps.to_grf_file_sprite() if (
+        ps := loco_graphics.purchase_sprite) != None else a_unit_sprites[Orientation.W]
+    purchase_layout = sprite_table.get_layout(
+        sprite_table.add_purchase_graphics(
+            purchase_sprite
+        )
+    )
+
+    # set up b-unit switches
+    # see BEHAVIOR.md for B-unit appearance and behavior
+    b_unit_switch = Switch(
+        code="(position_in_vehid_chain_from_end == 0)*4 + (position_in_vehid_chain > 0)*2 + vehicle_is_flipped",
+        # 0b000 = is_last, is_not_first, is_flipped
+        ranges={
+            0b000: a_unit_layouts,  # not last, first, forward
+            0b001: b_unit_layouts,  # not last, first, reverse
+            0b010: b_unit_layouts,  # not last, middle, forward
+            0b011: b_unit_layouts,  # not last, middle, reverse
+            0b100: a_unit_layouts,  # last, first, forward # AKA a single unit
+            0b101: b_unit_layouts,  # last, first, reverse # AKA a single unit
+            0b110: b_unit_layouts,  # last, middle, forward
+            0b111: a_unit_layouts,  # last, middle, reverse
+        },
+        default=a_unit_layouts
+    )
+
+    train = Train(
+        id=loco_props.id, name="CATS " + loco_props.name, max_speed=Train.kmhish(loco_props.max_speed),
+        weight=Train.ton(loco_props.weight_low),
+        introduction_date=grf.datetime.date(
+            year=loco_props.introduction_date[0],
+            month=loco_props.introduction_date[1],
+            day=loco_props.introduction_date[2]),
+        length=engine_length, **
+        {k: v for k, v in dataclasses.asdict(loco_props).items()
+         if k not in ["id", "name", "introduction_date", "introduction_days_since_1920", "max_speed", "length",]},
+        callbacks={"graphics": grf.GraphicsCallback(
+            default=b_unit_switch,
             purchase=purchase_layout)})
     return train
 
