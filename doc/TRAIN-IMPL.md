@@ -28,11 +28,11 @@
 | ---------------- | --- | :--------: | :--------------: |
 | EMC E3           | 20  |     y      |        y         |
 | EMD FT           | 21  |     y      |        y         |
-| EMD SW1200       | 22  |            |                  |
+| EMD SW1200       | 22  |     y      |                  |
 | EMD FP9          | 23  |     y      |        y         |
 | EMD GP9          | 24  |     y      |        y         |
 | EMD SD9          | 25  |     y      |        y         |
-| EMD SW1500       | 26  |            |                  |
+| EMD SW1500       | 26  |     y      |        y         |
 | EMD SD45         | 27  |     y      |        y         |
 | EMD Centennial   | 28  |     y      |        y         |
 | EMD SD40-2       | 29  |     y      |        y         |
@@ -41,10 +41,10 @@
 | EMD GP60         | 32  |     y      |        y         |
 | EMD SD70MAC      | 33  |     y      |        y         |
 | EMD F59PHI       | 34  |            |                  |
-| Alco S2          | 35  |            |                  |
+| Alco S2          | 35  |     y      |        y         |
 | Alco PA          | 36  |     y      |        y         |
 | Alco FA          | 37  |     y      |        y         |
-| Alco RS3         | 38  |            |                  |
+| Alco RS3         | 38  |     y      |        y         |
 | Alco Century     | 39  |     y      |        y         |
 | GE U25B          | 40  |     y      |        y         |
 | GE U30C          | 41  |     y      |        y         |
@@ -55,7 +55,7 @@
 | GE Evolution     | 46  |     y      |        y         |
 | Baldwin RF-16    | 47  |     y      |        y         |
 | FM Train Master  | 48  |     y      |        y         |
-| Hybrid Switcher  | 49  |            |                  |
+| Hybrid Switcher  | 49  |     y      |        y         |
 
 | Train            | ID  | Programmed | Fully Functional |
 | ---------------- | --- | :--------: | :--------------: |

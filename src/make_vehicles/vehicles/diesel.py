@@ -10,7 +10,7 @@ def make_emd_ft(root: str, name: str):  # b unit
     simple_vehicle_with_b_unit(root, name)
 
 
-def make_emd_sw1200(root: str, name: str):  # TODO: simple, reversing
+def make_emd_sw1200(root: str, name: str):  # simple, reversing
     simple_vehicle_reversible(root, name)
 
 
@@ -35,8 +35,8 @@ def make_emd_sd9(root: str, name: str):
     simple_vehicle(root, name)
 
 
-def make_emd_sw1500(root: str, name: str):  # TODO: reversible
-    pass
+def make_emd_sw1500(root: str, name: str):  # reversible
+    simple_vehicle_reversible(root, name)
 
 
 def make_emd_sd45(root: str, name: str):
@@ -83,8 +83,8 @@ def make_emd_f59phi(root: str, name: str):  # TODO: 2 liveries, simple
     pass
 
 
-def make_alco_s2(root: str, name: str):  # TODO: simple, reversing
-    pass
+def make_alco_s2(root: str, name: str):  # simple, reversing
+    simple_vehicle_reversible(root, name)
 
 
 def make_alco_pa(root: str, name: str):  # b unit
@@ -95,8 +95,8 @@ def make_alco_fa(root: str, name: str):  # b unit
     simple_vehicle_with_b_unit(root, name)
 
 
-def make_alco_rs3(root: str, name: str):  # TODO: simple, reversible
-    pass
+def make_alco_rs3(root: str, name: str):  # simple, reversible
+    simple_vehicle_reversible(root, name)
 
 
 def make_alco_century(root: str, name: str):
@@ -139,8 +139,8 @@ def make_fm_train_master(root: str, name: str):
     simple_vehicle(root, name)
 
 
-def make_hybrid_switcher(root: str, name: str):  # TODO: simple, reversable
-    pass
+def make_hybrid_switcher(root: str, name: str):  # reversable
+    simple_vehicle_reversible(root, name)
 
 
 def make_emc_doodlebug(root: str, name: str):

@@ -52,6 +52,8 @@ Total feature parity with NARS:
   This leads to the front driver of the fixed unit being one quarter turn too early.
   (See `train_30`/`train_31` and `train_41`/`train_42` spritegroups, SE column for the error.)
   - ![mallet-bug](./mallet-bug.png) ![challenger-bug](./challenger-bug.png)
+- Fix Alco RS3 not playing nice with flipping.
+  - It needs new offsets for the forward flipped case.
 
 ## 1.1
 

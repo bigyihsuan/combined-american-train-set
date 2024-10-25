@@ -36,3 +36,5 @@ The reversing state can be read with `vehicle_is_reversed` and interacts weirdly
 
 What is strange is that the NARS devs did not write a set of offsets for the final reversed-and-flipped case.
 This arrangement leads to reversed-and-flipped locos having the usual flip-when-reversing behavior instead of the custom reverse-instead-of-flip behavior.
+
+As for graphics, some locos have a 3-row forward-reverse-flipped arrangemeent. the Alco RS3 has only 2 rows.

@@ -285,7 +285,7 @@ def simple_vehicle_reversible(
         sprites = chunk(sprite_group.file_sprites(), orientation_count)
         forward_sprites = sprites[0]
         reversed_sprites = sprites[1]
-        forward_flipped_sprites = sprites[2]
+        forward_flipped_sprites = sprites[2] if len(sprites) > 2 else reversed_sprites
         # make the engine layout
         engine_layouts.append(sprite_table.get_layout(sprite_table.add_row(forward_sprites)))
         engine_layouts.append(sprite_table.get_layout(sprite_table.add_row(reversed_sprites)))
