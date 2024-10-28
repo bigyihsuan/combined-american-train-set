@@ -71,7 +71,8 @@ def extractProps():
             os.makedirs(sprite_path)
 
         # write to the train's yaml file
-        with open(os.path.join(sprite_path, f"{id}-{train_name}.yaml"), "w") as veh:
+        train_path = os.path.join(sprite_path, f"{id}-{train_name}.yaml")
+        with open(train_path, "w") as veh:
             d = {k: v for k, v in dataclasses.asdict(train).items() if k not in ["graphics"]}
             d["props"] = {k: v if type(v) is not tuple else list(v)
                           for k, v in d["props"].items() if v != default_props[k]}
@@ -80,7 +81,8 @@ def extractProps():
             yaml.dump(d, veh, indent=4, default_flow_style=False)
 
         # create a graphics yaml for this train
-        graphics_path = os.path.join(sprite_path, "graphics.yaml")
+        # graphics_path = os.path.join(sprite_path, f"{id}-{train_name}-graphics.yaml")
+        graphics_path = os.path.join(sprite_path, f"graphics.yaml")
         with open(graphics_path, "w") as graphics_file:
             # take each sprite in realsprites, and everything except file and x/y
             d = {
@@ -95,11 +97,8 @@ def extractProps():
                 path = ""
                 if isinstance(sprite, (Loco, Tender, Car)):
                     sg = {}
-                    sg["real_sprites"] = [dataclasses.asdict(
-                        sprite) for sprite in spriteGroup.real_sprites]
-                    for i, (sprite, orientation) in enumerate(
-                        zip(sg["real_sprites"],
-                            itertools.cycle(orientations))):
+                    sg["real_sprites"] = [dataclasses.asdict(sprite) for sprite in spriteGroup.real_sprites]
+                    for i, (sprite, orientation) in enumerate(zip(sg["real_sprites"], itertools.cycle(orientations))):
                         del sg["real_sprites"][i]["file"]  # file path is handled 1 level up
                         sg["real_sprites"][i]["orientation"] = orientation.value
                     sg["file"] = real_path

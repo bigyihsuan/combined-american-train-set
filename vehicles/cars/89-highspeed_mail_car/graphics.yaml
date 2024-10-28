@@ -1,222 +1,446 @@
-purchase_sprite: null
+purchase_sprite:
+  bpp: 1
+  file: ./vehicles/cars/89-highspeed_mail_car/train_159-purchase.png
+  height: 10
+  orientation: 6
+  width: 28
+  x: 5
+  xofs: -14
+  y: 5
+  yofs: -6
+  zoom: 0
 sprite_groups:
-- file: ./vehicles/cars/89-highspeed_mail_car/train_156-real.png
+- file: ./vehicles/cars/89-highspeed_mail_car/train_158-real.png
   real_sprites:
   - bpp: 1
-    height: 24
+    height: 21
     orientation: 0
     width: 8
     x: 5
     xofs: -3
     y: 5
-    yofs: -12
+    yofs: -11
     zoom: 0
   - bpp: 1
-    height: 17
+    height: 15
     orientation: 1
-    width: 22
+    width: 20
     x: 23
-    xofs: -14
-    y: 5
-    yofs: -9
-    zoom: 0
-  - bpp: 1
-    height: 12
-    orientation: 2
-    width: 32
-    x: 55
-    xofs: -16
+    xofs: -12
     y: 5
     yofs: -8
     zoom: 0
   - bpp: 1
-    height: 17
-    orientation: 3
-    width: 22
-    x: 97
-    xofs: -6
+    height: 10
+    orientation: 2
+    width: 28
+    x: 53
+    xofs: -12
     y: 5
-    yofs: -9
+    yofs: -6
     zoom: 0
   - bpp: 1
-    height: 24
+    height: 15
+    orientation: 3
+    width: 20
+    x: 91
+    xofs: -4
+    y: 5
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 21
     orientation: 4
     width: 8
-    x: 129
+    x: 121
     xofs: -3
-    y: 5
-    yofs: -12
-    zoom: 0
-  - bpp: 1
-    height: 17
-    orientation: 5
-    width: 22
-    x: 147
-    xofs: -14
     y: 5
     yofs: -9
     zoom: 0
   - bpp: 1
-    height: 12
+    height: 15
+    orientation: 5
+    width: 20
+    x: 139
+    xofs: -14
+    y: 5
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
     orientation: 6
-    width: 32
-    x: 179
+    width: 28
+    x: 169
     xofs: -16
+    y: 5
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 7
+    width: 20
+    x: 207
+    xofs: -6
     y: 5
     yofs: -8
     zoom: 0
   - bpp: 1
-    height: 17
-    orientation: 7
-    width: 22
-    x: 221
-    xofs: -6
-    y: 5
-    yofs: -9
-    zoom: 0
-- file: ./vehicles/cars/89-highspeed_mail_car/train_157-real.png
-  real_sprites:
-  - bpp: 1
-    height: 24
+    height: 21
     orientation: 0
     width: 8
     x: 5
     xofs: -3
-    y: 5
-    yofs: -12
+    y: 36
+    yofs: -11
     zoom: 0
   - bpp: 1
-    height: 17
+    height: 15
     orientation: 1
-    width: 22
+    width: 20
     x: 23
-    xofs: -14
-    y: 5
-    yofs: -9
-    zoom: 0
-  - bpp: 1
-    height: 12
-    orientation: 2
-    width: 32
-    x: 55
-    xofs: -16
-    y: 5
+    xofs: -12
+    y: 36
     yofs: -8
     zoom: 0
   - bpp: 1
-    height: 17
-    orientation: 3
-    width: 22
-    x: 97
-    xofs: -6
-    y: 5
-    yofs: -9
+    height: 10
+    orientation: 2
+    width: 28
+    x: 53
+    xofs: -12
+    y: 36
+    yofs: -6
     zoom: 0
   - bpp: 1
-    height: 24
+    height: 15
+    orientation: 3
+    width: 20
+    x: 91
+    xofs: -4
+    y: 36
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 21
     orientation: 4
     width: 8
-    x: 129
+    x: 121
     xofs: -3
-    y: 5
-    yofs: -12
-    zoom: 0
-  - bpp: 1
-    height: 17
-    orientation: 5
-    width: 22
-    x: 147
-    xofs: -14
-    y: 5
+    y: 36
     yofs: -9
     zoom: 0
   - bpp: 1
-    height: 12
+    height: 15
+    orientation: 5
+    width: 20
+    x: 139
+    xofs: -14
+    y: 36
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 10
     orientation: 6
-    width: 32
-    x: 179
+    width: 28
+    x: 169
     xofs: -16
-    y: 5
+    y: 36
+    yofs: -6
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 7
+    width: 20
+    x: 207
+    xofs: -6
+    y: 36
     yofs: -8
     zoom: 0
   - bpp: 1
-    height: 17
-    orientation: 7
-    width: 22
-    x: 221
-    xofs: -6
-    y: 5
-    yofs: -9
-    zoom: 0
-  - bpp: 1
-    height: 24
+    height: 23
     orientation: 0
     width: 8
     x: 5
     xofs: -3
-    y: 39
-    yofs: -12
+    y: 67
+    yofs: -13
     zoom: 0
   - bpp: 1
     height: 17
     orientation: 1
-    width: 22
+    width: 20
     x: 23
-    xofs: -14
-    y: 39
-    yofs: -9
+    xofs: -12
+    y: 67
+    yofs: -10
     zoom: 0
   - bpp: 1
-    height: 12
+    height: 13
     orientation: 2
-    width: 32
-    x: 55
-    xofs: -16
-    y: 39
-    yofs: -8
-    zoom: 0
-  - bpp: 1
-    height: 17
-    orientation: 3
-    width: 22
-    x: 97
-    xofs: -6
-    y: 39
+    width: 28
+    x: 53
+    xofs: -12
+    y: 67
     yofs: -9
     zoom: 0
   - bpp: 1
-    height: 24
+    height: 15
+    orientation: 3
+    width: 20
+    x: 91
+    xofs: -4
+    y: 67
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 21
     orientation: 4
     width: 8
-    x: 129
+    x: 121
     xofs: -3
-    y: 39
-    yofs: -12
-    zoom: 0
-  - bpp: 1
-    height: 17
-    orientation: 5
-    width: 22
-    x: 147
-    xofs: -14
-    y: 39
+    y: 67
     yofs: -9
     zoom: 0
   - bpp: 1
-    height: 12
+    height: 15
+    orientation: 5
+    width: 20
+    x: 139
+    xofs: -14
+    y: 67
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 13
     orientation: 6
-    width: 32
-    x: 179
+    width: 28
+    x: 169
     xofs: -16
-    y: 39
-    yofs: -8
+    y: 67
+    yofs: -9
     zoom: 0
   - bpp: 1
     height: 17
     orientation: 7
-    width: 22
-    x: 221
+    width: 20
+    x: 207
     xofs: -6
-    y: 39
+    y: 67
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 100
+    yofs: -13
+    zoom: 0
+  - bpp: 1
+    height: 17
+    orientation: 1
+    width: 20
+    x: 23
+    xofs: -12
+    y: 100
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 13
+    orientation: 2
+    width: 28
+    x: 53
+    xofs: -12
+    y: 100
     yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 3
+    width: 20
+    x: 91
+    xofs: -4
+    y: 100
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 21
+    orientation: 4
+    width: 8
+    x: 121
+    xofs: -3
+    y: 100
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 5
+    width: 20
+    x: 139
+    xofs: -14
+    y: 100
+    yofs: -7
+    zoom: 0
+  - bpp: 1
+    height: 13
+    orientation: 6
+    width: 28
+    x: 169
+    xofs: -16
+    y: 100
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 17
+    orientation: 7
+    width: 20
+    x: 207
+    xofs: -6
+    y: 100
+    yofs: -10
+    zoom: 0
+  - bpp: 1
+    height: 21
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 133
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 1
+    width: 20
+    x: 23
+    xofs: -12
+    y: 133
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 13
+    orientation: 2
+    width: 28
+    x: 53
+    xofs: -12
+    y: 133
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 17
+    orientation: 3
+    width: 20
+    x: 91
+    xofs: -4
+    y: 133
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 121
+    xofs: -3
+    y: 133
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 17
+    orientation: 5
+    width: 20
+    x: 139
+    xofs: -14
+    y: 133
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 13
+    orientation: 6
+    width: 28
+    x: 169
+    xofs: -16
+    y: 133
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 7
+    width: 20
+    x: 207
+    xofs: -6
+    y: 133
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 21
+    orientation: 0
+    width: 8
+    x: 5
+    xofs: -3
+    y: 166
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 1
+    width: 20
+    x: 23
+    xofs: -12
+    y: 166
+    yofs: -8
+    zoom: 0
+  - bpp: 1
+    height: 13
+    orientation: 2
+    width: 28
+    x: 53
+    xofs: -12
+    y: 166
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 17
+    orientation: 3
+    width: 20
+    x: 91
+    xofs: -4
+    y: 166
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 23
+    orientation: 4
+    width: 8
+    x: 121
+    xofs: -3
+    y: 166
+    yofs: -11
+    zoom: 0
+  - bpp: 1
+    height: 17
+    orientation: 5
+    width: 20
+    x: 139
+    xofs: -14
+    y: 166
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 13
+    orientation: 6
+    width: 28
+    x: 169
+    xofs: -16
+    y: 166
+    yofs: -9
+    zoom: 0
+  - bpp: 1
+    height: 15
+    orientation: 7
+    width: 20
+    x: 207
+    xofs: -6
+    y: 166
+    yofs: -8
     zoom: 0

@@ -151,13 +151,13 @@ def make_budd_rdc(root: str, name: str):
     simple_vehicle(root, name, orientation_count=4)
 
 
-def make_emd_aerotrain(root: str, name: str):  # TODO: custom coaches
+def make_emd_aerotrain(root: str, name: str):  # TODO: articulated. reversed when exactly 2 in a chain
     pass
 
 
-def make_uac_turbotrain(root: str, name: str):  # TODO: custom coaches
+def make_uac_turbotrain(root: str, name: str):  # TODO: double-ended. custom coaches
     pass
 
 
-def make_rtl_turboliner(root: str, name: str):  # TODO: custom coaches
+def make_rtl_turboliner(root: str, name: str):  # TODO: double-ended. custom coaches
     pass

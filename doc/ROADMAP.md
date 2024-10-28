@@ -68,9 +68,8 @@ Some more features to bring NARS to the modern day.
 - Randomized cars, like Iron Horse. For nice-looking random manifests.
 - More parameters for tweaking costs.
 - More 2cc support. Engines in particular: most don't have 2cc.
-- More graphics for more cargos.
 
-## x.x
+## Unsorted far-future features
 
 - Reimplementation of NARS 2.03 features:
   - Regearing
@@ -78,3 +77,5 @@ Some more features to bring NARS to the modern day.
   - Push-pull
   - Running sounds
   - Mandatory cabooses (new: with parameter)
+- More graphics for more cargos.
+- Change offsets to look better with Iron Horse.
